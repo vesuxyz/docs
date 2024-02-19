@@ -1,0 +1,10 @@
+position: 6
+label: Explore Resources
+collapsible: true # make the category collapsible
+collapsed: true # keep the category open by default
+className: red
+#link:
+#  type: generated-index
+#  title: Create Markets
+customProps:
+  description: Explore more Vesu resources like the whitepaper and architecture
