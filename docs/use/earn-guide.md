@@ -1,9 +1,9 @@
 ---
-id: supply-guide
-title: How to supply assets on a Vesu market
-sidebar_label: Supply
+id: earn-guide
+title: How to earn by supplying assets to a market
+sidebar_label: Start Earning
 sidebar_position: 2
-slug: /use/supply
+slug: /use/earn
 ---
 
 Vesu is a decentralized, permision-less protocol that enables the supplying and borrowing of different crypto assets from liquidity pools with unmatched efficiency, scalability and security.

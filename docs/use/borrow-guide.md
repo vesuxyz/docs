@@ -1,8 +1,8 @@
 ---
 id: borrow-guide
-title: How to borrow assets on a Vesu market
-sidebar_label: Borrow
-sidebar_position: 3
+title: How to borrow assets on a market
+sidebar_label: Borrow Assets
+sidebar_position: 4
 slug: /use/borrow
 ---
 
