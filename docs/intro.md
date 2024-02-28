@@ -16,11 +16,12 @@ Let's discover **Docusaurus in less than 5 minutes**.
 
 ## User Guides
 
-Find guides for supply, borrow and liquidate actions on Vesu lending markets here:
+Find guides for starting to earn, borrow, claim STRK rewards and more on Vesu lending markets here:
 
-- [Supply](/use/supply)
+- [Supply](/use/earn)
 - [Borrow](/use/borrow)
-- [Liquidate](/use/liquidate)
+- [Claim STRK](/use/claim-strk)
+- [More](/use)
 
 
 ## Create Markets
