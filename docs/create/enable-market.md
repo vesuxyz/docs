@@ -6,11 +6,18 @@ sidebar_position: 3
 slug: /create/enable-market
 ---
 
-You will learn how to enable a new lending market on the Vesu UI.
+In the previous section you learnt how to create a new market using custom extensions on Vesu. 
 
+In this section let's go through how you can enable a new market on the Vesu UI.
 
-## Enable a new market
+### Enabling new markets on the Vesu UI
+For users' protection and security, we tend to ensure that all markets listed on the UI are intensely vetted and considered safe. 
 
-Outline the basics of lending markets
+Safe to add that this does not go against the permissionlessness of Vesu, as you can create as much markets as you like and even develop your own UI for them, but the gatekeeping of the official UI is done to ensure markets risk ratings are safe for users to interact with.
 
-![My Image](images/placeholder.png)
+To get started, with the process of listing your new market on the Vesu UI:
+1. Head to the official documentation repository, and submit a pull request in the [risk report section](../risk/risk-reports/).
+
+2. The team will go through and review your pull request.
+
+3. If considered safe and PR merged, the proper process to enable the new market on the Vesu UI will begin shortly afterwards.
