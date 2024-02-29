@@ -8,8 +8,6 @@ slug: /risk/risk-framework
 
 ## Introduction
 
-Vesu is a novel lending protocol built on Starknet that allows anyone to lend, borrow and create new lending markets. Its implementation has followed a number of design principles that put a strong focus on safeguarding funds deposited into the protocol. For more information consult the [Vesu Whitepaper](../explore/whitepaper.md).
-
 The nature of DeFi lending exposes users to a variety of risks including technological, operational and market risks. The permissionless nature of Vesu lending markets, and their creation, introduces new risks. At the same time, the “free markets” approach implemented in the Vesu protocol puts risk management in the hands of users. Having full transparency on those risks is thus imperative and empowers users to make informed decisions. 
 
 In this document we outline the methodology, the Vesu Risk Framework, used to assess and communicate the risks users are exposed to when depositing assets in a market. A market therefore is defined as a liquidity pool containing the specific asset. On the other hand, the methodology **does not cover** other risks such as the a borrower’s liquidation risk, the risk of non-compliance with certain regulation or cyber threats.
@@ -62,7 +60,7 @@ For a market the likelihood of the identified risk events is then estimated acco
 The *Risk Scorecard* provides a structured way of representing and communicating the multi-dimensional risk profile of a lending market. The following table shows a sample risk scorecard based on hypothetical data.
 
 | Market         | Pool Risk | Token Risk | Oracle Risk | Shortfall Risk | Governance Risk |
-| -------------- | --------- | ---------- | ----------- | ----------- -- | --------------- |
+| -------------- | --------- | ---------- | ----------- | -------------- | --------------- |
 | Asset A→Pool 0 | Low       | Low        | Low         | Medium         | Neutral         |
 | Asset B→Pool 0 | Low       | Low        | Medium      | Medium         | Neutral         |
 | Asset A→Pool 1 | Medium    | Low        | Medium      | Low            | Low             |
