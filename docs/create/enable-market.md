@@ -16,7 +16,7 @@ For users' protection and security, we tend to ensure that all markets listed on
 Safe to add that this does not go against the permissionlessness of Vesu, as you can create as much markets as you like and even develop your own UI for them, but the gatekeeping of the official UI is done to ensure markets risk ratings are safe for users to interact with.
 
 To get started, with the process of listing your new market on the Vesu UI:
-1. Head to the official documentation repository, and submit a pull request in the [risk report section](../risk/risk-reports/).
+1. Head to the official documentation repository, and submit a pull request with a risk report added to the risk report section.
 
 2. The team will go through and review your pull request.
 
