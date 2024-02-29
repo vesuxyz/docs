@@ -6,8 +6,11 @@ sidebar_position: 5
 slug: /use/repay
 ---
 
-You will learn how to repay debt on a Vesu market.
+In this section, let's explore how to repay your existing debts.
 
-### Architecture
+1. To get started, ensure you already have a borrowing position. You can see how to do that [here](./borrow-guide.md).
 
-![My Image](images/placeholder.png)
+2. To repay, head to the position whose debt you'll like to repay and click on the "Repay" button. From the image, you can see we have two open positions. Let's repay the USDT/STRK debt.
+![Repay](images/repay_1.png)
+
+3. Confirm your withdrawal transaction from your wallet provider, and your debts will be repaid.
