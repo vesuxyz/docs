@@ -5,7 +5,7 @@ authors: [nbundi]
 tags: [general]
 ---
 
-![Welcome Vesu](x_banner.png)
+![Welcome Vesu](banner_c.png)
 
 
 ## DeFi’s Beginnings and Constant Evolution
