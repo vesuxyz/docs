@@ -84,8 +84,7 @@ The risk mitigation strategy for Vesu is based on the risk database and is imple
 | Level    | Owner                | Mitigation Strategy |
 | -------- | -------------------- | ------------------- |
 | Protocol | Lending pool creator | configure a lending pool and its extension with a risk profile that matches the risk capacity of the target user |
-| Frontend | Frontend provider    | 1) restrict access to lending pools with a risk rating of Low or Medium
-2) transparently declare pool risk ratings for users to make informed investment decisions |
+| Frontend | Frontend provider    | 1) restrict access to lending pools with a risk rating of Low or Medium, 2) transparently declare pool risk ratings for users to make informed investment decisions |
 | Users    | User                 | Make informed investment decision based on a pool’s risk rating and their own risk capacity  |
 
 ## Discussion

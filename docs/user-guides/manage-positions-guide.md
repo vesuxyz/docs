@@ -3,7 +3,7 @@ id: manage-positions-guide
 title: How to manage positions
 sidebar_label: Manage Positions
 sidebar_position: 7
-slug: /use/manage-positions
+slug: /user-guides/manage-positions
 ---
 
 Vesu was built with simplicity in mind. Our architecture makes it easy to manage and control your positions without issues.

@@ -1,5 +1,5 @@
 position: 4
-label: Build Extensions
+label: Developer Guides
 collapsible: true # make the category collapsible
 collapsed: true # keep the category open by default
 className: red
@@ -7,4 +7,4 @@ className: red
 #  type: generated-index
 #  title: Create Markets
 customProps:
-  description: Learn all about extensions and how to build new ones
+  description: Learn all about the Vesu protocol and how to build with us

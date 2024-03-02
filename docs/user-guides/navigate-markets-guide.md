@@ -3,7 +3,7 @@ id: navigate-markets-guide
 title: How to navigate markets
 sidebar_label: Navigate Markets
 sidebar_position: 6
-slug: /use/navigate-markets
+slug: /user-guides/navigate-markets
 ---
 
 Lending markets, are compartmentalized lending facilities where risks are shared among depositors of a certain asset in a pool, but are strictly isolated across one another.

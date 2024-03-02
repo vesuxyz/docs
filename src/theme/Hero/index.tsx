@@ -37,8 +37,29 @@ function Hero() {
                 <SvgHero color="#FFFFFF" className="illustration" />
               </div>
             </div>
+            
             <div className="boxes">
-              <div className="box box-use">
+
+              <div className="box box-explore">
+                <SvgDevelopBg color="#FFFFFF" className="bg" />
+                <span className="icon">
+                  <SvgDevelop color="#FFFFFF" />
+                </span>
+                <div className="text">
+                  <h3 className="title">Explore Vesu</h3>
+                  <p className="description">
+                    Explore the concepts and resources behind Vesu
+                  </p>
+                  <span className="more">
+                    Explore docs <SvgArrowRight color="#DC382C" />
+                  </span>
+                </div>
+                <a href={useBaseUrl('/explore')} className="link">
+                  Read More
+                </a>
+              </div>
+
+              <div className="box box-user-guides">
                 <SvgCreateBg color="#FFFFFF" className="bg" />
                 <span className="icon">
                   <SvgCreate color="#FFFFFF" />
@@ -52,37 +73,18 @@ function Hero() {
                     Read guides <SvgArrowRight color="#DC382C" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/use')} className="link">
+                <a href={useBaseUrl('/user-guides')} className="link">
                   Read More
                 </a>
               </div>
 
-              <div className="box box-create">
-                <SvgDevelopBg color="#FFFFFF" className="bg" />
-                <span className="icon">
-                  <SvgDevelop color="#FFFFFF" />
-                </span>
-                <div className="text">
-                  <h3 className="title">Create Markets</h3>
-                  <p className="description">
-                    Create new Vesu lending markets using vetted extensions
-                  </p>
-                  <span className="more">
-                    Creator docs <SvgArrowRight color="#DC382C" />
-                  </span>
-                </div>
-                <a href={useBaseUrl('/create')} className="link">
-                  Read More
-                </a>
-              </div>
-
-              <div className="box box-build">
+              <div className="box box-dev-guides">
                 <SvgExploreBg color="#FFFFFF" className="bg" />
                 <span className="icon">
                   <SvgExplore color="#FFFFFF" />
                 </span>
                 <div className="text">
-                  <h3 className="title">Build Extensions</h3>
+                  <h3 className="title">Developer Guides</h3>
                   <p className="description">
                     Build new lending market experiences with your own extension
                   </p>
@@ -91,12 +93,12 @@ function Hero() {
                     <SvgArrowRight color="#DC382C" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/build/')} className="link">
+                <a href={useBaseUrl('/dev-guides/')} className="link">
                   Read More
                 </a>
               </div>
 
-              <div className="box box-explore">
+              <div className="box box-risk">
                 <SvgExploreBg color="#FFFFFF" className="bg" />
                 <span className="icon">
                   <SvgOperate />

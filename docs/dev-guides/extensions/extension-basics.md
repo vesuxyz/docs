@@ -1,9 +1,9 @@
 ---
-id: build-extension-basics
+id: extension-basics
 title: Learn the basics of extensions
 sidebar_label: Extension Basics
 sidebar_position: 2
-slug: /build/extension-basics
+slug: /dev-guides/extensions/extension-basics
 ---
 
 One of the unique features, that makes Vesu stand out, is the ability to customize/configure lending pool features using extensions.

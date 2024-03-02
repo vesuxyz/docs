@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.vesu.xyz',
+  url: 'https://vesu.xyz',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'vesuxyz', // Usually your GitHub org/user name.
-  projectName: 'vesu-protocol', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -75,27 +75,6 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'User Tutorials',
-                to: '/use/',
-              },
-              {
-                label: 'Creator Docs',
-                to: '/create/',
-              },
-              {
-                label: 'Developer Docs',
-                to: '/build/',
-              },
-              {
-                label: 'Risk Framework',
-                to: '/explore/',
-              },
-            ],
-          },
-          {
             title: 'Explore',
             items: [
               {
@@ -104,28 +83,41 @@ const config = {
               },
               {
                 label: 'Architecture',
-                to: '/explore/architecture',
+                to: '/dev-guides/architecture',
               },
               {
-                label: 'Contracts',
-                to: '/explore/contracts',
+                label: 'DeFi Spring',
+                to: '/explore/defi-spring',
               }
             ],
           },
           {
-            title: 'Community',
+            title: 'Docs',
             items: [
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/vesu',
+                label: 'User Guides',
+                to: '/user-guides',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/vesuxyz',
+                label: 'Developer Guides',
+                to: '/dev-guides',
+              },
+            ],
+          },
+          {
+            title: 'Risk',
+            items: [
+              {
+                label: 'Risk Framework',
+                to: '/risk/risk-framework',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/vesuxyz',
+                label: 'Risk Ratings',
+                to: '/risk/risk-ratings',
+              },
+              {
+                label: 'Risk Reports',
+                to: '/risk/risk-reports',
               },
             ],
           },
@@ -136,16 +128,39 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
+              {
+                label: 'Contracts',
+                to: '/dev-guides/contract-addresses',
+              }
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/vesuxyz',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/vesuxyz',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/vesu',
+              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Vesu Labs AG.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Motion Labs AG.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
       colorMode: {
+        // Do dark theme by default
+        defaultMode: 'dark',
         // Hides the switch in the navbar
         // Useful if you want to support a single color mode
         disableSwitch: false,
@@ -171,7 +186,7 @@ const config = {
             sidebarPath: require.resolve('./sidebars.js'),
             showLastUpdateTime: true,
             editUrl:
-              'https://github.com/vesuxyz/vesu-docs/edit/master/',
+              'https://github.com/vesuxyz/docs/edit/master/',
           },
           blog: {
             showReadingTime: true,

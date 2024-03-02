@@ -3,7 +3,7 @@ id: withdraw-guide
 title: How to withdraw assets from a market
 sidebar_label: Withdraw Assets
 sidebar_position: 3
-slug: /use/withdraw
+slug: /user-guides/withdraw
 ---
 
 In this section of the user's guide, we are going to explore how to withdraw your assets from a market.

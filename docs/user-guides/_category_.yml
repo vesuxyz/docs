@@ -1,4 +1,4 @@
-position: 2
+position: 3
 label: User Guides
 collapsible: true # make the category collapsible
 collapsed: false # keep the category open by default
@@ -7,4 +7,4 @@ className: red
 #  type: generated-index
 #  title: User Guides
 customProps:
-  description: Learn how to supply, borrow and liquidate on Vesu
+  description: Learn all about earning, borrowing and do more with Vesu 

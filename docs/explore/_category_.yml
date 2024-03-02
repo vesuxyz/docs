@@ -1,5 +1,5 @@
-position: 6
-label: Explore Resources
+position: 2
+label: Explore Vesu
 collapsible: true # make the category collapsible
 collapsed: true # keep the category open by default
 className: red
@@ -7,4 +7,4 @@ className: red
 #  type: generated-index
 #  title: Create Markets
 customProps:
-  description: Explore more Vesu resources like the whitepaper and architecture
+  description: Explore the basics of Vesu

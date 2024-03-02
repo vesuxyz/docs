@@ -3,7 +3,7 @@ id: borrow-guide
 title: How to borrow assets on a market
 sidebar_label: Borrow Assets
 sidebar_position: 4
-slug: /use/borrow
+slug: /user-guides/borrow
 ---
 
 Just like every lending protocol, Vesu enables users, to borrow from existing markets.

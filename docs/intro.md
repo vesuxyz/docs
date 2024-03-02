@@ -14,28 +14,38 @@ Let's discover **Docusaurus in less than 5 minutes**.
 - [Discord](https://discord.com)
 - [GitHub](https://github.com/vesuxyz)
 
+
+## Explore Vesu
+
+Explore Vesu and the underpinning concepts.
+
+- [Vesu Whitepaper](/explore/whitepaper)
+- [DeFi Spring](/explore/defi-spring)
+
 ## User Guides
 
-Find guides for starting to earn, borrow, claim STRK rewards and more on Vesu lending markets here:
+Find guides for starting to earn, borrow, claim STRK rewards and more on Vesu lending markets.
 
-- [Supply](/use/earn)
-- [Borrow](/use/borrow)
-- [Claim STRK](/use/claim-strk)
-- [More](/use)
+- [Supply](/user-guides/earn)
+- [Borrow](/user-guides/borrow)
+- [Claim STRK](/user-guides/claim-strk)
+- [More](/user-guides)
 
 
-## Create Markets
+## Developer Guides
 
-On Vesu, everyone can create new lending markets. Learn all about lending markets and how you can create one here:
+Learn all about the Vesu lending protocol, how to create markets and build new lending experiences with custom extensions.
 
-- [Create Market](/create)
+- [Architecture](/dev-guides/architecture)
+- [Create Market](/dev-guides/create-pool)
+- [Build Extension](/dev-guides/extensions/build-extension)
+- [Contract Addresses](/dev-guides/contract-addresses)
 
 
 ## Build Extensions
 
 Vesu lending markets can be customized with extensions. Find all information around extensions here:
 
-- [Build Extension](/build)
 
 
 ## Risk Framework
@@ -44,12 +54,3 @@ The Vesu Risk Framework allows everyone to understand the risk exposure from sup
 
 - [Risk Framework](/risk/risk-framework)
 - [Risk Ratings](/risk/risk-ratings)
-
-
-## Explore More
-
-Further resources on the Vesu lending protocol can be found here:
-
-- [Vesu Whitepaper](/explore/whitepaper)
-- [Architecture](/explore/architecture)
-- [Contracts](/explore/contracts)
