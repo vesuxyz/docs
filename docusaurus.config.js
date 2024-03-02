@@ -147,7 +147,7 @@ const config = {
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/vesu',
+                href: 'https://discord.gg/G9Gxgujj8T',
               },
             ],
           },
