@@ -25,6 +25,9 @@ Despite the multitude of parameters that can be tweaked in constructing differen
 - **Central governance**: risk management is controlled by a central governance unit, generally a DAO, where parameters often are voted on, rolled out, and managed in a top-down manner (ex: Aave, Compound)
 - **Free markets** (ungoverned): Protocols that actively repel and eschew central governance due to the attack vectors they enable and instead simply rely on smart contracts to adjust risk parameters and the free market (the users) to handle their own risk management (ex: Morpho Blue)
 
+
+![Central Governance vs Free Markets](governance-vs-free-markets.png)
+
 ### Central Governance Model
 
 The DAO-driven model relies on smart contracts for custody and general market mechanisms, yet also reintroduces central intermediaries to manage risk parameters. This hybrid model has allowed early lending platforms to create a moat of liquidity and users, yet it is also prone to shortcomings highlighting the challenge of scaling in a semi-decentralized context.
@@ -46,6 +49,8 @@ However, the free market approach is not without its challenges. One significant
 ## Introducing Vesu
 
 Vesu, DeFi’s latest progression in the on-chain lending space, is a pioneering platform designed to facilitate fully permissionless, over-collateralized lending agreements. With its ambitious design, Vesu looks to combine the best aspects of both worlds: a liquidity monolith with permissionless, multi-asset lending compartments aka lending pools. Risk is isolated across lending pools and governance delegated to these pools individually. Vesu thus implements the free markets approach in that no central governance exists and lending pools can be created permissionlessly. Through its modular lending pool design, Vesu allows for a large degree of flexibility in terms of expressing different lending arrangements including a strict two asset design and more capital efficient multi-asset pools as known e.g. from Aave.
+
+![Vesu Modular Lending Markets](vesu-modular-lending-markets.png)
 
 Moreover, one of Vesu’s biggest differentiators is the concept of extensions akin to Uniswap v4 hooks, empowering developers to create entirely new lending experiences. This flexibility positions Vesu not only as a lending protocol but also as a foundational platform for the development of new lending protocols. Additionally, because it is permissionless and there is no central governance adding friction and politics, Vesu offers a truly neutral technology for “free market competition” amongst lending markets.
 
