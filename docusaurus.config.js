@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://vesu.xyz',
+  url: 'https://docs.vesu.xyz',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -53,20 +53,9 @@ const config = {
             position: 'right',
           },
           {
-            to: '/intro',
-            activeBasePath: 'docs',
-            label: 'Get started',
-            position: 'right',
-          },
-          {
             to: '/blog',
             activeBasePath: 'docs',
             label: 'Vesu Blog',
-            position: 'right',
-          },
-          {
-            href: 'https://vesu.xyz/app/',
-            label: 'Vesu App',
             position: 'right',
           },
         ],
@@ -78,60 +67,9 @@ const config = {
             title: 'Explore',
             items: [
               {
-                label: 'Whitepaper',
-                to: '/explore/whitepaper',
+                label: 'Announcement Post',
+                href: '/blog',
               },
-              {
-                label: 'Architecture',
-                to: '/dev-guides/architecture',
-              },
-              {
-                label: 'DeFi Spring',
-                to: '/explore/defi-spring',
-              }
-            ],
-          },
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'User Guides',
-                to: '/user-guides',
-              },
-              {
-                label: 'Developer Guides',
-                to: '/dev-guides',
-              },
-            ],
-          },
-          {
-            title: 'Risk',
-            items: [
-              {
-                label: 'Risk Framework',
-                to: '/risk/risk-framework',
-              },
-              {
-                label: 'Risk Ratings',
-                to: '/risk/risk-ratings',
-              },
-              {
-                label: 'Risk Reports',
-                to: '/risk/risk-reports',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'Contracts',
-                to: '/dev-guides/contract-addresses',
-              }
             ],
           },
           {
@@ -140,14 +78,6 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/vesuxyz',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/vesuxyz',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/G9Gxgujj8T',
               },
             ],
           },
@@ -168,7 +98,7 @@ const config = {
       announcementBar: {
         id: 'vesu-1-0-release', // Any value that will identify this message.
         content:
-          '<div class="announcement-bar"><a href="https://docs.vesu.xyz/blog/introducing-vesu/" target="_blank" rel="noopener"><span>Vesu will land on Starknet soon, learn more in the announcement post!</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
+          '<div class="announcement-bar"><a href="https://docs.vesu.xyz/blog/welcome/" target="_blank" rel="noopener"><span>Vesu will land on Starknet soon!</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
         backgroundColor: 'rgb(210, 215, 254)', // Defaults to `#fff`.
         textColor: 'rgb(22 31 49)', // Defaults to `#000`.
         isCloseable: true, // Defaults to `true`.

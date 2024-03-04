@@ -28,7 +28,7 @@ function Hero() {
 
                 <h2 className="hero-subtitle">
                   <Typed
-                    strings={['>_ Made by developers for developers']}
+                    strings={['>_ Learn. Use. Build. Repeat.']}
                     typeSpeed={75}
                   />
                 </h2>
@@ -41,83 +41,26 @@ function Hero() {
             <div className="boxes">
 
               <div className="box box-explore">
-                <SvgDevelopBg color="#FFFFFF" className="bg" />
-                <span className="icon">
-                  <SvgDevelop color="#FFFFFF" />
-                </span>
-                <div className="text">
-                  <h3 className="title">Explore Vesu</h3>
-                  <p className="description">
-                    Explore the concepts and resources behind Vesu
-                  </p>
-                  <span className="more">
-                    Explore docs <SvgArrowRight color="#DC382C" />
-                  </span>
-                </div>
-                <a href={useBaseUrl('/explore')} className="link">
-                  Read More
-                </a>
-              </div>
-
-              <div className="box box-user-guides">
-                <SvgCreateBg color="#FFFFFF" className="bg" />
-                <span className="icon">
-                  <SvgCreate color="#FFFFFF" />
-                </span>
-                <div className="text">
-                  <h3 className="title">User Guides</h3>
-                  <p className="description">
-                    Start using Vesu as a lender, borrower or liquidator
-                  </p>
-                  <span className="more">
-                    Read guides <SvgArrowRight color="#DC382C" />
-                  </span>
-                </div>
-                <a href={useBaseUrl('/user-guides')} className="link">
-                  Read More
-                </a>
-              </div>
-
-              <div className="box box-dev-guides">
                 <SvgExploreBg color="#FFFFFF" className="bg" />
                 <span className="icon">
                   <SvgExplore color="#FFFFFF" />
                 </span>
                 <div className="text">
-                  <h3 className="title">Developer Guides</h3>
+                  <h3 className="title">Blog</h3>
                   <p className="description">
-                    Build new lending market experiences with your own extension
+                    Learn more about Vesu and how it will change the DeFi lending landscape
                   </p>
                   <span className="more">
-                    Developer docs
-                    <SvgArrowRight color="#DC382C" />
+                    Read more <SvgArrowRight color="#DC382C" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/dev-guides/')} className="link">
+                <a href={useBaseUrl('/blog')} className="link">
                   Read More
                 </a>
               </div>
 
-              <div className="box box-risk">
-                <SvgExploreBg color="#FFFFFF" className="bg" />
-                <span className="icon">
-                  <SvgOperate />
-                </span>
-                <div className="text">
-                  <h3 className="title">Risk Framework</h3>
-                  <p className="description">
-                    Explore the Vesu Risk Framework and find assigned risk ratings
-                  </p>
-                  <span className="more">
-                    Explore risk
-                    <SvgArrowRight color="#DC382C" />
-                  </span>
-                </div>
-                <a href={useBaseUrl('/risk/')} className="link">
-                  Read More
-                </a>
-              </div>
             </div>
+
           </div>
         </div>
       </div>
