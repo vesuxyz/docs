@@ -67,7 +67,7 @@ const config = {
             title: 'Explore',
             items: [
               {
-                label: 'Announcement Post',
+                label: 'Vesu Blog',
                 href: '/blog',
               },
             ],

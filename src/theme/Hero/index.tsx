@@ -23,12 +23,12 @@ function Hero() {
               <div className="col col--8">
                 <h1 className="hero-title">
                   The Vesu
-                  <br /> Knowledge Hub
+                  <br /> Documentation
                 </h1>
 
                 <h2 className="hero-subtitle">
                   <Typed
-                    strings={['>_ Learn. Use. Build. Repeat.']}
+                    strings={['>_ Learn. Use. Build. Innovate.']}
                     typeSpeed={75}
                   />
                 </h2>
