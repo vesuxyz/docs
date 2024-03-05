@@ -54,7 +54,7 @@
   }
 
   .hero-title {
-    margin-top: 200px;
+    margin-top: 100px;
     line-height: 1.1;
     font-size: 50px;
     font-weight: 600;
@@ -88,7 +88,7 @@
 
   .boxes {
     display: flex;
-    margin-top: 42px;
+    margin-top: 100px;
 
     @include mobile {
       flex-direction: column;

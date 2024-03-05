@@ -31,7 +31,7 @@
 
 html[data-theme="dark"] {
   --ifm-menu-color: var(--white);
-  --ifm-menu-color-active: #829EF0;
+  --ifm-menu-color-active: $purple;
   --ifm-menu-color-background-active: #181D27;
   --ifm-menu-color-background-hover: #181D27;
   --ifm-toc-border-color: #676768;
@@ -102,7 +102,7 @@ hr {
       color: $purple;
 
       @include dark {
-        color: #829EF0;
+        color: $purple;
       }
 
       &:before {
