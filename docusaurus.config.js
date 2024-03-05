@@ -93,7 +93,7 @@ const config = {
         defaultMode: 'dark',
         // Hides the switch in the navbar
         // Useful if you want to support a single color mode
-        disableSwitch: false,
+        disableSwitch: true,
       },
       announcementBar: {
         id: 'vesu-1-0-release', // Any value that will identify this message.
