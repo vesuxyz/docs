@@ -3,7 +3,7 @@
   margin-top: -10px;
   padding: 123px 0 117px;
   overflow: hidden;
-  background-color: $primary-blue;
+  background-color: $black;
   text-align: center;
 
   @include mobile {
@@ -59,7 +59,7 @@
       border-top: none;
       background-color: $primary-blue;
       line-height: 1;
-      font-family: $roboto;
+      font-family: $nunito;
       font-size: 104px;
       color: $white;
 

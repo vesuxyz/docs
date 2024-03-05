@@ -171,7 +171,7 @@ main:not(.home-main) {
     header {
       h1 {
         line-height: 1.2;
-        font-family: $lato;
+        font-family: $nunito;
         font-size: 49px;
 
         @include mobile {
@@ -199,7 +199,7 @@ main:not(.home-main) {
   h4,
   h5,
   h6 {
-    font-family: $lato;
+    font-family: $nunito;
     font-weight: 700;
   }
 
