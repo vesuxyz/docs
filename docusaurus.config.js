@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'The Vesu Documentation',
+  title: 'Vesu Documentation',
   tagline: 'Learn about earning, borrowing and building with Vesu',
   favicon: 'img/favicon.ico',
 
