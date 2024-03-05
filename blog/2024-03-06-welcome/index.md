@@ -2,7 +2,7 @@
 slug: 2024-03-06-welcome
 title: Welcome Vesu
 authors: [nbundi]
-tags: [general]
+tags: [Announcement]
 ---
 
 ![Welcome Vesu](banner_c.png)
