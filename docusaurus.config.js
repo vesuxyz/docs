@@ -82,7 +82,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Motion Labs AG.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Vesu.`,
       },
       prism: {
         theme: prismThemes.github,
