@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Vesu Knowledge Hub',
-  tagline: 'Learn all about Vesu Markets and the Vesu Risk Framework. Find lend, borrow & liquidate manuals and documentation to build your own lending experience on top of Vesu.',
+  title: 'The Vesu Documentation',
+  tagline: 'Learn about earning, borrowing and building with Vesu',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
