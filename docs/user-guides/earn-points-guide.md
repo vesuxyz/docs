@@ -6,8 +6,16 @@ sidebar_position: 8
 slug: /user-guides/earn-points
 ---
 
-You will learn how to earn points with Vesu.
+Vesu includes a model that gives users the ability to earn points when they lend/borrow on the protocol.
 
-### Architecture
+To earn points, all you need to do is follow our previous guides on lending and borrowing on Vesu linked below.
 
-![My Image](images/placeholder.png)
+- [Earn with Vesu](./earn-guide.md)
+- [Borrow from Vesu](./borrow-guide.md)
+
+Points are given based on the accrued yield/debt on existing positions.
+
+### Vesu Leaderboard
+Vesu provides a Leaderboard from which you can track how many points that you or other users have accrued.
+
+![Leaderboard](images/points.png)
