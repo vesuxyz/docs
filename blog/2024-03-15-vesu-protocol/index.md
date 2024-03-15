@@ -1,5 +1,5 @@
 ---
-slug: 2024-03-14-vesu-protocol
+slug: 2024-03-15-vesu-protocol
 title: Vesu Protocol
 authors: [nbundi]
 tags: [Announcement]
