@@ -10,20 +10,34 @@ export const pool_Id = '0x39b2c5e9c34ad4960780e767f629f0fd0cda9c6b63648fd73e9a92
 export const asset = '0x2eba0731ac8d6a6e4429302b6af43cc75f65d736d5c3229eb5c91d391d4c24e'
 export const rating = 'low'
 export const pool_risk = 'low'
-export const token_risk = 'low'
+export const asset_risk = 'low'
 export const oracle_risk = 'low'
-export const baddebt_risk = 'medium'
-export const governance_risk = 'low'
+export const market_risk = 'medium'
+export const collateral_risk = 'low'
 
 ## Summary
 
-This report assesses the risk of the Pool 0-TETH market according to the Vesu Risk Framework.
+Ether (ETH) is the base asset of the Ethereum blockchain. 
+This report is prepared for an ERC20 token reflecting ETH bridged to Starknet. 
+The canonical bridge for ETH on Starknet is StarkGate, a non-custodial bridging protocol. 
+Over $1.5B-worth of ETH has been bridged to Starknet to date.
+
+More information can be found under the following links:
+
+- [StarkScan](https://starkscan.co/token/0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7)
+- [StarkGate](https://starkgate.starknet.io/)
+
 
 ## Pool Risk
 
-todo
+This pool has been deployed by the Vesu team and uses the factory extension that was developed together with the Vesu protocol.
 
-## Token Risk
+More information on the factory extension can be found here:
+
+- [Source Code](https://github.com/vesuxyz/protocol/blob/dev/src/extension/default_extension.cairo)
+- [Audit Report](https://github.com/vesuxyz/security)
+
+## Asset Risk
 
 todo
 
@@ -31,10 +45,10 @@ todo
 
 todo
 
-## Bad Debt Risk
+## Market Risk
 
 todo
 
-## Governance Risk
+## Collateral Risk
 
 todo
