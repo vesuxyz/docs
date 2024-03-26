@@ -85,12 +85,12 @@ The risk rating is expressed in terms of a common likelihood scale shown in the 
 
 | Likelihood | Description                                           |
 |------------|-------------------------------------------------------|
-| ⬜ Neutral | Impossible for the risk event to occur                |
+| ⬜ Neutral | Risk event not applicable                             |
 | 🟩 Low     | Risk event is unlikely to occur                       |
 | 🟨 Medium  | Risk event is unexpected but possible to occur        |
 | 🟥 High    | Risk event is expected or unable to assess likelihood |
 
-For a market the likelihood of the identified risk events is then estimated according to a heuristic that is based on certain risk factors. This heuristic is explained in more detail in the [Risk Report Instructions](./risk-report-instructions.md).
+For a market the likelihood of the identified risk events is then estimated according to a heuristic that is based on certain risk factors. This heuristic is explained in more detail in the [Risk Report Instructions](./risk-reports/risk-report-instructions.md).
 
 **Risk Scorecard**
 

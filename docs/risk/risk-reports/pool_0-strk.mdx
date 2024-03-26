@@ -15,26 +15,153 @@ export const oracle_risk = 'low'
 export const market_risk = 'medium'
 export const collateral_risk = 'low'
 
+
 ## Summary
 
-This report assesses the risk of the Pool 0-STRK market according to the Vesu Risk Framework.
+StarkGate Starknet (STRK) is the bridged version of Starknet (STRK) on Starknet using the StarkGate bridge.
+
+StarkGate is the canonical bridging protocol of Starknet developed and maintained by StarkWare, the creator of Starknet. 
+
+STRK has an MCAP of over USD 1.7bn and TVL on Starknet of over USD 1.3bn.
+
+*Datapoints*
+
+- [CoinGecko](https://www.coingecko.com/en/coins/starknet)
+- [StarkScan](https://starkscan.co/token/0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d)
+
 
 ## Pool Risk
 
-todo
+This pool uses the factory extension that was audited by ChainSecurity together with the Vesu protocol.
+
+The extension implements a robust liquidation model, adaptive interest rates and various fail-safes intended
+to protect user's assets in various stress scenarios.
+
+The extension currently allows the pool owner to update various pool configuration without giving it control over user's assets.
+These permissions are planned to be revoked once the pool has stabilized.
+
+*Datapoints*
+
+- [Extension Docs](https://docs.vesu.xyz/)
+- [Source Code](https://github.com/vesuxyz/protocol/blob/dev/src/extension/default_extension.cairo)
+- [Audit Report](https://github.com/vesuxyz/security)
+
+**Rating**
+
+The proposed rating is:
+
+- 🟩 Low
+
 
 ## Asset Risk
 
-todo
+:::warning
+This report does not assess the risks associated with bridging assets to Starknet using StarkGate.
+Make sure you understand the risks involved with bridging assets to Starknet before continuing.
+:::
+
+StarkGate STRK reflects Ethereum mainnet STRK that is bridged to Starknet using the StarkGate bridge. 
+StarkGate is Starknet's canonical bridge and is developed and maintained by StarkWare, the creator of Starknet.
+The bridge is operational since early 2022 and has facilitated over [1.9M bridge transactions](https://dune.com/sapiens/starknet-insighttokenomics-and-bridge-stats) or over USD 1.7bn in value bridged.
+
+**Smart contract risk**
+
+StarkGate STRK uses OpenZeppelin's [standard ERC20](https://github.com/OpenZeppelin/cairo-contracts) token implementation.
+It has been audited by Nethermind and both [source code](https://github.com/starknet-io/starkgate-contracts) and [audit report](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf) are publicly available.
+
+:::warning
+The StarkGate STRK contract is not verified on block explorers.
+:::
+
+**Counterparty risk**
+
+N/A
+
+**Depeg risk**
+
+N/A
+
+**Datapoints**
+
+- [Token Contract](https://starkscan.co/token/0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d)
+- [Mainnet Escrow Contract](https://etherscan.io/address/0xcE5485Cfb26914C5dcE00B9BAF0580364daFC7a4)
+- [StarkGate GitHub](https://github.com/starknet-io/starkgate-contracts)
+- [StarkGate Audit](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf)
+- [StarkGate Stats](https://dune.com/sapiens/starknet-insighttokenomics-and-bridge-stats)
+
+**Rating**
+
+The proposed rating is:
+
+- 🟩 Low
+
 
 ## Oracle Risk
 
-todo
+The asset's oracle implementation relies on a Pragma price feed.
+The Pragma oracle is a native Starknet oracle system that secures over USD 200m across all major projects on Starknet.
+It is fully decentralized in that it does not rely on off-chain infrastructure. Instead, data providers directly push prices on-chain and aggregation is done by the data consumer directly.
+
+**Smart contract risk**
+
+Find an overview of the Pragma smart contract system [here](https://github.com/Astraly-Labs/pragma-oracle?tab=readme-ov-file#overview).
+The Pragma smart contracts have been audited by Nethermind and both the [source code](https://github.com/Astraly-Labs/pragma-oracle) and [audit report](https://github.com/astraly-labs/pragma-oracle/tree/main/audits) are publicly available.
+
+**Price composition & timeliness**
+
+Pragma oracle price feeds use a variety of price providers and sources including on-chain and off-chain sources. 
+The resulting price is derived from the various sources using the Median aggregator. 
+
+**Oracle fail-safes**
+
+The pool extension's Pragma oracle feed integration implements different fail-safes to account for oracle failures:
+
+- Staleness: If the latest price (across all active providers) is older than 4 hours, the oracle price is rejected 
+- Robustness: If the number of responsive price providers is less than 4, the oracle price is rejected
+
+In case the oracle price is rejected due to any of the above criteria, the pool transitions into a pause mode preventing possible exploits due to unreliable oracle prices.
+
+**Datapoints**
+
+- [Pragma Oracle Contract](https://starkscan.co/contract/0x02a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b#read-write-contract)
+- [Pragma Documentation](https://docs.pragma.build/Resources/Cairo%201/data-feeds/consuming-data)
+- [Pragma Pair IDs](https://docs.pragma.build/Resources/Cairo%201/data-feeds/supported-assets)
+- [Source Code](https://github.com/Astraly-Labs/pragma-oracle)
+- [Audit Report](https://github.com/astraly-labs/pragma-oracle/tree/main/audits)
+
+**Rating**
+
+The proposed rating is:
+
+- 🟩 Low
+
 
 ## Market Risk
 
-todo
+The lending pool enables borrowing of StarkGate STRK deposits using any of the other pool assets as collateral.
+The pool extension implements a robust [liquidation strategy](https://docs.vesu.xyz) that optimizes for rapid liquidations also in a stressed market environment.
+Nonetheless, a residual risk for bad debt from failed liquidations exists. 
+In such a scenario, accrued bad debt is instantaneously allocated to the lenders in the pool.
+
+The probability of *bad debt events* is computed using the [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/13NE8h8NA-QS95I6Djn3qjs3fTiSEjTeP3eNFiRB2FIM/edit?usp=sharing).
+
+**Datapoints**
+
+- [Liquidation Documentation](https://docs.vesu.xyz)
+- [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/13NE8h8NA-QS95I6Djn3qjs3fTiSEjTeP3eNFiRB2FIM/edit?usp=sharing)
+
+**Rating**
+
+The proposed rating is:
+
+- 🟨 Medium
+
 
 ## Collateral Risk
 
-todo
+The pool enables asset *Rehypothecation* which means that borrowers' collateral assets too serve as liquidity in the pool.
+The collateral chain thus spans across all pool assets resulting in that StarkGate STRK inherits the highest severity risk among all these assets.
+
+The proposed rating is:
+
+- TODO

@@ -2,8 +2,8 @@
 id: risk-report-instructions
 title: Risk Report Instructions
 sidebar_label: Instructions
-sidebar_position: 9
-slug: /risk/risk-report-instructions
+sidebar_position: 1
+slug: /risk/risk-reports/risk-report-instructions
 ---
 
 ## Metadata
@@ -24,9 +24,7 @@ export const collateral_risk = 'low'
 
 ## Summary
 
-Provide a brief overview of the market covered and the key findings in this risk report. 
-
-It may also be helpful to include links to key resources related to the market such as the asset's homepage.
+Provide a brief overview of the market covered, key findings, and links to key resources (asset homepage, stats, documentation, etc.).
 
 
 ## Pool Risk
