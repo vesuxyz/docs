@@ -98,7 +98,7 @@ const config = {
       announcementBar: {
         id: 'vesu-1-0-release', // Any value that will identify this message.
         content:
-          '<div class="announcement-bar"><a href="https://docs.vesu.xyz/blog/welcome/" target="_blank" rel="noopener"><span>Vesu will land on Starknet soon!</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
+          '<div class="announcement-bar"><a href="https://docs.vesu.xyz/blog/2024-03-06-welcome" target="_blank" rel="noopener"><span>Vesu will land on Starknet soon!</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
         backgroundColor: 'rgb(210, 215, 254)', // Defaults to `#fff`.
         textColor: 'rgb(22 31 49)', // Defaults to `#000`.
         isCloseable: true, // Defaults to `true`.
