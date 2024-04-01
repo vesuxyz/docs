@@ -3,6 +3,7 @@
   padding: 0;
   overflow: hidden;
   background-color: $primary-black;
+  margin-top: auto;
 
   .container {
     position: relative;
@@ -46,7 +47,7 @@
 
   &__logo-ctr { margin-top: -3px; }
 
-  &__logo-tagline { font-family: $roboto; font-weight: 600; margin-left: 5px; }
+  &__logo-tagline { font-family: $nunito; font-weight: 600; margin-left: 5px; }
 
   &__logo {
     display: block;
@@ -60,6 +61,7 @@
     margin-bottom: 14px;
     line-height: 1.25;
     font-size: 14.5px;
+    font-family: $nunito;
     font-weight: 600;
 
     @include tablet-mobile {
@@ -107,6 +109,7 @@
     text-decoration: none;
     line-height: 1.1;
     font-size: 14.5px;
+    font-family: $nunito;
     color: $white;
     transition: color .2s ease-in-out;
 
@@ -122,6 +125,7 @@
     text-align: center;
     line-height: 1.25;
     font-size: 12px;
+    font-family: $nunito;
     color: $grey;
 
     @include tablet-mobile {

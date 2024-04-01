@@ -1,9 +1,19 @@
 .rds-hero {
-  margin-top: -63px;
-  padding: 100px 0 100px;
+  margin-top: -100px;
+  padding: 100px 0 0px;
   border-radius: 0 0 10px 10px;
-  background-color: $primary-blue;
+  background-color: $primary-black;
   color: $white;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+
+  /* background image */
+  background-image: url("/static/img/hero-background.jpg");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 
   @media only screen and (min-width: 1000px) and (max-width: 1000px) {
     padding-left: 30px;
@@ -44,10 +54,10 @@
   }
 
   .hero-title {
-    margin: 0;
+    margin-top: 100px;
     line-height: 1.1;
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 600;
 
     @include tablet-mobile {
       text-align: center;
@@ -62,8 +72,9 @@
   .hero-subtitle {
     margin: 17px 0 0 0;
     line-height: 2.0;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 400;
+    color: $grey;
 
     @include tablet-mobile {
       text-align: center;
@@ -77,7 +88,7 @@
 
   .boxes {
     display: flex;
-    margin-top: 42px;
+    margin-top: 100px;
 
     @include mobile {
       flex-direction: column;
@@ -86,9 +97,11 @@
 
     .box {
       flex: 1;
+      max-width: 25vh;
       position: relative;
-      border: 1px dashed $red;
+      border: 1px dashed $purple;
       border-radius: 10px;
+      background-color: $secondary-black;
       transition: background-color .2s ease-in-out;
 
       @include mobile {
@@ -97,7 +110,7 @@
       }
 
       &:hover {
-        background-color: $red;
+        background-color: $purple;
       }
 
       &:not(:first-child) {
@@ -136,25 +149,8 @@
         left: 520px;
       }
 
-      .icon {
-        display: flex;
-        align-items: center;
-        padding: 5px 21px 0;
-        height: 69px;
-
-        @include mobile {
-          justify-content: center;
-        }
-
-        svg {
-          @include mobile {
-            zoom: 1.1;
-          }
-        }
-      }
-
       .text {
-        padding: 0 16px 23px 21px;
+        padding: 21px 16px 23px 21px;
 
         @include mobile {
           padding-bottom: 25px;
@@ -164,7 +160,8 @@
           margin: 0;
           line-height: 1.5;
           font-size: 18px;
-          font-weight: 400;
+          font-weight: 600;
+          font-family: $nunito;
 
           @include mobile {
             text-align: center;
@@ -177,6 +174,7 @@
           margin: 10px 0 0 0;
           line-height: 1.5;
           font-size: 14.5px;
+          color: $grey;
 
           @include mobile {
             margin-top: 10px;
@@ -193,20 +191,13 @@
           line-height: 1.2;
           font-size: 14.5px;
           font-weight: 700;
+          color: $purple;
 
           @include mobile {
             justify-content: center;
             font-size: 16px;
           }
 
-          svg {
-            margin-left: 8px;
-            flex: 0 0 14px;
-
-            path {
-              transition: fill .2s ease-in-out;
-            }
-          }
         }
       }
 
@@ -225,22 +216,6 @@
         text-indent: -9999px;
         cursor: pointer;
       }
-    }
-  }
-
-  .illustration {
-    max-width: 100%;
-
-    @media only screen and (min-width: 997px) and (max-width: 1100px) {
-      float: right;
-      margin-left: 0;
-      zoom: .8;
-    }
-
-    @include tablet-mobile {
-      display: block;
-      margin: 0 auto 48px;
-      zoom: .48;
     }
   }
 }

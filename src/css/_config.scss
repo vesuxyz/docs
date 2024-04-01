@@ -3,14 +3,14 @@ $secondary-blue: #0565FF;
 $red: #DC382C;
 $white: #FFFFFF;
 $black: #000000;
-$primary-black: #0C0E10;
-$secondary-black: #2E2E2E;
+$primary-black: #0A0A0A;
+$secondary-black: #1A1A1A;
 $zircon: #F8FAFF;
-$grey: #707070;
+$grey: #808080;
 $grey-light: #E0DFDF;
 $grey-dark: #C2C0C0;
-$purple: #5961FF;
-$purple-hover: #3F41A0;
+$purple: #8A95FF;
+$purple-hover: #8A95FF;
 $purple-light: #F2F5FE;
 $purple-lighter: #F9FAFF;
 
@@ -20,6 +20,8 @@ sans-serif;
 $roboto: 'Roboto Mono',
 monospace;
 
+$nunito: 'Nunito Sans';
+
 :root {
   --chill: #e3ebed;
   --ui: #dfdfdf;
@@ -28,15 +30,15 @@ monospace;
   --red: #DC382C;
   --white: #FFFFFF;
   --black: #000000;
-  --primary-black: #0C0E10;
-  --secondary-black: #2E2E2E;
+  --primary-black: #0A0A0A;
+  --secondary-black: #1A1A1A;
   --zircon: #F8FAFF;
-  --grey: #707070;
+  --grey: #808080;
   --grey-light: #E0DFDF;
   --grey-dark: #C2C0C0;
   --violet: #3e41a0;
-  --purple: #5961FF;
-  --purple-hover: #3F41A0;
+  --purple: #8A95FF;
+  --purple-hover: #8A95FF;
   --purple-light: #F2F5FE;
   --purple-lighter: #F9FAFF;
 }

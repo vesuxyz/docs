@@ -3,7 +3,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import Typed from '@theme/Typed';
 
-import SvgHero from '@site/src/svg/Hero';
 import SvgCreate from '@site/src/svg/Create';
 import SvgCreateBg from '@site/src/svg/CreateBg';
 import SvgDevelop from '@site/src/svg/Develop';
@@ -23,18 +22,15 @@ function Hero() {
               <div className="col col--8">
                 <h1 className="hero-title">
                   The Vesu
-                  <br /> Knowledge Hub
+                  <br /> Documentation
                 </h1>
 
                 <h2 className="hero-subtitle">
                   <Typed
-                    strings={['>_ Made by developers for developers']}
+                    strings={['>_ Learn about earning, borrowing and building with Vesu']}
                     typeSpeed={75}
                   />
                 </h2>
-              </div>
-              <div className="col col--4">
-                <SvgHero color="#FFFFFF" className="illustration" />
               </div>
             </div>
             
@@ -46,12 +42,12 @@ function Hero() {
                   <SvgDevelop color="#FFFFFF" />
                 </span>
                 <div className="text">
-                  <h3 className="title">Explore Vesu</h3>
+                <h3 className="title">Explore Vesu</h3>
                   <p className="description">
                     Explore the concepts and resources behind Vesu
                   </p>
                   <span className="more">
-                    Explore docs <SvgArrowRight color="#DC382C" />
+                    Explore docs <SvgArrowRight color="#8A95FF" />
                   </span>
                 </div>
                 <a href={useBaseUrl('/explore')} className="link">
@@ -70,7 +66,7 @@ function Hero() {
                     Start using Vesu as a lender, borrower or liquidator
                   </p>
                   <span className="more">
-                    Read guides <SvgArrowRight color="#DC382C" />
+                    Read guides <SvgArrowRight color="#8A95FF" />
                   </span>
                 </div>
                 <a href={useBaseUrl('/user-guides')} className="link">
@@ -90,7 +86,7 @@ function Hero() {
                   </p>
                   <span className="more">
                     Developer docs
-                    <SvgArrowRight color="#DC382C" />
+                    <SvgArrowRight color="#8A95FF" />
                   </span>
                 </div>
                 <a href={useBaseUrl('/dev-guides/')} className="link">
@@ -110,7 +106,7 @@ function Hero() {
                   </p>
                   <span className="more">
                     Explore risk
-                    <SvgArrowRight color="#DC382C" />
+                    <SvgArrowRight color="#8A95FF" />
                   </span>
                 </div>
                 <a href={useBaseUrl('/risk/')} className="link">

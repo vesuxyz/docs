@@ -19,6 +19,8 @@
 @import './components/cards';
 @import './components/404';
 
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans");
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #25c2a0;
@@ -29,7 +31,7 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 100%;
-  --ifm-font-family-base: 'Lato', sans-serif;
+  --ifm-font-family-base: 'Nunito Sans';
   --ifm-spacing-horizontal: 15px;
   --ifm-line-height-base: 1.85;
 
