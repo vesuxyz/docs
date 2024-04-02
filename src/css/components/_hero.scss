@@ -1,5 +1,5 @@
 .rds-hero {
-  margin-top: -100px;
+  margin-top: -160px;
   padding: 100px 0 0px;
   border-radius: 0 0 10px 10px;
   background-color: $primary-black;
@@ -54,7 +54,7 @@
   }
 
   .hero-title {
-    margin-top: 100px;
+    margin-top: 70px;
     line-height: 1.1;
     font-size: 50px;
     font-weight: 600;
@@ -88,7 +88,7 @@
 
   .boxes {
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
 
     @include mobile {
       flex-direction: column;
