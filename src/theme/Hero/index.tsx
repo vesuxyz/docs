@@ -2,14 +2,6 @@ import React from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import Typed from '@theme/Typed';
-
-import SvgCreate from '@site/src/svg/Create';
-import SvgCreateBg from '@site/src/svg/CreateBg';
-import SvgDevelop from '@site/src/svg/Develop';
-import SvgDevelopBg from '@site/src/svg/DevelopBg';
-import SvgExplore from '@site/src/svg/Explore';
-import SvgOperate from '@site/src/svg/Operate';
-import SvgExploreBg from '@site/src/svg/ExploreBg';
 import SvgArrowRight from '@site/src/svg/ArrowRight';
 
 function Hero() {
@@ -37,10 +29,6 @@ function Hero() {
             <div className="boxes">
 
               <div className="box box-explore">
-                <SvgDevelopBg color="#FFFFFF" className="bg" />
-                <span className="icon">
-                  <SvgDevelop color="#FFFFFF" />
-                </span>
                 <div className="text">
                 <h3 className="title">Explore Vesu</h3>
                   <p className="description">
@@ -56,10 +44,6 @@ function Hero() {
               </div>
 
               <div className="box box-user-guides">
-                <SvgCreateBg color="#FFFFFF" className="bg" />
-                <span className="icon">
-                  <SvgCreate color="#FFFFFF" />
-                </span>
                 <div className="text">
                   <h3 className="title">User Guides</h3>
                   <p className="description">
@@ -75,10 +59,6 @@ function Hero() {
               </div>
 
               <div className="box box-dev-guides">
-                <SvgExploreBg color="#FFFFFF" className="bg" />
-                <span className="icon">
-                  <SvgExplore color="#FFFFFF" />
-                </span>
                 <div className="text">
                   <h3 className="title">Developer Guides</h3>
                   <p className="description">
@@ -95,10 +75,6 @@ function Hero() {
               </div>
 
               <div className="box box-risk">
-                <SvgExploreBg color="#FFFFFF" className="bg" />
-                <span className="icon">
-                  <SvgOperate />
-                </span>
                 <div className="text">
                   <h3 className="title">Risk Framework</h3>
                   <p className="description">
