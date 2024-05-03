@@ -1,14 +1,20 @@
 .rds-hero {
   margin-top: -160px;
   padding: 100px 0 0px;
-  background-color: $primary-black;
   color: $white;
+  background-color: --grey-bg-light;
+  @include dark {
+    background-color: --grey-bg-dark;
+  }
   min-height: 80vh;
   display: flex;
   flex-direction: column;
 
   /* background image */
-  background-image: url("/static/img/hero-background.jpg");
+  background-image: url("/static/img/hero-background-light.png");
+  @include dark {
+    background-image: url("/static/img/hero-background.jpg");
+  }
   background-position: right top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,7 +63,11 @@
     line-height: 1.1;
     font-size: 50px;
     font-weight: 600;
+    color: $black;
 
+    @include dark {
+      color: $white;
+    }
     @include tablet-mobile {
       text-align: center;
     }
@@ -100,7 +110,11 @@
       position: relative;
       border: 1px dashed $purple;
       border-radius: 10px;
-      background-color: $secondary-black;
+      background-color: $white;
+
+      @include dark {
+        background-color: $secondary-black;
+      }
       transition: background-color 0.2s ease-in-out;
 
       @include mobile {
@@ -160,7 +174,10 @@
           font-size: 18px;
           font-weight: 600;
           font-family: $nunito;
-
+          color: $black;
+          @include dark {
+            color: $white;
+          }
           @include mobile {
             text-align: center;
             line-height: 1.2;
@@ -172,7 +189,10 @@
           margin: 10px 0 0 0;
           line-height: 1.5;
           font-size: 14.5px;
-          color: $grey;
+          color: $black;
+          @include dark {
+            color: $white;
+          }
 
           @include mobile {
             margin-top: 10px;

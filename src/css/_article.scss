@@ -454,7 +454,16 @@ iframe {
   background-color: var(--grey-bg-light);
 }
 
-nav {
+.clean-btn {
+  background-color: --grey-bg-light;
+  color: black;
+  @include dark {
+    background-color: --grey-bg-dark;
+    color: white;
+  }
+}
+
+.thin-scrollbar {
   border-right: 1px solid var(--grey-light);
   background-color: var(--grey-bg-light);
   @include dark {
