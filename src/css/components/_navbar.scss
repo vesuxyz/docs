@@ -64,12 +64,16 @@
     padding: 7px 21px 8px;
     line-height: 1;
     font-size: 17px;
-    color: $black !important;
+    color: $grey !important;
+    font-weight: 600;
     @include dark {
-      color: $white !important;
+      color: $grey !important;
+      &:hover {
+        color: $white !important;
+      }
     }
     &:hover {
-      text-decoration: underline;
+      color: $black !important;
     }
   }
 
