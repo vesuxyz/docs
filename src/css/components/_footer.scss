@@ -2,7 +2,10 @@
   position: relative;
   padding: 0;
   overflow: hidden;
-  background-color: $primary-black;
+  background-color: var(--grey-bg-light);
+  @include dark {
+    background-color: var(--grey-bg-dark);
+  }
   margin-top: auto;
 
   .container {
@@ -33,7 +36,7 @@
       user-select: none;
 
       @include mobile {
-        zoom: .8;
+        zoom: 0.8;
         top: 15px;
         right: -55px;
       }
@@ -45,9 +48,15 @@
     }
   }
 
-  &__logo-ctr { margin-top: -3px; }
+  &__logo-ctr {
+    margin-top: -3px;
+  }
 
-  &__logo-tagline { font-family: $nunito; font-weight: 600; margin-left: 5px; }
+  &__logo-tagline {
+    font-family: $nunito;
+    font-weight: 600;
+    margin-left: 5px;
+  }
 
   &__logo {
     display: block;
@@ -104,14 +113,23 @@
       }
     }
   }
+  &__title {
+    color: $black;
+    @include dark {
+      color: $white;
+    }
+  }
 
   &__link-item {
     text-decoration: none;
     line-height: 1.1;
     font-size: 14.5px;
     font-family: $nunito;
-    color: $white;
-    transition: color .2s ease-in-out;
+    color: $black;
+    @include dark {
+      color: $white;
+    }
+    transition: color 0.2s ease-in-out;
 
     &:hover {
       color: $white;

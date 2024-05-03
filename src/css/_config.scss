@@ -1,46 +1,46 @@
-$primary-blue: #161F31;
-$secondary-blue: #0565FF;
-$red: #DC382C;
-$white: #FFFFFF;
+$primary-blue: #161f31;
+$secondary-blue: #0565ff;
+$red: #dc382c;
+$white: #ffffff;
 $black: #000000;
-$primary-black: #0A0A0A;
-$secondary-black: #1A1A1A;
-$zircon: #F8FAFF;
+$primary-black: #0a0a0a;
+$secondary-black: #1a1a1a;
+$zircon: #f8faff;
 $grey: #808080;
-$grey-light: #E0DFDF;
-$grey-dark: #C2C0C0;
-$purple: #8A95FF;
-$purple-hover: #8A95FF;
-$purple-light: #F2F5FE;
-$purple-lighter: #F9FAFF;
+$grey-light: #e0dfdf;
+$grey-dark: #c2c0c0;
+$purple: #8a95ff;
+$purple-hover: #8a95ff;
+$purple-light: #f2f5fe;
+$purple-lighter: #f9faff;
 
-$lato: 'Lato',
-sans-serif;
+$lato: "Lato", sans-serif;
 
-$roboto: 'Roboto Mono',
-monospace;
+$roboto: "Roboto Mono", monospace;
 
-$nunito: 'Nunito Sans';
+$nunito: "Nunito Sans";
 
 :root {
   --chill: #e3ebed;
   --ui: #dfdfdf;
-  --primary-blue: #161F31;
-  --secondary-blue: #0565FF;
-  --red: #DC382C;
-  --white: #FFFFFF;
+  --primary-blue: #161f31;
+  --secondary-blue: #0565ff;
+  --red: #dc382c;
+  --white: #ffffff;
   --black: #000000;
-  --primary-black: #0A0A0A;
-  --secondary-black: #1A1A1A;
-  --zircon: #F8FAFF;
+  --primary-black: #0a0a0a;
+  --secondary-black: #1a1a1a;
+  --zircon: #f8faff;
   --grey: #808080;
-  --grey-light: #E0DFDF;
-  --grey-dark: #C2C0C0;
+  --grey-light: #e0dfdf;
+  --grey-dark: #c2c0c0;
   --violet: #3e41a0;
-  --purple: #8A95FF;
-  --purple-hover: #8A95FF;
-  --purple-light: #F2F5FE;
-  --purple-lighter: #F9FAFF;
+  --purple: #8a95ff;
+  --purple-hover: #8a95ff;
+  --purple-light: #f2f5fe;
+  --purple-lighter: #f9faff;
+  --grey-bg-light: #f5f5f5;
+  --grey-bg-dark: #0a0a0a;
 }
 
 /* dark mode */

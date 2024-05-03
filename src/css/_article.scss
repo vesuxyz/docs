@@ -32,8 +32,8 @@
 html[data-theme="dark"] {
   --ifm-menu-color: var(--white);
   --ifm-menu-color-active: $purple;
-  --ifm-menu-color-background-active: #181D27;
-  --ifm-menu-color-background-hover: #181D27;
+  --ifm-menu-color-background-active: #181d27;
+  --ifm-menu-color-background-hover: #181d27;
   --ifm-toc-border-color: #676768;
   --ifm-toc-link-color: var(--white);
   --ifm-tabs-color: var(--white);
@@ -112,17 +112,17 @@ hr {
         width: 3px;
         height: 100%;
         background-color: $purple;
-        content: '';
+        content: "";
 
         @include dark {
-          background-color: #829EF0;
+          background-color: #829ef0;
         }
       }
     }
 
     &:hover {
       @include dark {
-        color: #829EF0;
+        color: #829ef0;
       }
     }
 
@@ -135,11 +135,11 @@ hr {
     }
   }
 
-  >li>ul>li>.table-of-contents__link--active:before {
+  > li > ul > li > .table-of-contents__link--active:before {
     left: -33px;
   }
 
-  >li>ul>li>ul>li>.table-of-contents__link--active:before {
+  > li > ul > li > ul > li > .table-of-contents__link--active:before {
     left: -48px;
   }
 }
@@ -154,15 +154,19 @@ blockquote {
 }
 
 main:not(.home-main) {
+  background-color: var(--grey-bg-light);
+  @include dark {
+    background-color: var(--grey-bg-dark);
+  }
   a {
     text-decoration: none;
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 
     &:hover {
       color: $purple-hover;
 
       @include dark {
-        color: #829EF0;
+        color: #829ef0;
       }
     }
   }
@@ -257,20 +261,19 @@ main:not(.home-main) {
     }
   }
 
-  >img,
-  >p>img,
-  div[role="tabpanel"]>img,
-  div[role="tabpanel"]>p>img {
+  > img,
+  > p > img,
+  div[role="tabpanel"] > img,
+  div[role="tabpanel"] > p > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 2px 20px rgba($black, .17);
+    box-shadow: 0 2px 20px rgba($black, 0.17);
   }
 
   .has-small-images {
-
-    >img,
-    >p>img {
+    > img,
+    > p > img {
       max-width: 50%;
     }
   }
@@ -293,7 +296,7 @@ main:not(.home-main) {
     border: none;
     background-color: $purple;
     color: $white;
-    transition: background-color .2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
 
     &:hover {
       background-color: $purple-hover;
@@ -322,7 +325,7 @@ main:not(.home-main) {
     border-radius: 0;
     line-height: 1;
     font-size: 17px;
-    transition: color .2s ease-in-out;
+    transition: color 0.2s ease-in-out;
 
     @include dark {
       color: $white;
@@ -337,7 +340,7 @@ main:not(.home-main) {
       color: $purple-hover !important;
 
       @include dark {
-        color: #829EF0 !important;
+        color: #829ef0 !important;
       }
     }
 
@@ -352,9 +355,9 @@ main:not(.home-main) {
   margin-bottom: 30px;
   padding: 20px;
   height: calc(100% - 30px);
-  border: 2px solid #E5E5E5;
-  box-shadow: 0px 4px 7px rgba(196, 196, 196, .5);
-  transition: border-color .2s ease-in-out;
+  border: 2px solid #e5e5e5;
+  box-shadow: 0px 4px 7px rgba(196, 196, 196, 0.5);
+  transition: border-color 0.2s ease-in-out;
 
   @include dark {
     background-color: #2a2c2d;
@@ -404,7 +407,7 @@ main:not(.home-main) {
         color: $white;
 
         &:hover {
-          color: #829EF0;
+          color: #829ef0;
         }
       }
     }
@@ -434,22 +437,34 @@ code {
   background-color: $purple-light;
 
   @include dark {
-    background-color: #3E44AC;
+    background-color: #3e44ac;
   }
 }
 
 iframe {
   max-width: 100%;
-  box-shadow: 0 2px 20px rgba($black, .17);
+  box-shadow: 0 2px 20px rgba($black, 0.17);
 }
 
 .sidebar-logo {
   display: flex;
   align-items: center;
   padding: 0 15px;
-  height: 60px;
+  height: 160px;
+  background-color: var(--grey-bg-light);
+}
 
-  img {
-    height: 26px;
+nav {
+  border-right: 1px solid var(--grey-light);
+  background-color: var(--grey-bg-light);
+  @include dark {
+    background-color: var(--grey-bg-dark);
+  }
+}
+
+.main-wrapper {
+  background-color: var(--grey-bg-light);
+  @include dark {
+    background-color: var(--grey-bg-dark);
   }
 }
