@@ -40,8 +40,6 @@
   }
 
   .row {
-    align-items: center;
-
     .col {
       @include tablet-mobile {
         &:first-child {
