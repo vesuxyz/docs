@@ -5,25 +5,25 @@
 * work well for content-centric websites.
 */
 
-@import '@site/src/slick/slick';
-@import '@site/src/slick/slick-theme';
+@import "@site/src/slick/slick";
+@import "@site/src/slick/slick-theme";
 
-@import './config';
-@import './typography';
-@import './article';
+@import "./config";
+@import "./typography";
+@import "./article";
 
-@import './components/navbar';
-@import './components/announcement';
-@import './components/footer';
-@import './components/hero';
-@import './components/cards';
-@import './components/404';
+@import "./components/navbar";
+@import "./components/announcement";
+@import "./components/footer";
+@import "./components/hero";
+@import "./components/cards";
+@import "./components/404";
 
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans");
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #0a22f5;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
   --ifm-color-primary-darkest: rgb(26, 136, 112);
@@ -31,7 +31,7 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 100%;
-  --ifm-font-family-base: 'Nunito Sans';
+  --ifm-font-family-base: "Nunito Sans";
   --ifm-spacing-horizontal: 15px;
   --ifm-line-height-base: 1.85;
 
@@ -40,16 +40,20 @@
   --ifm-global-radius: 10px;
 }
 
-html[data-theme='dark'] {
+html[data-theme="dark"] {
   --ifm-background-color: var(--primary-black);
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1340px;
 }
 
 .home-main {
   overflow: hidden;
+}
+
+.navbar__toggle {
+  color: $black;
 }
 
 .announcement-bar {

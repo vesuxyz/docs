@@ -1,16 +1,18 @@
 .rds-hero {
-  margin-top: -160px;
-  padding: 100px 0 0px;
-  border-radius: 0 0 10px 10px;
-  background-color: $primary-black;
-  color: $white;
-  min-height: 80vh;
+  background-color: --grey-bg-light;
+  @include dark {
+    background-color: --grey-bg-dark;
+  }
+  min-height: calc(100vh - 238px);
   display: flex;
   flex-direction: column;
 
   /* background image */
-  background-image: url("/static/img/hero-background.jpg");
-  background-position: right top;
+  background-image: url("/static/img/hero-background-light.webp");
+  @include dark {
+    background-image: url("/static/img/hero-background.jpg");
+  }
+  background-position: center -100px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -34,12 +36,10 @@
   }
 
   @include mobile {
-    padding: 71px 0 62px;
+    padding: 20px 0 62px;
   }
 
   .row {
-    align-items: center;
-
     .col {
       @include tablet-mobile {
         &:first-child {
@@ -54,11 +54,15 @@
   }
 
   .hero-title {
-    margin-top: 70px;
+    margin-top: 120px;
     line-height: 1.1;
     font-size: 50px;
     font-weight: 600;
+    color: $black;
 
+    @include dark {
+      color: $white;
+    }
     @include tablet-mobile {
       text-align: center;
     }
@@ -66,12 +70,13 @@
     @include mobile {
       line-height: 1.25;
       font-size: 32px;
+      margin-top: 20px;
     }
   }
 
   .hero-subtitle {
     margin: 17px 0 0 0;
-    line-height: 2.0;
+    line-height: 2;
     font-size: 25px;
     font-weight: 400;
     color: $grey;
@@ -101,8 +106,15 @@
       position: relative;
       border: 1px dashed $purple;
       border-radius: 10px;
-      background-color: $secondary-black;
-      transition: background-color .2s ease-in-out;
+      background-color: $white;
+
+      @include dark {
+        background-color: $secondary-black;
+        &:hover {
+          background-color: $purple;
+        }
+      }
+      transition: background-color 0.2s ease-in-out;
 
       @include mobile {
         margin: 0 auto;
@@ -143,7 +155,6 @@
         left: 520px;
       }
 
-
       &.box-operate .bg {
         top: 900px;
         left: 520px;
@@ -162,7 +173,9 @@
           font-size: 18px;
           font-weight: 600;
           font-family: $nunito;
-
+          @include dark {
+            color: $white;
+          }
           @include mobile {
             text-align: center;
             line-height: 1.2;
@@ -174,7 +187,9 @@
           margin: 10px 0 0 0;
           line-height: 1.5;
           font-size: 14.5px;
-          color: $grey;
+          @include dark {
+            color: $white;
+          }
 
           @include mobile {
             margin-top: 10px;
@@ -197,12 +212,20 @@
             justify-content: center;
             font-size: 16px;
           }
-
         }
       }
 
       &:hover .text .more svg path {
         fill: $white;
+      }
+      &:hover .text .more {
+        color: $white;
+      }
+      &:hover .text {
+        color: $white;
+      }
+      &:hover .text .description {
+        color: $white;
       }
 
       .link {
