@@ -47,9 +47,7 @@ We built Vesu on Starknet because it offers the best “decentralization - secur
 ![L2 Tx Fee Comparison](./l2-tx-fee-comparison.png "L2 Tx Fee Comparison")
 _Source: [GrowThePie](https://fees.growthepie.xyz)_
 
-This means that Vesu users don’t have to worry about spending more on transactions than earning on deposits. On Vesu, transaction cost can literally be neglected.
-
-Moreover, Starknet’s unique features such as native account abstraction will allow Vesu users to pay transaction fees in any token further abstracting away the underpinning blockchain technology.
+This means that Vesu users don’t have to worry about spending more on transactions than earning on deposits. On Vesu, all users are able to put their assets to work irrespective of the disposable amount.
 
 
 ### 2. Transaction Bundling (aka Multicall)
