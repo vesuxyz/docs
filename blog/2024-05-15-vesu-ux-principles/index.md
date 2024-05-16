@@ -17,6 +17,9 @@ This requirement is even more pronounced in the decentralized finance (DeFi) sec
 Vesu aims to offer a superior UX comparable to that of FinTech apps while leveraging the power of DeFi technology “under the hood”. To achieve this goal, Vesu has partnered with [Argent](https://argent.xyz), the leading Wallet on Starknet and Web3 UX champion.
 
 
+![Magic Meme](./magic-meme.png "Magic Meme")
+
+
 ## DeFi UX Challenges
 
 The blockchain ecosystem traditionally demands a high degree of technical understanding from its users. Engaging with blockchain technologies involves navigating complex cryptographic processes and managing transparent yet intricate transactions, which can render DeFi apps practically unusable and deter novice users. 
@@ -40,7 +43,7 @@ Vesu too strives to be at the forefront of DeFi UX. Together with Argent we have
 ## Vesu UX Principles
 
 
-### 1. Minimize gas fees (aka Starknet)
+### 1. Minimize gas fees
 
 We built Vesu on Starknet because it offers the best “decentralization - security - scalability” (aka the blockchain trilemma) tradeoff. Starknet boasts the lowest transaction fees across L2s (see comparison below), and its roadmap offers a clear path towards unlocking more scaling improvements.
 
@@ -50,9 +53,11 @@ _Source: [GrowThePie](https://fees.growthepie.xyz)_
 This means that Vesu users don’t have to worry about spending more on transactions than earning on deposits.
 
 
-### 2. Transaction Bundling (aka Multicall)
+### 2. Transaction Bundling
 
 On Vesu multiple actions are always bundled in a single transaction using Starknet’s native multicall protocol. For example, token spend approvals are always bundled with the actual position action on Vesu. 
+
+![Vesu Approval Revokes](./vesu-tx-bundling.png "Vesu Approval Revokes")
 
 With Starknet's native account abstraction and multicall features, this in fact results in minimal overhead and results in a seamless UX.
 
@@ -63,14 +68,15 @@ As a result, Vesu users are never required to sign, and pay for, multiple transa
 
 A key UX principle is automatically revoking unused token spend approvals when a user exits the app. Therefore, users are either asked to approve only a known amount of tokens spent, or an approval reset is appended to the transaction.
 
-![Vesu Approval Revokes](./vesu-tx-bundling.png "Vesu Approval Revokes")
-
 This proactive measure ensures that malicious bugs or attackers do not create openings for potential fund drainage, safeguarding users' assets more effectively than many other protocols.
 
 
 ### 4. ERC-4626 Deposit Tokens
 
-Vesu pools, through the [factory extension](https://docs.vesu.xyz/blog/2024-04-03-vesu-lending-hooks#factory-extension), issue a yield-bearing token reflecting the deposited assets and the accumulated interest. This token implements the ERC4626 interfaces, a “tokenized vaults” standard that extends the ERC20 token standard and has found widespread use in the Ethereum ecosystem. Apart from the ERC20 transfer-related and metadata interfaces, this standard also enables convenience around wallet integration and overall UX improvements. 
+Vesu pools, through the [factory extension](https://docs.vesu.xyz/blog/2024-04-03-vesu-lending-hooks#factory-extension), issue a yield-bearing token reflecting the deposited assets and the accumulated interest. This token implements the ERC4626 interfaces, a “tokenized vaults” standard that extends the ERC20 token standard and has found widespread use in the Ethereum ecosystem. Apart from the ERC20 transfer-related and metadata interfaces, this standard also enables convenience around wallet integration and overall UX improvements.
+
+![ERC4626 Vault](./4626-vault.png "ERC4626 Vault")
+_Source: [Covalent Blog](https://www.covalenthq.com/docs/unified-api/guides/what-is-erc-4626-the-tokenized-vault-standard/)_
 
 In order to unlock similar improvements and security across Starknet’s DeFi ecosystem we have created a Starknet Improvement Proposal (SNIP) which can be found [here](https://github.com/starknet-io/SNIPs/pull/85).
 
@@ -93,9 +99,6 @@ By presenting this information user-friendly and intuitively, Vesu ensures that 
 ### 6. Optimistic Position Updates 
 
 Vesu leverages optimistic position updates to enhance the UX and create a seamless user journey. This means that users see their position updates immediately, without waiting for the transaction to finalize on the blockchain. 
-
-
-![Magic Meme](./magic-meme.png "Magic Meme")
 
 
 This real-time feedback eliminates the latency typically associated with the underlying blockchain transactions. If a transaction fails, these updates are automatically reverted, ensuring the information users see is always accurate and up to date.
