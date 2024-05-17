@@ -1,5 +1,5 @@
 ---
-slug: 2024-05-15-vesu-ux-principles
+slug: 2024-05-17-vesu-ux-principles
 title: Vesu UX Principles
 authors: [nbundi]
 tags: [Announcement]
@@ -71,12 +71,11 @@ A key UX principle is automatically revoking unused token spend approvals when a
 This proactive measure ensures that malicious bugs or attackers do not create openings for potential fund drainage, safeguarding users' assets more effectively than many other protocols.
 
 
-### 4. ERC-4626 Deposit Tokens
+### 4. Tokenized Deposits
 
-Vesu pools, through the [factory extension](https://docs.vesu.xyz/blog/2024-04-03-vesu-lending-hooks#factory-extension), issue a yield-bearing token reflecting the deposited assets and the accumulated interest. This token implements the ERC4626 interfaces, a “tokenized vaults” standard that extends the ERC20 token standard and has found widespread use in the Ethereum ecosystem. Apart from the ERC20 transfer-related and metadata interfaces, this standard also enables convenience around wallet integration and overall UX improvements.
+Vesu pools, through the [factory extension](https://docs.vesu.xyz/blog/2024-04-03-vesu-lending-hooks#factory-extension), issue a yield-bearing token, called the **vToken**, reflecting the deposited assets and the accumulated interest. This token implements the ERC4626 interfaces, a “tokenized vaults” standard that extends the ERC20 token standard and has found widespread use in the Ethereum ecosystem. Apart from the ERC20 transfer-related and metadata interfaces, this standard also enables convenience around wallet integration and overall UX improvements.
 
-![ERC4626 Vault](./4626-vault.png "ERC4626 Vault")
-_Source: [Covalent Blog](https://www.covalenthq.com/docs/unified-api/guides/what-is-erc-4626-the-tokenized-vault-standard/)_
+![Vesu vToken](./vToken.png "Vesu vToken")
 
 In order to unlock similar improvements and security across Starknet’s DeFi ecosystem we have created a Starknet Improvement Proposal (SNIP) which can be found [here](https://github.com/starknet-io/SNIPs/pull/85).
 
