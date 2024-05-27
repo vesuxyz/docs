@@ -64,7 +64,7 @@ This pertains to the risk of adverse market events affecting the solvency of use
 - relative price volatility of the collateral and debt asset pair
 - risk parameters such as the maximal loan-to-value ratio
 
-Based on these factors the probability of a bad debt event can then be computed using a [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/13NE8h8NA-QS95I6Djn3qjs3fTiSEjTeP3eNFiRB2FIM/edit#gid=606009878).
+Based on these factors the likelihood of a bad debt event can then be computed using the [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/1zU9IRKCX8xicSNd4UV78hMEw_rf-ZtGL/edit?usp=sharing&ouid=108086377410680948516&rtpof=true&sd=true).
 
 #### Collateral Risk
 
