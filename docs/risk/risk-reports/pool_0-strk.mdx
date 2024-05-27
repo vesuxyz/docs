@@ -8,7 +8,7 @@ slug: /risk/risk-reports/pool_0-strk
 
 export const pool_Id = '0x39b2c5e9c34ad4960780e767f629f0fd0cda9c6b63648fd73e9a92c551f5d85'
 export const asset = '0x5021740a7f7514d257e30bf04236f7a72eabebcadc70fd70650e4adc6317b9a'
-export const rating = 'medium'
+export const rating = 'low'
 export const pool_risk = 'low'
 export const asset_risk = 'low'
 export const oracle_risk = 'low'
@@ -143,7 +143,7 @@ The pool extension implements a robust [liquidation strategy](https://docs.vesu.
 Nonetheless, a residual risk for bad debt from failed liquidations exists. 
 In such a scenario, accrued bad debt is instantaneously allocated to the lenders in the pool.
 
-The probability of *bad debt events* is computed using the [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/13NE8h8NA-QS95I6Djn3qjs3fTiSEjTeP3eNFiRB2FIM/edit?usp=sharing).
+The asset's market risk is computed using the [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/1zU9IRKCX8xicSNd4UV78hMEw_rf-ZtGL/edit?usp=sharing&ouid=108086377410680948516&rtpof=true&sd=true).
 
 **Datapoints**
 
@@ -164,4 +164,4 @@ The collateral chain thus spans across all pool assets resulting in that StarkGa
 
 The proposed rating is:
 
-- TODO
+- 🟩 Low

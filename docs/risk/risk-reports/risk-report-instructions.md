@@ -77,24 +77,11 @@ Derive the appropriate oracle risk rating using the following guidelines:
 
 ## Market Risk
 
-Provide all relevant information that is used to assess the oracle risk. In particular, discuss the following items:
+Use the [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/1zU9IRKCX8xicSNd4UV78hMEw_rf-ZtGL/edit?usp=sharing&ouid=108086377410680948516&rtpof=true&sd=true), or an advanced model, to assess an asset's _Market Risk_.
 
-- Market (spot) liquidity
-- Relative price volatility
-- Pool risk parameters
+Note that each enabled collateral asset is accompanied with dedicated risk parameters resulting in a lending pair specific _Market Risk_. According to the _Standard Market Risk Model_, the asset's overall risk is then estimated using the _Max_-aggregator function.
 
-These metrics are required for the asset itself and all enabled collateral assets.
-
-Derive the appropriate oracle risk rating using the following guidelines:
-
-- ⬜ Neutral: No shortfall possible (e.g. due to collateral asset isolation)
-- 🟩 Low: shortfall probability `>0.0% AND <=0.5%`
-- 🟨 Medium: shortfall probability `>0.5% AND <=20%`
-- 🟥 High: else
-
-The shortfall probability can be estimated using the [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/13NE8h8NA-QS95I6Djn3qjs3fTiSEjTeP3eNFiRB2FIM/edit#gid=606009878).
-
-Note that each enabled collateral asset is accompanied with dedicated risk parameters resulting in a lending pair specific shortfall probability. The probability used to derive the risk rating is simply the maximum shortfall probability across all lending pairs. 
+If an advanced model is used, explain the model including its assumptions and calibration technique or reference an appropriate resource that discusses this model.
 
 
 ## Collateral Risk
