@@ -1,13 +1,13 @@
 ---
-id: pool_0-usdt-risk-report
-title: Pool_0-USDT Risk Report
-sidebar_label: Pool_0-USDT
-sidebar_position: 4
-slug: /risk/risk-reports/pool_0-usdt
+id: genesis-usdc-risk-report
+title: Genesis Pool-USDC Risk Report
+sidebar_label: Genesis-USDC
+sidebar_position: 5
+slug: /risk/risk-reports/genesis-usdc
 ---
 
 export const pool_Id = '0x39b2c5e9c34ad4960780e767f629f0fd0cda9c6b63648fd73e9a92c551f5d85'
-export const asset = '0x6dd616bb74c5d6ed6f7850bc4fff60adfe0215606ffa5a7b42eb23436f67aca'
+export const asset = '0x5a47802b56bc4c7c50c19d30fac85d8d3c96badf89e4bd12abae66f1f9dab37'
 export const rating = 'low'
 export const pool_risk = 'low'
 export const asset_risk = 'low'
@@ -18,16 +18,16 @@ export const collateral_risk = 'low'
 
 ## Summary
 
-StarkGate Tether (USDT) is the bridged version of Tether (USDT) on Starknet using the StarkGate bridge.
+StarkGate USD Coin (USDC) is the bridged version of USD Coin (USDC) on Starknet using the StarkGate bridge.
 
 StarkGate is the canonical bridging protocol of Starknet developed and maintained by StarkWare, the creator of Starknet. 
 
-USDT has an MCAP of over USD 100bn and TVL on Starknet of over USD 22m.
+USDC has an MCAP of over USD 30bn and TVL on Starknet of over USD 45m.
 
 *Datapoints*
 
-- [CoinGecko](https://www.coingecko.com/en/coins/tether)
-- [StarkScan](https://starkscan.co/token/0x068f5c6a61780768455de69077e07e89787839bf8166decfbf92b645209c0fb8)
+- [CoinGecko](https://www.coingecko.com/en/coins/usdc)
+- [StarkScan](https://starkscan.co/token/0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8)
 
 
 ## Pool Risk
@@ -60,17 +60,17 @@ This report does not assess the risks associated with bridging assets to Starkne
 Make sure you understand the risks involved with bridging assets to Starknet before continuing.
 :::
 
-StarkGate USDT reflects Ethereum mainnet USDT that is bridged to Starknet using the StarkGate bridge. 
+StarkGate USDC reflects Ethereum mainnet USDC that is bridged to Starknet using the StarkGate bridge. 
 StarkGate is Starknet's canonical bridge and is developed and maintained by StarkWare, the creator of Starknet.
 The bridge is operational since early 2022 and has facilitated over [1.9M bridge transactions](https://dune.com/sapiens/starknet-insighttokenomics-and-bridge-stats) or over USD 1.7bn in value bridged.
 
 **Smart contract risk**
 
-StarkGate USDT uses OpenZeppelin's [standard ERC20](https://github.com/OpenZeppelin/cairo-contracts) token implementation.
+StarkGate USDC uses OpenZeppelin's [standard ERC20](https://github.com/OpenZeppelin/cairo-contracts) token implementation.
 It has been audited by Nethermind and both [source code](https://github.com/starknet-io/starkgate-contracts) and [audit report](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf) are publicly available.
 
 :::warning
-The StarkGate USDT contract is not verified on block explorers.
+The StarkGate USDC contract is not verified on block explorers.
 :::
 
 **Counterparty risk**
@@ -83,8 +83,8 @@ N/A
 
 **Datapoints**
 
-- [Token Contract](https://starkscan.co/token/0x068f5c6a61780768455de69077e07e89787839bf8166decfbf92b645209c0fb8)
-- [Mainnet Escrow Contract](https://etherscan.io/address/0xbb3400F107804DFB482565FF1Ec8D8aE66747605)
+- [Token Contract](https://starkscan.co/contract/0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8)
+- [Mainnet Escrow Contract](https://etherscan.io/address/0xf6080d9fbeebcd44d89affbfd42f098cbff92816)
 - [StarkGate GitHub](https://github.com/starknet-io/starkgate-contracts)
 - [StarkGate Audit](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf)
 - [StarkGate Stats](https://dune.com/sapiens/starknet-insighttokenomics-and-bridge-stats)
@@ -138,7 +138,7 @@ The proposed rating is:
 
 ## Market Risk
 
-The lending pool enables borrowing of StarkGate USDT deposits using any of the other pool assets as collateral.
+The lending pool enables borrowing of StarkGate USDC deposits using any of the other pool assets as collateral.
 The pool extension implements a robust [liquidation strategy](https://docs.vesu.xyz) that optimizes for rapid liquidations also in a stressed market environment.
 Nonetheless, a residual risk for bad debt from failed liquidations exists. 
 In such a scenario, accrued bad debt is instantaneously allocated to the lenders in the pool.
@@ -160,7 +160,7 @@ The proposed rating is:
 ## Collateral Risk
 
 The pool enables asset *Rehypothecation* which means that borrowers' collateral assets too serve as liquidity in the pool.
-The collateral chain thus spans across all pool assets resulting in that StarkGate USDT inherits the highest severity risk among all these assets.
+The collateral chain thus spans across all pool assets resulting in that StarkGate USDC inherits the highest severity risk among all these assets.
 
 The proposed rating is:
 
