@@ -70,8 +70,8 @@ Provide all relevant information that is used to assess the oracle risk. In part
 Derive the appropriate oracle risk rating using the following guidelines:
 
 - ⬜ Neutral: No oracle used
-- 🟩 Low: Top-tier oracle provider or comparable, audited and time-tested implementation. Uses diversified price sources and appropriate aggregation methodology. Effective oracle fail-safes in place.
-- 🟨 Medium: Audited implementation characterized by a single price source, low timeliness or insufficient fail-safes.
+- 🟩 Low: Median (or another robust aggregation technique) of at least two price sources including one off-chain source. Fail-safes for staleness and other failure sources (if any) in place. Audited implementation.
+- 🟨 Medium: TWAP (or another robust aggregation technique) of a single price source or insufficient fail-safes. Audited implementation.
 - 🟥 High: Else
 
 

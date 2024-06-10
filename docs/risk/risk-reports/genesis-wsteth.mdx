@@ -107,19 +107,15 @@ It is fully decentralized in that it does not rely on off-chain infrastructure. 
 Find an overview of the Pragma smart contract system [here](https://github.com/Astraly-Labs/pragma-oracle?tab=readme-ov-file#overview).
 The Pragma smart contracts have been audited by Nethermind and both the [source code](https://github.com/Astraly-Labs/pragma-oracle) and [audit report](https://github.com/astraly-labs/pragma-oracle/tree/main/audits) are publicly available.
 
-**Price composition & timeliness**
+**Price composition & source diversity**
 
-Pragma oracle price feeds use a variety of price providers and sources including on-chain and off-chain sources. 
-The resulting price is derived from the various sources using the Median aggregator. 
+The oracle price is computed as the Median over the most recent data points available for the various Pragma providers.
+The oracle price is rejected, and the pool paused, if the applicable distinct price sources is less than four.
 
 **Oracle fail-safes**
 
-The pool extension's Pragma oracle feed integration implements different fail-safes to account for oracle failures:
-
-- Staleness: If the latest price (across all active providers) is older than 4 hours, the oracle price is rejected 
-- Robustness: If the number of responsive price providers is less than 4, the oracle price is rejected
-
-In case the oracle price is rejected due to any of the above criteria, the pool transitions into a pause mode preventing possible exploits due to unreliable oracle prices.
+Pragma price feed liveness is ensured by rejecting an oracle price if the most recent data point, among all Pragma providers, is older than four hours.
+If an oracle price is rejected, the pool is paused preventing the withdrawal of funds. 
 
 **Datapoints**
 
