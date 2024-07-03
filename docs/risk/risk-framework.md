@@ -1,8 +1,8 @@
 ---
-id: index-risk-framework
+id: risk-framework
 title: Vesu Risk Framework
 sidebar_label: Risk Framework
-sidebar_position: 2
+sidebar_position: 1
 slug: /risk/risk-framework
 ---
 

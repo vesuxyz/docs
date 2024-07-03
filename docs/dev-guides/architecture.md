@@ -2,7 +2,7 @@
 id: architecture
 title: Vesu Protocol Architecture
 sidebar_label: Architecture
-sidebar_position: 2
+sidebar_position: 1
 slug: /dev-guides/architecture
 ---
 

@@ -2,7 +2,7 @@
 id: contract-addresses
 title: Contract Addresses
 sidebar_label: Contract Addresses
-sidebar_position: 5
+sidebar_position: 7
 slug: /dev-guides/contract-addresses
 ---
 

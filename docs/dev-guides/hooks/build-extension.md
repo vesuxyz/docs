@@ -1,9 +1,9 @@
 ---
-id: build-extension
-title: Build new lending pool extension
-sidebar_label: Build Extension
+id: build-hooks
+title: Build new lending hooks
+sidebar_label: Build Hooks
 sidebar_position: 4
-slug: /dev-guides/extensions/build-extension
+slug: /dev-guides/hooks/build-hooks
 ---
 
 In the last section, we took a detailed look at what Vesu extensions are. In this section, we are going to take a deep dive into how you can go about building your first extension.

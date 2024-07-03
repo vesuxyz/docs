@@ -1,9 +1,9 @@
 ---
-id: extension-basics
-title: Learn the basics of extensions
-sidebar_label: Extension Basics
+id: hooks-basics
+title: Learn the basics of lending hooks
+sidebar_label: Hooks Basics
 sidebar_position: 2
-slug: /dev-guides/extensions/extension-basics
+slug: /dev-guides/hooks/hooks-basics
 ---
 
 One of the unique features, that makes Vesu stand out, is the ability to customize/configure lending pool features using extensions.

@@ -2,7 +2,7 @@
 id: create-pool
 title: How to create a new lending pool
 sidebar_label: Create Pool
-sidebar_position: 3
+sidebar_position: 6
 slug: /dev-guides/create-pool
 ---
 

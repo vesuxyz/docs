@@ -63,12 +63,12 @@ const config = {
           {
             to: "/blog",
             activeBasePath: "docs",
-            label: "Vesu Blog",
+            label: "Read Blog",
             position: "right",
           },
           {
             href: "https://vesu.xyz/app/",
-            label: "Vesu App",
+            label: "Launch App",
             position: "right",
           },
         ],
@@ -131,6 +131,10 @@ const config = {
                 to: "/blog",
               },
               {
+                label: "Security",
+                to: "/security/security-basics",
+              },
+              {
                 label: "Contracts",
                 to: "/dev-guides/contract-addresses",
               },
@@ -170,7 +174,7 @@ const config = {
       announcementBar: {
         id: "vesu-1-0-release", // Any value that will identify this message.
         content:
-          '<div class="announcement-bar"><a href="https://docs.vesu.xyz/blog/introducing-vesu/" target="_blank" rel="noopener"><span>Vesu will land on Starknet soon, learn more in the announcement post!</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
+          '<div class="announcement-bar"><a href="https://docs.vesu.xyz/blog/vesu-is-here/" target="_blank" rel="noopener"><span>Vesu launched on Starknet, learn more in the announcement post!</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
         backgroundColor: "rgb(210, 215, 254)", // Defaults to `#fff`.
         textColor: "rgb(22 31 49)", // Defaults to `#000`.
         isCloseable: true, // Defaults to `true`.

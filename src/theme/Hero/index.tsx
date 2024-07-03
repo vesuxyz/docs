@@ -19,7 +19,7 @@ function Hero() {
 
                 <h2 className="hero-subtitle">
                   <Typed
-                    strings={['>_ Learn about earning, borrowing and building with Vesu']}
+                    strings={['>_ Earn, borrow and build with the most advanced lending protocol on Starknet']}
                     typeSpeed={75}
                   />
                 </h2>
@@ -35,11 +35,11 @@ function Hero() {
                     Explore the concepts and resources behind Vesu
                   </p>
                   <span className="more">
-                    Explore docs <SvgArrowRight color="#8A95FF" />
+                    Read more <SvgArrowRight color="#8A95FF" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/explore')} className="link">
-                  Read More
+                <a href={useBaseUrl('/explore/vesu-basics')} className="link">
+                  Read more
                 </a>
               </div>
 
@@ -50,11 +50,11 @@ function Hero() {
                     Start using Vesu as a lender, borrower or liquidator
                   </p>
                   <span className="more">
-                    Read guides <SvgArrowRight color="#8A95FF" />
+                    Read more <SvgArrowRight color="#8A95FF" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/user-guides')} className="link">
-                  Read More
+                <a href={useBaseUrl('/user-guides/connect')} className="link">
+                  Read more
                 </a>
               </div>
 
@@ -62,15 +62,15 @@ function Hero() {
                 <div className="text">
                   <h3 className="title">Developer Guides</h3>
                   <p className="description">
-                    Build new lending market experiences with your own extension
+                    Build your own lending hooks and pools
                   </p>
                   <span className="more">
-                    Developer docs
+                    Read more
                     <SvgArrowRight color="#8A95FF" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/dev-guides/')} className="link">
-                  Read More
+                <a href={useBaseUrl('/dev-guides/architecture')} className="link">
+                  Read more
                 </a>
               </div>
 
@@ -81,12 +81,12 @@ function Hero() {
                     Explore the Vesu Risk Framework and find assigned risk ratings
                   </p>
                   <span className="more">
-                    Explore risk
+                    Read more
                     <SvgArrowRight color="#8A95FF" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/risk/')} className="link">
-                  Read More
+                <a href={useBaseUrl('/risk/risk-framework')} className="link">
+                  Read more
                 </a>
               </div>
             </div>
