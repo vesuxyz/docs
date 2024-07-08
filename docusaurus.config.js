@@ -98,11 +98,11 @@ const config = {
             items: [
               {
                 label: "User Guides",
-                to: "/user-guides",
+                to: "/user-guides/connect",
               },
               {
                 label: "Developer Guides",
-                to: "/dev-guides",
+                to: "/dev-guides/architecture",
               },
             ],
           },
@@ -119,7 +119,7 @@ const config = {
               },
               {
                 label: "Risk Reports",
-                to: "/risk/risk-reports",
+                to: "/risk/risk-framework",
               },
             ],
           },
