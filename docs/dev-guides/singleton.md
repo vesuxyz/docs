@@ -6,8 +6,6 @@ sidebar_position: 3
 slug: /dev-guides/singleton
 ---
 
-Outline storage and functions of singleton
-
 This page gives an overview over the storage and the functions of the Singleton contract.
 
 ## Storage
