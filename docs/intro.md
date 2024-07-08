@@ -6,14 +6,12 @@ sidebar_position: 1
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
-
 ## Links
 
 - [Website](https://vesu.xyz)
 - [App](https://vesu.xyz/app)
 - [Discord](https://discord.com)
 - [GitHub](https://github.com/vesuxyz)
-
 
 ## Explore Vesu
 
@@ -29,8 +27,7 @@ Find guides for starting to earn, borrow, claim STRK rewards and more on Vesu le
 - [Supply](/user-guides/earn)
 - [Borrow](/user-guides/borrow)
 - [Claim STRK](/user-guides/claim-strk)
-- [More](/user-guides)
-
+- [More](/user-guides/connect)
 
 ## Developer Guides
 
@@ -38,15 +35,12 @@ Learn all about the Vesu lending protocol, how to create markets and build new l
 
 - [Architecture](/dev-guides/architecture)
 - [Create Market](/dev-guides/create-pool)
-- [Build Extension](/dev-guides/extensions/build-extension)
+- [Build Extension](/dev-guides/extension)
 - [Contract Addresses](/dev-guides/contract-addresses)
-
 
 ## Build Extensions
 
 Vesu lending markets can be customized with extensions. Find all information around extensions here:
-
-
 
 ## Risk Framework
 
