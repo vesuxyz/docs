@@ -227,12 +227,7 @@ const config = {
 
   plugins: [
     "docusaurus-plugin-sass",
-    {
-      configure: (webpackConfig, { env, paths }) => {
-        webpackConfig.resolve.alias["@site"] = path.resolve(__dirname);
-        return webpackConfig;
-      },
-    },
+    require.resolve("./docusaurus-plugin-custom-webpack"),
   ],
 };
 
