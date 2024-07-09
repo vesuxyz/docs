@@ -2,7 +2,7 @@
 id: defi-spring
 title: Learn all about DeFi Spring
 sidebar_label: DeFi Spring
-sidebar_position: 4
+sidebar_position: 5
 slug: /explore/defi-spring
 ---
 

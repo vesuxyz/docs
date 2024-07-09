@@ -4,47 +4,56 @@ sidebar_position: 1
 
 # Get Started
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Vesu is a fully open and permissionless lending protocol built on [Starknet](https://starknet.io). Users can supply crypto assets (earn), borrow crypto assets and build new lending experiences on Vesu without relying on intermediaries. Vesu is built as a public infrastructure free for everyone to use.
 
-## Links
+:::info
+The Vesu lending protocol is not controlled by a governance body and there exists no governance token. 
+:::
 
-- [Website](https://vesu.xyz)
-- [App](https://vesu.xyz/app)
-- [Discord](https://discord.com)
+On these pages you find all information relevant to understand, use and build on Vesu. 
+
+:::tip
+The [Community Forum](https://discord.gg/G9Gxgujj8T) is a good place to reach out if you can't find some information or have a question.
+:::
+
+
+## Prerequisites
+
+In order to start earning or borrowing with Vesu you need to have a Wallet on Starknet funded with ETH or STRK and any of the supported assets. You can find more information on setting up a wallet e.g. here:
+
+- [Argent instructions](https://www.argent.xyz/learn/how-to-create-an-argent-x-wallet/)
+
+The list of supported assets can change continuously with new lending pools being created on Vesu. You can find a list of these on the [Markets](https://vesu.xyz/markets) page on Vesu app.
+
+:::info
+The Vesu app only shows a selection of supported markets with well understood risks. More markets and assets respectively may be supported on other applications. 
+:::
+
+That's it, you are now ready to start using Vesu.
+
+:::tip
+The [User Guides](./user-guides/connect-guide.md) are a good place to start your Vesu journey.
+:::
+
+
+## Documentation
+
+These pages cover documentation of the basic concepts underpinning the Vesu lending protocol, user guides, developer guides and much more. Use the menu bar on the left to navigate through the docs.
+
+
+## External Links
+
+- [Vesu App](https://vesu.xyz)
+- [Community Forum](https://discord.gg/G9Gxgujj8T)
 - [GitHub](https://github.com/vesuxyz)
+- [X (Twitter)](https://x.com/vesuxyz)
+- [Contract Addresses](https://github.com/vesuxyz/changelog)
+- [Branding](https://github.com/vesuxyz/assets)
+- [Security Database](https://github.com/vesuxyz/security)
 
-## Explore Vesu
 
-Explore Vesu and the underpinning concepts.
+## Declarations
 
-- [Vesu Whitepaper](/explore/whitepaper)
-- [DeFi Spring](/explore/defi-spring)
-
-## User Guides
-
-Find guides for starting to earn, borrow, claim STRK rewards and more on Vesu lending markets.
-
-- [Supply](/user-guides/earn)
-- [Borrow](/user-guides/borrow)
-- [Claim STRK](/user-guides/claim-strk)
-- [More](/user-guides/connect)
-
-## Developer Guides
-
-Learn all about the Vesu lending protocol, how to create markets and build new lending experiences with custom extensions.
-
-- [Architecture](/dev-guides/architecture)
-- [Create Market](/dev-guides/create-pool)
-- [Build Extension](/dev-guides/extension)
-- [Contract Addresses](/dev-guides/contract-addresses)
-
-## Build Extensions
-
-Vesu lending markets can be customized with extensions. Find all information around extensions here:
-
-## Risk Framework
-
-The Vesu Risk Framework allows everyone to understand the risk exposure from supplying assets in a certain lending market. Explore the framework and assigned risk ratings here:
-
-- [Risk Framework](/risk/risk-framework)
-- [Risk Ratings](/risk/risk-ratings)
+:::warning
+Use the Vesu lending protocol and app at your own risk. Read more in our [Terms of Service](https://vesu.xyz/terms-of-services).
+:::

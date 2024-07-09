@@ -8,7 +8,7 @@ slug: /explore/whitepaper
 
 ## Summary
 
-Vesu is a new DeFi lending protocol that offers unmatched efficiency, scalability and security. At its core, Vesu builds on the pooled liquidity model on which DeFi and its most successful lending protocols run, but in a fully permission-less and immutable manner. Instead of an inefficient and vulnerable governance process, Vesu allows the market to create new lending pools and find an equilibrium state around liquidity distribution. Vesu achieves this with features like an adaptive interest rate model, lending pool fail-safe mechanisms, and most importantly, pool extensions. The latter allows developers to innovate new lending pool features and build their own borrower and lender experiences on top of Vesu. In short, Vesu aspires to be the credibly neutral lending settlement layer that DeFi deserves.
+Vesu is a novel fully open and permissionless DeFi lending protocol. At its core, Vesu builds on the pooled liquidity model on which DeFi and its most successful lending protocols run, but in a fully permission-less and immutable manner. Instead of an inefficient and vulnerable governance process, Vesu allows the market to create new lending pools and find an equilibrium state around liquidity distribution. Vesu achieves this with features like an adaptive interest rate model, lending pool fail-safe mechanisms, and most importantly, pool extensions. The latter allows developers to innovate new lending pool features and build their own borrower and lender experiences on top of Vesu. In short, Vesu aspires to be the credibly neutral lending settlement layer that DeFi deserves.
 
 
 ## 1. Introduction
@@ -260,8 +260,4 @@ To summarize, the pool shutdown mechanism pauses insolvent pools and allows lend
 
 ## 7. Risk Framework
 
-The fact that the lending pool behavior may be customized with user-defined extensions introduces new risks for Users in a pool. These risks include technical failures, or bugs, flaws in the economic models implemented or intentionally malicious features built in by the extension developers. Following our design principles, we do not intend to prevent extension developers to introduce such flaws as this would require some form of (on-chain) governance. Instead we advocate for trusted access points for users which analyze pool extensions, curate pools with a risk profile that is compliant with the targeted user group’s risk capacity and transparently disclose risks to their users. In fact, we have developed a risk framework that reports lending pool risks along a number of dimensions including extension risks. 
-
-## 8. Discussion
-
-TODO
+The fact that the lending pool behavior may be customized with user-defined extensions introduces new risks for Users in a pool. These risks include technical failures, or bugs, flaws in the economic models implemented or intentionally malicious features built in by the extension developers. Following our design principles, we do not intend to prevent extension developers to introduce such flaws as this would require some form of (on-chain) governance. Instead we advocate for trusted access points for users which analyze pool extensions, curate pools with a risk profile that is compliant with the targeted user group’s risk capacity and transparently disclose risks to their users. In fact, we have developed a risk framework that reports lending pool risks along a number of dimensions including extension risks.
