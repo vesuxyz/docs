@@ -19,7 +19,7 @@ function Hero() {
 
                 <h2 className="hero-subtitle">
                   <Typed
-                    strings={['>_ Earn, borrow and build with the most advanced lending protocol on Starknet']}
+                    strings={['>_ Learn about earning, borrowing and building with Vesu']}
                     typeSpeed={75}
                   />
                 </h2>
