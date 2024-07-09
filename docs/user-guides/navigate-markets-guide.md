@@ -10,7 +10,10 @@ Lending markets, are compartmentalized lending facilities where risks are shared
 
 In this section, you'll learn how to navigate Vesu markets.
 
+Make sure you are connected to the app before you proceed. See how [here](./connect-guide.md).
+
 ### Pools
+
 Market in Vesu, is a synonym for Pool. Meaning what we refer to as markets, are simply lending pools.
 
 Let's examine a test market and explore/breakdown all existing parts of the market.
