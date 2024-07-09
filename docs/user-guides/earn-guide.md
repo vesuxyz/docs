@@ -10,11 +10,11 @@ Vesu is a decentralized, permision-less protocol that enables the supplying and 
 
 In this simple user guide, we'll take a look at how you can go about supplying assets to markets on Vesu.
 
-1. Head over to [Vesu](https://vesu.com) and select "I want to Earn yield"
+1. Head over to [Vesu](https://vesu.com) and select "I want to Earn"
 
 ![Earn yield](images/supply_1.png)
 
-2. Choose or select the asset you want to supply and earn yield on. We support a long list of assets, which as at the time of writing, includes ETH, WBTC, USDT, USDC, DAI, STETH, RETH and STRK.
+2. Choose or select the asset you want to supply and earn yield on. We support a long list of assets, which as at the time of writing, includes ETH, WBTC, USDT, USDC, STETH and STRK.
 
 ![Select asset](images/supply_2.png)
 

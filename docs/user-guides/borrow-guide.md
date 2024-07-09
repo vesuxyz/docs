@@ -14,7 +14,7 @@ In this guide, we will take a look at how you can go about borrowing assets from
 
 ![Vesu](images/borrow_1.png)
 
-2. Select the asset you are looking to borrow. At the time of this writing we support different assets which includes ETH, WBTC, USDT, USDC, DAI, STETH, RETH and STRK.
+2. Select the asset you are looking to borrow. At the time of this writing we support different assets which includes ETH, WBTC, USDT, USDC, STETH and STRK.
 
 ![Select asset](images/borrow_1_1.png)
 
