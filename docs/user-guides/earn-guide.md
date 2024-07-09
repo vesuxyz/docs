@@ -10,6 +10,8 @@ Vesu is a decentralized, permision-less protocol that enables the supplying and 
 
 In this simple user guide, we'll take a look at how you can go about supplying assets to markets on Vesu.
 
+Make sure you are connected to the app before you proceed. See how [here](./connect-guide.md).
+
 1. Head over to [Vesu](https://vesu.com) and select "I want to Earn"
 
 ![Earn yield](images/supply_1.png)

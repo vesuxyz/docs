@@ -10,6 +10,8 @@ Just like every lending protocol, Vesu enables users, to borrow from existing ma
 
 In this guide, we will take a look at how you can go about borrowing assets from Vesu markets.
 
+Make sure you are connected to the app before you proceed. See how [here](./connect-guide.md).
+
 1. Head over to [Vesu](https://vesu.com) and select "I want to Borrow".
 
 ![Vesu](images/borrow_1.png)

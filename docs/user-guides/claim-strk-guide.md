@@ -8,6 +8,8 @@ slug: /user-guides/claim-strk
 
 In this guide you'll be taught how to claim STRK tokens earned from the DeFi Spring rewards.
 
+Make sure you are connected to the app before you proceed. See how [here](./connect-guide.md).
+
 ### Claim STRK rewards
 
 To get started, ensure you already have an open position on Vesu, as that is what qualifies you for STRK rewards. Please go through the [DeFi Spring section](../explore/defi-spring.md) for more information.
