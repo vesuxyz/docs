@@ -28,7 +28,9 @@ fn singleton(
 
 ### price
 
-Returns the price for a given asset in a given pool
+Returns the price for a given asset in a given pool.
+
+This hook can be used to fetch the current price of either a supply or debt asset. The implementation of this hook is vital to the operation of the market as failure to appropriately implement fail-safes can lead to dangerous outcomes for the users' funds.
 
 ##### Arguments
 
@@ -49,7 +51,7 @@ fn price(
 
 ### interest_rate
 
-Returns the current interest rate for a given asset in a given pool, given it's utilization
+This hook can be used to calculate the accrued interest on a position. Vesu remains agnostic towards these, giving developers the freedom to innovate.
 
 ##### Arguments
 
@@ -76,7 +78,7 @@ fn interest_rate(
 
 ### rate_accumulator
 
-Returns the current rate accumulator for a given asset in a given pool, given it's utilization
+Called prior to every position change and effectively asks the extension to compute and collect interest on all positions.
 
 ##### Arguments
 
