@@ -34,7 +34,7 @@ Your allocation of STRK tokens depends on two factors:
 2. Your share of Vesu's STRK grant is computed based on the interest earned from supplying liquidity in the eligible markets relative to the total interest generated (or earned respectively) across all participants over a certain grant period.
 
 :::tip
-You can track your total interest earnings (across all markets) on the [Vesu Leaderboard](/docs/explore/leaderboard).
+You can track your total interest earnings (across all markets) on the [Vesu Leaderboard](./leaderboard.md).
 :::
 
 ### Which markets are eligible?

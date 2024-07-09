@@ -9,7 +9,7 @@ slug: /user-guides/navigate-markets
 In this section, you'll learn how to navigate Vesu markets.
 
 :::tip
-You can find more information on Vesu lending markets in the [Vesu Basics](/docs/explore/vesu-basics).
+You can find more information on Vesu lending markets in the [Vesu Basics](../explore/vesu-basics.md).
 :::
 
 ### Markets
@@ -27,6 +27,6 @@ In the top right section of the markets page a number of statistics are shown, s
 
 The main body of the markets page contains a table listing all the different markets and some important market details. 
 
-In particular, for each market the supported Asset, the market's Risk rating according to the [Vesu Risk Framework](/docs/risk/risk-framework), the total assets *Supplied*, the *Supply APY* currently offered to lenders, the total assets *Borrowed* and the *Borrow APR* reflecting the curent cost of borrowing the asset from the market.
+In particular, for each market the supported Asset, the market's Risk rating according to the [Vesu Risk Framework](../risk/risk-framework), the total assets *Supplied*, the *Supply APY* currently offered to lenders, the total assets *Borrowed* and the *Borrow APR* reflecting the curent cost of borrowing the asset from the market.
 
 Finally, through the dots on the right of each market entry users can directly start earning or borrowing from the market.
