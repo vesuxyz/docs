@@ -16,7 +16,7 @@ To claim your STRK rewards:
 
 1. Head over to your Vesu positions [Vesu](https://vesu.xyz/positions)
 
-2. Just above your positions, you can see a dedicated DeFi Spring section. From which you can track/see how much STRKs you've accrued over time.
+2. Just above your positions, you can see a dedicated DeFi Spring section. "Earned STRK" represents the STRKs you've accrued over time. "Claimable STRK" is the amount you can claim.
 
 ![Defi Spring](images/defispring.png)
 
