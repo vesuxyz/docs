@@ -226,6 +226,12 @@ const config = {
   ],
 
   plugins: ["docusaurus-plugin-sass"],
+  webpack: {
+    configure: (webpackConfig, { env, paths }) => {
+      webpackConfig.resolve.alias["@site"] = path.resolve(__dirname);
+      return webpackConfig;
+    },
+  },
 };
 
 export default config;
