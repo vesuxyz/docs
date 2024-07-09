@@ -67,7 +67,7 @@ const config = {
             position: "right",
           },
           {
-            href: "https://vesu.xyz/app/",
+            href: "https://vesu.xyz",
             label: "Launch App",
             position: "right",
           },

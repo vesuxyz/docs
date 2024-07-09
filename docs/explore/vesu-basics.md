@@ -50,7 +50,7 @@ Vesu enables permissionless lending pools giving all participant the possibility
 Vesu lending pools enable a predefined set of assets for lending and borrowing. The liquidity supplied by lenders is "pooled", meaning that supplied assets are aggregated and serve as shared liquidity for all borrowers in the same pool. This structure allows for maximal capital efficiency within a lending pool while strictly segregating liquidity across pools. On the other hand, lenders in a pool are exposed to the same risks for instance in terms of potential liquidation shortfalls. It is thus critical for users to understand the risk profiles of individual lending pools.  and supply (or borrow) only in these with an acceptable 
 
 :::info
-Vesu enables modular lending pools allowing for complex pool structures to be composed of basic *lending pairs". 
+Vesu enables modular lending pools allowing for complex pool structures to be composed of basic *lending pairs*. 
 :::
 
 ![Vesu](images/lending-pool.png)
@@ -65,6 +65,8 @@ A *market* describes a certain asset deposited and borrowed in a specific lendin
 ![Vesu Markets](images/markets.png)
 
 For example, the image above highlights different markets for ETH liquidity which can be supplied and borrowed in different pools. Each of those pools exposes its own (risk) characteristics resulting in different supply-demand dynamics across markets.
+
+A list of all active Vesu markets can be found on the [Markets page](https://vesu.xyz/markets).
 
 
 ### Interest Rates

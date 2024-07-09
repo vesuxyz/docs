@@ -47,9 +47,9 @@ These pages cover documentation of the basic concepts underpinning the Vesu lend
 - [Community Forum](https://discord.gg/G9Gxgujj8T)
 - [GitHub](https://github.com/vesuxyz)
 - [X (Twitter)](https://x.com/vesuxyz)
-- [Contract Addresses](https://github.com/vesuxyz/changelog)
+- [Contract Addresses](/dev-guides/contract-addresses)
 - [Branding](https://github.com/vesuxyz/assets)
-- [Security Database](https://github.com/vesuxyz/security)
+- [Security](/security/security-basics)
 
 
 ## Declarations
