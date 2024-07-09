@@ -110,7 +110,7 @@ fn rate_accumulator(
 
 Modify position callback. Called by the Singleton contract before updating the position.
 
-See `before_modify_position` in [`position_hooks.cairo`](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/components/position_hooks.cairo).
+See `before_modify_position` in [position_hooks.cairo](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/components/position_hooks.cairo).
 
 ##### Arguments
 
@@ -139,7 +139,7 @@ fn before_modify_position(
 ### after_modify_position
 
 Modify position callback. Called by the Singleton contract after updating the position.
-See `after_modify_position` in [`position_hooks.cairo`](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/components/position_hooks.cairo).
+See `after_modify_position` in [position_hooks.cairo](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/components/position_hooks.cairo).
 
 ##### Arguments
 
@@ -172,7 +172,7 @@ fn after_modify_position(
 
 Transfer position callback. Called by the Singleton contract before transferring collateral / debt
 between position.
-See `before_transfer_position` in [`position_hooks.cairo`](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/components/position_hooks.cairo).
+See `before_transfer_position` in [position_hooks.cairo](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/components/position_hooks.cairo).
 
 ##### Arguments
 
@@ -203,7 +203,7 @@ fn before_transfer_position(
 ### after_transfer_position
 
 Transfer position callback. Called by the Singleton contract after transferring collateral / debt
-See `after_transfer_position` in [`position_hooks.cairo`](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/components/position_hooks.cairo).
+See `after_transfer_position` in [position_hooks.cairo](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/components/position_hooks.cairo).
 
 ##### Arguments
 
@@ -237,7 +237,7 @@ fn after_transfer_position(
 ### before_liquidate_position
 
 Liquidate position callback. Called by the Singleton contract before liquidating the position.
-See `before_liquidate_position` in [`position_hooks.cairo`](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/components/position_hooks.cairo).
+See `before_liquidate_position` in [position_hooks.cairo](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/components/position_hooks.cairo).
 
 ##### Arguments
 
@@ -265,7 +265,7 @@ fn before_liquidate_position(
 ### after_liquidate_position
 
 Liquidate position callback. Called by the Singleton contract after liquidating the position.
-See `before_liquidate_position` in [`position_hooks.cairo`](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/components/position_hooks.cairo).
+See `before_liquidate_position` in [position_hooks.cairo](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/components/position_hooks.cairo).
 
 ##### Arguments
 
