@@ -225,10 +225,7 @@ const config = {
     ],
   ],
 
-  plugins: [
-    "docusaurus-plugin-sass",
-    require.resolve("./docusaurus-plugin-custom-webpack"),
-  ],
+  plugins: ["docusaurus-plugin-sass"],
 };
 
 export default config;

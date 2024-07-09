@@ -6,14 +6,12 @@ sidebar_position: 7
 slug: /dev-guides/contract-addresses
 ---
 
-import JsonDisplay from '@site/src/components/JsonReader';
-
-A list of Vesu contracts and their addresses:
+A list of Vesu contracts and their addresses can be found on github:
 
 ## Mainnet
 
-<JsonDisplay url="https://raw.githubusercontent.com/vesuxyz/changelog/main/deployments/deployment_sn_main.json?token=GHSAT0AAAAAACRL7MGVOB5LGP3RF5BGZDEEZUNFQAQ" />
+[Deployment addresses](https://github.com/vesuxyz/changelog/blob/main/deployments/deployment_sn_main.json)
 
 ## Sepolia
 
-<JsonDisplay url="https://raw.githubusercontent.com/vesuxyz/changelog/main/deployments/deployment_sn_sepolia.json?token=GHSAT0AAAAAACRL7MGVRKKIBCQAOXSQ62NWZUNFXVA" />
+[Deployment addresses](https://github.com/vesuxyz/changelog/blob/main/deployments/deployment_sn_sepolia.json)
