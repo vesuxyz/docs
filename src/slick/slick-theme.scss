@@ -24,9 +24,7 @@ $slick-opacity-not-active: 0.25 !default;
 @function slick-image-url($url) {
   @if function-exists(image-url) {
     @return image-url($url);
-  }
-
-  @else {
+  } @else {
     @return url($slick-loader-path + $url);
   }
 }
@@ -34,9 +32,7 @@ $slick-opacity-not-active: 0.25 !default;
 @function slick-font-url($url) {
   @if function-exists(font-url) {
     @return font-url($url);
-  }
-
-  @else {
+  } @else {
     @return url($slick-font-path + $url);
   }
 }
@@ -50,11 +46,14 @@ $slick-opacity-not-active: 0.25 !default;
 }
 
 /* Icons */
-@if $slick-font-family=="slick" {
+@if $slick-font-family== "slick" {
   @font-face {
     font-family: "slick";
     src: slick-font-url("slick.eot");
-    src: slick-font-url("slick.eot?#iefix") format("embedded-opentype"), slick-font-url("slick.woff") format("woff"), slick-font-url("slick.ttf") format("truetype"), slick-font-url("slick.svg#slick") format("svg");
+    src: slick-font-url("slick.eot?#iefix") format("embedded-opentype"),
+      slick-font-url("slick.woff") format("woff"),
+      slick-font-url("slick.ttf") format("truetype"),
+      slick-font-url("slick.svg#slick") format("svg");
     font-weight: normal;
     font-style: normal;
   }
