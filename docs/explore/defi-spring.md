@@ -2,24 +2,54 @@
 id: defi-spring
 title: Learn all about DeFi Spring
 sidebar_label: DeFi Spring
-sidebar_position: 5
+sidebar_position: 6
 slug: /explore/defi-spring
 ---
 
-Starknet DeFi Committee recently announced plans to distribute 40M STRK tokens across six to eight months to top DeFi protocols on Starknet.
+Starknet's DeFi Spring program started in [February 2024](https://www.starknet.io/blog/starknet-foundation-introduces-the-start-of-defi-spring) with the goal of bootstrapping a strong and healthy DeFi ecosystem on Starknet. Initially a budget of 40M STRK tokens was allocated to the program with a timeline until October 2024.
 
-Vesu as a lending protocol on Starknet, has been chosen to partake in this. Meaning you can earn STRK tokens for lending and borrowing on Vesu.
+Recently, this program was extended to a grand total of 90M STRK and a timeline until *at least* [December 2024](https://www.starknet.io/blog/defi-spring-2-0).
 
-Our methodology for generating and distributing these incentives are described in this section.
+Vesu, and its users, are chosen to be eligible for STRK incentives in the *Money Markets" cohort. This means that you can earn STRK tokens for supplying liquidity on certain Vesu markets.
 
-TODO: Describe methodology
+### What are STRK grants?
 
-### Eligible pairs for the rewards
-Below are listed all eligible pairs for $STRK rewards:
+STRK grants are the STRK tokens allocated to the participating protocols, like Vesu, by the Starknet Foundation. The Starknet Foundation uses a set of activity metrics to assess a protocol's STRK grant. These grants are then determined and distributed every two weeks.
 
-TODO: List all eligible pairs
+### How can I earn STRK on Vesu?
 
-### How to effectively participate in the program
-All computations for rewards will be done off-chain so all you need to do is ensure you have an active position in one of the eligible pairs to earn rewards.
+In order to earn STRK tokens on Vesu all you have to do is supplying assets to one of the eligible markets.
 
-We'll dive into how to claim your allocations [here](../user-guides/claim-strk-guide.md).
+Your interest earned across all *Earn* and *Borrow* positions in a certain market count towards your STRK allocation.
+
+:::note
+According to the criteria defined by the Starknet Foundation, your STRK allocation for any of the eligible stablecoins will be reduced proportionally if you have any stablecoin debt outstanding on Vesu.
+:::
+
+### How is my STRK allocation determined?
+
+Your allocation of STRK tokens depends on two factors:
+
+1. The total STRK grant distributed to Vesu is based on a set of metrics that are defined and monitored by the Starknet Foundation
+2. Your share of Vesu's STRK grant is computed based on the interest earned from supplying liquidity in the eligible markets relative to the total interest generated (or earned respectively) across all participants over a certain grant period.
+
+:::tip
+You can track your total interest earnings (across all markets) on the [Vesu Leaderboard](/docs/explore/leaderboard).
+:::
+
+### Which markets are eligible?
+
+As per July 10th 2024, the following markets are eligible for STRK tokens:
+
+- STRK
+- ETH
+- USDC
+- USDT
+
+### How are STRK tokens distributed?
+
+The Starknet Foundation distributes STRK grants every two weeks to the participating protocols. You are able to claim your earned share of this allocation, once distributed by the Starknet Foundation, through a permissionless contract on Starknet.
+
+:::tip
+Learn more about how to claim your allocations in the [Claim STRK Guide](../user-guides/claim-strk-guide.md).
+:::

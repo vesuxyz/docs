@@ -6,30 +6,27 @@ sidebar_position: 6
 slug: /user-guides/navigate-markets
 ---
 
-Lending markets, are compartmentalized lending facilities where risks are shared among depositors of a certain asset in a pool, but are strictly isolated across one another.
-
 In this section, you'll learn how to navigate Vesu markets.
 
-Make sure you are connected to the app before you proceed. See how [here](./connect-guide.md).
+:::tip
+You can find more information on Vesu lending markets in the [Vesu Basics](/docs/explore/vesu-basics).
+:::
 
-### Pools
+### Markets
 
-Market in Vesu, is a synonym for Pool. Meaning what we refer to as markets, are simply lending pools.
+Markets in Vesu simply refer to a certain asset deposited and borrowed in a specific pool. The same asset can (potentially) be deposited in different pools resulting in a variety of markets for the same asset.
 
-Let's examine a test market and explore/breakdown all existing parts of the market.
-![Market](images/market_1.png)
+Let's examine the first markets and explore/breakdown all existing parts of the market.
+![Market](images/markets.png)
 
-1. The Market name.
+1. TVL, Total available, Total borrows.
 
-This is simply the name of the pool. In our example here, our market is called "Goerli Pool".
-![Market](images/market_2.png)
+In the top right section of the markets page a number of statistics are shown, such as the Total Value Locked (TVL) denominated in USD, the USD-value of the Total Available liquidity and Total liquidity borrowed.
 
-2. TVL, Total available, Total borrows.
+2. Markets Details
 
-This section of the pool's UI displays crucial information as regards the pool, such as the Total Volume Locked (TVL), the value of the Total Available assets and Total borrows.
-![Market](images/market_3.png)
+The main body of the markets page contains a table listing all the different markets and some important market details. 
 
-3. Available Assets
+In particular, for each market the supported Asset, the market's Risk rating according to the [Vesu Risk Framework](/docs/risk/risk-framework), the total assets *Supplied*, the *Supply APY* currently offered to lenders, the total assets *Borrowed* and the *Borrow APR* reflecting the curent cost of borrowing the asset from the market.
 
-From here, you can find all the available assets in the pool, it's risk, total value supplied, Supply APY, Total borrowed and Borrow APR.
-![Market](images/market_4.png)
+Finally, through the dots on the right of each market entry users can directly start earning or borrowing from the market.
