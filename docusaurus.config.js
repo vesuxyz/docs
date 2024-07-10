@@ -171,14 +171,14 @@ const config = {
         // Useful if you want to support a single color mode
         disableSwitch: false,
       },
-      announcementBar: {
-        id: "vesu-1-0-release", // Any value that will identify this message.
-        content:
-          '<div class="announcement-bar"><a href="https://docs.vesu.xyz/blog/vesu-is-here/" target="_blank" rel="noopener"><span>Vesu launched on Starknet, learn more in the announcement post!</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
-        backgroundColor: "rgb(210, 215, 254)", // Defaults to `#fff`.
-        textColor: "rgb(22 31 49)", // Defaults to `#000`.
-        isCloseable: true, // Defaults to `true`.
-      },
+      // announcementBar: {
+      //   id: "vesu-1-0-release", // Any value that will identify this message.
+      //   content:
+      //     '<div class="announcement-bar"><a href="https://docs.vesu.xyz/blog/vesu-is-here/" target="_blank" rel="noopener"><span>Vesu launched on Starknet, learn more in the announcement post!</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
+      //   backgroundColor: "rgb(210, 215, 254)", // Defaults to `#fff`.
+      //   textColor: "rgb(22 31 49)", // Defaults to `#000`.
+      //   isCloseable: true, // Defaults to `true`.
+      // },
     }),
 
   presets: [
