@@ -69,11 +69,6 @@ For example, the image above highlights different markets for ETH liquidity whic
 A list of all active Vesu markets can be found on the [Markets page](https://vesu.xyz/markets).
 
 
-### Interest Rates
-
-Interest rates apply a cost to borrowing an asset in a market. The interest rate is paid by borrowers to lenders in order to compensate those for supplying liquidity in a market. The model governing the interest rate is implemented with a lending pool's *lending hooks* and can thus differ across markets. However, in general the interest rate adjusts with the demand for the market's liquidity and should thus express the market's equilibrium borrow cost.
-
-
 ### Positions
 
 A position reflects a user's assets supplied and borrowed in a certain lending pair. An important difference to the global account model that is applied in other lending markets is that in Vesu positions are not agregated to a gross collateral and debt value. Instead, Vesu maintains positions strictly separate across lending pairs. 
@@ -103,6 +98,20 @@ Vesu markets enable the issuance of a yield-bearing token, called the vToken, re
 Note that vTokens represent a specific market's supplied assets and thus each market issues its own vToken. For example, in the diagram above a vETH token exists potentially for each of the ETH markets A, B, D, E and F. 
 
 Furthermore, the issuance of vTokens is implemented with a lending pool's hooks and is thus not part of the standard logic. This enables developers to further innovate and unlock even more UX improvements in the future.
+
+
+### Interest Rates
+
+Interest rates apply a cost to borrowing an asset in a market. The interest rate is paid by borrowers to lenders in order to compensate those for supplying liquidity in a market. The model governing the interest rate is implemented with a lending pool's *lending hooks* and can thus differ across markets. However, in general the interest rate adjusts with the demand for the market's liquidity and should thus express the market's equilibrium borrow cost.
+
+
+### Price Oracle
+
+Vesu relies on an (external) price feed, the *price oracle*, for the valuation of a position's collateral and debt. Therefore, Vesu's lending hooks enable to integrate with any third-party or special purpose Oracle system on a pool-by-pool basis. 
+
+In a first implementation, the factory extension utilizes the [Pragma](https://www.pragmaoracle.com/) oracle system, which offers robust price feeds for a variety of assets on Starknet. Pragma's innovative design allows the factory extension to derive high-quality asset prices and implement advanced sanity checks using additional contextual data such as the number of active price sources.
+
+While this first implementation offers highly robust and (fail-) safe prices feeds it should be noted that this can be adjusted by anyone to serve other use cases or integrate with a different oracle provider for future pools.
 
 
 ### Loan-to-Value
