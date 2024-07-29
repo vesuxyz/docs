@@ -1,12 +1,10 @@
 ---
 id: security-disclosures
-title: Vesu's security information center
+title: Disclosures
 sidebar_label: Disclosures
 sidebar_position: 4
 slug: /security/security-disclosures
 ---
-
-Disclosures
 
 List of reported vulnerabilities:
 

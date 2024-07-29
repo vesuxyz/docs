@@ -1,14 +1,12 @@
 ---
 id: security-bounty
-title: Vesu's security information center
+title: Bounty
 sidebar_label: Bounty
 sidebar_position: 3
 slug: /security/security-bounty
 ---
 
-Bounties
-
-We have put in place a reward bounty program
+We have put in place a reward bounty program.
 
 List of active and past bounty programs:
 
