@@ -6,8 +6,7 @@ sidebar_position: 3
 slug: /dev-guides/hooks/factory-hooks
 ---
 
-As already discussed in our whitepaper
-[/dev-guides/extension#6-factory-extension](/explore/whitepaper#6-factory-extension) Vesu comes with a already implemented extension which we call the factory extension or default extension.
+As already discussed in the [whitepaper](/explore/whitepaper#6-factory-extension) Vesu comes with a already implemented extension which we call the factory extension or default extension.
 
 In this article we explore this contract into more detail, to learn how to write our own extension contract and get some inspiration.
 

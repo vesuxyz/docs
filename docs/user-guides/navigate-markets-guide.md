@@ -2,7 +2,7 @@
 id: navigate-markets-guide
 title: How to navigate markets
 sidebar_label: Navigate Markets
-sidebar_position: 6
+sidebar_position: 8
 slug: /user-guides/navigate-markets
 ---
 

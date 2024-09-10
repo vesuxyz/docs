@@ -10,7 +10,7 @@ In this section, let's explore how to repay your existing debts.
 
 Make sure you are connected to the app before you proceed. See how [here](./connect-guide.md).
 
-1. To get started, ensure you already have a borrowing position. You can see how to do that [here](./borrow-guide.md).
+1. To get started, ensure you already have a borrow position. You can see how to find your positions [here](./manage-positions-guide.md) or how to create a new borrow position [here](./borrow-guide.md). 
 
 2. To repay, head to the position whose debt you'll like to repay and click on the "Close" button. From the image, you can see we have two open positions. Let's repay the USDC/WBTC debt.
    ![Repay](images/repay_1.png)

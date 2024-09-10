@@ -187,7 +187,7 @@ Allows for the donation of supply assets to a lending pair without receiving sup
 
 Allows for updating delegation permissions on a specific lending pool. A delegation grants a third party permission over a User’s positions in a certain pool and can only be defined and changed by the position owner.
 
-## 6. Factory Extension {##6-factory-extension}
+## 6. Factory Extension {#6-factory-extension}
 
 While developers are free to design their own extensions by implementing the various hooks discussed above, we have created a first extension, the _factory extension_, with the goal of showcasing the power of this novel concept and allowing non-developers to deploy first pools. Here we discuss the specific design of this factory extension.
 
