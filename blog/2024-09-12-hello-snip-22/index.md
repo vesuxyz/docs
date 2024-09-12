@@ -17,7 +17,7 @@ Starknet is continuously evolving to support the diverse needs of DeFi applicati
 SNIP-22 introduces a standardized framework for creating tokenized, yield-bearing vaults on Starknet. These vaults represent shares of an underlying asset, allowing users to perform various operations such as deposit, withdrawal, and converting between shares and asset balances. Other than _rebasing_ tokens, like stETH or Aave's aETH, aUSDC, etc., SNIP-22 tokenized vaults accumulate yield through a growing conversion rate between vault shares and the underlying asset allowing holders to redeem their shares for an increasing amount of the asset. The proposal is heavily inspired by Ethereum's [EIP-4626](https://eips.ethereum.org/EIPS/eip-4626), which has found wide adoption in the Ethereum ecosystem.
 
 
-![SNIP-22](./tokenized_vault.png "Tokenized Vault (SNIP-22)")
+![SNIP-22](./snip-22_concept.png "Tokenized Vault (SNIP-22)")
 
 
 ### Motivation and Benefits
@@ -45,6 +45,9 @@ Here are some of the essential aspects of SNIP-22:
 - **Conversion and Preview**: Tokenized vaults must further provide functions for the conversion between shares and assets (`convert_to_shares` and `convert_to_assets`) and simulation or preview of interactions (`preview_deposit`, `preview_mint`, etc.).
 
 
+![SNIP-22 API](snip-22_api.png)
+
+
 ### Security Considerations
 
 While SNIP-22 provides a robust framework for creating and managing tokenized vaults, it is essential to note that the standard itself does not govern the safety of the underlying assets or the associated yield-generating strategies. It further does not ensure safety of certain implementations of the tokenized vault standard. Therefore, developers and users must carefully evaluate the specific implementations and the yield strategies to ensure consistency and security.
@@ -57,9 +60,12 @@ Vesu's _vTokens_ are the first tokenized vaults on Starknet to implement the SNI
 
 ### What's Next
 
-The inclusion of SNIP-22 in Starknet's official standards repository marks the first step in growing the awareness and adoption of the tokenized vault standard.
+The inclusion of SNIP-22 in Starknet's official standards repository marks the first step in growing the awareness and adoption of the tokenized vault standard on Starknet.
 
 An important next step is to provide a neutral and secure reference implementation for the tokenized vault standard. Similar to the `ERC4626.sol` extension in their Solidity library, we will advocate for a SNIP-22 extension in OpenZeppelin's cairo-contracts library.
 
+Furthermore, the [4626 Alliance](https://erc4626.info/) has done an outstanding job at creating awareness and pushing adoption of the tokenized vault standard on Ethereum and EVM chains. Their webiste and repository of existing vaults is a great place draw inspiration for battle tested vault architectures and new use cases. For Starknet it can serve as a great place to showcase our implementations and growing DeFi ecosystem.
 
-We invite everyone to provide feedback and join the conversation on the [Starknet Community Forum](https://community.starknet.io/t/snip-22-tokenized-vaults/114457).
+Finally, we invite everyone to provide feedback and join the conversation on the [Starknet Community Forum](https://community.starknet.io/t/snip-22-tokenized-vaults/114457).
+
+Happy building!
