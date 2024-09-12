@@ -5,7 +5,7 @@ authors: [nbundi]
 tags: [Research]
 ---
 
-![Welcome Vesu](the-future-of-lending.jpeg)
+![Welcome Vesu](snip-22_banner.png)
 
 
 ### Announcing SNIP-22: Tokenized Vaults on Starknet
@@ -44,6 +44,7 @@ Here are some of the essential aspects of SNIP-22:
 
 - **Conversion and Preview**: Tokenized vaults must further provide functions for the conversion between shares and assets (`convert_to_shares` and `convert_to_assets`) and simulation or preview of interactions (`preview_deposit`, `preview_mint`, etc.).
 
+The following diagram gives an overview of the standard.
 
 ![SNIP-22 API](snip-22_api.png)
 
