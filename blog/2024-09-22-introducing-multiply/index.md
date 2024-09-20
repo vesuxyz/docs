@@ -5,14 +5,14 @@ authors: [marc]
 tags: [Announcement]
 ---
 
-![Announcement: New Feature called Multiply](multiply.png)
+![Announcement: New Feature called Multiply](new-feature-multiply.png)
 
 ### Introducing Flashloan-Powered Multiply Feature!
 
 We're thrilled to announce the launch of our brand-new **Multiply** feature, designed to supercharge your lending experience and optimize your DeFi strategies!
 
 ### What is Multiply?
-Our innovative feature lets you instantly borrow assets using EKUBO flash loans with no fees at all.
+Our innovative feature lets you instantly borrow assets using Ekubo flashloans with no fees at all.
 This enables you to enter an increased position in your favorite Vesu market without needing to fully own the deposited assets.
 
 With Multiply, you can enhance your yield farming or arbitrage strategies quickly and securely.
