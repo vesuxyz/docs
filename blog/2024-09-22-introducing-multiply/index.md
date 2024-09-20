@@ -19,8 +19,6 @@ With Multiply, you can enhance your yield farming or arbitrage strategies quickl
 
 ### Why Use Flashloan-Powered Multiply?
 
-![Multiply Benefits](vesu-multiply-benefits.png)
-
 - **Multiply Exposure:** Maximize your exposure to your favorite crypto assets.
 - **Multiply Earnings:** Take advantage of higher APY to boost profits.
 - **Multiply Efficiency:** Flashloans allow you to start with minimal initial capital.
