@@ -9,7 +9,7 @@ tags: [Announcement]
 
 ### Introducing Flashloan-Powered Multiply Feature!
 
-We're thrilled to announce the launch of our brand-new **Multiply** feature, designed to supercharge your lending experience and optimize your DeFi strategies!
+We are thrilled to announce the launch of our brand-new **Multiply** feature, designed to supercharge your lending experience and optimize your DeFi strategies!
 
 ### What is Multiply?
 Our innovative feature lets you instantly borrow assets using EKUBO flash loans with no fees at all.
