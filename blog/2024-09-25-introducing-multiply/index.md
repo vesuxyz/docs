@@ -1,5 +1,5 @@
 ---
-slug: 2024-09-22-introducing-multiply
+slug: 2024-09-25-introducing-multiply
 title: Introducing Multiply!
 authors: [marc]
 tags: [Announcement]
