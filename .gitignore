@@ -19,3 +19,4 @@ yarn.lock
 .vercel
 
 .env
+*.DS_Store
