@@ -194,6 +194,8 @@ const config = {
           editUrl: "https://github.com/vesuxyz/docs/edit/master/",
         },
         blog: {
+          blogSidebarTitle: 'Blog posts',
+          blogSidebarCount: 'ALL',
           showReadingTime: true,
         },
         theme: {

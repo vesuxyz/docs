@@ -2,7 +2,7 @@
 id: multiply-guide
 title: How to multiply 
 sidebar_label: Multiply Assets
-sidebar_position: 6
+sidebar_position: 7
 slug: /user-guides/multiply
 ---
 

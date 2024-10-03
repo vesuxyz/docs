@@ -28,7 +28,7 @@ $ npm run start
 
 Generate static content into the `build` directory that can be served using any static contents hosting service.
 
-```
+```bash
 $ npm run build
 ```
 

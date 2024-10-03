@@ -1,8 +1,8 @@
 ---
-id: Multiply-basics
+id: multiply-basics
 title: Multiply Basics
 sidebar_label: Multiply Basics
-sidebar_position: 5
+sidebar_position: 6
 slug: /user-guides/multiply-basics
 ---
 
