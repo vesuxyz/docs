@@ -1,7 +1,7 @@
 ---
 id: Multiply-basics
 title: Multiply Basics
-sidebar_label: RMultiply Basics
+sidebar_label: Multiply Basics
 sidebar_position: 5
 slug: /user-guides/multiply-basics
 ---
@@ -12,7 +12,7 @@ The **Multiply** feature helps users increase their exposure to an asset (i.e. E
 
 Let’s first explore how Borrowing and Multiply work, and what sets them apart.
 
-### **Borrowing**
+**Borrowing**
 
 Users receive a token they can use however they like. Whether that’s holding it, using it in other DeFi products, or deposit again to Vesu.
 
@@ -20,7 +20,7 @@ Users receive a token they can use however they like. Whether that’s holding i
 
 ![Borrowing Position](images/borrowing-basics.png)
 
-### **Multiply**
+**Multiply**
 
 This feature helps you increase exposure to the token you deposit. It’s similar to manual looping, but automated.
 
@@ -39,13 +39,13 @@ There’s no need to repeat any steps. The whole process happens automatically i
 
 Let’s explore the UI with an example to understand how Multiply works and what you need to keep in mind.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/ddc38f10-47ad-46c9-aa98-9bfbc05ca974/a7aa3ebd-48dd-4c07-afcb-78dcdf9aafbc/image.png)
+![Multiply UI](multiply-ui.png)
 
 In this example, you're increasing your exposure to ETH by borrowing USDC. This doubles your exposure (2x) to ETH and increases your position's APY from 9% to 18.12%, reflecting the higher potential returns but also the increased risk. Your loan-to-value (LTV) rises to 50%, and the liquidation price is set at $1,690, meaning that if ETH's price falls to this level, your position could be liquidated. 
 
 If you click on "More details," you'll see a breakdown of your Multiply position. 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/ddc38f10-47ad-46c9-aa98-9bfbc05ca974/e9b29e28-0a87-4877-8f58-68339caad44d/image.png)
+![Multiply UI - More details](multiply-ui-more-details.png)
 
 ## Essential Factors to Keep in Mind for Multiply Positions
 
