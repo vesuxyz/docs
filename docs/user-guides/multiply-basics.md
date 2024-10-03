@@ -14,7 +14,7 @@ Let’s first explore how Borrowing and Multiply work, and what sets them apart.
 ### **Borrowing**
 When you deposit a token as collateral, you can borrow another token, like USDC, which you can use however you like. Whether that’s holding it in your wallet, using it in other DeFi products, or deposit again to Vesu.
 
-**Closing the Position:** When you close, you’ll need to repay the borrowed USDC, and once the debt is repaid, your collateral will be returned to your wallet.
+**Closing the Position:** When you close, you’ll need to repay the borrowed, and once the debt is repaid, your collateral will be returned to your wallet.
 
 ![Borrowing Position](images/borrowing-basics.png)
 
@@ -42,7 +42,7 @@ If you click on "More details," you'll see a breakdown of your Multiply position
 
 ![Multiply UI - More details](images/multiply-ui-more-details.png)
 
-There you see all key parameters that influence your Multiply position as overview. In addition to these parameters, you can also:
+Here you can see all key parameters that influence your Multiply position. In addition to these parameters, you can also:
 
 - Adjust slippage to set the maximal difference between the expected price of a trade and the price at which the trade is executed.
 - Refresh the quote to make sure the information you’re seeing is up to date, reflecting the latest market prices.
