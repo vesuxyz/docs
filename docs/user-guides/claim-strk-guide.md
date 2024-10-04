@@ -2,7 +2,7 @@
 id: claim-strk-guide
 title: How to claim STRK rewards
 sidebar_label: Claim STRK
-sidebar_position: 10
+sidebar_position: 11
 slug: /user-guides/claim-strk
 ---
 
