@@ -195,6 +195,9 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: 'Blog posts',
+          blogSidebarCount: 'ALL',
+        },
         },
         theme: {
           customCss: require.resolve("./src/css/custom.scss"),

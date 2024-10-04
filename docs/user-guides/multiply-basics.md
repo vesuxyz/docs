@@ -38,7 +38,7 @@ Let’s explore the UI with an example to understand how Multiply works and what
 
 In this example, you're increasing your exposure to ETH by borrowing USDC. This doubles your exposure (2x) to ETH and increases your position's APY from 8% to 15.59%, reflecting the higher potential returns but also the increased risk. Your loan-to-value (LTV) rises to 50%, and the liquidation price is set at $1,716.66, meaning that if ETH's price falls to this level, your position gets liquidated. 
 
-If you click on "More details," you'll see a breakdown of your Multiply position. 
+If you click on "More details" you'll see a breakdown of your Multiply position. 
 
 ![Multiply UI - More details](images/multiply-ui-more-details.png)
 
