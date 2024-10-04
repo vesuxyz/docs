@@ -1,8 +1,8 @@
 ---
 id: multiply-guide
-title: How to multiply 
-sidebar_label: Multiply Assets
-sidebar_position: 6
+title: How to open a multiply position
+sidebar_label: Open Multiply
+sidebar_position: 7
 slug: /user-guides/multiply
 ---
 
