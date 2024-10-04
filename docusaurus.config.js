@@ -193,7 +193,7 @@ const config = {
           showLastUpdateTime: true,
           editUrl: "https://github.com/vesuxyz/docs/edit/master/",
         },
-        blog: {
+        blog: {          
           blogSidebarTitle: 'Blog posts',
           blogSidebarCount: 'ALL',
           showReadingTime: true,
