@@ -2,7 +2,7 @@
 id: multiply-guide
 title: How to open a multiply position
 sidebar_label: Open Multiply
-sidebar_position: 7
+sidebar_position: 8
 slug: /user-guides/multiply
 ---
 

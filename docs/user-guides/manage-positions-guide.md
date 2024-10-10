@@ -2,7 +2,7 @@
 id: manage-positions-guide
 title: How to manage positions
 sidebar_label: Manage Positions
-sidebar_position: 10
+sidebar_position: 11
 slug: /user-guides/manage-positions
 ---
 
