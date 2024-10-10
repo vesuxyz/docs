@@ -94,7 +94,7 @@ const config = {
             ],
           },
           {
-            title: "Docs",
+            title: "Read Docs",
             items: [
               {
                 label: "User Guides",
