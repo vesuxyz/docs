@@ -62,7 +62,7 @@ const config = {
           },
           {
             to: "/blog",
-            activeBasePath: "docs",
+            activeBasePath: "Read Docs",
             label: "Read Blog",
             position: "right",
           },
@@ -94,7 +94,7 @@ const config = {
             ],
           },
           {
-            title: "Read Docs",
+            title: "Docs",
             items: [
               {
                 label: "User Guides",
