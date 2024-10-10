@@ -57,7 +57,7 @@ const config = {
           {
             to: "/intro",
             activeBasePath: "docs",
-            label: "Docs",
+            label: "Read Docs",
             position: "right",
           },
           {
