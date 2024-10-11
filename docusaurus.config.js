@@ -57,12 +57,12 @@ const config = {
           {
             to: "/intro",
             activeBasePath: "docs",
-            label: "Get started",
+            label: "Read Docs",
             position: "right",
           },
           {
             to: "/blog",
-            activeBasePath: "docs",
+            activeBasePath: "Read Docs",
             label: "Read Blog",
             position: "right",
           },

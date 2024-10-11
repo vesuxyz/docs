@@ -2,7 +2,7 @@
 id: close-multiply-guide
 title: How to close a multiply position 
 sidebar_label: Close Multiply
-sidebar_position: 8
+sidebar_position: 9
 slug: /user-guides/close-multiply
 ---
 
