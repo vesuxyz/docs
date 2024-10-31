@@ -5,14 +5,14 @@ authors: [marc]
 tags: [Announcement]
 ---
 
-![About Vesu: Why & What We Build](about-vesu.png)
+![About Vesu: What & Why We Build](about-vesu.png)
 
 
 :::note
-We know that DeFi can be complex, and while we’ve shared technical deep dives before, this post is different. Think of it as our manifesto — a clear, simple guide to understand Vesu and why we’re building it. We want to walk you through our purpose, our platform, and what we aim to achieve.
+In this post, we’ll walk you through what sets Vesu apart, our purpose, and the key features we’re bringing to life.
 :::
 
-# About Vesu: Why & What We Build
+# About Vesu: What & Why We Build
 
 DeFi is transforming the future of finance, with the Total Value Locked (TVL) reaching $177 billion in 2023 (Source: DefiLlama). But compared to the trillions of dollars in Assets under Management (AUM) within traditional finance, there’s still vast room for DeFi to grow. Vesu is here to drive that expansion  with a platform that is **secure, user-friendly, and built for innovation**.
 
@@ -22,26 +22,24 @@ We are building an open platform that empowers both users and developers. By pro
 
 ## What We Offer
 
-Our platform allows users to:
+Vesu allows users to:
 
 - Supply: Earn passive income by supplying your crypto assets.
 - Borrow: Access capital without the need for intermediaries.
-- Build with us: Create your own markets. Innovate and build on top of our infrastructure.
+- Build with us: Create your own markets. Innovate and build on top of Vesu’s infrastructure.
 
 ## Why choose Vesu?
 
 Here’s what makes Vesu different and how we aim to improve DeFi:
 
-- **Security**: Keeping user funds safe is our highest priority. We have [multiple audits](https://docs.vesu.xyz/security/security-audit) and a [$100,000 Immunefi bug bounty](https://immunefi.com/bug-bounty/vesu/information/). Our risk isolation design keeps problems contained within individual pools, ensuring platform stability. With our [risk framework](https://docs.vesu.xyz/risk/risk-framework), users can make informed decisions confidently. Our publicly known team is based in Europe, with strong security practices. We take these and many more steps to keep Vesu safe and secure.
-
-- **User Experience**: We aim to provide a **FinTech-like experience** using Ethereum’s decentralization and security as the foundation. By leveraging Starknet features like multicalls and collaborating with partners like Argent, we make DeFi accessible and user-friendly. One example is the integration directly into the Argent smart wallet, allowing users to easily manage their assets and access yield within the app. For more, read our [UX principles](https://docs.vesu.xyz/blog/2024-05-17-vesu-ux-principles).
-
+- **User Experience**: Vesu delivers a FinTech-like experience with the security of Ethereum, using Starknet features like multicalls to make DeFi accessible and user-friendly. With our direct integration into the Argent smart wallet, users can seamlessly manage assets and earn yield within the app. Learn more about our [UX principles](https://docs.vesu.xyz/blog/2024-05-17-vesu-ux-principles).
 
 ![Integration in Argent Invest](argent-integration.png)
-
-- **Lending Hooks**: Our customizable lending hooks allow developers to create unique lending markets and more. Inspired by Uniswap v4, these hooks allow developers to set up specific features for each pool, like custom interest rates, oracles, and security settings. Our lending hooks enhance composability, enabling new integrations and use cases within the DeFi space. Learn more in our blog post about [Lending Hooks](https://docs.vesu.xyz/blog/2024-04-03-vesu-lending-hooks).
-
-- **Governance-Free & Algorithm-Driven**: Vesu operates without governance, relying purely on algorithms to make decisions. We trust mathematical models, not intermediaries, ensuring transparent and fair outcomes. For example, our dynamic interest rate model adjusts rates automatically based on market conditions, providing efficiency without manual oversight. Learn more in our first blog post [here](https://docs.vesu.xyz/blog/2024-03-06-welcome#free-markets-model).
+- **Better Rates**: Vesu’s rates are set by a dynamic interest rate model that automatically adjusts based on real-time demand, ensuring fair and efficient rates without the need for slow, manual governance. This approach allows the market to naturally balance supply and demand, so users always get the best possible borrowing conditions.
+- **Better Risk Control**: All lending pools have separate risks that don’t affect other pools. Within a pool, depositors share risk only with others in the same pool. Each pool has a specific maximal loan-to-value (LTV) ratio, set by the pool creator, which is critical for enabling both capital efficiency and liquidation safety.
+- **Innovation**: By creating a flexible and open infrastructure we enable continuous development and innovation, allowing both our team and external developers to build on Vesu’s platform. Examples of this include features like Multiply and the upcoming Automations.
+- **Create New Market**: Anyone can create new markets tailored to their preferences, such as setting specific loan-to-value (LTV) ratios, custom interest rate models or oracles.
+- **Security**: Keeping user funds safe is the highest priority. We have [multiple audits](https://docs.vesu.xyz/security/security-audit) and a [$100,000 Immunefi bug bounty](https://immunefi.com/bug-bounty/vesu/information/). The Vesu team is publicly known, with strong security practices. We take these and many more steps to keep Vesu safe and secure.
 
 ## Next Steps
 
@@ -49,11 +47,17 @@ Here’s what makes Vesu different and how we aim to improve DeFi:
 
 We are continuously refining the Multiply feature based on feedback from our community. Our goal is to make managing your positions even easier and more secure. Upcoming improvements will include automation features designed to help users maintain for example a healthy Loan-to-Value (LTV) ratio, reducing the risk of liquidation.
 
-### Custom Pools Page
+### Custom Pool Creation
 
 While it’s already possible to create new markets on Vesu, we are working on a Custom Pools page with an intuitive interface. This new frontend will make it easy for anyone to create and manage their own lending pools. An exclusive preview screenshot is available below.
 
-![Preview of new Pools Page](pool-page-preview.png)
+![Preview of new Pools Page](pools-page-small.png)
+
+### Vesu API
+
+We are expanding our API to ensure smooth integration with other platforms and wallets. This will enhance the user experience by adding features like in-wallet notifications for borrowers when their positions are at risk.
+
+
 
 ## Conclusion
 
