@@ -191,7 +191,7 @@ const config = {
           path: "docs",
           sidebarPath: require.resolve("./sidebars.js"),
           showLastUpdateTime: true,
-          editUrl: "https://github.com/vesuxyz/docs/edit/master/",
+          editUrl: "https://github.com/vesuxyz/docs/main/",
         },
         blog: {
           blogSidebarTitle: 'Blog posts',
