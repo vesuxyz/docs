@@ -1,5 +1,5 @@
 ---
-slug: 2024-10-26-about-vesu
+slug: 2024-11-02-about-vesu
 title: What & Why We Build
 authors: [marc]
 tags: [Announcement]
@@ -18,7 +18,10 @@ DeFi is transforming the future of finance, with the Total Value Locked (TVL) re
 
 ## Our Purpose
 
-We are building an open platform that empowers both users and developers. By providing the foundational infrastructure and tools to create new features and integrate with other platforms, we are driving the evolution of decentralized finance.
+We are building a secure lending platform that opens decentralized finance to everyone.
+Lenders and borrowers gain access to optimal market conditions, backed by a user experience that rivals leading FinTech platforms.
+
+With Vesu's robust infrastructure and developer tools, we’re driving the evolution of DeFi—empowering developers to innovate, create new features, and seamlessly integrate with other platforms.
 
 ## What We Offer
 
@@ -32,13 +35,13 @@ Vesu allows users to:
 
 Here’s what makes Vesu different and how we aim to improve DeFi:
 
-- **User Experience**: Vesu delivers a FinTech-like experience with the security of Ethereum, using Starknet features like multicalls to make DeFi accessible and user-friendly. With our direct integration into the Argent smart wallet, users can seamlessly manage assets and earn yield within the app. Learn more about our [UX principles](https://docs.vesu.xyz/blog/2024-05-17-vesu-ux-principles).
+- **User Experience**: Vesu delivers a FinTech-like experience with the security of Ethereum, using Starknet features like multicalls to make DeFi accessible and user-friendly. With our direct integration into the Argent smart wallet for example, users are able to manage their assets and earn yield directly within the wallet. Learn more about our [UX principles](https://docs.vesu.xyz/blog/2024-05-17-vesu-ux-principles).
 
 ![Integration in Argent Invest](argent-integration.png)
 - **Better Rates**: Vesu’s rates are set by a dynamic interest rate model that automatically adjusts based on real-time demand, ensuring fair and efficient rates without the need for slow, manual governance. This approach allows the market to naturally balance supply and demand, so users always get the best possible borrowing conditions.
 - **Better Risk Control**: All lending pools have separate risks that don’t affect other pools. Within a pool, depositors share risk only with others in the same pool. Each pool has a specific maximal loan-to-value (LTV) ratio, set by the pool creator, which is critical for enabling both capital efficiency and liquidation safety.
-- **Innovation**: By creating a flexible and open infrastructure we enable continuous development and innovation, allowing both our team and external developers to build on Vesu’s platform. Examples of this include features like Multiply and the upcoming Automations.
-- **Create New Market**: Anyone can create new markets tailored to their preferences, such as setting specific loan-to-value (LTV) ratios, custom interest rate models or oracles.
+- **Innovation**: By creating a flexible and open infrastructure we enable continuous development and innovation, allowing both our team and external developers to build on top of Vesu’s platform. Examples of this include features like Multiply and the upcoming Automations.
+- **Create New Market**: Anyone can create new markets tailored to their preferences, including custom settings like loan-to-value (LTV) ratios, interest rate models, or oracle choices, among others.
 - **Security**: Keeping user funds safe is the highest priority. We have [multiple audits](https://docs.vesu.xyz/security/security-audit) and a [$100,000 Immunefi bug bounty](https://immunefi.com/bug-bounty/vesu/information/). The Vesu team is publicly known, with strong security practices. We take these and many more steps to keep Vesu safe and secure.
 
 ## Next Steps
@@ -55,9 +58,7 @@ While it’s already possible to create new markets on Vesu, we are working on a
 
 ### Vesu API
 
-We are expanding our API to ensure smooth integration with other platforms and wallets. This will enhance the user experience by adding features like in-wallet notifications for borrowers when their positions are at risk.
-
-
+We are expanding our API to ensure smooth integration with other platforms and wallets. This will enhance the user experience by adding features like notifications for borrowers when their positions are at risk.
 
 ## Conclusion
 
@@ -66,7 +67,6 @@ In a rapidly evolving DeFi landscape, Vesu stands out as the most aligned lendin
 Whether you’re looking to earn yield, access liquidity, or create new custom markets, Vesu is the platform for you.
 
 We’re always looking to improve and innovate. Your feedback, ideas, or collaboration could help shape the future of Vesu. 
-
 Join us, share your thoughts, and let’s build the future of finance together!
 
 - Follow us on X: https://x.com/vesuxyz
