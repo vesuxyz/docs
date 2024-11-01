@@ -21,7 +21,7 @@ DeFi is transforming the future of finance, with the Total Value Locked (TVL) re
 We are building a secure lending platform that opens decentralized finance to everyone.
 Lenders and borrowers gain access to optimal market conditions, backed by a user experience that rivals leading FinTech platforms.
 
-With Vesu's robust infrastructure and developer tools, we’re driving the evolution of DeFi—empowering developers to innovate, create new features, and seamlessly integrate with other platforms.
+Vesu's robust infrastructure and developer tools are driving the evolution of DeFi. We empower developers to innovate, create new features, and seamlessly integrate with other platforms."
 
 ## What We Offer
 
@@ -35,7 +35,7 @@ Vesu allows users to:
 
 Here’s what makes Vesu different and how we aim to improve DeFi:
 
-- **User Experience**: Vesu delivers a FinTech-like experience with the security of Ethereum, using Starknet features like multicalls to make DeFi accessible and user-friendly. With our direct integration into the Argent smart wallet for example, users are able to manage their assets and earn yield directly within the wallet. Learn more about our [UX principles](https://docs.vesu.xyz/blog/2024-05-17-vesu-ux-principles).
+- **User Experience**: Vesu delivers a FinTech-like experience with the security of Ethereum, using Starknet features like multicalls to make DeFi accessible and user-friendly. With our direct integration into the Argent smart wallet for example, users are able to earn yield directly within the wallet. Learn more about our [UX principles](https://docs.vesu.xyz/blog/2024-05-17-vesu-ux-principles).
 
 ![Integration in Argent Invest](argent-integration.png)
 - **Better Rates**: Vesu’s rates are set by a dynamic interest rate model that automatically adjusts based on real-time demand, ensuring fair and efficient rates without the need for slow, manual governance. This approach allows the market to naturally balance supply and demand, so users always get the best possible borrowing conditions.
