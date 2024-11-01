@@ -21,7 +21,7 @@ DeFi is transforming the future of finance, with the Total Value Locked (TVL) re
 We are building a secure lending platform that opens decentralized finance to everyone.
 Lenders and borrowers gain access to optimal market conditions, backed by a user experience that rivals leading FinTech platforms.
 
-Vesu's robust infrastructure and developer tools are driving the evolution of DeFi. We empower developers to innovate, create new features, and seamlessly integrate with other platforms."
+Vesu's robust infrastructure and developer tools are driving the evolution of DeFi. We empower developers to innovate, create new features, and seamlessly integrate with other platforms.
 
 ## What We Offer
 
