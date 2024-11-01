@@ -20,10 +20,10 @@ STRK grants are the STRK tokens allocated to the participating protocols, like V
 
 In order to earn STRK tokens on Vesu all you have to do is supplying assets to one of the eligible markets.
 
-Your interest earned across all *Earn* and *Borrow* positions in a certain market count towards your STRK allocation.
+Your interest earned across all Earn positions in a certain market count towards your STRK allocation.
 
 :::note
-According to the criteria defined by the Starknet Foundation, your STRK allocation for any of the eligible stablecoins will be reduced proportionally if you have any stablecoin debt outstanding on Vesu.
+According to the Starknet Foundation’s criteria, only non-recursive deposits of stablecoins (USDC/USDT) are eligible for STRK rewards. For example, if you deposit USDC and borrow USDT, you’ll still earn the organic Supply APY on your USDC, but you won’t receive any extra STRK rewards due to the USDT debt.
 :::
 
 ### How is my STRK allocation determined?
@@ -31,7 +31,7 @@ According to the criteria defined by the Starknet Foundation, your STRK allocati
 Your allocation of STRK tokens depends on two factors:
 
 1. The total STRK grant distributed to Vesu is based on a set of metrics that are defined and monitored by the Starknet Foundation
-2. Your share of Vesu's STRK grant is computed based on the interest earned from supplying liquidity in the eligible markets relative to the total interest generated (or earned respectively) across all participants over a certain grant period.
+2. Your share of Vesu's STRK grant is computed based on the interest earned from supplying liquidity in the eligible markets relative to the total interest generated (or earned respectively) across all participants over a certain period.
 
 :::tip
 You can track your total interest earnings (across all markets) on the [Vesu Leaderboard](./leaderboard.md).
@@ -48,7 +48,7 @@ As per July 10th 2024, the following markets are eligible for STRK tokens:
 
 ### How are STRK tokens distributed?
 
-The Starknet Foundation distributes STRK grants every two weeks to the participating protocols. You are able to claim your earned share of this allocation, once distributed by the Starknet Foundation, through a permissionless contract on Starknet.
+The Starknet Foundation distributes STRK grants every week to the participating protocols. You are able to claim your earned share of this allocation, once distributed by the Starknet Foundation, through a permissionless contract on Starknet.
 
 :::tip
 Learn more about how to claim your allocations in the [Claim STRK Guide](../user-guides/claim-strk-guide.md).
