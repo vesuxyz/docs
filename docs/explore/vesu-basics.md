@@ -40,7 +40,7 @@ The liquidation process may differ across lending pools but in general involves 
 
 ### Lending Pools
 
-Lending pools in Vesu are isolated lending facilities where users share the same liquidity and risks. Other than traditional DeFi lending markets, Vesu allows everyone to create new lending pools. Vesu thus enables participants and the braoder market to coordinate around capital allocation instead of designating a central party to fulfill this role.
+Lending pools in Vesu are isolated lending facilities where users share the same liquidity and risks. Other than traditional DeFi lending markets, Vesu allows everyone to create new lending pools. Vesu thus enables participants and the broader market to coordinate around capital allocation instead of designating a central party to fulfill this role.
 
 :::info
 Vesu enables permissionless lending pools giving all participant the possibility to create new pools as demand arises.
@@ -116,7 +116,7 @@ While this first implementation offers highly robust and (fail-) safe prices fee
 
 ### Loan-to-Value
 
-The *loan-to-value* is a financial metric used to express the ratio of a loan's (USD-) value to the value of the supplied collateral. 
+The *loan-to-value* is a financial metric used to express the ratio of a loan's value to the value of the supplied collateral (in USD). 
 
 The *loan-to-value* is a crucial factor in assessing the risk of a loan. A higher *loan-to-value* indicates a higher risk for the lenders, as it means the loan is a larger portion of the collateral value and vice versa.
 
