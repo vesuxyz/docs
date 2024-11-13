@@ -47,7 +47,7 @@ Vesu enables permissionless lending pools giving all participant the possibility
 :::
 
 
-Vesu lending pools enable a predefined set of assets for lending and borrowing. The liquidity supplied by lenders is "pooled", meaning that supplied assets are aggregated and serve as shared liquidity for all borrowers in the same pool. This structure allows for maximal capital efficiency within a lending pool while strictly segregating liquidity across pools. On the other hand, lenders in a pool are exposed to the same risks for instance in terms of potential liquidation shortfalls. It is thus critical for users to understand the risk profiles of individual lending pools.  and supply (or borrow) only in these with an acceptable 
+Vesu lending pools enable a predefined set of assets for lending and borrowing. The liquidity supplied by lenders is "pooled", meaning that supplied assets are aggregated and serve as shared liquidity for all borrowers in the same pool. This structure allows for maximal capital efficiency within a lending pool while strictly segregating liquidity across pools. On the other hand, lenders in a pool are exposed to the same risks for instance in terms of potential liquidation shortfalls. It is thus critical for users to understand the risk profiles of individual lending pools and to supply (or borrow) only in pools with risk levels they find acceptable.
 
 :::info
 Vesu enables modular lending pools allowing for complex pool structures to be composed of basic *lending pairs*. 
