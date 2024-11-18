@@ -1,16 +1,16 @@
 ---
 slug: 2024-11-18-4-months-review
-title: 4 Months Markets Review
+title: Markets Review: Recap Since Launch
 authors: [nbundi]
 tags: [Research]
 ---
 
-![Vesu Banner](banner_c.png)
+![Vesu Banner](/Market_review1.png)
 
 
 ## Summary
 
-Vesu has been live for some more than four months and has grown to the fourth-largest DeFi protocol on Starknet. 
+Vesu has been live for more than four months and has grown to the fourth-largest DeFi protocol on Starknet. 
 Time for a recap!
 
 In this blog post, we will review the past four months of lending and borrowing activity on Vesu markets and the performance of the autonomous lending pools.
@@ -24,7 +24,7 @@ For a refresher on Vesu's autonomous lending pools refer to this [blog post](htt
 We start with an overview of the Vesu lending markets. 
 Figure 1 below shows the evolution of the total value locked (TVL), total borrowed amount and average utilization on Vesu markets during the past four months.
 We find that both TVL and total borrowed amount have grown consistently over the observed period arriving at about $22M TVL and $4.5M borrowed at the time of writing this post (note the primary y-axis scale of 10^7).
-Similarly, the average utilization across all markets has more than doubled from about 10% to around 24% at the same time. This indicates that the liquidity on Vesu is increasingly being used by borrowers on Starknet making Vesu an important element of the Starknet DeFi ecosystem.
+Similarly, the average utilization across all markets has more than doubled from about 10% to around 24% at the same time. This indicates that the liquidity on Vesu is increasingly being used by borrowers on Starknet establishing Vesu as an important component of the Starknet DeFi ecosystem.
 
 ![Vesu 4-Months Market Overview](./2024-07-15_2024-11-17_total.png "Vesu 4-Months Market Overview")
 _Figure 1: Evolution of liquidity, borrowings and average utilization on Vesu since launch._
@@ -33,8 +33,8 @@ _Figure 1: Evolution of liquidity, borrowings and average utilization on Vesu si
 ## Market Breakdown
 
 Next, we highlight the breakdown of Vesu markets in terms of their contribution to the overall TVL. Figure 2 gives the percentage breakdown across the six initial markets _ETH_, _STRK_, _USDC_, _USDT_, _WBTC_, _wstETH_. 
-The first observation is that the overall TVL on Vesu is mostly driven by the _ETH_, _STRK_ and _USDC_ markets. These three markets combined account for more than 90% of the overall Vesu TVL at hte time of writing this post.
-The figure further shows that the _ETH_ market share has continuously grown since launch and is currently at over 50%. Over the same period the market share of _STRK_ has decreased significantly. To one part, these observations are driven by the market prices of the respecitve assets. However, they also reflect a consistent net inflow of _ETH_ into Vesu.
+The first observation is that the overall TVL on Vesu is mostly driven by the _ETH_, _STRK_ and _USDC_ markets. These three markets combined account for more than 90% of the overall Vesu TVL at the time of writing this post.
+The figure further shows that the _ETH_ market share has continuously grown since launch and is currently at over 50%. Over the same period the market share of _STRK_ has decreased significantly. To one part, these observations are driven by the market prices of the respective assets. However, they also reflect a consistent net inflow of _ETH_ into Vesu.
 
 ![Vesu 4-Months TVL Breakdown](./2024-07-15_2024-11-17_tvl_breakdown.png "Vesu 4-Months TVL Breakdown")
 _Figure 2: Breakdown of TVL in Vesu markets since launch._
@@ -63,7 +63,7 @@ If you need a refresher on Vesu's adaptive interest rate model please refer to t
 
 Turning to the _USDC_ market we find a completely different picture as shown in Figure 5. Shortly after launch (in July 2024) utilization on the USDC market reached a level of more than 90% reflecting the strong demand for USDC as a borrow asset.
 
-With utilization consistenly above the market's target utilization of 80%, the _Curve Controller_ shift the interest rate curve upwards at an increasing rate during the last week of August until the interest rate reaches a level of more than 12% by the end of August. At this point, the market's interest rate seems attractive enough for LPs to supply more USDC (and borrowers repay debt) thereby reducing the utilization again. As utilization falls below the market's target utilization, the _Curve Controller_ too starts to shift the curve downwards.
+With utilization consistently above the market's target utilization of 80%, the _Curve Controller_ shifts the interest rate curve upwards at an increasing rate during the last week of August until the interest rate reaches a level of more than 12% by the end of August. At this point, the market's interest rate seems attractive enough for LPs to supply more USDC (and borrowers repay debt) thereby reducing the utilization again. As utilization falls below the market's target utilization, the _Curve Controller_ too starts to shift the curve downwards.
 
 ![Vesu 4-Months USDC-Market Insights](./2024-07-15_2024-11-17_USDC.png "Vesu 4-Months USDC-Market Insights")
 _Figure 5: Utilization and borrow rates in the USDC market since launch._
@@ -83,7 +83,7 @@ _Figure 6: Utilization and borrow rates in the USDT market since launch._
 ![Vesu 4-Months wstETH-Market Insights](./2024-07-15_2024-11-17_wstETH.png "Vesu 4-Months wstETH-Market Insights")
 _Figure 7: Utilization and borrow rates in the wstETH market since launch._
 
-On the other hand, the _WBTC_ and _STARK_ markets highlight low utilization over the observation period indicating low borrower demand. The interest rates on these markets are thus characterized by a perfectly synchronous relationship with the utilization due to fact that the _Curve Controller_ does not actively adjust rates.
+On the other hand, the _WBTC_ and _STARK_ markets highlight low utilization over the observation period indicating low borrowing demand. The interest rates on these markets are thus characterized by a perfectly synchronous relationship with the utilization due to fact that the _Curve Controller_ does not actively adjust rates.
 
 ![Vesu 4-Months WBTC-Market Insights](./2024-07-15_2024-11-17_WBTC.png "Vesu 4-Months WBTC-Market Insights")
 _Figure 8: Utilization and borrow rates in the WBTC market since launch._
@@ -94,7 +94,7 @@ _Figure 9: Utilization and borrow rates in the STRK market since launch._
 
 ## Conclusion
 
-Vesu celebrates its 4-months anniversery this month. In this blog post we have reviewed the performance of Vesu markets over the past months. We find that both lending and borrow activity has consistently grown with the average utilization sitting at about 24% throughout November. 
+Vesu proudly reflects on four months of steady growth and progress. In this blog post, we reviewed the performance of Vesu markets over the past months. Both lending and borrowing activity have consistently grown, with the average utilization reaching around 24% in November.
 
 Both lending and borrowing activity varies greatly between the different markets with _USDC_, _ETH_ and _wstETH_ being the most demanded borrow assets in terms of the outstanding debt. Utilization on certain markets has reached over 90% over sustained time periods. This has resulted in frequent adjustments of the interest rate curve through Vesu's autonomous _Curve Controller_.
 
