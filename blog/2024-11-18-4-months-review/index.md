@@ -11,7 +11,7 @@ tags: [Research]
 
 ## Summary
 
-Vesu has been live for more than four months and has grown to the fourth-largest DeFi protocol on Starknet. 
+Vesu has been live for over four months and has grown to the fourth-largest DeFi protocol on Starknet. 
 Time for a recap!
 
 In this blog post, we will review the past four months of lending and borrowing activity on Vesu markets and the performance of the autonomous lending pools.
