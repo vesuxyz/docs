@@ -1,11 +1,12 @@
 ---
 slug: 2024-11-18-4-months-review
-title: Markets Review: Recap Since Launch
+title: Markets Review Recap Since Launch
 authors: [nbundi]
 tags: [Research]
 ---
 
-![Vesu Banner](/Market_review1.png)
+![Market Review](./Market_review1.png)
+
 
 
 ## Summary
