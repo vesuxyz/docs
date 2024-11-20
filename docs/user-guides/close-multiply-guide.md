@@ -18,6 +18,10 @@ Make sure you are connected to the app before you proceed. See how [here](./conn
 
 3. Review the swap details shown in the expanded tab on the bottom of the position card and confirm if it looks ok. Note that you can change the __slippage tolerance__ here. This can be helpful in particular in volatile markets where your close transaction reverts due to fast changing market prices.
 
+:::note
+The quoted swap details shown under "More details" depend on the swap rate provided from Ekubo, which may vary based on pool liquidity and market demand. Please review the rate carefully before confirming your transaction, as it impacts the outcome of your Multiply position.
+:::
+
 ![Confirm Close Multiply](images/close_multiply_2.png)
 
 3. Confirm your close transaction from your wallet provider, and your multiply position will be unwound instantly.

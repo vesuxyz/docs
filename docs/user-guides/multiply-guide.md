@@ -36,6 +36,10 @@ __Alternatively__, you can also use the wizzard on the homepage and follow the "
 
 6. In the position overview on the right, you will find the position details including the _Net position value_, _Total exposure_, _Position APY_ (this is the net APY and includes the borrow cost already), and position risk metrics. Click on "More details" to see find more details including __swap details__. Make sure you understand the quoted swap details. You can also change the __slippage tolerance__ if you prefer other values.
 
+:::note
+The quoted swap details shown under "More details" depend on the swap rate provided from Ekubo, which may vary based on pool liquidity and market demand. Please review the rate carefully before confirming your transaction, as it impacts the outcome of your Multiply position.
+:::
+
 ![Review position details](images/multiply_6.png)
 
 7. Confirm the position details and swap parameters by clicking on "Multiply".
