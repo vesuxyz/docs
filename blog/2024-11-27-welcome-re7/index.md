@@ -9,7 +9,7 @@ tags: [Announcement]
 
 ## **Next Level DeFi with Re7 Labs**
 
-We’re thrilled to welcome **[Re7 Labs](https://x.com/Re7Capital)** to the Starknet ecosystem! As a leading investment firm, they are known for their expertise in crypto yield strategies and DeFi. Re7 Labs is recognized as one of the top vault curators, having played a key role in driving TVL to $3B on Morpho.
+We’re thrilled to welcome **[Re7 Labs](https://x.com/Re7Capital)** to the Starknet ecosystem! As a leading risk curator, they are known for their expertise in crypto yield strategies and DeFi. Re7 Labs is recognized as one of the top vault curators, having played a key role in driving TVL to $3B on Morpho.
 
 Joining Vesu as the first pool curator thus signifies a major step for the entire Starknet ecosystem. This collaboration will allow Vesu and Starknet to expand to new use cases and further drive adoption and growth.  
 
