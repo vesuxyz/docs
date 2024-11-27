@@ -19,7 +19,7 @@ Make sure you are connected to the app before you proceed. See how [here](./conn
 3. Review the swap details shown in the expanded tab on the bottom of the position card and confirm if it looks ok. Note that you can change the __slippage tolerance__ here. This can be helpful in particular in volatile markets where your close transaction reverts due to fast changing market prices.
 
 :::note
-The estimated swap amount shown under "More details" is quoted by Ekubo and depends on pool liquidity and market demand. Please review the rate carefully before confirming your transaction, as it determines the amount you will receive after closing.
+The estimated swap amount shown under "More details" is quoted by the Ekubo DEX through which swaps are settled. This quote depends on the liquidity available on the Ekubo DEX. Please review the quote carefully before confirming your transaction, as it determines your payout amount.
 :::
 
 ![Confirm Close Multiply](images/close_multiply_2.png)

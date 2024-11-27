@@ -39,7 +39,7 @@ __Alternatively__, you can also use the wizzard on the homepage and follow the "
 Click on "More details" to view additional information such as slippage tolerance, estimated swap amounts, and the maximum paid debt. You can also see if the quote is updated or manually update it by clicking the refresh option.
 
 :::note
-The estimated swap amount shown under "More details" is quoted by Ekubo and depends on pool liquidity and market demand. Review it carefully, as it directly impacts your Multiply position.
+The estimated swap amount shown under "More details" is quoted by the Ekubo DEX through which swaps are settled. This quote depends on the liquidity available on the Ekubo DEX. Please review the quote carefully before confirming your transaction, as it determines the _Net position value_ of your Multiply position.
 :::
 
 
