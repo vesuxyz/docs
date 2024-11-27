@@ -34,7 +34,14 @@ __Alternatively__, you can also use the wizzard on the homepage and follow the "
 
 ![Chose position multiplier](images/multiply_5.png)
 
-6. In the position overview on the right, you will find the position details including the _Net position value_, _Total exposure_, _Position APY_ (this is the net APY and includes the borrow cost already), and position risk metrics. Click on "More details" to see find more details including __swap details__. Make sure you understand the quoted swap details. You can also change the __slippage tolerance__ if you prefer other values.
+6. In the position overview on the right, you will find the position details including the _Net position value_, _Total exposure_, _Position APY_ (this is the net APY and includes the borrow cost already), and position risk metrics. 
+
+Click on "More details" to view additional information such as slippage tolerance, estimated swap amounts, and the maximum paid debt. You can also see if the quote is updated or manually update it by clicking the refresh option.
+
+:::note
+The estimated swap amount shown under "More details" is quoted by Ekubo and depends on pool liquidity and market demand. Review it carefully, as it directly impacts your Multiply position.
+:::
+
 
 ![Review position details](images/multiply_6.png)
 
