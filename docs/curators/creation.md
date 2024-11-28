@@ -17,7 +17,6 @@ Vesu's permissionless nature enables everyone to create new lending pools callin
 - Starknet Wallet: A multisig setup is strongly recommended for the curator role to minimize risks.
 - Small Token Amount: A small amount of the token is required to seed the pool (at least 1,000 units in the smallest denomination, such as 0.001 USDC for a USDC pool). This amount is burned to prevent share inflation attacks and ensure pool integrity.
 
-
 Here and/or just @ onboarding#getting-started? 
 - Token Standard: New pools can be created with ERC-20 or ERC-4626 tokens (no rebasing tokens or other non-standard designs).
 - Pool Parameters: Define the pool parameters in advance for smooth creation. A template for all required parameters can be found here.
@@ -39,7 +38,7 @@ Click on [vesu.xyz/pools](http://vesu.xyz//pools) the blue button “+ Create Po
 - Subscription period: Defines the timeframe within which borrowers have to repay their outstanding debt in order to be able to withdraw their collateral for a pool in shutdown mode. This is directly tied to the emergency pause mode and can only be deactivated if the _Recovery Period_ parameter is also deactivated.
 
 :::note
-Learn more about the shutdown mode in our [whitepaper] (/explore/whitepaper#65-pool-emergency-shutdown.)
+Learn more about the shutdown mode in our [whitepaper](/explore/whitepaper#65-pool-emergency-shutdown).
 :::
 
 
