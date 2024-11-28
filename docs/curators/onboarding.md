@@ -44,17 +44,12 @@ Carefully read the following points before creating a new lending pool:
 
 ## How to create a Vesu pool
 
-Follow the [_Create Pool_](./creation) and _Update Pool_ guides in order to create and manage a lending pool.
+Follow the [_Create Pool Guide_](../dev-guides/create-pool) and _Update Pool Guide_ in order to learn how to creating and managing Vesu lending pools.
 
-## Technical Requirements
-
-Vesu pools currently support the following configurations:
-
-- “Simple” ERC-20, ERC-4626, etc. implementations (e.g. rebasing tokens or other non-standard designs are NOT supported)
-- [Pragma](https://docs.pragma.build/v1/Resources/data-feeds/consuming-data) or Chainlink oracle price feeds
+## What else to consider
 
 :::warning
-Note that when creating a new pool, the creator is required to seed it with a minimal amount of the involved assets which is then burned in order to mitigate a well-known _share inflation_ attack.
+When creating a new pool, each market has to be seeded with a minimal amount of assets (2000 wei to be specific). This amount is locked permanently in order to mitigate a well-known _share inflation_ attack.
 :::
 
 :::info
