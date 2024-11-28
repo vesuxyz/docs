@@ -3,12 +3,12 @@ id: risk-framework
 title: Vesu Risk Framework
 sidebar_label: Risk Framework
 sidebar_position: 1
-slug: /risk/risk-framework
+slug: /explore/risk-framework
 ---
 
 ## Introduction
 
-Vesu is a fully permissionless [lending protocol](../explore/whitepaper.md) built on Starknet that allows anyone to lend, borrow and create new lending markets. The permissionless nature of Vesu enables markets to autonomously coordinate around liquidity distribution instead of a central risk manager to intermediate between participants. At the same time, this “free markets” approach puts risk management in the hands of users. Users are empowered to define their own risk management strategy and whether to implement an effective strategy themselves or delegating it to a sophisticated risk manager. Having full transparency on the risks Vesu lending markets expose users to is thus imperative for participants to make informed decisions. 
+Vesu is a fully permissionless [lending protocol](./whitepaper.md) built on Starknet that allows anyone to lend, borrow and create new lending markets. The permissionless nature of Vesu enables markets to autonomously coordinate around liquidity distribution instead of a central risk manager to intermediate between participants. At the same time, this “free markets” approach puts risk management in the hands of users. Users are empowered to define their own risk management strategy and whether to implement an effective strategy themselves or delegating it to a sophisticated risk manager. Having full transparency on the risks Vesu lending markets expose users to is thus imperative for participants to make informed decisions. 
 
 In this document we outline the methodology, the Vesu Risk Framework, used to assess and communicate the risks users are exposed to when depositing assets in a market. A market therefore is defined as a lending pool containing the specific asset. On the other hand, the methodology **does not cover** other risks such as the a borrower’s liquidation risk.
 
@@ -90,7 +90,7 @@ The risk rating is expressed in terms of a common likelihood scale shown in the 
 | 🟨 Medium  | Risk event is unexpected but possible to occur        |
 | 🟥 High    | Risk event is expected or unable to assess likelihood |
 
-For a market the likelihood of the identified risk events is then estimated according to a heuristic that is based on certain risk factors. This heuristic is explained in more detail in the [Risk Report Instructions](./risk-reports/risk-report-instructions.md).
+For a market the likelihood of the identified risk events is then estimated according to a heuristic that is based on certain risk factors. This heuristic is explained in more detail in the [Risk Report Instructions](../curators/risk-template.md).
 
 **Risk Scorecard**
 

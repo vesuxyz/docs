@@ -1,5 +1,5 @@
 position: 5
-label: Risk Framework
+label: Pool Curators
 collapsible: true # make the category collapsible
 collapsed: true # keep the category open by default
 className: red
@@ -7,4 +7,4 @@ className: red
 #  type: generated-index
 #  title: Create Markets
 customProps:
-  description: Deep dive into the Vesu Risk Framework and ratings
+  description: Information and materials for Vesu pool curators

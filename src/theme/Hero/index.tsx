@@ -76,16 +76,16 @@ function Hero() {
 
               <div className="box box-risk">
                 <div className="text">
-                  <h3 className="title">Risk Framework</h3>
+                  <h3 className="title">Pool Curators</h3>
                   <p className="description">
-                    Explore the Vesu Risk Framework and find assigned risk ratings
+                    Start curating lending pools on Vesu
                   </p>
                   <span className="more">
                     Read more
                     <SvgArrowRight color="#8A95FF" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/risk/risk-framework')} className="link">
+                <a href={useBaseUrl('/curators/onboarding')} className="link">
                   Read more
                 </a>
               </div>
