@@ -22,7 +22,7 @@ The pool curator role should be assigned to an appropriate multisig setup in ord
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| Fee Reciptient (optional) | Starknet Account | Address of the account being able to claim fees (if any). If no fees are enabled on the pool’s markets, select the “No fees” checkbox. |
+| Fee Recipient (optional) | Starknet Account | Address of the account being able to claim fees (if any). If no fees are enabled on the pool’s markets, select the “No fees” checkbox. |
 | Recovery Period | Time Period | Related to the pool’s emergency pause mode. Represents the period within which a pool in emergency pause mode can recover. If you do not want to configure an emergency pause mode, select “Deactivate”. The emergency pause mode should only be deactivated on curated pools. |
 | Subscription Period | Time Period | Related to the pool’s emergency pause mode. Represents the period within which borrowers have to repay their outstanding debt in order to be able to withdraw their collateral for a pool in shutdown mode. This can only be deactivated if the pool’s emergency pause mode is deactivated through the *Recovery Period* parameter. |
 

@@ -11,7 +11,14 @@ Vesu allows third-party _Pool Curators_ to create and manage new lending pools. 
 
 ## Basics
 
-Vesu is a fully open and immutable lending protocol built on Starknet. Pool curators, that can be anyone, are able to create and manage isolated lending pools in a fully permissionless manner. These lending pools can be configured with an arbitrary number of borrow and collateral assets, collateral rehypothecation (or strict isolation), a state-of-the-art adaptive interest rate model and different price oracles. Furthermore, depending on the use case pools can be fully immutabe or risk parameters can be actively managed by the curators.
+Pool Curators have the ability to create and manage isolated lending pools in a permissionless manner. These lending pools can be configured with:
+
+- An arbitrary combinations of borrow and collateral assets
+- Collateral rehypothecation or strict isolation
+- A state-of-the-art adaptive interest rate model
+- Support for different price oracles
+
+Depending on the use case, pools can be configured as fully immutable, or their risk parameters can be actively managed by curators.
 
 :::info
 Read more on the technical concepts in the Vesu [whitepaper](../explore/whitepaper) and developer [guides](../dev-guides/architecture).
@@ -32,12 +39,12 @@ Carefully read the following points before creating a new lending pool:
 - Make sure you understand how Vesu lending pools work, read the [whitepaper](../explore/whitepaper) and reach out on the Vesu [Discord](https://discord.gg/G9Gxgujj8T) if you have a question
 - Gauge demand from LPs and borrowers for the new pool, if your pool fails to attract liquidity, borrowing will not be possible and LPs will not earn interest
 - Ensure the existing pool extensions support the desired assets and that an oracle price feed exists
-- Carefully draft the pool's risk parameters to offer a risk-reward profile that matches the target audience
+- Carefully draft the pool's risk parameters to align with the target audience's risk-reward expectations
 - If you intend to have the new pool listed on Vesu, make sure you understand the pool listing [process](./listing)
 
 ## How to create a Vesu pool
 
-Follow the _Create Pool_ and _Uodate Pool_ guides in order to create and manage a lending pool.
+Follow the [_Create Pool_](./creation) and _Update Pool_ guides in order to create and manage a lending pool.
 
 ## Technical Requirements
 
@@ -70,4 +77,4 @@ No. There is no fee mechanism that would allow Vesu, the Vesu team or anyone ass
 
 ### Do I have to use Vesu’s Pools page to curate pools?
 
-No. Technically speaking new pools can be created by interacting with the Vesu protocol directly, either by integrating the protocol with your own smart contract or through a public block explorer like Voyager (https://voyager.online). However, this requires good engineering and Cairo skills. The Vesu Pools page is a more convenient way to curate Vesu pools.
+No. Technically speaking, new pools can be created by interacting with the Vesu protocol directly, either by integrating the protocol with your own smart contract or through a public block explorer like [Voyager](https://voyager.online). However, this requires good engineering and Cairo skills. The Vesu Pools page is a more convenient way to curate Vesu pools.

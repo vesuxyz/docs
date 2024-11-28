@@ -12,24 +12,28 @@ In this section, we'll learn how to create new Vesu markets.
 
 Vesu's permissionless nature enables everyone to create new lending pools calling the respective protocol function directly (e.g. through a block explorer). An easier way to do it is with the Pools page.
 
-# *Requirements*
+## Requirements
 
 - Starknet Wallet: A multisig setup is strongly recommended for the curator role to minimize risks.
-- Token Standard: New pools can be created with ERC-20 or ERC-4626 tokens (no rebasing tokens or other non-standard designs).
 - Small Token Amount: A small amount of the token is required to seed the pool (at least 1,000 units in the smallest denomination, such as 0.001 USDC for a USDC pool). This amount is burned to prevent share inflation attacks and ensure pool integrity.
+
+
+Here and/or just @ onboarding#getting-started? 
+- Token Standard: New pools can be created with ERC-20 or ERC-4626 tokens (no rebasing tokens or other non-standard designs).
 - Pool Parameters: Define the pool parameters in advance for smooth creation. A template for all required parameters can be found here.
-- Oracle Support: The token must be supported by the chosen oracle. Verify supported assets here with Pragma.
+- Oracle Support: The token must be supported by the chosen oracle. Check with the currently supported oracles: [Pragma](https://docs.pragma.build/v1/Resources/data-feeds/consuming-data)
 
 
+## Step-by-step Guide
 
-On [vesu.xyz/pools](http://vesu.xyz//pools) click on the blue button “+ Create Pool”
+Click on [vesu.xyz/pools](http://vesu.xyz//pools) the blue button “+ Create Pool”
 
-1. First set the following parameters:
+**1. First set the following parameters:**
 - Name of your pool.
 - Set a Starknet account as owner or choose Immutable. If Immutable is selected no changes are possible after the creation of the new pool.
 - Choose the extension contract with lending hook implementations to use for the pool. For the launch there is just one extension from Pragma available. 
 
-2. Define the Extension
+**2. Define the Extension**
 - Fee recipient: Set a Starknet account as recipient for fees, or check the Box for “No fees”
 - Recovery period: The time during which a pool in emergency pause mode can attempt to recover. If you do not wish to enable an emergency pause mode, select "Deactivate". However, it is strongly recommended to keep this feature active for immutable pools to ensure an orderly shutdown mechanism. This helps limit losses and prevents potential bank runs.
 - Subscription period: Defines the timeframe within which borrowers have to repay their outstanding debt in order to be able to withdraw their collateral for a pool in shutdown mode. This is directly tied to the emergency pause mode and can only be deactivated if the _Recovery Period_ parameter is also deactivated.
@@ -39,7 +43,7 @@ Learn more about the shutdown mode in our [whitepaper] (/explore/whitepaper#65-p
 :::
 
 
-3. Choose the assets for your pool and define the following parameter for each token.
+**3. Choose the assets for your pool and define the following parameter for each token.**
 
 | Parameter | Description |
 | --- | --- |
@@ -60,7 +64,7 @@ Learn more about the shutdown mode in our [whitepaper] (/explore/whitepaper#65-p
 | IRM Target Rate Percent | Defines a market’s target rate, that is the rate on the interest curve at target utilization, as a fixed percentage of the Full Utilization Rate, that is the rate at 100% utilization. |
 
 
-4. Define Lending Pairs
+**4. Define Lending Pairs**
 
 Configure which markets (assets) users are able to use to supply and borrow assets or both. A lending pair consists of a collateral asset and a debt asset. Each pair is configured with the following parameters:
 
@@ -71,7 +75,7 @@ Configure which markets (assets) users are able to use to supply and borrow asse
 | Liquidation Discount | The bonus that a liquidator earns with a liquidation of borrow positions in the lending pair. The liquidation discount expresses a percentage discount on the liquidated position’s collateral price, at which the liquidator can purchase collateral assets by repaying debt. |
 
 
-5. Create pool
+**5. Create pool**
 
 Check all settings and verify that everything is correct. Especially if it is an immutable pool, as then you can’t change any settings after the creation. If you click in one of the sections, you can go back to this step to make changes.
 
