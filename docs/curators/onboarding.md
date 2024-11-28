@@ -48,7 +48,7 @@ Follow the [_Create Pool Guide_](../dev-guides/create-pool) and _Update Pool Gui
 
 ## What else to consider
 
-:::warning
+:::info
 When creating a new pool, each market has to be seeded with a minimal amount of assets (2000 wei to be specific). This amount is locked permanently in order to mitigate a well-known _share inflation_ attack.
 :::
 

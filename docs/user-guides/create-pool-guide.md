@@ -17,7 +17,7 @@ Vesu's permissionless nature enables everyone to create new lending pools callin
 
 ## Step-by-step Guide
 
-Click the blue “Create Pool” button on [vesu.xyz/pools](http://vesu.xyz/pools).
+Click the blue “Create Pool” button on the "Pools" [page](http://vesu.xyz/pools).
 
 **1. First set the following parameters:**
 - Name of your pool.
