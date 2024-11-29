@@ -24,6 +24,8 @@ Click the blue “Create Pool” button on the "Pools" [page](http://vesu.xyz/po
 - Set a Starknet account as owner or choose Immutable. If Immutable is selected no changes are possible after the creation of the new pool.
 - Choose the extension contract with lending hook implementations to use for the pool. For the launch there is just one extension from Pragma available. 
 
+![Create Pool](images/ps1.png)
+
 **2. Define the Extension**
 - Fee recipient: Set a Starknet account as recipient for fees, or check the Box for “No fees”
 - Recovery period: The time during which a pool in emergency pause mode can attempt to recover. If you do not wish to enable an emergency pause mode, select "Deactivate". However, it is strongly recommended to keep this feature active for immutable pools to ensure an orderly shutdown mechanism. This helps limit losses and prevents potential bank runs.
@@ -33,17 +35,28 @@ Click the blue “Create Pool” button on the "Pools" [page](http://vesu.xyz/po
 Learn more about the shutdown mode in our [whitepaper](/explore/whitepaper#65-pool-emergency-shutdown).
 :::
 
+![Define Extension](images/ps2.png)
 
 **3. Choose the assets for your pool and define the following parameter for each token.**
 
 Add all the assets and their configuration that should be enabled as market or collateral (or both) in the pool
 
+![Choose Assets](images/ps3.png)
+
 **4. Define Lending Pairs**
 
 Add all the lending pairs, consisting of a collateral asset and debt asset, and their configuration that should be enabled in the pool
+
+![Define Pairs](images/ps4.png)
 
 **5. Create pool**
 
 Check all settings and verify that everything is correct. Especially if it is an immutable pool, as then you can’t change any settings after the creation. If you click in one of the sections, you can go back to this step to make changes.
 
-When everything is correct, click “next” and confirm the transaction in your wallet.
+![Overview before Creation](images/ps4.2.png)
+
+When everything is correct, click “Create Pool” and confirm the transaction in your wallet.
+
+:::info
+Reminder: A small amount of the token is required to seed the pool (at least 1,000 units in the smallest denomination, such as 0.001 USDC for a USDC pool). This amount is burned to prevent share inflation attacks and ensure pool integrity.
+:::
