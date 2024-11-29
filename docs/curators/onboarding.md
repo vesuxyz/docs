@@ -44,7 +44,7 @@ Carefully read the following points before creating a new lending pool:
 
 ## How to create a Vesu pool
 
-Follow the [_Create Pool Guide_](../user-guides/create-pool-guide) and [_Update Pool Guide_](../user-guides/manage-pool-guide) in order to learn how to creating and managing Vesu lending pools.
+Follow the [_Create Pool Guide_](../user-guides/create-pool-guide.md) and [_Manage Pool Guide_](../user-guides/manage-pool-guide.md) in order to learn how to creating and managing Vesu lending pools.
 
 ## What else to consider
 
