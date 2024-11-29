@@ -55,7 +55,7 @@ Check all settings and verify that everything is correct. Especially if it is an
 
 ![Overview before Creation](images/ps4.2.png)
 
-When everything is correct, click “Create Pool” and confirm the transaction in your wallet.
+When everything is correct, click _Create Pool_ and confirm the transaction in your wallet.
 
 :::info
 Reminder: A small amount of the token is required to seed the pool (at least 1,000 units in the smallest denomination, such as 0.001 USDC for a USDC pool). This amount is burned to prevent share inflation attacks and ensure pool integrity.
