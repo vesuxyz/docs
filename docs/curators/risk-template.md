@@ -1,9 +1,9 @@
 ---
-id: risk-report-instructions
-title: Risk Report Instructions
-sidebar_label: Instructions
-sidebar_position: 1
-slug: /risk/risk-reports/risk-report-instructions
+id: risk-report-template
+title: Risk Report Template
+sidebar_label: Risk Template
+sidebar_position: 5
+slug: /curators/risk-template
 ---
 
 ## Metadata

@@ -104,22 +104,26 @@ const config = {
                 label: "Developer Guides",
                 to: "/dev-guides/architecture",
               },
+              {
+                label: "Risk Framework",
+                to: "/explore/risk-framework",
+              },
             ],
           },
           {
-            title: "Risk",
+            title: "Curators",
             items: [
               {
-                label: "Risk Framework",
-                to: "/risk/risk-framework",
+                label: "Onboarding",
+                to: "/curators/onboarding",
               },
               {
-                label: "Risk Ratings",
-                to: "/risk/risk-ratings",
+                label: "Listing",
+                to: "/curators/listing",
               },
               {
                 label: "Risk Reports",
-                to: "/risk/risk-framework",
+                to: "/curators/risk-reports",
               },
             ],
           },
