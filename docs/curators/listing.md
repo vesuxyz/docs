@@ -13,8 +13,8 @@ Everyone can create new lending pools on Vesu, but pools are not automatically e
 In order to have a new pool listed on the Vesu website, follow the steps below:
 
 1. Fork the Vesu docs [repository](https://github.com/vesuxyz/docs)
-2. In the _Risk Reports_ [section](https://github.com/vesuxyz/docs/docs/curators/risk-reports), create a new folder named after the pool's _poolId_
-3. Create a copy of risk report [template](https://github.com/vesuxyz/docs/docs/curators/risk-template.md) for each market of the new pool (named after the market's asset)
+2. In the _Risk Reports_ [section](https://github.com/vesuxyz/docs/tree/main/docs/curators/risk-reports), create a new folder named after the pool's _poolId_
+3. Create a copy of risk report [template](https://github.com/vesuxyz/docs/blob/main/docs/curators/risk-template.md) for each market of the new pool (named after the market's asset)
 4. Follow the instructions on the template to complete the risk report for all markets
 5. When done, create a PR in the official docs repository with your changes
 6. Ping the team in the Vesu [Discord](https://discord.gg/G9Gxgujj8T) to get your listing application reviewed
