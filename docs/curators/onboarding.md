@@ -28,23 +28,23 @@ Read more on the technical concepts in the Vesu [whitepaper](../explore/whitepap
 
 The growing Starknet ecosystem offers cutting edge DeFi protocols including DEXs, lending markets, derivatives and aggregators. This opens vast opportunities for new DeFi strategies. As the only open and neutral lending protocol on Starknet, Vesu offers a great basis to build any lending market and unlock new DeFi products and strategies such as:
 
-- New lending markets for assets which cannot yet be borrowed and used as collateral to borrow
-- More efficient lending markets e.g. through an active risk curation strategy
-- Innovation of new lending markets and features (e.g. new liquidation mechanism, new oracles, etc.)
+- New lending markets for assets which cannot yet be borrowed and used as collateral to borrow.
+- More efficient lending markets e.g. through an active risk curation strategy.
+- Innovation of new lending markets and features (e.g. new liquidation mechanism, new oracles, etc.).
 
 ## Getting started
 
 Carefully read the following points before creating a new lending pool:
 
-- Make sure you understand how Vesu lending pools work, read the [whitepaper](../explore/whitepaper) and reach out on the Vesu [Discord](https://discord.gg/G9Gxgujj8T) if you have a question
-- Gauge demand from LPs and borrowers for the new pool, if your pool fails to attract liquidity, borrowing will not be possible and LPs will not earn interest
-- Ensure the existing pool extensions support the desired assets and that an oracle price feed exists
-- Carefully draft the pool's risk parameters to align with the target audience's risk-reward expectations
-- If you intend to have the new pool listed on Vesu, make sure you understand the pool listing [process](./listing)
+- Make sure you understand how Vesu lending pools work, read the [whitepaper](../explore/whitepaper) and reach out on the Vesu [Discord](https://discord.gg/G9Gxgujj8T) if you have a question.
+- Gauge demand from LPs and borrowers for the new pool, if your pool fails to attract liquidity, borrowing will not be possible and LPs will not earn interest.
+- Ensure the existing pool extensions support the desired assets and that an oracle price feed exists.
+- Carefully draft the pool's risk parameters to align with the target audience's risk-reward expectations.
+- If you intend to have the new pool listed on Vesu, make sure you understand the pool listing [process](./listing).
 
 ## How to create a Vesu pool
 
-Follow the [_Create Pool Guide_](../dev-guides/create-pool) and _Update Pool Guide_ in order to learn how to creating and managing Vesu lending pools.
+Follow the [_Create Pool Guide_](../user-guides/create-pool-guide) and [_Update Pool Guide_](../user-guides/manage-pool-guide) in order to learn how to creating and managing Vesu lending pools.
 
 ## What else to consider
 
