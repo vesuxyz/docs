@@ -1,12 +1,10 @@
 ---
-id: security-disclosure-report
-title: Vesu's security information center
-sidebar_label: Report
-sidebar_position: 5
-slug: /security/Disclosures-report/report
+id: extension-trust-disclosure
+title: 2024-06-07 Extension Trust Disclosure
+sidebar_label: 2024-06-07 Extension Trust
+sidebar_position: 1
+slug: /security/disclosures-report/extension-trust-disclosure
 ---
-
-### 2024-06-07 Risk Disclosure Report
 
 Risks related to the Singleton-Extension trust relationship.
 
