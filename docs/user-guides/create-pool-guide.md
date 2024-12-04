@@ -28,18 +28,30 @@ Click the blue _Create Pool_ button on the Pools [page](http://vesu.xyz/pools).
 
 **2. Define the Extension**
 - Fee recipient: Set a Starknet account as recipient for fees, or check the Box for “No fees”
+
+Choose if _Pool emergency_ should be activated. If activatedf activated, specify:
+- Number of sources: Set the number of data providers needed for the oracle.
 - Recovery period: The time during which a pool in emergency pause mode can attempt to recover. If you do not wish to enable an emergency pause mode, select "Deactivate". However, it is strongly recommended to keep this feature active for immutable pools to ensure an orderly shutdown mechanism. This helps limit losses and prevents potential bank runs.
 - Subscription period: Defines the timeframe within which borrowers have to repay their outstanding debt in order to be able to withdraw their collateral for a pool in shutdown mode. This is directly tied to the emergency pause mode and can only be deactivated if the _Recovery Period_ parameter is also deactivated.
+- Pool pause loan-to-value: When the total LTV for a lending pair hits this threshold, borrowing and withdrawals pause to protect users and ensure stability.
 
 :::note
 Learn more about the shutdown mode in our [whitepaper](/explore/whitepaper#65-pool-emergency-shutdown).
 :::
 
-![Define Extension](images/ps2.png)
+![Define Extension](images/ps2_updated.png)
 
-**3. Choose the assets for your pool and define the following parameter for each token.**
+**3. Choose the assets for your pool and define the parameter for each token.**
 
-Add all the assets and their configuration that should be enabled as market or collateral (or both) in the pool
+Add all assets to be enabled as market, collateral, or both in your pool. 
+
+For each asset, configure the following parameters:
+
+- Debt Floor
+- Max Utilization
+- Oracle Method
+- vToken Name
+- Interest Rate Model Specifications
 
 ![Choose Assets](images/ps3.png)
 
@@ -53,7 +65,7 @@ Add all the lending pairs, consisting of a collateral asset and debt asset, and 
 
 Check all settings and verify that everything is correct. Especially if it is an immutable pool, as then you can’t change any settings after the creation. If you click in one of the sections, you can go back to this step to make changes.
 
-![Overview before Creation](images/ps4.2.png)
+![Overview before Creation](images/ps4_updated.png)
 
 When everything is correct, click _Create Pool_ and confirm the transaction in your wallet.
 
