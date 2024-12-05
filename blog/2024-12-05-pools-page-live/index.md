@@ -21,7 +21,7 @@ Choose to make your pool immutable or if you want to enable pool emergency proce
 
 ### Why Create Your Own Pool?
 
-As the only neutral lending protocol on Starknet, Vesu serves as the ultimate launchpad for its thriving ecosystem. Unlock new possibilities:
+As the only neutral lending protocol on Starknet, Vesu serves as the ultimate launchpad for its thriving ecosystem. Here’s what you can achieve:
 
 - **Add Utility to Your Token**: Let your community earn yield or use your token as collateral.
 - **Innovate and Experiment**: Launch markets for untapped assets, tailor liquidations or oracles, and fine-tune risk strategies.
@@ -30,12 +30,12 @@ As the only neutral lending protocol on Starknet, Vesu serves as the ultimate la
 Whether you're a community builder or an innovator, the new **Pools Page** equips you with everything needed to bring your ideas to life.
 
 :::note
-Creating a new pool is simple, but finding the right parameters to attract demand from both lenders and borrowers can be challenging. We’re here to help! Contact us via Discord for support with your new pool: https://discord.com/invite/G9Gxgujj8T
+Creating a new pool is simple, but finding the right parameters to attract demand from both lenders and borrowers can be challenging. We’re here to help! Contact us via [Discord](https://discord.com/invite/G9Gxgujj8T) for support with your new pool. 
 :::
 
 ### What’s in It for Users?
 
-Vesu users also benefit from this update:
+This update is a game-changer for Vesu users, unlocking exciting opportunities:
 
 - **More Liquidity**: New pools mean new opportunities for earning and borrowing.
 - **New Strategies**: Increase your STRK exposure with Vesu's Multiply feature.
@@ -43,22 +43,23 @@ Vesu users also benefit from this update:
 
 We’re committed to unlocking the next level for DeFi on Starknet. With innovative products, expert curators, and expanding integrations, the journey is just getting started!
 
-Discover all the new markets approved by the Vesu Team on [vesu.xyz/markets](https://vesu.xyz/markets
+Discover all the new markets on [vesu.xyz/markets](https://vesu.xyz/markets)
 
 :::note
-
-Make sure to familiarize yourself with the new pools. A detailed guide on what to watch out for will be available soon!
+Make sure to familiarize yourself with the new pools. As Vesu is permissionless, anyone can create a pool, so it’s important to understand the parameters and risks before participating. A detailed guide on what to watch out for will be available soon!
 :::
 
 ### Get Started Today
 
 Ready to dive in?
-As user: Visit the updated **[Markets Page](https://vesu.xyz/markets)** page to explore the new pools launched by Re7 Labs.
 
-As creator: Visit the **[Pools Page](https://vesu.xyz/pools)** now and take your DeFi journey to the next level.
+For Creators: Build your own pool and bring your vision to life. Start with our [onboarding Docs](https://docs.vesu.xyz/curators/onboarding).
 
-Any questions, feedback or ideas for a new pool? Join us on Discord!
+For Users: Explore the new pools already launched by Re7 Labs on the updated [Markets page](https://vesu.xyz/markets).
 
+Got questions or ideas for a pool? Let us know in Discord.
+
+🔗 Useful Links
 
 **Links**  
 **Vesu.xyz**: [Earn, Borrow, Multiply!](https://vesu.xyz/)  
