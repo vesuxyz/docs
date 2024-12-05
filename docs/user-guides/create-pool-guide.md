@@ -57,7 +57,7 @@ For each asset, configure the following parameters:
 
 **4. Define Lending Pairs**
 
-Add all the lending pairs, consisting of a collateral asset and debt asset, and their configuration that should be enabled in the pool
+Add all the lending pairs, consisting of a collateral asset and debt asset, and their configuration that should be enabled in the pool.
 
 ![Define Pairs](images/ps4_updated.png)
 
