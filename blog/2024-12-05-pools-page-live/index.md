@@ -18,6 +18,7 @@ The Pools Page makes it easier than ever to create and manage lending pools. Any
 Choose to make your pool immutable or if you want to enable pool emergency procedures, giving borrowers and lenders extra trust in its stability & security. Prefer a flexible approach? Curate your pool as it grows and be able to adjust settings to meet evolving needs.
 
 ![New Pool Creation UI](create-brother-pool.png)
+_The new pool creation UI._
 
 ### Why Create Your Own Pool?
 
@@ -59,9 +60,7 @@ For Users: Explore the new pools already launched by Re7 Labs on the updated [Ma
 
 Got questions or ideas for a pool? Let us know in Discord.
 
-🔗 Useful Links
-
-**Links**  
+🔗 **Links**
 **Vesu.xyz**: [Earn, Borrow, Multiply!](https://vesu.xyz/)  
 **X/Twitter**: [Follow us!](https://twitter.com/vesuxyz)  
 **Discord**: [Join the community!](https://discord.com/invite/G9Gxgujj8T)  
