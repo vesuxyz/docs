@@ -1,15 +1,15 @@
 ---
-title: Vesu STRK-Re7USDC Risk Report
-sidebar_label: vSTRK-Re7USDC
+title: Vesu xSTRK-Re7xSTRK Risk Report
+sidebar_label: vxSTRK-Re7xSTRK
 sidebar_position: 2
-slug: /curators/risk-reports/3592370751539490711610556844458488648008775713878064059760995781404350938653/strk
+slug: /curators/risk-reports/2345856225134458665876812536882617294246962319062565703131100435311373119841/xstrk
 ---
 
-export const pool_Id = '3592370751539490711610556844458488648008775713878064059760995781404350938653'
-export const asset = '0x04718f5a0Fc34cC1AF16A1cdee98fFB20C31f5cD61D6Ab07201858f4287c938D'
-export const rating = 'low'
+export const pool_Id = '2345856225134458665876812536882617294246962319062565703131100435311373119841'
+export const asset = '0x028d709c875c0ceac3dce7065bec5328186dc89fe254527084d1689910954b0a'
+export const rating = 'medium'
 export const pool_risk = 'low'
-export const asset_risk = 'low'
+export const asset_risk = 'median'
 export const oracle_risk = 'low'
 export const market_risk = 'low'
 export const collateral_risk = 'low'
@@ -17,21 +17,22 @@ export const collateral_risk = 'low'
 
 ## Summary
 
-The Vesu STRK-Re7USDC market represents STRK deposits in Re7 Lab's "Re7 USDC" pool.
+The Vesu xSTRK-Re7xSTRK market represents xSTRK deposits in Re7 Lab's "Re7 xSTRK" pool.
 
-The pool enables various high MCAP assets and uses Vesu's official factory extension with Pragma price feeds.
+The pool enables `STRK` and `xSTRK`, Endur's `STRK` LST, assets and uses Vesu's official factory extension with Pragma price feeds.
 
-The market's overall risk rating is 🟩 Low.
+The market's overall risk rating is 🟨 Medium.
 
 *Datapoints*
 
-- [CoinGecko](https://www.coingecko.com/en/coins/starknet)
-- [Voyager](https://voyager.online/contract/0x04718f5a0Fc34cC1AF16A1cdee98fFB20C31f5cD61D6Ab07201858f4287c938D)
+- [Endur](https://app.endur.fi/)
+- [STRK Staking](https://dashboard.endur.fi/)
+- [Voyager](https://voyager.online/contract/0x028d709c875c0ceac3dce7065bec5328186dc89fe254527084d1689910954b0a)
 
 
 ## Pool Risk
 
-The "Re7 USDC" pool is curated by Re7 Labs, a professional risk curator with extensive experience and a long track record on other lending protocols.
+The "Re7 xSTRK" pool is curated by Re7 Labs, a professional risk curator with extensive experience and a long track record on other lending protocols.
 
 The pool uses Vesu's audited factory extension which uses a robust Pragma feed and Vesu's public liquidation model.
 
@@ -55,50 +56,58 @@ The proposed rating is:
 
 ## Asset Risk
 
-:::warning
-This report does not assess the risks associated with bridging assets to Starknet using StarkGate.
-Make sure you understand the risks involved with bridging assets to Starknet before continuing.
-:::
+Endur's `xSTRK` is a `STRK` *liquid staking token* (LST) and was launched in November 2024 by the teams behind Karnot and STRKFarm.
 
-StarkGate STRK reflects Ethereum mainnet STRK that is bridged to Starknet using the StarkGate bridge. 
-StarkGate is Starknet's canonical bridge and is developed and maintained by StarkWare, the creator of Starknet.
-The bridge is operational since early 2022 and has facilitated over [1.9M bridge transactions](https://dune.com/sapiens/starknet-insighttokenomics-and-bridge-stats) or over USD 1.7bn in value bridged.
+At the time of writing this report, almost 15M `STRK` is staked with Endur making it one of the biggest `STRK` staker.
+
+Because of its recent launch only limited information and historical data points exist for `xSTRK`.
+
 
 **Smart contract risk**
 
-StarkGate STRK uses OpenZeppelin's [standard ERC20](https://github.com/OpenZeppelin/cairo-contracts) token implementation.
-It has been audited by Nethermind and both [source code](https://github.com/starknet-io/starkgate-contracts) and [audit report](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf) are publicly available.
+:::info
+The `xSTRK` codebase has been audited and both the codebase and audit report shared with and reviewed by the Starknet Foundation.
+:::
 
 :::warning
-The StarkGate STRK contract is not verified on block explorers.
+The `xSTRK` codebase and audit reports are not publicly available.
+:::
+
+:::warning
+The `xSTRK` contract is not verified on block explorers.
 :::
 
 **Counterparty risk**
 
-N/A
+As a `STRK` LST, `xSTRK` gives the holder a claim on the underlying `STRK` assets. These assets are managed by Endur's staking infrastructure.
+
+As the operator of this infrastructure, the Endur team plays a critical role in the safeguarding of these assets and is thus considered an important counterparty to anyone holding or integrating with `xSTRK`.
+
+The Endur team has proven experience of operating blockchain and DeFi infrastructure as well as a good reputation within the Starknet ecosystem. The counterparty risk is thus limited.
 
 **Depeg risk**
 
-N/A
+`xSTRK` trades on the Ekubo DEX and its price is expected to be pegged to the price of `STRK` itself.
+
+Given that the asset was only launched in November 2024 and still has thin liquidity on Ekubo, temporary depeg events are expected.
+
+A permanent depeg event could be caused by a loss or theft of the LST's underlying staked `STRK` balance. However, this risk is limited given the findings in the previous sections.
 
 **Datapoints**
 
-- [Token Contract](https://voyager.online/contract/0x04718f5a0Fc34cC1AF16A1cdee98fFB20C31f5cD61D6Ab07201858f4287c938D)
-- [Mainnet Escrow Contract](https://etherscan.io/address/0xcE5485Cfb26914C5dcE00B9BAF0580364daFC7a4)
-- [StarkGate GitHub](https://github.com/starknet-io/starkgate-contracts)
-- [StarkGate Audit](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf)
-- [StarkGate Stats](https://dune.com/sapiens/starknet-insighttokenomics-and-bridge-stats)
+- [Token Contract](https://voyager.online/contract/0x028d709c875c0ceac3dce7065bec5328186dc89fe254527084d1689910954b0a)
 
 **Rating**
 
 The proposed rating is:
 
-- 🟩 Low
+- 🟨 Medium
 
 
 ## Oracle Risk
 
 The pool uses Pragma's `STRK/USD` price feed.
+
 The Pragma oracle is a native Starknet oracle system that secures over USD 200m across all major projects on Starknet.
 It is fully decentralized in that it does not rely on off-chain infrastructure. Instead, data providers directly push prices on-chain and aggregation is done by the data consumer directly.
 
