@@ -8,13 +8,13 @@ slug: /explore/defi-spring
 
 Starknet's DeFi Spring program started in [February 2024](https://www.starknet.io/blog/starknet-foundation-introduces-the-start-of-defi-spring) with the goal of bootstrapping a strong and healthy DeFi ecosystem on Starknet. Initially a budget of 40M STRK tokens was allocated to the program with a timeline until October 2024.
 
-Recently, this program was extended to a grand total of 90M STRK and a timeline until *at least* [December 2024](https://www.starknet.io/blog/defi-spring-2-0).
+Recently, the program was expanded to **a total of 90M STRK tokens, with the aim of continuing until all rewards are distributed. This is expected to extend into Q1 or even Q2 2025**.
 
 Vesu, and its users, are chosen to be eligible for STRK incentives in the *Money Markets" cohort. This means that you can earn STRK tokens for supplying liquidity on certain Vesu markets.
 
-### What are STRK grants?
+### What are DeFi Spring rewards?
 
-STRK grants are the STRK tokens allocated to the participating protocols, like Vesu, by the Starknet Foundation. The Starknet Foundation uses a set of activity metrics to assess a protocol's STRK grant. These grants are then determined and distributed every two weeks.
+The Starknet Foundation allocates STRK rewards to participating protocols, such as Vesu, based on a set of activity metrics. These metrics determine the weekly distribution of STRK tokens to each protocol. For more information, visit the official [DeFi Spring](https://defispring.starknet.io/about) website.
 
 ### How can I earn STRK on Vesu?
 
@@ -30,8 +30,8 @@ According to the Starknet Foundation’s criteria, only non-recursive deposits o
 
 Your allocation of STRK tokens depends on two factors:
 
-1. The total STRK grant distributed to Vesu is based on a set of metrics that are defined and monitored by the Starknet Foundation
-2. Your share of Vesu's STRK grant is computed based on the interest earned from supplying liquidity in the eligible markets relative to the total interest generated (or earned respectively) across all participants over a certain period.
+1. The total amount of STRK distributed to Vesu is based on a set of metrics that are defined and monitored by the Starknet Foundation
+2. Your share is computed based on the interest earned from supplying liquidity in the eligible markets relative to the total interest generated (or earned respectively) across all participants over a certain period.
 
 :::tip
 You can track your total interest earnings (across all markets) on the [Vesu Leaderboard](./leaderboard.md).
@@ -39,9 +39,11 @@ You can track your total interest earnings (across all markets) on the [Vesu Lea
 
 ### Which markets are eligible?
 
-As per July 10th 2024, the following markets are eligible for STRK tokens:
+As per December 1th 2024, the following markets are eligible for DeFi Spring rewards:
 
 - STRK
+- xSTRK
+- sSTRK
 - ETH
 - USDC
 - USDT
