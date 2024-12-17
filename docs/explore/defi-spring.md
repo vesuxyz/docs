@@ -10,7 +10,7 @@ Starknet's DeFi Spring program started in [February 2024](https://www.starknet.i
 
 Recently, the program was expanded to **a total of 90M STRK tokens, with the aim of continuing until all rewards are distributed. This is expected to extend into Q1 or even Q2 2025**.
 
-Vesu, and its users, are chosen to be eligible for STRK incentives in the *Money Markets" cohort. This means that you can earn STRK tokens for supplying liquidity on certain Vesu markets.
+Vesu users are also eligible for STRK rewards. This means that you can earn STRK tokens for supplying liquidity on certain Vesu market
 
 ### What are DeFi Spring rewards?
 
@@ -31,15 +31,15 @@ According to the Starknet Foundation’s criteria, only non-recursive deposits o
 Your allocation of STRK tokens depends on two factors:
 
 1. The total amount of STRK distributed to Vesu is based on a set of metrics that are defined and monitored by the Starknet Foundation
-2. Your share is computed based on the interest earned from supplying liquidity in the eligible markets relative to the total interest generated (or earned respectively) across all participants over a certain period.
+2. Your share is determined by the value of your deposited assets relative to the total value locked (TVL) across all participants in eligible markets over a given period.
 
 :::tip
-You can track your total interest earnings (across all markets) on the [Vesu Leaderboard](./leaderboard.md).
+You can track your TVL across all markets on the [Vesu Leaderboard](./leaderboard.md).
 :::
 
 ### Which markets are eligible?
 
-As per December 1th 2024, the following markets are eligible for DeFi Spring rewards:
+As per December 1th 2024, the following markets on Vesu are eligible for DeFi Spring rewards:
 
 - STRK
 - xSTRK
