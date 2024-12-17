@@ -6,7 +6,7 @@ sidebar_position: 5
 slug: /explore/leaderboard
 ---
 
-The [Vesu Leaderboard](https://vesu.xyz/leaderboard) tracks the USD-value of the total value locked across all Vesu markets.
+The [Vesu Leaderboard](https://vesu.xyz/leaderboard) tracks the total value locked (TVL) across all Vesu markets for each user.
 
 :::tip
 You can easily find your rank on the leaderboard by connecting your wallet to the Vesu app.
