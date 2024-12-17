@@ -28,11 +28,11 @@ According to the Starknet Foundation’s criteria, only non-recursive deposits o
 
 Your allocation of STRK tokens depends on two factors:
 
-1. The total amount of STRK distributed to Vesu is based on a set of metrics that are defined and monitored by the Starknet Foundation
+1. The total amount of STRK distributed to Vesu is based on a set of metrics that are defined and monitored by the Starknet Foundation.
 2. Your share is determined by the value of your deposited assets relative to the total value locked (TVL) across all participants in eligible markets over a given period.
 
 :::tip
-You can track your TVL across all markets on the [Vesu Leaderboard](./leaderboard.md).
+You can track your total interest earnings (across all markets) on the [Vesu Leaderboard](./leaderboard.md).
 :::
 
 ### Which markets are eligible?
