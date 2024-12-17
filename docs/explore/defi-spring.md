@@ -14,13 +14,11 @@ Vesu users are eligible for STRK rewards. This means that you can earn STRK toke
 
 ### What are DeFi Spring rewards?
 
-The Starknet Foundation allocates STRK rewards to participating protocols, such as Vesu, based on a set of activity metrics. These metrics determine the weekly distribution of STRK tokens to each protocol. For more information, visit the official [DeFi Spring](https://defispring.starknet.io/about) website.
+The Starknet Foundation allocates STRK rewards to participating protocols, such as Vesu, based on a set of activity metrics. These metrics determine the weekly distribution of STRK tokens to each protocol. For more information, visit the official [DeFi Spring](https://defispring.starknet.io/about) page.
 
 ### How can I earn STRK on Vesu?
 
-In order to earn STRK tokens on Vesu all you have to do is supplying assets to one of the eligible markets.
-
-Your interest earned across all Earn positions in certain markets count towards your STRK allocation.
+Simply supply assets to any of the [eligible markets](#which-markets-are-eligible).
 
 :::note
 According to the Starknet Foundation’s criteria, only non-recursive deposits of stablecoins (USDC/USDT) are eligible for STRK rewards. For example, if you deposit USDC and borrow USDT, you’ll still earn the organic Supply APY on your USDC, but you won’t receive any extra STRK rewards due to the USDT debt.
