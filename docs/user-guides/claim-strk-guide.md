@@ -16,10 +16,10 @@ To get started, ensure you already have an open position on Vesu, as that is wha
 
 To claim your STRK rewards:
 
-1. Head over to your Vesu positions [Vesu](https://vesu.xyz/positions)
+1. Head over to the [positions dashboard](https://vesu.xyz/positions).
 
-2. Just above your positions, you can see a dedicated DeFi Spring section. "Earned STRK" represents the STRKs you've accrued over time. "Claimable STRK" is the amount you can claim.
+2. Just above your position(s), you can see a dedicated DeFi Spring section. _Earned this week_ represents the STRKs you've accrued in the current round. _Available to claim_ is the total amount you can claim right now.
 
 ![Defi Spring](images/defispring.png)
 
-3. Hit on the "claim" button to claim accrued STRK tokens.
+3. Click on the _Claim_ button to receive the STRK tokens.
