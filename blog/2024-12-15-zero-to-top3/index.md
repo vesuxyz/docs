@@ -9,11 +9,11 @@ tags: [Announcement]
 
 ## Reflecting on 2024 Milestones and What’s Next
 
-As we step into 2025, we’re proud to share how far we’ve come. In just six months, Vesu has risen to 3rd in TVL among all Starknet projects! 
+As we step into 2025, we’re proud to share how far we’ve come. In just six months, Vesu has risen to **3rd in TVL among all Starknet projects!** 
 
 This milestone is a testament to the amazing support from our community.
 
-![Vesu Protocol Rankings](vesu-top3.png)
+![Vesu Protocol Rankings](top3light.png)
 _Protocol Rankings by DeFiLlama (01/14/25)_
 
 Let’s take a moment to celebrate the milestones that made this possible.
