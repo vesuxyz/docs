@@ -1,19 +1,20 @@
 ---
-slug: 2024-12-15-from-zero-to-top3
-title: From Zero to Top3: Vibing with Vesu
+slug: 2024-12-15-zero-to-top3
+title: Vibing with Vesu
 authors: [marc]
 tags: [Announcement]
 ---
 
-![Vibe with Vesu](Zero_to_Top3.png)
+![Vibe with Vesu](zero-to-top3.png)
 
-# From Zero to #3: Vibing with Vesu
 ## Reflecting on 2024 Milestones and What’s Next
 
-As we step into 2025, we’re proud to reflect on our journey. In just six months, Vesu has risen to become one of Starknet’s leading protocols, now ranked 3rd by TVL among all Starknet projects!
+As we step into 2025, we’re proud to share how far we’ve come. In just six months, Vesu has risen to 3rd in TVL among all Starknet projects! 
 
-![DeFiLlama Protocol Rankings](vesu-top3p3.png)
-Protocol Rankings by DeFiLlama (01/15/25)
+This milestone is a testament to the amazing support from our community.
+
+![Vesu Protocol Rankings](vesu-top3.png)
+_Protocol Rankings by DeFiLlama (01/14/25)_
 
 Let’s take a moment to celebrate the milestones that made this possible.
 
@@ -31,20 +32,19 @@ Let’s take a moment to celebrate the milestones that made this possible.
 
 👉 Dive into our [2024 recap on X ](https://x.com/vesuxyz/status/1871496693293744317)for more exciting highlights and milestones!
 
-## Looking Ahead
-
+## Looking Ahead  
 2025 is set to be a big year for Vesu, with a sharp focus on seamless UX, innovation, and security. Here’s what’s on the horizon:
 
-**🌸 DeFi Spring Campaign Continues**
+**🌸 DeFi Spring Campaign Continues**  
 The rewards program has been extended until all 90M STRK are distributed.
 
-**🤖 DeFAI**
+**🤖 DeFAI**  
 From simple rule-based automations to AI agents, we’re unlocking smarter ways to manage pools and positions.
 
-**🌍 Expanding Ecosystem**
+**🌍 Expanding Ecosystem**  
 Welcoming new curators, liquidity providers, and partnerships within Starknet and the EVM ecosystem.
 
-**⚡ DeFi for Bitcoin**
+**⚡ DeFi for Bitcoin**  
 Bridging Bitcoin into Starknet-powered DeFi—unlocking fresh opportunities for BTC holders.
 
 Starknet’s tech is ready to scale with lower fees and faster transactions, creating the perfect environment for DeFi innovation—and Vesu is ready to lead the way.
