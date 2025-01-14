@@ -11,26 +11,24 @@ tags: [Announcement]
 
 As we step into 2025, we’re proud to share how far we’ve come. In just six months, Vesu has risen to **3rd in TVL among all Starknet projects!** 
 
-This milestone is a testament to the amazing support from our community.
-
 ![Vesu Protocol Rankings](top3light.png)
 _Protocol Rankings by DeFiLlama (01/14/25)_
 
-Let’s take a moment to celebrate the milestones that made this possible.
+This milestone reflects the incredible support and trust from our growing community. Let’s take a moment to celebrate the key achievements of 2024 together.
 
 ## Key Milestones of 2024
 
-**Launch:** 10th of July 2024 🥳
+**Launch Day:** July 10, 2024 – the day it all began! 🥳
 
-**Multiply:** Vesu became the first protocol on Starknet to introduce Multiply, allowing users to effortlessly increase exposure to their favorite assets in a single transaction.
+**Multiply:** A game-changer for users looking to amplify exposure to their favorite assets. 
 
-**Custom Pools:** The launch of the [Pools Page](https://vesu.xyz/pools) enables everyone to create fully customizable pools, opening the door to new lending markets.
+**Pools Page Launch:** Create fully customizable pools and unlock fresh, exciting lending markets. Your pool, your rules.
 
-**Re7 Labs as Curator:** We proudly welcomed Re7 Labs, a leading risk expert, as Vesu’s first curator. Their xSTRK and sSTRK pools opened up exciting new earning opportunities.
+**Re7 Labs as Curator:** Big news for Vesu and Starknet—Re7 Labs, a leading DeFi risk expert, became our first curator. Their xSTRK and sSTRK pools opened up exciting new earning opportunities.
 
-**Stake & Earn:** Earn 20% APY with your STRK! Receive staking rewards & DeFi Spring rewards with just one transaction. Check it out [here](https://vesu.xyz/stake-and-earn).
+**Stake & Earn:** Why complicate things? With Vesu, earning 20% APY with your STRK is a breeze. Staking rewards and DeFi Spring rewards come together in one single step. Stake & earn [now](https://vesu.xyz/stake-and-earn).
 
-👉 Dive into our [2024 recap on X ](https://x.com/vesuxyz/status/1871496693293744317)for more exciting highlights and milestones!
+👉 Dive into our [2024 recap on X](https://x.com/vesuxyz/status/1871496693293744317) for more exciting highlights and milestones!
 
 ## Looking Ahead  
 2025 is set to be a big year for Vesu, with a sharp focus on seamless UX, innovation, and security. Here’s what’s on the horizon:
@@ -54,5 +52,5 @@ Starknet’s tech is ready to scale with lower fees and faster transactions, cre
 Your feedback and engagement have made everything we’ve achieved possible. Together, we’re shaping the future of DeFi on Starknet.
 
 Stay connected for the latest updates: 
-- Follow us on **[X/Twitter](https://twitter.com/vesuxyz)**  
-- Join the community on **[Discord](https://discord.com/invite/G9Gxgujj8T)**S
+- Follow us on **[X](https://twitter.com/vesuxyz)**  
+- Join the community on **[Discord](https://discord.com/invite/G9Gxgujj8T)**
