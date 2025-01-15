@@ -1,5 +1,5 @@
 ---
-slug: 2025-12-15-zero-to-top3
+slug: 2025-01-15-zero-to-top3
 title: Vibing with Vesu
 authors: [marc]
 tags: [Announcement]
