@@ -20,7 +20,7 @@ This milestone reflects the incredible support and trust from our growing commun
 
 **Launch Day:** July 10, 2024 – the day it all began! 🥳
 
-**Multiply:** A game-changer for users looking to amplify exposure to their favorite assets. 
+**Multiply:** The first feature launched on Vesu—and a Starknet-first! A game-changer for users looking to amplify exposure to their favorite assets.
 
 **Pools Page Launch:** Create fully customizable pools and unlock fresh, exciting lending markets. Your pool, your rules.
 
