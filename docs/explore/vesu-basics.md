@@ -123,11 +123,16 @@ The *loan-to-value* is a crucial factor in assessing the risk of a loan. A highe
 In Vesu, for each lending pair in a pool a specific *maximal loan-to-value* threshold is defined at which a position in violation, that is with a *loan-to-value* larger than the threshold, can be liquidated.
 
 
-### Lend APY
+### Supply APY
 
-The Lend APY refers to the annual percentage yield, that is the annualized yield assuming compounding of the (per-second) interest rate, accrued to the lenders from supplying liquidity in a market.
+The Supply APY refers to the annual percentage yield, which is the annualized yield assuming compounding of the (per-second) interest rate, accrued to the lenders from supplying liquidity in a market.
 
+The Supply APY may include the following components, depending on the underlying assets:
+- **Lending APY**: The base yield from lending, paid by borrowers.
+- **Rewards APY**: Additional rewards provided from the DeFi Spring program. [Learn more here.](./defi-spring.md)
+- **Asset APY**: Yield from the underlying asset through staking rewards for liquid staking tokens such as xSTRK, sSTRK, and wstETH. These rewards accrue within the token and are redeemable through the LST provider.
+- **Borrow Cost**: Represents the funding cost of your Multiply position. It is directly reflected in the Borrow APR of the asset being borrowed for the Multiply strategy.
 
 ### Borrow APR
 
-The Borrow APR refers to the simple annual percentage interest rate, without compounding, that borrowers pay for burrowing liquidity in a market.
+The Borrow APR refers to the simple annual percentage interest rate, without compounding, that borrowers pay for borrowing liquidity in a market.
