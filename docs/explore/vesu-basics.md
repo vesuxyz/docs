@@ -30,12 +30,12 @@ Every Starknet account, without limitation, can participate in Vesu through any 
 The permissionless lending and borrowing on Vesu is achieved through overcollaterized loans. Thereby, borrowers are required to provide crypto assets as collateral to secure their loan and borrowed funds respectively. The Vesu lending protocol ensures that the value of the collateral at any time exceeds the value of the borrowed funds. 
 
 :::warning
-Positions violating the *loan-to-value* invariant are are considered *insolvent" and are available for liquidation.
+Positions violating the *loan-to-value* invariant are considered *insolvent* and are available for liquidation.
 :::
 
 ![Vesu Liquidation](images/liquidation.png)
 
-The liquidation process may differ across lending pools but in general involves the sale of the position collateral at a discount in order to recover the position debt. Accordingly, liquidations result in a loss for the position owner who are thus incentivized to ensure position solvency.
+The liquidation process may differ across lending pools but in general involves the sale of the position collateral at a discount in order to recover the position debt. Accordingly, liquidations result in a loss for the position, owner are thus incentivized to ensure position solvency.
 
 
 ### Lending Pools
@@ -43,7 +43,7 @@ The liquidation process may differ across lending pools but in general involves 
 Lending pools in Vesu are isolated lending facilities where users share the same liquidity and risks. Other than traditional DeFi lending markets, Vesu allows everyone to create new lending pools. Vesu thus enables participants and the broader market to coordinate around capital allocation instead of designating a central party to fulfill this role.
 
 :::info
-Vesu enables permissionless lending pools giving all participant the possibility to create new pools as demand arises.
+Vesu enables permissionless lending pools giving all participants the possibility to create new pools as demand arises.
 :::
 
 
@@ -130,7 +130,7 @@ The Supply APY refers to the annual percentage yield, which is the annualized yi
 The Supply APY may include the following components, depending on the underlying assets:
 - **Lending APY**: The base yield from lending, paid by borrowers.
 - **Rewards APY**: Additional rewards provided from the DeFi Spring program. [Learn more here.](./defi-spring.md)
-- **Asset APY**: Yield from the underlying asset through staking rewards for liquid staking tokens such as xSTRK, sSTRK, and wstETH. These rewards accrue within the token and are redeemable through the LST provider.
+- **Asset APY**: Yield from on the underlying asset. This yield typically accrues on the underlying asset directly or it is redeemable through the issuer of the underlying asset.
 - **Borrow Cost**: Represents the funding cost of your Multiply position. It is directly reflected in the Borrow APR of the asset being borrowed for the Multiply strategy.
 
 ### Borrow APR
