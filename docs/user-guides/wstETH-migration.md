@@ -8,15 +8,16 @@ slug: /user-guides/wsteth-migration
 
 ### Why is Migration Necessary?
 
-The wstETH contract has been updated due to the need for a new bridge contract. This change ensures continued compatibility and security for users interacting with wstETH on Starknet.
+The wstETH contract has been updated by the Starknet Foundation due to the need for a new bridge contract. This change ensures continued compatibility and security for users interacting with wstETH on Starknet.
 
 ### Key Points for Users:
 - The old token will be shown as wstETH (legacy).
 - Your balance remains the same. The migration only updates the token contract.
 - During migration, your entire wstETH (legacy) wallet balance will be converted.
 - The new wstETH is the canonical version and will be supported in all major Starknet DeFi protocols.
+- Check out the official wstETH Migration Hub by the Starknet Foundation for more information [here](https://wstethmigration.starknet.io/).
 
-If you have an existing position using the previous wstETH contract, follow the steps below to migrate smoothly.
+Existing position using the previous wstETH contract, follow the steps below to migrate smoothly.
 
 ## Migrating an Earn Position
 
