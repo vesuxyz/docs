@@ -14,7 +14,7 @@ In this guide you'll be taught how to connect your starknet wallet to the app.
 
 ![Vesu](images/connect_wallet1.png)
 
-2. Choose one of the available wallets to connect.
+2. Choose one of the available options to connect. If you don’t have a Starknet wallet yet, you can find an overview [here](https://www.starknet.io/wallets/).
 
 ![Vesu](images/connect_wallet2.png)
 
