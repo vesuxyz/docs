@@ -1,12 +1,11 @@
 ---
-id: genesis-strk-risk-report
-title: Genesis Pool-STRK Risk Report
-sidebar_label: Genesis-STRK
-sidebar_position: 2
-slug: /curators/risk-reports/2198503327643286920898110335698706244522220458610657370981979460625005526824/strk
+title: Vesu STRK-Re7StarknetEcosystem Risk Report
+sidebar_label: vSTRK-Re7StarknetEcosystem
+sidebar_position: 5
+slug: /curators/risk-reports/3163948199181372152800322058764275087686391083665033264234338943786798617741/strk
 ---
 
-export const pool_Id = '2198503327643286920898110335698706244522220458610657370981979460625005526824'
+export const pool_Id = '3163948199181372152800322058764275087686391083665033264234338943786798617741'
 export const asset = '0x04718f5a0Fc34cC1AF16A1cdee98fFB20C31f5cD61D6Ab07201858f4287c938D'
 export const rating = 'low'
 export const pool_risk = 'low'
@@ -18,33 +17,34 @@ export const collateral_risk = 'low'
 
 ## Summary
 
-StarkGate Starknet (STRK) is the bridged version of Starknet (STRK) on Starknet using the StarkGate bridge.
+The Vesu STRK-Re7StarknetEcosystem market represents STRK deposits in Re7 Lab's "Re7 Starknet Ecosystem" pool.
 
-StarkGate is the canonical bridging protocol of Starknet developed and maintained by StarkWare, the creator of Starknet. 
+The pool enables various Starknet "native" assets and uses Vesu's official factory extension with Pragma price feeds.
 
-STRK has an MCAP of over USD 1.7bn and TVL on Starknet of over USD 1.3bn.
+The market's overall risk rating is 🟩 Low.
 
 *Datapoints*
 
 - [CoinGecko](https://www.coingecko.com/en/coins/starknet)
-- [StarkScan](https://starkscan.co/token/0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d)
+- [Voyager](https://voyager.online/contract/0x04718f5a0Fc34cC1AF16A1cdee98fFB20C31f5cD61D6Ab07201858f4287c938D)
 
 
 ## Pool Risk
 
-This pool uses the factory extension that was audited by ChainSecurity together with the Vesu protocol.
+The "Re7 Starknet Ecosystem" pool is curated by Re7 Labs, a professional risk curator with extensive experience and a long track record on other lending protocols.
 
-The extension implements a robust liquidation model, adaptive interest rates and various fail-safes intended
-to protect user's assets in various stress scenarios.
+The pool uses Vesu's audited factory extension which uses a robust Pragma feed and Vesu's public liquidation model.
 
-The extension currently allows the pool owner to update various pool configuration without giving it control over user's assets.
-These permissions are planned to be revoked once the pool has stabilized.
+Re7 Labs has the permission to pause the pool in an emergency situation and update various parameters including debt caps and liquidation loan-to-value retios. 
+
+Given Re7 Labs' extensive risk curation experience and their operational setup, including a multisig and real-time monitoring with Hypernative, the pool risk is deemed low.
 
 *Datapoints*
 
+- [Re7 Labs](https://re7.capital)
 - [Extension Docs](https://docs.vesu.xyz/)
-- [Source Code](https://github.com/vesuxyz/protocol/blob/dev/src/extension/default_extension.cairo)
-- [Audit Report](https://github.com/vesuxyz/security)
+- [Audit Reports](https://github.com/vesuxyz/security)
+- [Source Code](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/default_extension_po.cairo)
 
 **Rating**
 
@@ -83,7 +83,7 @@ N/A
 
 **Datapoints**
 
-- [Token Contract](https://starkscan.co/token/0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d)
+- [Token Contract](https://voyager.online/contract/0x04718f5a0Fc34cC1AF16A1cdee98fFB20C31f5cD61D6Ab07201858f4287c938D)
 - [Mainnet Escrow Contract](https://etherscan.io/address/0xcE5485Cfb26914C5dcE00B9BAF0580364daFC7a4)
 - [StarkGate GitHub](https://github.com/starknet-io/starkgate-contracts)
 - [StarkGate Audit](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf)
@@ -98,28 +98,29 @@ The proposed rating is:
 
 ## Oracle Risk
 
-The asset's oracle implementation relies on a Pragma price feed.
+The pool uses Pragma's `STRK/USD` price feed.
 The Pragma oracle is a native Starknet oracle system that secures over USD 200m across all major projects on Starknet.
 It is fully decentralized in that it does not rely on off-chain infrastructure. Instead, data providers directly push prices on-chain and aggregation is done by the data consumer directly.
 
 **Smart contract risk**
 
 Find an overview of the Pragma smart contract system [here](https://github.com/Astraly-Labs/pragma-oracle?tab=readme-ov-file#overview).
+
 The Pragma smart contracts have been audited by Nethermind and both the [source code](https://github.com/Astraly-Labs/pragma-oracle) and [audit report](https://github.com/astraly-labs/pragma-oracle/tree/main/audits) are publicly available.
 
 **Price composition & source diversity**
 
 The oracle price is computed as the Median over the most recent data points available for the various Pragma providers.
-The oracle price is rejected, and the pool paused, if the applicable distinct price sources is less than four.
 
 **Oracle fail-safes**
 
-Pragma price feed liveness is ensured by rejecting an oracle price if the most recent data point, among all Pragma providers, is older than four hours.
-If an oracle price is rejected, the pool is paused preventing the withdrawal of funds. 
+N/A
+
+Re7 Labs actively monitors the pool and oracle feeds and in case of an emergency pauses deposits and withdrawals.
 
 **Datapoints**
 
-- [Pragma Oracle Contract](https://starkscan.co/contract/0x02a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b#read-write-contract)
+- [Pragma Oracle Contract](https://voyager.online/contract/0x02a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b)
 - [Pragma Documentation](https://docs.pragma.build/Resources/Cairo%201/data-feeds/consuming-data)
 - [Pragma Pair IDs](https://docs.pragma.build/Resources/Cairo%201/data-feeds/supported-assets)
 - [Source Code](https://github.com/Astraly-Labs/pragma-oracle)
@@ -134,17 +135,7 @@ The proposed rating is:
 
 ## Market Risk
 
-The lending pool enables borrowing of StarkGate STRK deposits using any of the other pool assets as collateral.
-The pool extension implements a robust [liquidation strategy](https://docs.vesu.xyz) that optimizes for rapid liquidations also in a stressed market environment.
-Nonetheless, a residual risk for bad debt from failed liquidations exists. 
-In such a scenario, accrued bad debt is instantaneously allocated to the lenders in the pool.
-
-The asset's market risk is computed using the [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/1zU9IRKCX8xicSNd4UV78hMEw_rf-ZtGL/edit?usp=sharing&ouid=108086377410680948516&rtpof=true&sd=true).
-
-**Datapoints**
-
-- [Liquidation Documentation](https://docs.vesu.xyz)
-- [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/1zU9IRKCX8xicSNd4UV78hMEw_rf-ZtGL/edit?usp=sharing&ouid=108086377410680948516&rtpof=true&sd=true)
+STRK deposits in this pool are isolated from borrowing removing market risk for lenders.
 
 **Rating**
 
@@ -155,8 +146,7 @@ The proposed rating is:
 
 ## Collateral Risk
 
-The pool enables asset *Rehypothecation* which means that borrowers' collateral assets too serve as liquidity in the pool.
-The collateral chain thus spans across all pool assets resulting in that StarkGate STRK inherits the highest severity risk among all these assets.
+The pool does not enable asset *Rehypothecation*.
 
 The proposed rating is:
 
