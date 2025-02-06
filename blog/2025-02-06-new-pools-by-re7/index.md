@@ -45,7 +45,7 @@ Since Vesu’s pools are isolated, risks stay within each pool without affecting
 
 
 ## Discover the New Pools
-- [Borrow USDC against EKUBO](https://vesu.xyz/borrow?form=true&poolId=3163948199181372152800322058764275087686[…]075afe6402ad5a5c20dd25e10ec3b3986acaa647b77e4ae24b0cbc9a54a27a87) and unlock liquidity without selling.
-- [Multiply with the new wstETH pool](https://vesu.xyz/multiply?poolId=253524361524932822106062226847972881468017513826[…]049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7) to boost exposure & maximize rewards.
+- [Borrow USDC against EKUBO](https://vesu.xyz/borrow?form=true&poolId=3163948199181372152800322058764275087686391083665033264234338943786798617741&collateralAddress=0x075afe6402ad5a5c20dd25e10ec3b3986acaa647b77e4ae24b0cbc9a54a27a87) and unlock liquidity without selling.
+- [Multiply wstETH](https://vesu.xyz/multiply?poolId=2535243615249328221060622268479728814680175138265908305094759253778126318519&targetAddress=0x0057912720381af14b0e5c87aa4718ed5e527eab60b3801ebf702ab09139e38b&debtAddress=0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7) to boost exposure & maximize rewards.
 
 Got feedback? Let us know via [X](https://x.com/vesuxyz) or [Discord](https://discord.gg/kef7VwmG).
