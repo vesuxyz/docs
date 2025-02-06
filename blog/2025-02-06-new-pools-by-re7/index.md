@@ -13,7 +13,7 @@ And there’s more—DeFi Spring rewards for wstETH start today, Feb 6, 2025, gi
 
 Re7 Labs, known for their expertise as a leading risk curator, first launched their curated pools on Vesu in November. Learn more in our previous [Blog post](/blog/2024-11-27-welcome-re7/). 
 
-Now, let’s take a closer look at the two pools launching today and what they bring to the table.
+Now, let’s take a closer look at what these new pools offer.
 
 ## Re7 Starknet Ecosystem Pool
 **Collateral:** EKUBO, STRK  
