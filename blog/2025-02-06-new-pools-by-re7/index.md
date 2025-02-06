@@ -1,5 +1,5 @@
 ---
-slug: 2025-02-07-new-pools-by-re7
+slug: 2025-02-06-new-pools-by-re7
 title: New Pools by Re7 Labs
 authors: [marc]
 tags: [Announcement]
