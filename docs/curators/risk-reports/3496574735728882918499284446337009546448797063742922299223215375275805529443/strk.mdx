@@ -1,0 +1,152 @@
+---
+title: Vesu STRK Alterscope CASH Risk Report
+sidebar_label: vSTRK-Alterscope CASH
+sidebar_position: 4
+slug: /curators/risk-reports/3496574735728882918499284446337009546448797063742922299223215375275805529443/strk
+---
+
+export const pool_Id = '3496574735728882918499284446337009546448797063742922299223215375275805529443'
+export const asset = '0x04718f5a0Fc34cC1AF16A1cdee98fFB20C31f5cD61D6Ab07201858f4287c938D'
+export const rating = 'low'
+export const pool_risk = 'low'
+export const asset_risk = 'low'
+export const oracle_risk = 'low'
+export const market_risk = 'low'
+export const collateral_risk = 'low'
+
+
+## Summary
+
+The *Vesu STRK Alterscope CASH* market represents ETH deposits in Alterscope's "Alterscope CASH" pool.
+
+The pool enables a variety of collateral assets, including ETH, WBTC, STRK, USDC, USDT, to borrow the CASH stablecoin. It uses Vesu's official factory extension with Pragma price feeds.
+
+The market's overall risk rating is 🟩 Low.
+
+*Datapoints*
+
+- [CoinGecko](https://www.coingecko.com/en/coins/starknet)
+- [Voyager](https://voyager.online/contract/0x04718f5a0Fc34cC1AF16A1cdee98fFB20C31f5cD61D6Ab07201858f4287c938D)
+
+
+## Pool Risk
+
+The "Alterscope CASH" pool is curated by Alterscope, a professional risk curator currently operating vaults on Euler and offering autonomous risk agents across various chains and platforms.
+
+The pool uses Vesu's audited factory extension which leverages a robust Pragma feed and Vesu's public liquidation model.
+
+Alterscope has the permission to pause the pool in an emergency situation and update various parameters including debt caps and liquidation loan-to-value retios. 
+
+Given Alterscope's expertise in assessing, monitoring and managing DeFi risks and their operational setup, including a multisig owning the pool permissions, the pool risk is deemed low.
+
+*Datapoints*
+
+- [Alterscope](https://www.alterscope.org/)
+- [Euler Vaults](https://www.explorer.euler.finance/?network=ethereum&entity%5B%5D=Alterscope)
+- [Extension Docs](https://docs.vesu.xyz/)
+- [Audit Reports](https://github.com/vesuxyz/security)
+- [Source Code](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/default_extension_po.cairo)
+
+**Rating**
+
+The proposed rating is:
+
+- 🟩 Low
+
+
+## Asset Risk
+
+:::warning
+This report does not assess the risks associated with bridging assets to Starknet using StarkGate.
+Make sure you understand the risks involved with bridging assets to Starknet before continuing.
+:::
+
+StarkGate STRK reflects Ethereum mainnet STRK that is bridged to Starknet using the StarkGate bridge. 
+StarkGate is Starknet's canonical bridge and is developed and maintained by StarkWare, the creator of Starknet.
+The bridge is operational since early 2022 and has facilitated over [1.9M bridge transactions](https://dune.com/sapiens/starknet-insighttokenomics-and-bridge-stats) or over USD 1.7bn in value bridged.
+
+**Smart contract risk**
+
+StarkGate STRK uses OpenZeppelin's [standard ERC20](https://github.com/OpenZeppelin/cairo-contracts) token implementation.
+It has been audited by Nethermind and both [source code](https://github.com/starknet-io/starkgate-contracts) and [audit report](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf) are publicly available.
+
+:::warning
+The StarkGate STRK contract is not verified on block explorers.
+:::
+
+**Counterparty risk**
+
+N/A
+
+**Depeg risk**
+
+N/A
+
+**Datapoints**
+
+- [Token Contract](https://voyager.online/contract/0x04718f5a0Fc34cC1AF16A1cdee98fFB20C31f5cD61D6Ab07201858f4287c938D)
+- [Mainnet Escrow Contract](https://etherscan.io/address/0xcE5485Cfb26914C5dcE00B9BAF0580364daFC7a4)
+- [StarkGate GitHub](https://github.com/starknet-io/starkgate-contracts)
+- [StarkGate Audit](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf)
+- [StarkGate Stats](https://dune.com/sapiens/starknet-insighttokenomics-and-bridge-stats)
+
+**Rating**
+
+The proposed rating is:
+
+- 🟩 Low
+
+
+## Oracle Risk
+
+The pool uses Pragma's `STRK/USD` price feed.
+The Pragma oracle is a native Starknet oracle system that secures over USD 200m across all major projects on Starknet.
+It is fully decentralized in that it does not rely on off-chain infrastructure. Instead, data providers directly push prices on-chain and aggregation is done by the data consumer directly.
+
+**Smart contract risk**
+
+Find an overview of the Pragma smart contract system [here](https://github.com/Astraly-Labs/pragma-oracle?tab=readme-ov-file#overview).
+
+The Pragma smart contracts have been audited by Nethermind and both the [source code](https://github.com/Astraly-Labs/pragma-oracle) and [audit report](https://github.com/astraly-labs/pragma-oracle/tree/main/audits) are publicly available.
+
+**Price composition & source diversity**
+
+The oracle price is computed as the Median over the most recent data points available for the various Pragma providers.
+
+**Oracle fail-safes**
+
+No autonomous oracle fail-safes and fallbacks are configured. Alterscope monitors and pauses pools manually in case of an emergency.
+
+**Datapoints**
+
+- [Pragma Oracle Contract](https://voyager.online/contract/0x02a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b)
+- [Pragma Documentation](https://docs.pragma.build/Resources/Cairo%201/data-feeds/consuming-data)
+- [Pragma Pair IDs](https://docs.pragma.build/Resources/Cairo%201/data-feeds/supported-assets)
+- [Source Code](https://github.com/Astraly-Labs/pragma-oracle)
+- [Audit Report](https://github.com/astraly-labs/pragma-oracle/tree/main/audits)
+
+**Rating**
+
+The proposed rating is:
+
+- 🟩 Low
+
+
+## Market Risk
+
+'ETH' deposits in this pool are only enabled as collateral and are not available for others to borrow.
+
+**Rating**
+
+The proposed rating is:
+
+- 🟩 Low
+
+
+## Collateral Risk
+
+The pool does not enable collateral asset *Rehypothecation*.
+
+The proposed rating is:
+
+- 🟩 Low
