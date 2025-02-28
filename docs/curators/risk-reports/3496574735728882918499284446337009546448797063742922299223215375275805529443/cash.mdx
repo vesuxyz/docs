@@ -139,13 +139,17 @@ The proposed rating is:
 
 ## Market Risk
 
-'CASH' deposits in this pool can be borrowed with a variety of collateral assets.
+`CASH` deposits in this pool can be borrowed with a variety of collateral assets.
 
-Liquidations, as per the used official factory extension (see Section *Pool Risk*), are public and prioritize rapid liquidations.
+Insolvent borrow positions can be liquidated publicly and rapid liquidations are prioritized by the pool's factory extension (see Section *Pool Risk*).
 
-However, liquidations may be delayed or unprofitable due to very thin liquidity for 'CASH'. This risk is mitigated with strict *debt caps* and *liquidation discounts*.
+The successful liquidation of insolvent liquidations relies on a number of factors including available DEX liquidity, accurate oracle feeds and the pool's risk parameters.
 
-Furthermore, since 'CASH' debt is valued at a fixed price of 1 USD/CASH (see Section *Oracle Risk*) a depeg of 'CASH' to >1 USD can result in unprofitable liquidations. This is unlikely though, as such market inefficiencies would be promptly closed by arbitrageurs.
+With `CASH` DEX liquidity being very low and the fixed oracle price feed, which does not necessarily reflect the asset's market price, the risk of failing transactions and accumulated bad debt is elevated.
+
+Currently, the pool thus uses very moderate risk parameters including low LLTVs, high liquidation discounts and low debt caps.
+
+The resulting market risk is computed using the [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/1zU9IRKCX8xicSNd4UV78hMEw_rf-ZtGL/edit?usp=sharing&ouid=108086377410680948516&rtpof=true&sd=true).
 
 **Rating**
 
