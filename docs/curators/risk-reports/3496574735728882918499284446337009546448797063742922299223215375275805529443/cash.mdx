@@ -17,9 +17,9 @@ export const collateral_risk = 'low'
 
 ## Summary
 
-The *Vesu Cash Alterscope CASH* market represents 'CASH' deposits in Alterscope's "Alterscope CASH" pool.
+The *Vesu Cash Alterscope CASH* market represents `CASH` deposits in Alterscope's *Alterscope CASH* pool.
 
-The pool enables a variety of collateral assets, including ETH, WBTC, STRK, USDC, USDT, to borrow the 'CASH' stablecoin. It uses Vesu's official factory extension with Pragma price feeds.
+The pool enables a variety of collateral assets, including ETH, WBTC, STRK, USDC, USDT, to borrow the `CASH` stablecoin. It uses Vesu's official factory extension with Pragma price feeds.
 
 The market's overall risk rating is 🟨 Medium.
 
@@ -31,7 +31,7 @@ The market's overall risk rating is 🟨 Medium.
 
 ## Pool Risk
 
-The "Alterscope CASH" pool is curated by Alterscope, a professional risk curator currently operating vaults on Euler and offering autonomous risk agents across various chains and platforms.
+The *Alterscope CASH* pool is curated by Alterscope, a professional risk curator currently operating vaults on Euler and offering autonomous risk agents across various chains and platforms.
 
 The pool uses Vesu's audited factory extension which leverages a robust Pragma feed and Vesu's public liquidation model.
 
@@ -56,19 +56,23 @@ The proposed rating is:
 
 ## Asset Risk
 
-'CASH' is a USD-pegged stablecoin that is issued natively on Starknet through the Opus Protocol, a CDP system inspired by [Liquity's LUSD](https://liquity.org).
+`CASH` is a USD-pegged stablecoin that is issued natively on Starknet through the Opus Protocol, a CDP system inspired by [Liquity's LUSD](https://liquity.org).
 
-The Opus Protocol and 'CASH' stablecoin are relatively new, officially launched in September 2024, and thus lack a long track record, TVL, user base and price history.
+The Opus Protocol and `CASH` stablecoin are relatively new, officially launched in September 2024, and thus lack a long track record, TVL, user base and price history.
 
 Nonetheless, the protocol has performed without any incident and safely navigated through major market stress scenarios since its inception.
 
 **Smart contract risk**
 
-The Opus protocol smart contracts have been audited by Trail of Bits, a top-tier auditing firm, as well as in a public Code4rena contest in January/February 2024.
+The Opus protocol smart contracts are publicly available on [GitHub](https://github.com/lindy-labs/opus_contracts) and have been audited by Trail of Bits, a top-tier auditing firm, as well as in a public Code4rena contest in January/February 2024.
 
 However, the protocol was only deployed on Starknet mainnet in July 2024 with a significant code diff in the GitHub repository between the audits and the version as of July. Since contracts are not verified on public block explorers, it is not possible to verify the deployed version of the protocol.
 
 Information on the existing audits can be found in the official Opus documentation [here](https://docs.opus.money/current/technical-documentation/security/external).
+
+:::info
+The Opus Protocol contracts are currently governed by a 2/3 multisig account.
+:::
 
 :::warning
 The Opus Protocol contracts are not verified on block explorers.
@@ -80,13 +84,13 @@ N/A
 
 **Depeg risk**
 
-'CASH' is a relatively new stablecoin with only limited price history (about 3 months at the time of writing this report). In its first weeks, the price of 'CASH' seemingly stabilized at a level slightly below its peg of 1.0 USD (around 0.995 USD) according to [Coingecko](https://www.coingecko.com/en/coins/opus-cash).
+`CASH` is a relatively new stablecoin with only limited price history (about 3 months at the time of writing this report). In its first weeks, the price of `CASH` seemingly stabilized at a level slightly below its peg of 1.0 USD (around 0.995 USD) according to [Coingecko](https://www.coingecko.com/en/coins/opus-cash).
 
 :::warning
 Given its low circulating supply and liquidity, there exists a considerable depeg risk. 
 :::
 
-This risk is mitigated in the *Alterscope CASH* pool by enabling 'CASH' only as a loan asset, but not as collateral asset, and using a fixed oracle price of 1 USD/CASH.
+This risk is mitigated in the *Alterscope CASH* pool by enabling `CASH` only as a loan asset, but not as collateral asset, and using a fixed oracle price of 1 USD/CASH.
 
 **Datapoints**
 
@@ -104,7 +108,7 @@ The proposed rating is:
 
 ## Oracle Risk
 
-The pool uses Pragma's `FIXEDRESERVED/USD` price feed, returning a fixed price of 1 USD (per 'CASH'). The feed is thus not subject to Oracle manipulation attacks.
+The pool uses Pragma's `FIXEDRESERVED/USD` price feed, returning a fixed price of 1 USD (per `CASH`). The feed is thus not subject to Oracle manipulation attacks.
 The Pragma oracle is a native Starknet oracle system that secures over USD 200m across all major projects on Starknet.
 It is fully decentralized in that it does not rely on off-chain infrastructure. Instead, data providers directly push prices on-chain and aggregation is done by the data consumer directly.
 
