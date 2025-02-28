@@ -13,17 +13,17 @@ Alterscope has earned its reputation for expertise in risk management and data-d
 
 Let’s take a look at the new opportunities they bring to the ecosystem!
 
-## New Alterscope Pool
-**Collateral:** ETH, wstETH, STRK, xSTRK, USDC, USDT, wBTC
+## Alterscope CASH Pool (add exact name)
+**Collateral:** ETH, wstETH, STRK, xSTRK, USDC, USDT, wBTC  
 **Borrow:** CASH, STRK, ETH, USDC, USDT, wBTC
 
 This pool introduces the CASH stablecoin to Vesu, giving users more borrowing options. For example, deposit xSTRK as collateral to borrow CASH, unlocking stable liquidity while continuing to earn staking and DeFi Spring rewards on STRK.
 
+The parameters of the pool can be accessed via the [Pools page](https://vesu.xyz/pools).
+
 :::note
 The same asset provided as collateral cannot be borrowed, ensuring stability and minimizing risk.
 :::
-
-The parameters of the pool can be accessed via the Pools page.
 
 ## Discover the New Pools
 - Supply CASH...
