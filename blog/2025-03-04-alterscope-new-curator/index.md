@@ -9,15 +9,15 @@ tags: [Announcement]
 
 We’re thrilled to welcome Alterscope as a new curator on Vesu! 
 
-Alterscope has earned its reputation for expertise in risk management and data-driven analytics, driving security and innovation across DeFi ecosystems. Their expertise is already integrated into Starknet, providing transparent insights and a clear view of the network’s mechanics. Explore their Starknet analytics [here](https://app.alterscope.org/projects/starknet/layer2(zk)/chain#analytics).
+Alterscope is known for its expertise in risk management and data-driven analytics, shaping secure and efficient DeFi markets. Now, they’re bringing their experience to Starknet with a set of new curated pools—introducing new assets and expanding opportunities for DeFi users.
 
-They’re launching with multiple new curated pools, each designed to optimize capital efficiency and expand borrowing options. Let’s check them out!
+Let’s check them out!
 
 ## Alterscope CASH Pool
 **Collateral:** ETH, STRK, USDC, USDT, WBTC  
 **Borrow:** CASH
 
-This pool brings the CASH stablecoin to Vesu, unlocking new ways to borrow against key assets. For example, deposit USDC as collateral to borrow CASH—letting you retain exposure to USDC’s yield opportunities while accessing fresh liquidity to use as you like.
+This pool brings the CASH stablecoin to Vesu, unlocking new ways to borrow against key assets. For example, users can keep assets like ETH or USDC working while unlocking fresh liquidity to use as they like.
 
 :::info
 CASH is an overcollateralized stablecoin issued by Opus. Learn more in the [Opus Docs](https://docs.opus.money/).
@@ -28,7 +28,7 @@ CASH is an overcollateralized stablecoin issued by Opus. Learn more in the [Opus
 **Collateral:** wstETH  
 **Borrow/Multiply with:** STRK, ETH, WBTC, USDC, USDT  
  
-This pool allows wstETH holders to borrow or multiply their exposure while maintaining staking rewards and DeFi Spring incentives. Use wstETH as collateral to unlock liquidity while keeping the exposure and yield.
+This pool allows wstETH holders to borrow or multiply their exposure while maintaining staking rewards and DeFi Spring incentives. Use wstETH as collateral to unlock liquidity while keeping the full exposure.
 
 ## Alterscope xSTRK Pool
 
