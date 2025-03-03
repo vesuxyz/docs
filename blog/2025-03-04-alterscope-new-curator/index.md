@@ -17,7 +17,8 @@ Let’s check them out!
 **Collateral:** ETH, STRK, USDC, USDT, WBTC  
 **Borrow:** CASH
 
-This pool brings the CASH stablecoin to Vesu, unlocking new ways to borrow against key assets. For example, users can keep assets like ETH or USDC working while unlocking fresh liquidity to use as they like.
+
+This pool introduces the CASH stablecoin to Vesu, unlocking a new way to borrow against key assets. Users can keep assets like ETH or USDC working while unlocking fresh liquidity in CASH to use as they like.
 
 :::info
 CASH is an overcollateralized stablecoin issued by Opus. Learn more in the [Opus Docs](https://docs.opus.money/).
@@ -27,8 +28,9 @@ CASH is an overcollateralized stablecoin issued by Opus. Learn more in the [Opus
 
 **Collateral:** wstETH  
 **Borrow/Multiply with:** STRK, ETH, WBTC, USDC, USDT  
- 
-This pool allows wstETH holders to borrow or multiply their exposure while maintaining staking rewards and DeFi Spring incentives. Use wstETH as collateral to unlock liquidity while keeping the full exposure.
+
+
+This pool lets wstETH holders borrow assets or multiply their exposure—all while still earning staking rewards and DeFi Spring incentives.
 
 ## Alterscope xSTRK Pool
 
@@ -45,7 +47,7 @@ This pool enables borrowing against Endur’s xSTRK, a liquid staking token for 
 **Borrow:** STRK, ETH, WBTC, USDC, USDT  
 
 
-A broader lending market supporting multiple assets, designed for general borrowing and lending strategies. With optimized loan-to-value (LTV) settings, this pool offers high capital efficiency.
+A broader lending market for multiple assets, designed for diverse borrowing and lending strategies. Optimized loan-to-value (LTV) and utilization settings make this pool highly capital-efficient.
 
 :::note
 The same asset provided as collateral cannot be borrowed, ensuring stability and minimizing risk.
@@ -53,11 +55,11 @@ The same asset provided as collateral cannot be borrowed, ensuring stability and
 
 ## Discover the New Pools
 
-Alterscope’s new curated pools bring fresh ways to put your assets to work—whether you’re borrowing stable liquidity looking or multiplying exposure. Here are a few ways to take advantage of the new pools:
+Alterscope’s new curated pools bring new strategies to optimize your assets—whether you’re unlocking liquidity, multiplying exposure, or making the most of staking rewards. Here are a few:
 
-- [Borrow CASH against USDC](https://vesu.xyz/borrow) to unlock more liquidity while earning yield on your USDC collateral.  
-- [Multiply wstETH with ETH](https://vesu.xyz/multiply) to boost exposure and yield.  
-- [Use xSTRK as collateral to borrow USDC](https://vesu.xyz/borrow) to unlock more liquidity while receiving staking & STRK rewards.  
+- [Borrow CASH against USDC](https://vesu.xyz/borrow) to access liquidity while earning with your USDC.
+- [Multiply wstETH with ETH](https://vesu.xyz/multiply) to boost your ETH exposure.
+- [Use xSTRK as collateral to borrow USDC](https://vesu.xyz/borrow) to get more liquidity while receiving staking & DeFi Spring rewards for xSTRK.  
 
 All settings of the new pools can be accessed via the [Pools page](https://vesu.xyz/pools).
 
