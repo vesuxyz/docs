@@ -1,12 +1,12 @@
 ---
-title: Vesu USDC-Re7StarknetEcosystem Risk Report
-sidebar_label: vUSDC-Re7StarknetEcosystem
-sidebar_position: 5
-slug: /curators/risk-reports/3163948199181372152800322058764275087686391083665033264234338943786798617741/usdc
+title: Vesu WBTC Alterscope wstETH Risk Report
+sidebar_label: vWBTC-Alterscope wstETH
+sidebar_position: 6
+slug: /curators/risk-reports/2612229586214495842527551768232431476062656055007024497123940017576986139174/wbtc
 ---
 
-export const pool_Id = '3163948199181372152800322058764275087686391083665033264234338943786798617741'
-export const asset = '0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8'
+export const pool_Id = '2612229586214495842527551768232431476062656055007024497123940017576986139174'
+export const asset = '0x207a0df236eac7c3a68856df797019553cd56a3729b3407a5085f1ba3905c00'
 export const rating = 'low'
 export const pool_risk = 'low'
 export const asset_risk = 'low'
@@ -17,34 +17,35 @@ export const collateral_risk = 'low'
 
 ## Summary
 
-The Vesu USDC-Re7StarknetEcosystem market represents `USDC` deposits in Re7 Lab's "Re7 Starknet Ecosystem" pool.
+The *Vesu WBTC Alterscope wstETH* market represents `WBTC` deposits in Alterscope's *Alterscope wstETH* pool.
 
-The pool enables various high MCAP assets and uses Vesu's official factory extension with Pragma price feeds.
+The pool enables `wstETH` as collateral asset to borrow a variety of loan assets including `ETH`, `WBTC`, `STRK`, `USDC`, `USDT`. It uses Vesu's official factory extension with Pragma price feeds.
 
 The market's overall risk rating is 🟩 Low.
 
 *Datapoints*
 
-- [CoinGecko](https://www.coingecko.com/en/coins/usdc)
-- [Voyager](https://voyager.online/contract/0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8)
+- [CoinGecko](https://www.coingecko.com/en/coins/wrapped-bitcoin)
+- [StarkScan](https://starkscan.co/token/0x03fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac)
 
 
 ## Pool Risk
 
-The "Re7 Starknet Ecosystem" pool is curated by Re7 Labs, a professional risk curator with extensive experience and a long track record on other lending protocols.
+The *Alterscope wstETH* pool is curated by Alterscope, a professional risk curator currently operating vaults on Euler and offering autonomous risk agents across various chains and platforms.
 
-The pool uses Vesu's audited factory extension which uses a robust Pragma feed and Vesu's public liquidation model.
+The pool uses Vesu's audited factory extension which leverages a robust Pragma feed and Vesu's public liquidation model.
 
-Re7 Labs has the permission to pause the pool in an emergency situation and update various parameters including debt caps and liquidation loan-to-value ratios. 
+Alterscope has the permission to pause the pool in an emergency situation and update various parameters including debt caps and liquidation loan-to-value ratios. 
 
-Given Re7 Labs' extensive risk curation experience and their operational setup, including a multisig and real-time monitoring with Hypernative, the pool risk is deemed low.
+Given Alterscope's expertise in assessing, monitoring and managing DeFi risks and their operational setup, including a multisig owning the pool permissions, the pool risk is deemed low.
 
 *Datapoints*
 
-- [Re7 Labs](https://re7.capital)
+- [Alterscope](https://www.alterscope.org/)
+- [Euler Vaults](https://www.explorer.euler.finance/?network=ethereum&entity%5B%5D=Alterscope)
 - [Extension Docs](https://docs.vesu.xyz/)
-- [Audit Reports](https://github.com/vesuxyz/security)
-- [Source Code](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/default_extension_po.cairo)
+- [Source Code](https://github.com/vesuxyz/protocol/blob/dev/src/extension/default_extension.cairo)
+- [Audit Report](https://github.com/vesuxyz/security)
 
 **Rating**
 
@@ -60,17 +61,17 @@ This report does not assess the risks associated with bridging assets to Starkne
 Make sure you understand the risks involved with bridging assets to Starknet before continuing.
 :::
 
-StarkGate USDC reflects Ethereum mainnet USDC that is bridged to Starknet using the StarkGate bridge. 
+StarkGate WBTC reflects Ethereum mainnet WBTC that is bridged to Starknet using the StarkGate bridge. 
 StarkGate is Starknet's canonical bridge and is developed and maintained by StarkWare, the creator of Starknet.
 The bridge is operational since early 2022 and has facilitated over [1.9M bridge transactions](https://dune.com/sapiens/starknet-insighttokenomics-and-bridge-stats) or over USD 1.7bn in value bridged.
 
 **Smart contract risk**
 
-StarkGate USDC uses OpenZeppelin's [standard ERC20](https://github.com/OpenZeppelin/cairo-contracts) token implementation.
+StarkGate WBTC uses OpenZeppelin's [standard ERC20](https://github.com/OpenZeppelin/cairo-contracts) token implementation.
 It has been audited by Nethermind and both [source code](https://github.com/starknet-io/starkgate-contracts) and [audit report](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf) are publicly available.
 
 :::warning
-The StarkGate USDC contract is not verified on block explorers.
+The StarkGate WBTC contract is not verified on block explorers.
 :::
 
 **Counterparty risk**
@@ -83,8 +84,8 @@ N/A
 
 **Datapoints**
 
-- [Token Contract](https://voyager.online/contract/0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8)
-- [Mainnet Escrow Contract](https://etherscan.io/address/0xf6080d9fbeebcd44d89affbfd42f098cbff92816)
+- [Token Contract](https://starkscan.co/token/0x03fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac)
+- [Mainnet Escrow Contract](https://etherscan.io/address/0x283751A21eafBFcD52297820D27C1f1963D9b5b4)
 - [StarkGate GitHub](https://github.com/starknet-io/starkgate-contracts)
 - [StarkGate Audit](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf)
 - [StarkGate Stats](https://dune.com/sapiens/starknet-insighttokenomics-and-bridge-stats)
@@ -98,7 +99,7 @@ The proposed rating is:
 
 ## Oracle Risk
 
-The pool uses Pragma's `USDC/USD` price feed.
+The pool uses Pragma's `WBTC/USD` price feed.
 The Pragma oracle is a native Starknet oracle system that secures over USD 200m across all major projects on Starknet.
 It is fully decentralized in that it does not rely on off-chain infrastructure. Instead, data providers directly push prices on-chain and aggregation is done by the data consumer directly.
 
@@ -114,9 +115,7 @@ The oracle price is computed as the Median over the most recent data points avai
 
 **Oracle fail-safes**
 
-N/A
-
-Re7 Labs actively monitors the pool and oracle feeds and in case of an emergency pauses deposits and withdrawals.
+No autonomous oracle fail-safes and fallbacks are configured. Alterscope monitors and pauses pools manually in case of an emergency.
 
 **Datapoints**
 
@@ -135,21 +134,13 @@ The proposed rating is:
 
 ## Market Risk
 
-USDC deposits can be borrowed with any of the other pool assets (ETH, wstETH, WBTC, STRK) as collateral.
+`WBTC` deposits can be borrowed with `wstETH` as collateral.
 
 The pool enforces *debt caps* and *liquidation discounts* reflecting the on-chain liquidity available for liquidations.
 
 Liquidations, as per the used official factory extension (see Section *Pool Risk*), are public and prioritize rapid liquidations.
 
 The resulting market risk is computed using the [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/1zU9IRKCX8xicSNd4UV78hMEw_rf-ZtGL/edit?usp=sharing&ouid=108086377410680948516&rtpof=true&sd=true).
-
-**Datapoints**
-
-- [Liquidation Documentation](https://docs.vesu.xyz)
-- [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/1zU9IRKCX8xicSNd4UV78hMEw_rf-ZtGL/edit?usp=sharing&ouid=108086377410680948516&rtpof=true&sd=true)
-
-
-**Rating**
 
 The proposed rating is:
 
@@ -158,7 +149,7 @@ The proposed rating is:
 
 ## Collateral Risk
 
-The pool does not enable asset *Rehypothecation*.
+The pool enables borrowing of `WBTC` only with `wstETH` collateral, which itself achieves a "Low" rating. Collateral *rehypothecation* is not enabled in the pool. 
 
 The proposed rating is:
 

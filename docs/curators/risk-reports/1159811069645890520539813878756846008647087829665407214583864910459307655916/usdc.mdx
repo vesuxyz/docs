@@ -1,12 +1,12 @@
 ---
-title: Vesu USDC-Re7StarknetEcosystem Risk Report
-sidebar_label: vUSDC-Re7StarknetEcosystem
-sidebar_position: 5
-slug: /curators/risk-reports/3163948199181372152800322058764275087686391083665033264234338943786798617741/usdc
+title: Vesu USDC Alterscope Cornerstone Risk Report
+sidebar_label: vUSDC-AlterscopeCornerSt
+sidebar_position: 4
+slug: /curators/risk-reports/1159811069645890520539813878756846008647087829665407214583864910459307655916/usdc
 ---
 
-export const pool_Id = '3163948199181372152800322058764275087686391083665033264234338943786798617741'
-export const asset = '0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8'
+export const pool_Id = '1159811069645890520539813878756846008647087829665407214583864910459307655916'
+export const asset = '0x5a47802b56bc4c7c50c19d30fac85d8d3c96badf89e4bd12abae66f1f9dab37'
 export const rating = 'low'
 export const pool_risk = 'low'
 export const asset_risk = 'low'
@@ -17,34 +17,37 @@ export const collateral_risk = 'low'
 
 ## Summary
 
-The Vesu USDC-Re7StarknetEcosystem market represents `USDC` deposits in Re7 Lab's "Re7 Starknet Ecosystem" pool.
+The *Vesu USDC Alterscope Cornerstone* market represents `USDC` deposits in Alterscope's *Alterscope Cornerstone* pool.
 
-The pool enables various high MCAP assets and uses Vesu's official factory extension with Pragma price feeds.
+The pool supports a variety of assets enabled as both collateral and loan assets including `ETH`, `WBTC`, `STRK`, `USDC`, `USDT`. 
+
+It uses Vesu's official factory extension with Pragma price feeds.
 
 The market's overall risk rating is 🟩 Low.
 
 *Datapoints*
 
 - [CoinGecko](https://www.coingecko.com/en/coins/usdc)
-- [Voyager](https://voyager.online/contract/0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8)
+- [StarkScan](https://starkscan.co/token/0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8)
 
 
 ## Pool Risk
 
-The "Re7 Starknet Ecosystem" pool is curated by Re7 Labs, a professional risk curator with extensive experience and a long track record on other lending protocols.
+The *Alterscope Cornerstone* pool is curated by Alterscope, a professional risk curator currently operating vaults on Euler and offering autonomous risk agents across various chains and platforms.
 
-The pool uses Vesu's audited factory extension which uses a robust Pragma feed and Vesu's public liquidation model.
+The pool uses Vesu's audited factory extension which leverages a robust Pragma feed and Vesu's public liquidation model.
 
-Re7 Labs has the permission to pause the pool in an emergency situation and update various parameters including debt caps and liquidation loan-to-value ratios. 
+Alterscope has the permission to pause the pool in an emergency situation and update various parameters including debt caps and liquidation loan-to-value ratios. 
 
-Given Re7 Labs' extensive risk curation experience and their operational setup, including a multisig and real-time monitoring with Hypernative, the pool risk is deemed low.
+Given Alterscope's expertise in assessing, monitoring and managing DeFi risks and their operational setup, including a multisig owning the pool permissions, the pool risk is deemed low.
 
 *Datapoints*
 
-- [Re7 Labs](https://re7.capital)
+- [Alterscope](https://www.alterscope.org/)
+- [Euler Vaults](https://www.explorer.euler.finance/?network=ethereum&entity%5B%5D=Alterscope)
 - [Extension Docs](https://docs.vesu.xyz/)
-- [Audit Reports](https://github.com/vesuxyz/security)
-- [Source Code](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/default_extension_po.cairo)
+- [Source Code](https://github.com/vesuxyz/protocol/blob/dev/src/extension/default_extension.cairo)
+- [Audit Report](https://github.com/vesuxyz/security)
 
 **Rating**
 
@@ -83,7 +86,7 @@ N/A
 
 **Datapoints**
 
-- [Token Contract](https://voyager.online/contract/0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8)
+- [Token Contract](https://starkscan.co/contract/0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8)
 - [Mainnet Escrow Contract](https://etherscan.io/address/0xf6080d9fbeebcd44d89affbfd42f098cbff92816)
 - [StarkGate GitHub](https://github.com/starknet-io/starkgate-contracts)
 - [StarkGate Audit](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf)
@@ -114,9 +117,7 @@ The oracle price is computed as the Median over the most recent data points avai
 
 **Oracle fail-safes**
 
-N/A
-
-Re7 Labs actively monitors the pool and oracle feeds and in case of an emergency pauses deposits and withdrawals.
+No autonomous oracle fail-safes and fallbacks are configured. Alterscope monitors and pauses pools manually in case of an emergency.
 
 **Datapoints**
 
@@ -135,11 +136,13 @@ The proposed rating is:
 
 ## Market Risk
 
-USDC deposits can be borrowed with any of the other pool assets (ETH, wstETH, WBTC, STRK) as collateral.
+`USDC` deposits in this pool can be borrowed with all other pool assets as collateral including `ETH`, `WBTC`, `STRK` and `USDT`.
 
-The pool enforces *debt caps* and *liquidation discounts* reflecting the on-chain liquidity available for liquidations.
+Insolvent borrow positions can be liquidated publicly and rapid liquidations are prioritized by the pool's factory extension (see Section *Pool Risk*).
 
-Liquidations, as per the used official factory extension (see Section *Pool Risk*), are public and prioritize rapid liquidations.
+The successful liquidation of insolvent liquidations relies on a number of factors including available DEX liquidity, accurate oracle feeds and the pool's risk parameters.
+
+The pool uses risk parameters, including LLTVs, liquidation discounts and debt caps, that reflect the available DEX liquidity.
 
 The resulting market risk is computed using the [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/1zU9IRKCX8xicSNd4UV78hMEw_rf-ZtGL/edit?usp=sharing&ouid=108086377410680948516&rtpof=true&sd=true).
 
@@ -147,7 +150,6 @@ The resulting market risk is computed using the [Standard Market Risk Model](htt
 
 - [Liquidation Documentation](https://docs.vesu.xyz)
 - [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/1zU9IRKCX8xicSNd4UV78hMEw_rf-ZtGL/edit?usp=sharing&ouid=108086377410680948516&rtpof=true&sd=true)
-
 
 **Rating**
 
@@ -158,7 +160,9 @@ The proposed rating is:
 
 ## Collateral Risk
 
-The pool does not enable asset *Rehypothecation*.
+All enabled collateral assets themselves achieve a *Low* risk score. 
+
+While the pool enables collateral asset *rehypothecation*, related risks are mitigated with moderate utilization limits.
 
 The proposed rating is:
 

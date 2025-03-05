@@ -1,11 +1,11 @@
 ---
-title: Vesu xSTRK-Re7xSTRK Risk Report
-sidebar_label: vxSTRK-Re7xSTRK
+title: Vesu xSTRK Alterscope xSTRK Risk Report
+sidebar_label: vxSTRK-Alterscope xSTRK
 sidebar_position: 2
-slug: /curators/risk-reports/2345856225134458665876812536882617294246962319062565703131100435311373119841/xstrk
+slug: /curators/risk-reports/1129317009595740662798266590704690378283717359139782594834794341553978002262/xstrk
 ---
 
-export const pool_Id = '2345856225134458665876812536882617294246962319062565703131100435311373119841'
+export const pool_Id = '1129317009595740662798266590704690378283717359139782594834794341553978002262'
 export const asset = '0x028d709c875c0ceac3dce7065bec5328186dc89fe254527084d1689910954b0a'
 export const rating = 'medium'
 export const pool_risk = 'low'
@@ -17,9 +17,12 @@ export const collateral_risk = 'low'
 
 ## Summary
 
-The Vesu xSTRK-Re7xSTRK market represents `xSTRK` deposits in Re7 Lab's "Re7 xSTRK" pool.
+The *Vesu xSTRK Alterscope xSTRK* market represents `xSTRK` deposits in Alterscope's "Alterscope xSTRK" pool.
 
-The pool enables `STRK` and `xSTRK`, Endur's `STRK` LST, assets and uses Vesu's official factory extension with Pragma price feeds.
+The pool enables `xSTRK` as collateral asset to borrow a variety of loan assets including `ETH`, `WBTC`, `STRK`, `USDC`, `USDT`. It uses Vesu's official factory extension with Pragma price feeds.
+
+
+It uses Vesu's official factory extension with Pragma price feeds.
 
 The market's overall risk rating is 🟨 Medium.
 
@@ -32,17 +35,18 @@ The market's overall risk rating is 🟨 Medium.
 
 ## Pool Risk
 
-The "Re7 xSTRK" pool is curated by Re7 Labs, a professional risk curator with extensive experience and a long track record on other lending protocols.
+The *Alterscope xSTRK* pool is curated by Alterscope, a professional risk curator currently operating vaults on Euler and offering autonomous risk agents across various chains and platforms.
 
-The pool uses Vesu's audited factory extension which uses a robust Pragma feed and Vesu's public liquidation model.
+The pool uses Vesu's audited factory extension which leverages a robust Pragma feed and Vesu's public liquidation model.
 
-Re7 Labs has the permission to pause the pool in an emergency situation and update various parameters including debt caps and liquidation loan-to-value ratios. 
+Alterscope has the permission to pause the pool in an emergency situation and update various parameters including debt caps and liquidation loan-to-value ratios. 
 
-Given Re7 Labs' extensive risk curation experience and their operational setup, including a multisig and real-time monitoring with Hypernative, the pool risk is deemed low.
+Given Alterscope's expertise in assessing, monitoring and managing DeFi risks and their operational setup, including a multisig owning the pool permissions, the pool risk is deemed low.
 
 *Datapoints*
 
-- [Re7 Labs](https://re7.capital)
+- [Alterscope](https://www.alterscope.org/)
+- [Euler Vaults](https://www.explorer.euler.finance/?network=ethereum&entity%5B%5D=Alterscope)
 - [Extension Docs](https://docs.vesu.xyz/)
 - [Audit Reports](https://github.com/vesuxyz/security)
 - [Source Code](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/default_extension_po.cairo)
@@ -58,7 +62,7 @@ The proposed rating is:
 
 Endur's `xSTRK` is a `STRK` *liquid staking token* (LST) and was launched in November 2024 by the teams behind Karnot and STRKFarm.
 
-At the time of writing this report, almost 15M `STRK` is staked with Endur making it one of the biggest `STRK` staker.
+At the time of writing this report, almost 35M `STRK` is staked with Endur making it the largest `STRK` staker and dominant `STRK` LST protocol.
 
 Because of its recent launch only limited information and historical data points exist for `xSTRK`.
 
@@ -89,7 +93,7 @@ The Endur team has proven experience of operating blockchain and DeFi infrastruc
 
 `xSTRK` trades on the Ekubo DEX and its price is expected to be pegged to the price of `STRK` itself.
 
-Given that the asset was only launched in November 2024 and still has thin liquidity on Ekubo, temporary depeg events are expected.
+Given that the asset was only launched in November 2024 and still has limited liquidity on Ekubo, temporary depeg events are expected.
 
 A permanent depeg event could be caused by a loss or theft of the LST's underlying staked `STRK` balance. However, this risk is limited given the findings in the previous sections.
 
@@ -106,9 +110,9 @@ The proposed rating is:
 
 ## Oracle Risk
 
-The pool uses Pragma's `STRK/USD` price feed.
+The pool uses Pragma's `xSTRK/USD` price feed.
 
-The Pragma oracle is a native Starknet oracle system that secures over USD 200m across all major projects on Starknet.
+The Pragma oracle is a native Starknet oracle system that secured up to USD 200m across all major projects on Starknet.
 It is fully decentralized in that it does not rely on off-chain infrastructure. Instead, data providers directly push prices on-chain and aggregation is done by the data consumer directly.
 
 **Smart contract risk**
@@ -121,11 +125,13 @@ The Pragma smart contracts have been audited by Nethermind and both the [source 
 
 The oracle price is computed as the Median over the most recent data points available for the various Pragma providers.
 
+Since `xSTRK` is only traded on the Ekubo DEX on Starknet, all providers ultimately rely on the same price source.
+
+Furthermore, given its limited liquidity, the Spot oracle feed does offer sub-optimal economic guarantees against price manipulation attacks. 
+
 **Oracle fail-safes**
 
-N/A
-
-Re7 Labs actively monitors the pool and oracle feeds and in case of an emergency pauses deposits and withdrawals.
+No autonomous oracle fail-safes and fallbacks are configured. Alterscope monitors and pauses pools manually in case of an emergency.
 
 **Datapoints**
 
@@ -139,12 +145,12 @@ Re7 Labs actively monitors the pool and oracle feeds and in case of an emergency
 
 The proposed rating is:
 
-- 🟩 Low
+- 🟨 Medium
 
 
 ## Market Risk
 
-STRK deposits in this pool are isolated from borrowing removing market risk for lenders.
+`xSTRK` deposits in this pool are isolated from borrowing removing market risk for lenders.
 
 **Rating**
 

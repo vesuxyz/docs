@@ -1,12 +1,12 @@
 ---
-title: Vesu wstETH-Re7USDC Risk Report
-sidebar_label: vwstETH-Re7USDC
+title: Vesu wstETH Alterscope wstETH Risk Report
+sidebar_label: vwstETH-Alterscope wstETH
 sidebar_position: 7
-slug: /curators/risk-reports/3592370751539490711610556844458488648008775713878064059760995781404350938653/wsteth
+slug: /curators/risk-reports/2612229586214495842527551768232431476062656055007024497123940017576986139174/wsteth
 ---
 
-export const pool_Id = '3592370751539490711610556844458488648008775713878064059760995781404350938653'
-export const asset = '0x042b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2'
+export const pool_Id = '2612229586214495842527551768232431476062656055007024497123940017576986139174'
+export const asset = '0x57912720381af14b0e5c87aa4718ed5e527eab60b3801ebf702ab09139e38b'
 export const rating = 'low'
 export const pool_risk = 'low'
 export const asset_risk = 'low'
@@ -17,31 +17,32 @@ export const collateral_risk = 'low'
 
 ## Summary
 
-The Vesu wstETH-Re7USDC market represents `wstETH` deposits in Re7 Lab's "Re7 USDC" pool.
+The *Vesu wstETH Alterscope wstETH* market represents `wstETH` deposits in Alterscope's *Alterscope wstETH* pool.
 
-The pool enables various high market cap assets and uses Vesu's official factory extension with Pragma price feeds.
+The pool enables `wstETH` as collateral asset to borrow a variety of loan assets including `ETH`, `WBTC`, `STRK`, `USDC`, `USDT`. It uses Vesu's official factory extension with Pragma price feeds.
 
 The market's overall risk rating is 🟩 Low.
 
 *Datapoints*
 
 - [CoinGecko](https://www.coingecko.com/en/coins/wrapped-steth)
-- [Voyager](https://voyager.online/contract/0x042b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2)
+- [Voyager](https://voyager.online/contract/0x57912720381af14b0e5c87aa4718ed5e527eab60b3801ebf702ab09139e38b)
 
 
 ## Pool Risk
 
-The "Re7 USDC" pool is curated by Re7 Labs, a professional risk curator with extensive experience and a long track record on other lending protocols.
+The *Alterscope wstETH* pool is curated by Alterscope, a professional risk curator currently operating vaults on Euler and offering autonomous risk agents across various chains and platforms.
 
-The pool uses Vesu's audited factory extension which uses a robust Pragma feed and Vesu's public liquidation model.
+The pool uses Vesu's audited factory extension which leverages a robust Pragma feed and Vesu's public liquidation model.
 
-Re7 Labs has the permission to pause the pool in an emergency situation and update various parameters including debt caps and liquidation loan-to-value ratios. 
+Alterscope has the permission to pause the pool in an emergency situation and update various parameters including debt caps and liquidation loan-to-value ratios. 
 
-Given Re7 Labs' extensive risk curation experience and their operational setup, including a multisig and real-time monitoring with Hypernative, the pool risk is deemed low.
+Given Alterscope's expertise in assessing, monitoring and managing DeFi risks and their operational setup, including a multisig owning the pool permissions, the pool risk is deemed low.
 
 *Datapoints*
 
-- [Re7 Labs](https://re7.capital)
+- [Alterscope](https://www.alterscope.org/)
+- [Euler Vaults](https://www.explorer.euler.finance/?network=ethereum&entity%5B%5D=Alterscope)
 - [Extension Docs](https://docs.vesu.xyz/)
 - [Audit Reports](https://github.com/vesuxyz/security)
 - [Source Code](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/default_extension_po.cairo)
@@ -83,7 +84,7 @@ N/A
 
 **Datapoints**
 
-- [Token Contract](https://voyager.online/contract/0x042b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2)
+- [Token Contract](https://voyager.online/contract/0x57912720381af14b0e5c87aa4718ed5e527eab60b3801ebf702ab09139e38b)
 - [Mainnet Escrow Contract](https://etherscan.io/address/0xBf67F59D2988A46FBFF7ed79A621778a3Cd3985B)
 - [StarkGate GitHub](https://github.com/starknet-io/starkgate-contracts)
 - [StarkGate Audit](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf)
@@ -114,9 +115,7 @@ The oracle price is computed as the Median over the most recent data points avai
 
 **Oracle fail-safes**
 
-N/A
-
-Re7 Labs actively monitors the pool and oracle feeds and in case of an emergency pauses deposits and withdrawals.
+No autonomous oracle fail-safes and fallbacks are configured. Alterscope monitors and pauses pools manually in case of an emergency.
 
 **Datapoints**
 
@@ -135,7 +134,7 @@ The proposed rating is:
 
 ## Market Risk
 
-wstETH deposits in this pool are isolated from borrowing removing market risk for lenders.
+wstETH deposits in this pool are only enabled as collateral and are not available for others to borrow.
 
 **Rating**
 
