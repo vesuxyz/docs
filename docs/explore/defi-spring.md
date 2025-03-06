@@ -8,7 +8,7 @@ slug: /explore/defi-spring
 
 Starknet's DeFi Spring program started in [February 2024](https://www.starknet.io/blog/starknet-foundation-introduces-the-start-of-defi-spring) with the goal of bootstrapping a strong and healthy DeFi ecosystem on Starknet. Initially a budget of 40M STRK tokens was allocated to the program with a timeline until October 2024.
 
-Recently, the program was expanded to **a total of 90M STRK tokens, with the aim of continuing until all rewards are distributed. This is expected to extend into Q1 or even Q2 2025**.
+Recently, the program was expanded to **a total of 90M STRK tokens, with the aim of continuing until all rewards are distributed, which is expected to extend into Q2 2025**.
 
 Vesu users are eligible for STRK rewards. This means that you can earn STRK tokens for supplying liquidity on certain Vesu markets.
 
@@ -41,7 +41,7 @@ As per December 6th 2024, the following markets on Vesu are eligible for DeFi Sp
 
 - STRK
 - xSTRK
-- sSTRK
+- wstETH
 - ETH
 - USDC
 - USDT
