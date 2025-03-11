@@ -7,13 +7,13 @@ tags: [Announcement]
 
 ![Welcome BTCfi to Vesu](unlock-bitcoin-on-vesu.png)
 
-Bitcoin is the most secure and decentralized asset, yet most BTC sits idle or locked in centralized platforms. **Starknet changes that** by introducing **scalable, trustless, and programmable Bitcoin finance**—secured by STARK proofs.  
+Bitcoin is the most secure and decentralized asset, yet most BTC sits idle or locked in centralized platforms. **Starknet changes that** by introducing **scalable, trustless, and programmable Bitcoin finance—secured by STARK proofs.**  
 
 It’s time for Bitcoin to go beyond HODLing. **Welcome to BTCfi.**  
 
 ## What Vesu Has to Offer  
 
-Bitcoin’s liquidity is **trapped**—held on exchanges, locked in custodial solutions, or simply **collecting digital dust**. The problem? No native DeFi, high fees, and security risks.  
+Bitcoin’s liquidity is trapped—held on exchanges, locked in custodial solutions, or simply collecting digital dust. The problem? No native DeFi, high fees, and security risks.  
 
 With Starknet scaling Bitcoin, **Vesu enables Bitcoiners to:**  
 
@@ -44,10 +44,10 @@ Both **Starknet and Vesu** offer **scalable, trustless finance**, powered by **m
 
 Scaling **native BTCfi** is a long-term roadmap, with **OP_CAT** as a key upgrade to enable smart contract functionality on Bitcoin.  
 
-But we **don’t wait** for OP_CAT. In the meantime, we’re bringing Bitcoiners into BTCfi by:  
+But we don’t wait for OP_CAT. In the meantime, we’re bringing Bitcoiners into BTCfi by:  
 
 - **Bootstrapping BTC liquidity** through bridged BTC, restaked BTC, and BTC derivatives.  
 - **Enabling BTC lending strategies** tailored specifically for Bitcoiners.  
 - **Maintaining strong security on Vesu** to give Bitcoiners peace of mind when using BTCfi.  
 
-This **isn’t just an experiment. The future of BTCfi starts now.**  
+**This isn’t just an experiment. The future of BTCfi starts now.**  
