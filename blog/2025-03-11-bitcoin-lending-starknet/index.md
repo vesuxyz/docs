@@ -30,9 +30,9 @@ With Starknet scaling Bitcoin, **Vesu enables Bitcoiners to:**
 
 ## What This Means for Starknet & Vesu  
 
-Bringing Bitcoin liquidity to Starknet is the **next logical step** in expanding its DeFi ecosystem.  
+Bringing Bitcoin to Starknet is the **next logical step**:  
 
-- **Bitcoin’s market cap dwarfs DeFi TVL.** Onboarding BTC holders into DeFi massively expands the ecosystem.  
+- **Bitcoin’s market cap dwarfs existing DeFi TVL.** Unlocking BTC liquidity brings new users, strengthens network effects, and expands DeFi on Starknet.
 - **More liquidity strengthens lending markets.** Better rates, deeper composability, and new integrations follow.  
 - **New Bitcoin-native DeFi primitives are possible.** Vesu has the infrastructure ready.  
 - **STARK proofs provide the security Bitcoin needs.** BTC moves on-chain without intermediaries.  
