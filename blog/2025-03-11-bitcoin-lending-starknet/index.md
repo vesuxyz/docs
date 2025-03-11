@@ -13,11 +13,9 @@ It’s time for Bitcoin to go beyond HODLing. **Welcome to BTCfi.**
 
 ## What Vesu Has to Offer  
 
-Bitcoin’s liquidity is **trapped**—held on exchanges, locked in custodial solutions, or simply **collecting digital dust**.  
+Bitcoin’s liquidity is **trapped**—held on exchanges, locked in custodial solutions, or simply **collecting digital dust**. The problem? No native DeFi, high fees, and security risks.  
 
-The problem? **No native DeFi, high fees, and security risks.**  
-
-With **Starknet scaling Bitcoin**, Vesu enables Bitcoiners to:  
+With Starknet scaling Bitcoin, **Vesu enables Bitcoiners to:**  
 
 - **Earn yield on BTC** by putting your Bitcoin to work while HODLing.  
 - **Borrow with BTC** to access liquidity without selling.  
@@ -26,18 +24,19 @@ With **Starknet scaling Bitcoin**, Vesu enables Bitcoiners to:
 ### All while benefiting from:  
 
 - **Low fees**, keeping more of your BTC instead of losing it to transaction costs.  
-- **A frictionless experience**, with smart wallets like [Argent](https://www.argent.xyz/) ensuring smooth and secure interactions.  
+- **A frictionless experience** thanks to smart wallets like [Argent](https://www.argent.xyz/).
 - **Full self-custody**, eliminating reliance on centralized entities or third parties.  
-- **Battle-tested security**, with every line of Vesu’s smart contract code audited.  
+- **Proven security** with every line of Vesu’s smart contract code audited.  
 
 ## What This Means for Starknet & Vesu  
 
-Bringing Bitcoin liquidity to Starknet **isn’t just another DeFi trend**—it’s the **next logical step** in unlocking BTC’s full potential.  
+Bringing Bitcoin liquidity to Starknet is the **next logical step** in expanding its DeFi ecosystem.  
 
-- **Bitcoin’s market cap dwarfs DeFi TVL**, and onboarding BTC holders into DeFi expands the ecosystem massively.  
-- **More liquidity strengthens lending markets**, leading to better rates, deeper composability, and new integrations.  
-- **New Bitcoin-native DeFi primitives** are possible, and Vesu has the infrastructure ready.  
-- **STARK proofs provide the security Bitcoin needs**, ensuring BTC moves on-chain without intermediaries.   
+- **Bitcoin’s market cap dwarfs DeFi TVL.** Onboarding BTC holders into DeFi massively expands the ecosystem.  
+- **More liquidity strengthens lending markets.** Better rates, deeper composability, and new integrations follow.  
+- **New Bitcoin-native DeFi primitives are possible.** Vesu has the infrastructure ready.  
+- **STARK proofs provide the security Bitcoin needs.** BTC moves on-chain without intermediaries.  
+
 
 Both **Starknet and Vesu** offer **scalable, trustless finance**, powered by **math and cryptography**. Together, we bring **native BTCfi to Bitcoiners.**  
 
