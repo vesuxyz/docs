@@ -16,9 +16,13 @@ Argent has just launched **Argent Metal**, a self-custodial crypto card that mak
 - Exclusive perks and benefits.
 - Full self-custody. Funds stay in your control until spent.
 
+Argent Metal isn’t just powerful, it looks good too. Choose your 16g metal card in Gold or Platinum. 
+
+![Argent Card now available!](Card-press-02_blog.png)
+
 ## Power to DeFi with Vesu
 
-Argent Metal gives you full control over your assets. With Vesu, you can take it even further:
+Argent Metal gives you full control over your assets. With Vesu, you can take it even further and access true financial freedom:
 
 - Earn yield on your idle USDC. Let your assets work for you.
 - Borrow USDC against your holdings (ETH, BTC, etc.) to access liquidity without selling.  
