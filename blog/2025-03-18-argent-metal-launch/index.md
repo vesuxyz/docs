@@ -5,7 +5,7 @@ authors: [marc]
 tags: [Announcement]
 ---
 
-![Welcome Argent Metal](Argent_metal.png)
+![Welcome Argent Metal](Argent_card_v2.png)
 
 Argent has just launched **Argent Metal**, a self-custodial crypto card that makes spending USDC effortless anywhere Mastercard is accepted. Unlike other crypto cards that require preloading or custodial accounts, Argent Metal lets users **spend directly from their wallet** while maintaining full ownership of their assets.
 
@@ -35,7 +35,7 @@ Easily accessible via [vesu.xyz](https://vesu.xyz/) or directly in the Argent Wa
 
 ## Get Started
 
-- **Sign up for Argent Metal**: [card.argent.xyz](https://card.argent.xyz/)  
+- **Sign up for Argent Metal**: [argent.xyz/metal-card](https://www.argent.xyz/metal-card)  
 - **Explore Vesu for top borrowing and yield opportunities**: [vesu.xyz/markets](https://vesu.xyz/markets)
 
 The way you spend crypto just changed. Keep control, keep earning, and unlock true financial freedom.
