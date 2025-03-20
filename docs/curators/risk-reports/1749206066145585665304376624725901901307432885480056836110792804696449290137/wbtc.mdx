@@ -1,0 +1,154 @@
+---
+title: Vesu WBTC Re7 rUSDC Risk Report
+sidebar_label: vWBTC-Re7rUSDC
+sidebar_position: 6
+slug: /curators/risk-reports/1749206066145585665304376624725901901307432885480056836110792804696449290137/wbtc
+---
+
+export const pool_Id = '1749206066145585665304376624725901901307432885480056836110792804696449290137'
+export const asset = '0x03fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac'
+export const rating = 'low'
+export const pool_risk = 'low'
+export const asset_risk = 'low'
+export const oracle_risk = 'low'
+export const market_risk = 'low'
+export const collateral_risk = 'low'
+
+
+## Summary
+
+The *Vesu WBTC Re7 rUSDC* market represents `WBTC` deposits in Re7 Lab's *Re7 rUSDC* pool.
+
+The pool enables a variety of collateral assets, including `ETH`, `WBTC`, `USDC`, `STRK`, to borrow Relend's `rUSDC` stablecoin. 
+It uses Vesu's official factory extension with Pragma price feeds.
+
+The market's overall risk rating is 🟩 Low.
+
+*Datapoints*
+
+- [CoinGecko](https://www.coingecko.com/en/coins/wrapped-bitcoin)
+- [Voyager](https://voyager.online/contract/0x03fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac)
+
+
+## Pool Risk
+
+The *Re7 rUSDC* pool is curated by Re7 Labs, a professional risk curator with extensive experience and a long track record on other lending protocols.
+
+The pool uses Vesu's audited factory extension which uses a robust Pragma feed and Vesu's public liquidation model.
+
+Re7 Labs has the permission to pause the pool in an emergency situation and update various parameters including debt caps and liquidation loan-to-value ratios. 
+
+Given Re7 Labs' extensive risk curation experience and their operational setup, including a multisig and real-time monitoring with Hypernative, the pool risk is deemed low.
+
+*Datapoints*
+
+- [Re7 Labs](https://re7.capital)
+- [Extension Docs](https://docs.vesu.xyz/)
+- [Audit Reports](https://github.com/vesuxyz/security)
+- [Source Code](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/default_extension_po.cairo)
+
+**Rating**
+
+The proposed rating is:
+
+- 🟩 Low
+
+
+## Asset Risk
+
+:::warning
+This report does not assess the risks associated with bridging assets to Starknet using StarkGate.
+Make sure you understand the risks involved with bridging assets to Starknet before continuing.
+:::
+
+StarkGate WBTC reflects Ethereum mainnet WBTC that is bridged to Starknet using the StarkGate bridge. 
+StarkGate is Starknet's canonical bridge and is developed and maintained by StarkWare, the creator of Starknet.
+The bridge is operational since early 2022 and has facilitated over [1.9M bridge transactions](https://dune.com/sapiens/starknet-insighttokenomics-and-bridge-stats) or over USD 1.7bn in value bridged.
+
+**Smart contract risk**
+
+StarkGate WBTC uses OpenZeppelin's [standard ERC20](https://github.com/OpenZeppelin/cairo-contracts) token implementation.
+It has been audited by Nethermind and both [source code](https://github.com/starknet-io/starkgate-contracts) and [audit report](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf) are publicly available.
+
+:::warning
+The StarkGate WBTC contract is not verified on block explorers.
+:::
+
+**Counterparty risk**
+
+N/A
+
+**Depeg risk**
+
+N/A
+
+**Datapoints**
+
+- [Token Contract](https://voyager.online/contract/0x03fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac)
+- [Mainnet Escrow Contract](https://etherscan.io/address/0x283751A21eafBFcD52297820D27C1f1963D9b5b4)
+- [StarkGate GitHub](https://github.com/starknet-io/starkgate-contracts)
+- [StarkGate Audit](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf)
+- [StarkGate Stats](https://dune.com/sapiens/starknet-insighttokenomics-and-bridge-stats)
+
+**Rating**
+
+The proposed rating is:
+
+- 🟩 Low
+
+
+## Oracle Risk
+
+The pool uses Pragma's `WBTC/USD` price feed.
+The Pragma oracle is a native Starknet oracle system that secures over USD 200m across all major projects on Starknet.
+It is fully decentralized in that it does not rely on off-chain infrastructure. Instead, data providers directly push prices on-chain and aggregation is done by the data consumer directly.
+
+**Smart contract risk**
+
+Find an overview of the Pragma smart contract system [here](https://github.com/Astraly-Labs/pragma-oracle?tab=readme-ov-file#overview).
+
+The Pragma smart contracts have been audited by Nethermind and both the [source code](https://github.com/Astraly-Labs/pragma-oracle) and [audit report](https://github.com/astraly-labs/pragma-oracle/tree/main/audits) are publicly available.
+
+**Price composition & source diversity**
+
+The oracle price is computed as the median over the most recent data points available for the various Pragma providers.
+
+**Oracle fail-safes**
+
+N/A
+
+Re7 Labs actively monitors the pool and oracle feeds and in case of an emergency pauses deposits and withdrawals.
+
+**Datapoints**
+
+- [Pragma Oracle Contract](https://voyager.online/contract/0x02a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b)
+- [Pragma Documentation](https://docs.pragma.build/Resources/Cairo%201/data-feeds/consuming-data)
+- [Pragma Pair IDs](https://docs.pragma.build/Resources/Cairo%201/data-feeds/supported-assets)
+- [Source Code](https://github.com/Astraly-Labs/pragma-oracle)
+- [Audit Report](https://github.com/astraly-labs/pragma-oracle/tree/main/audits)
+
+**Rating**
+
+The proposed rating is:
+
+- 🟩 Low
+
+
+## Market Risk
+
+`WBTC` deposits in this pool are isolated from borrowing, removing market risk for borrower's collateral assets.
+
+**Rating**
+
+The proposed rating is:
+
+- 🟩 Low
+
+
+## Collateral Risk
+
+The pool does not enable asset *rehypothecation*.
+
+The proposed rating is:
+
+- 🟩 Low
