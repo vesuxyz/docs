@@ -20,7 +20,7 @@ Let’s take a look at what this new pool brings.
 
 This pool lets users borrow rUSDC against key assets. Users can keep assets like wstETH or xSTRK working while unlocking fresh liquidity to use as they like.
 
-To bootstrap the new pool, Re7 Labs has set debt caps to manage liquidity and risk, ensuring a secure launch with room to scale. The initial limit is 500k rUSDC per asset** (**100k rUSDC for WBTC), with potential adjustments as the pool grows.
+To bootstrap the new pool, Re7 Labs has set debt caps to manage liquidity and risk, ensuring a secure launch with room to scale. The initial limit is 500k rUSDC per asset (100k rUSDC for WBTC), with potential adjustments as the pool grows.
 
 All parameters of the new pool can be accessed via the [Pools page](https://vesu.xyz/pools).
 
@@ -43,6 +43,5 @@ Learn more about Re7 Labs and their previously launched pools:
 - [Re7 Labs Comes to Starknet](https://docs.vesu.xyz/blog/2024-11-27-welcome-re7)
 - [New Pools by Re7 Labs](https://docs.vesu.xyz/blog/2025-02-06-new-pools-by-re7)
 
----
 
 Got feedback? Let us know on [X](https://x.com/vesuxyz) or [Discord](https://discord.com/invite/G9Gxgujj8T).
