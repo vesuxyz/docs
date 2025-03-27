@@ -34,8 +34,8 @@ Learn more in the [Relend Docs](https://docs.relend.network/).
 
 With the new pool you can now:
 
-- [Supply wstETH and borrow rUSDC against it.](https://vesu.xyz/borrow?form=true&poolId=0x3de03fafe6120a3d21dc77e101de62e165b2cdfe84d12540853bd962b970f99&collateralAddress=0x0057912720381af14b0e5c87aa4718ed5e527eab60b3801ebf702ab09139e38b&debtAddress=0x02019e47a0bc54ea6b4853c6123ffc8158ea3ae2af4166928b0de6e89f06de6c)
-- [Supply xSTRK as collateral and borrow rUSDC.](https://vesu.xyz/borrow?form=true&poolId=0x3de03fafe6120a3d21dc77e101de62e165b2cdfe84d12540853bd962b970f99&collateralAddress=0x028d709c875c0ceac3dce7065bec5328186dc89fe254527084d1689910954b0a&debtAddress=0x02019e47a0bc54ea6b4853c6123ffc8158ea3ae2af4166928b0de6e89f06de6c)
+- [Supply wstETH and borrow rUSDC against it.](https://vesu.xyz/borrow?form=true&poolId=1749206066145585665304376624725901901307432885480056836110792804696449290137&collateralAddress=0x0057912720381af14b0e5c87aa4718ed5e527eab60b3801ebf702ab09139e38b&debtAddress=0x02019e47a0bc54ea6b4853c6123ffc8158ea3ae2af4166928b0de6e89f06de6c)
+- [Supply xSTRK as collateral and borrow rUSDC.](https://vesu.xyz/borrow?form=true&poolId=1749206066145585665304376624725901901307432885480056836110792804696449290137&collateralAddress=0x028d709c875c0ceac3dce7065bec5328186dc89fe254527084d1689910954b0a&debtAddress=0x02019e47a0bc54ea6b4853c6123ffc8158ea3ae2af4166928b0de6e89f06de6c)
 
 
 Learn more about Re7 Labs and their previously launched pools:
