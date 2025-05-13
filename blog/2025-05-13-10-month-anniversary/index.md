@@ -28,11 +28,11 @@ We invite everyone to track and verify Vesu's progress for which we have built a
 
 ### Evolving with the Ecosystem
 
-As the Starknet ecosystem matures, we recognize the need to make few adjustments to the Genesis pool configuration, the first in its 10-months existence. These updates aim at reflecting the increased liquidity, availability of proven liquidation bots, and overall confidence in Vesu's robust design;
+As the Starknet ecosystem matures, we recognize the need to make few adjustments to the Genesis pool configuration, the first in its 10-months existence. These updates aim at reflecting the increased liquidity, availability of proven liquidation bots, and overall confidence in Vesu's robust design:
 
 1. **Minimal Loan Amounts**: Reduce the minimal loan amounts in the Genesis pool to $10, making lending more accessible to a broader range of users.
 
-2. **Liquidation Loan-to-Value (LLTV)**: Increase the LLTV ratios on certain lending pairs where Starknet liquidity has increased to improve capital efficiency. Find the details in this [sheet](https://docs.google.com/spreadsheets/d/1C9FzJscdDvfEa1Vf1Yzqp_NHswezpQFTBJE5S52DmOc/edit?gid=2005833036#gid=2005833036).
+2. **Liquidation Loan-to-Value (LLTV)**: Increase the LLTV ratios on certain lending pairs where Starknet liquidity has increased to improve capital efficiency. Find the details in this [sheet](https://docs.google.com/spreadsheets/d/1C9FzJscdDvfEa1Vf1Yzqp_NHswezpQFTBJE5S52DmOc/edit?gid=1410152640#gid=1410152640).
 
 3. **Interest Rate Curve**: Increase rate halving to 5 days (reduce the autonomous curve adjustment speed) and the minimal 100%-utilization rate to 5% improving market efficiency and UX for both lenders and borrowers. Read more on Vesu's adaptive curve design [here](https://docs.vesu.xyz/blog/2024-04-03-vesu-lending-hooks#adaptive-interest-rates).
 
@@ -41,6 +41,8 @@ As the Starknet ecosystem matures, we recognize the need to make few adjustments
 No action is required from your side.
 
 These updates do not have an immediate impact on your existing positions in Vesu's Genesis pool. However, you may observe elevated market activity as users take advantage of the new configurations such as the lower loan amount requirements or increased LLTVs, resulting in a change in Supply and Borrow APRs.
+
+With these conservative changes, the Genesis pool stays the core of lending on Starknet. Trusted for its stability and liquidity, the pool is now ready to support the next 10 months of growth.
 
 If you have any questions, please reach out on the Vesu [Discord](https://discord.gg/G9Gxgujj8T) or [Telegram](https://t.me/VesuChat).
 
