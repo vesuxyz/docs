@@ -16,11 +16,11 @@ Since its inception, Vesu has operated autonomously, governed solely by math and
 
 On that journey, we have achieved significant milestones including the following;
 
-🏆 Grow to the largest lending market on Starknet
-🛡️ Onboard best-in-class pool curators like Re7 Labs
-👛 Native wallet integration with Argent and Braavos
-✨ Enable new products like Braavos' Bitcoin Earn
-✅ Securely navigate various market crashes
+- 🏆 Grow to the largest lending market on Starknet
+- 🛡️ Onboard best-in-class pool curators like Re7 Labs
+- 👛 Native wallet integration with Argent and Braavos
+- ✨ Enable new products like Braavos' Bitcoin Earn
+- ✅ Securely navigate various market crashes
 
 We invite everyone to track and verify Vesu's progress for which we have built an extensive Dune dashboard that you can finde [here](https://dune.com/vesu/vesu).
 
@@ -30,7 +30,7 @@ As the Starknet ecosystem matures, we recognize the need to make few adjustments
 
 1. **Minimal Loan Amounts**: Reduce the minimal loan amounts in the Genesis pool to $10, making lending more accessible to a broader range of users.
 
-2. **Liquidation Loan-to-Value**: Increase the LLTV ratios on certain lending pairs where Starknet liquidity has increased to improve capital efficiency. Find the details in this [sheet](https://docs.google.com/spreadsheets/d/1C9FzJscdDvfEa1Vf1Yzqp_NHswezpQFTBJE5S52DmOc/edit?gid=120755677#gid=120755677).
+2. **Liquidation Loan-to-Value**: Increase the LLTV ratios on certain lending pairs where Starknet liquidity has increased to improve capital efficiency. Find the details in this [sheet](https://docs.google.com/spreadsheets/d/1C9FzJscdDvfEa1Vf1Yzqp_NHswezpQFTBJE5S52DmOc/edit?gid=2005833036#gid=2005833036).
 
 3. **Interest Rate Curve**: Increase rate halving to 5 days (reduce the autonomous curve adjustment speed) and the minimal 100%-utilization rate to 5% improving market efficiency and UX for both lenders and borrowers. Read more on Vesu's adaptive curve design [here](https://docs.vesu.xyz/blog/2024-04-03-vesu-lending-hooks#adaptive-interest-rates).
 
