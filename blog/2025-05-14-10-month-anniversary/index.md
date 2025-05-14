@@ -1,5 +1,5 @@
 ---
-slug: 2025-05-13-10-month-anniversary
+slug: 2025-05-14-10-month-anniversary
 title: Celebrating 10 Months of Vesu
 authors: [nbundi]
 tags: [Announcement]
