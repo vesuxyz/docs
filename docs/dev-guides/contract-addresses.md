@@ -52,7 +52,7 @@ Below are the deployed contract addresses on Starknet Mainnet.
 - Alterscope Cornerstone: `1159811069645890520539813878756846008647087829665407214583864910459307655916`  
 - Alterscope wstETH: `2612229586214495842527551768232431476062656055007024497123940017576986139174`
 
-View the deployment addresses on [GitHub](https://github.com/vesuxyz/changelog/blob/main/deployments/deployment_sn_main.json).
+View the deployment addresses on [GitHub](https://github.com/vesuxyz/changelog/blob/main/deployments/deployment_sn_main.json).  
 
 ## Sepolia
 Sepolia Frontend: https://testnet.vesu.xyz/
@@ -77,8 +77,8 @@ Sepolia Frontend: https://testnet.vesu.xyz/
 - Distributor: `0x05443e1b4d540b5ffc096c0d4533cc71d36ddb7bd381624ec5ce254db95cc8e9`
 
 **Assets**  
-- ETH `0x007bb0505dde7c05f576a6e08e64dadccd7797f14704763a5ad955727be25e5e9`  
-- wBTC `0x00abbd6f1e590eb83addd87ba5ac27960d859b1f17d11a3c1cd6a0006704b141`  
+- ETH `0x07bb0505dde7c05f576a6e08e64dadccd7797f14704763a5ad955727be25e5e9`  
+- wBTC `0xabbd6f1e590eb83addd87ba5ac27960d859b1f17d11a3c1cd6a0006704b1410`  
 - USDC `0x0715649d4c493ca350743e43915b88d2e6838b1c78ddc23d6d9385446b9d6844`  
 - USDT `0x041301316d5313cb7ee3389a04cfb788db7dd600d6369bc1ffd7982d6d808ff4`  
 - wstETH `0x0173d770db353707f2bfac025f760d2a45a288e06f56d48d545bcbdcebe3daa2`  
