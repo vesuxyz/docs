@@ -1,13 +1,13 @@
 ---
 slug: 2025-05-22-bitcoin-pizza-day-btcfi
-title: The Billion git commit -m "Add blog post:Dollar Pizza
+title: The Billion Dollar Pizza
 authors: [marc]
 tags: [Announcement]
 ---
 
 ![Happy Bitcoin Pizza Day](bitcoin-pizza-day-BTCfi.png)
 
-### The most expensive pizza ever. And the best case for BTCfi.
+**The most expensive pizza ever. And the best case for BTCfi.**
 
 You already know the story. In 2010, Laszlo paid 10,000 BTC for two pizzas. One supreme, one cheese. It was the first time anyone bought something physical with Bitcoin. Back then, those 10k BTC were worth about $41. Today? Over $1 billion.
 
