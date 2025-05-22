@@ -26,7 +26,7 @@ Here’s what you can already do today:
 
 - [Earn 6% APY on your Bitcoin](https://vesu.xyz/lend?form=true&poolId=2198503327643286920898110335698706244522220458610657370981979460625005526824&collateralAddress=0x03fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac)  
 - [Borrow USDC at just 0.5% APR against your Bitcoin](https://vesu.xyz/borrow?form=true&poolId=2198503327643286920898110335698706244522220458610657370981979460625005526824&collateralAddress=0x03fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac&debtAddress=0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8)  
-- [Borrow USDC spend it with your Argent Card](/blog/2025-03-18-argent-metal-launch/)  
+- [Borrow USDC & spend it with your Argent Card](/blog/2025-03-18-argent-metal-launch/)  
 
 More opportunities incoming soon. Stay tuned!
 
