@@ -5,40 +5,23 @@ authors: [marc]
 tags: [Announcement]
 ---
 
-![Vesu Migration](migration.png)
+![Vesu Migration](migration_success.png)
 
-**We’re carrying out a planned migration on Vesu. This includes changes at the smart contract level and improvements to Vesu’s security architecture that strengthen the protocol for the long term.**
+**Vesu has successfully completed a planned migration to address a security related disclosure and strengthen the protocol's long-term security.**
 
-**No customer funds are at risk.**
-
-## Timing
-
-**The migration will take place on May 28, 2025.** During this time, some features may be temporarily limited. Positions will remain visible, and core actions like closing positions will still be available.
-
-## What to expect during the migration
-
-- Positions remain safe and visible.
-- Temporary frontend limitations may occur. A fallback UI is available [here](https://migration.vesu.xyz).
-- Updates will be posted  on [X](https://x.com/vesuxyz).
-
+**All user funds are safe.**
 
 ## What this means for you 
 
-Most users won’t need to do anything, but here’s how the migration affects each position type.
-- **Borrow and Multiply positions:**
-    
-    No action needed. 
-    
-- **Earn positions:**
-    
-    After the migration, you’ll see a “migrate” button in your position overview. Just follow the flow, one transaction and you’re done. 
+All funds are safe and positions continue to work as expected, earn interest and DeFi Spring rewards.
 
+Earn positions will show a "Migrate" button for users to migrate to new vTokens. This migration happens automatically with your next interaction with Vesu in certain Starknet Wallets. 
 
-## Why this is happening
+## Why we migrated
 As protocols grow, so does the complexity of maintaining and securing them.
 This migration addresses a bug responsibly disclosed through Immunefi and resolved in close collaboration with Chainsecurity, our curators, and wallet partners.
 
-No user funds were at risk, and the fix is now fully implemented through this migration. Vesu continues to operate as normal.
+No user funds were at risk, and the fix is now fully implemented through this migration. Vesu continues to operate normally.
 
 Thanks to Chainsecurity, Immunefi, and our partners across the Starknet ecosystem for making this transition seamless.
 
