@@ -13,7 +13,7 @@ tags: [Announcement]
 
 ## Timing
 
-**The migration will take place on May 28, 2025 at 9:00 UTC.** During this window, some features may be temporarily limited. Positions will remain visible, and core actions like closing positions will still be available.
+**The migration will take place on May 28, 2025 at 11:00 UTC.** During this window, some features may be temporarily limited. Positions will remain visible, and core actions like closing positions will still be available.
 
 ## What to expect during the upgrade
 
