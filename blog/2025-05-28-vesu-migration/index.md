@@ -9,6 +9,7 @@ tags: [Announcement]
 
 **We’re carrying out a planned migration on Vesu. This includes changes at the smart contract level and improvements to Vesu’s security architecture that strengthen the protocol for the long term.**
 
+**No customer funds are at risk.**
 
 ## Timing
 
@@ -17,10 +18,12 @@ tags: [Announcement]
 ## What to expect during the upgrade
 
 - Positions remain safe and visible.
-- Temporary frontend limitations may occur.
+- Temporary frontend limitations may occur. A fallback UI is available [here](https://migration.vesu.xyz).
 - Updates will be posted  on [X](https://x.com/vesuxyz).
 
+
 ## What this means for you 
+
 Most users won’t need to do anything, but here’s how the migration affects each position type.
 - **Borrow and Multiply positions:**
     
