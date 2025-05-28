@@ -15,7 +15,7 @@ tags: [Announcement]
 
 **The migration will take place on May 28, 2025.** During this time, some features may be temporarily limited. Positions will remain visible, and core actions like closing positions will still be available.
 
-## What to expect during the upgrade
+## What to expect during the migration
 
 - Positions remain safe and visible.
 - Temporary frontend limitations may occur. A fallback UI is available [here](https://migration.vesu.xyz).
