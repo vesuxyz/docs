@@ -13,7 +13,7 @@ tags: [Announcement]
 
 All funds are safe and positions continue to work as expected, earn interest and DeFi Spring rewards.
 
-Earn positions will show a ‘Migrate’ button, allowing users to upgrade to new vTokens. In certain Starknet Wallets like Argent Mobile, this migration happens automatically with your next interaction with Vesu.
+Earn positions will show a ‘Migrate’ button, allowing users to migrate to new vTokens. In certain Starknet wallets like Argent Mobile, this migration happens automatically with your next interaction with Vesu.
 
 ## Why we migrated
 As protocols grow, so does the complexity of maintaining and securing them.
