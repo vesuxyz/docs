@@ -19,7 +19,7 @@ Earn positions will show a ‘Migrate’ button, allowing users to migrate to ne
 As protocols grow, so does the complexity of maintaining and securing them.
 This migration addresses a bug responsibly disclosed through Immunefi and resolved in close collaboration with Chainsecurity, our curators, and wallet partners.
 
-No user funds were at risk, and the fix is now fully implemented through this migration. Vesu continues to operate normally.
+ User funds are safe, and the fix is now fully implemented through this migration. Vesu continues to operate normally.
 
 Thanks to Chainsecurity, Immunefi, and our partners across the Starknet ecosystem for making this transition seamless.
 
