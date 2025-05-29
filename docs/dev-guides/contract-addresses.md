@@ -12,11 +12,9 @@ A list of Vesu contracts and their addresses can be found on github:
 
 Below are the deployed contract addresses on Starknet Mainnet.
 
-**Core Contracts**  
-- Singleton: `0x2545b2e5d519fc230e9cd781046d3a64e092114f07e44771e0d719d148725ef`  
-- Extension: `0x2334189e831d804d4a11d3f71d4a982ec82614ac12ed2e9ca2f8da4e6374fa`  
-- Extension PO: `0x7cf3881eb4a58e76b41a792fa151510e7057037d80eda334682bd3e73389ec0`  
-- Extension CL: `0x4e09a4fa7ab1a6b08693f5d89ab0b9db2de00a9b7d1c8f8ad286a665effd446`
+**Core Contracts V2**  
+- Singleton: `0x000d8d6dfec4d33bfb6895de9f3852143a17c6f92fd2a21da3d6924d34870160`  
+- Extension PO: `0x4e06e04b8d624d039aa1c3ca8e0aa9e21dc1ccba1d88d0d650837159e0ee054`
 
 **Pragma Feeds**  
 - Oracle: `0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b`  
@@ -26,10 +24,8 @@ Below are the deployed contract addresses on Starknet Mainnet.
 - Ekubo Core: `0x00000005dd3D2F4429AF886cD1a3b08289DBcEa99A294197E9eB43b0e0325b4b`
 
 **Utilities**  
-- Multiply: `0x219ce882a208653c3f96eac91b96616c94772600a35431b5b6a4e485c1dd0b2`  
-- Liquidate: `0x06f77dd7b8a4e34ef712505735f7259fe900b1ed2e2b673cd380c57da3d27dd8`  
-- Rebalance: `0x7967c37a99caa107eef98af43ae51c0624135557949c1214af3770aef651e12`  
-- Distributor: `0x0387f3eb1d98632fbe3440a9f1385aec9d87b6172491d3dd81f1c35a7c61048f`
+- Multiply: `0x3630f1f8e5b8f5c4c4ae9b6620f8a570ae55cddebc0276c37550e7c118edf67`  
+- Liquidate: `0x58c80ed9801b32b441566d320ae236c73257981800dcda63c9f02dd154c3f39`
 
 **Assets**  
 - ETH: `0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7`  
@@ -52,7 +48,18 @@ Below are the deployed contract addresses on Starknet Mainnet.
 - Alterscope Cornerstone: `1159811069645890520539813878756846008647087829665407214583864910459307655916`  
 - Alterscope wstETH: `2612229586214495842527551768232431476062656055007024497123940017576986139174`
 
-View the deployment addresses on [GitHub](https://github.com/vesuxyz/changelog/blob/main/deployments/deployment_sn_main.json).
+
+**Core Contracts v1 (legacy)**  
+- Singleton: `0x2545b2e5d519fc230e9cd781046d3a64e092114f07e44771e0d719d148725ef`  
+- Extension: `0x2334189e831d804d4a11d3f71d4a982ec82614ac12ed2e9ca2f8da4e6374fa`  
+- Extension PO: `0x7cf3881eb4a58e76b41a792fa151510e7057037d80eda334682bd3e73389ec0`  
+- Extension CL: `0x4e09a4fa7ab1a6b08693f5d89ab0b9db2de00a9b7d1c8f8ad286a665effd446`
+
+**Utilities v1 (legacy)**
+- Multiply: `0x219ce882a208653c3f96eac91b96616c94772600a35431b5b6a4e485c1dd0b2`  
+- Liquidate: `0x06f77dd7b8a4e34ef712505735f7259fe900b1ed2e2b673cd380c57da3d27dd8`
+- Rebalance: `0x7967c37a99caa107eef98af43ae51c0624135557949c1214af3770aef651e12`     
+- Distributor: `0x0387f3eb1d98632fbe3440a9f1385aec9d87b6172491d3dd81f1c35a7c61048f`
 
 ## Sepolia
 Sepolia Frontend: https://testnet.vesu.xyz/
@@ -77,8 +84,8 @@ Sepolia Frontend: https://testnet.vesu.xyz/
 - Distributor: `0x05443e1b4d540b5ffc096c0d4533cc71d36ddb7bd381624ec5ce254db95cc8e9`
 
 **Assets**  
-- ETH `0x007bb0505dde7c05f576a6e08e64dadccd7797f14704763a5ad955727be25e5e9`  
-- wBTC `0x00abbd6f1e590eb83addd87ba5ac27960d859b1f17d11a3c1cd6a0006704b141`  
+- ETH `0x07bb0505dde7c05f576a6e08e64dadccd7797f14704763a5ad955727be25e5e9`  
+- wBTC `0xabbd6f1e590eb83addd87ba5ac27960d859b1f17d11a3c1cd6a0006704b1410`  
 - USDC `0x0715649d4c493ca350743e43915b88d2e6838b1c78ddc23d6d9385446b9d6844`  
 - USDT `0x041301316d5313cb7ee3389a04cfb788db7dd600d6369bc1ffd7982d6d808ff4`  
 - wstETH `0x0173d770db353707f2bfac025f760d2a45a288e06f56d48d545bcbdcebe3daa2`  
@@ -87,9 +94,6 @@ Sepolia Frontend: https://testnet.vesu.xyz/
 
 **Pools**  
 - Genesis `730993554056884283224259059297934576024721456828383733531590831263129347422`
-
-
-View the deployment addresses on [GitHub](https://github.com/vesuxyz/changelog/blob/main/deployments/deployment_sn_sepolia.json).
 
 :::info
 Any question? Need help? Join us in [Discord](https://discord.gg/CCEsVqmy).
