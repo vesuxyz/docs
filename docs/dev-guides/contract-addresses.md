@@ -13,7 +13,7 @@ A list of Vesu contracts and their addresses can be found on github:
 Below are the deployed contract addresses on Starknet Mainnet.
 
 **Core Contracts**  
-- Singleton: `0x2545b2e5d519fc230e9cd781046d3a64e092114f07e44771e0d719d148725ef`  
+- Singleton: `0x000d8d6dfec4d33bfb6895de9f3852143a17c6f92fd2a21da3d6924d34870160`  
 - Extension: `0x2334189e831d804d4a11d3f71d4a982ec82614ac12ed2e9ca2f8da4e6374fa`  
 - Extension PO: `0x7cf3881eb4a58e76b41a792fa151510e7057037d80eda334682bd3e73389ec0`  
 - Extension CL: `0x4e09a4fa7ab1a6b08693f5d89ab0b9db2de00a9b7d1c8f8ad286a665effd446`
@@ -26,8 +26,8 @@ Below are the deployed contract addresses on Starknet Mainnet.
 - Ekubo Core: `0x00000005dd3D2F4429AF886cD1a3b08289DBcEa99A294197E9eB43b0e0325b4b`
 
 **Utilities**  
-- Multiply: `0x219ce882a208653c3f96eac91b96616c94772600a35431b5b6a4e485c1dd0b2`  
-- Liquidate: `0x06f77dd7b8a4e34ef712505735f7259fe900b1ed2e2b673cd380c57da3d27dd8`  
+- Multiply: `0x3630f1f8e5b8f5c4c4ae9b6620f8a570ae55cddebc0276c37550e7c118edf67`  
+- Liquidate: `0x58c80ed9801b32b441566d320ae236c73257981800dcda63c9f02dd154c3f39`  
 - Rebalance: `0x7967c37a99caa107eef98af43ae51c0624135557949c1214af3770aef651e12`  
 - Distributor: `0x0387f3eb1d98632fbe3440a9f1385aec9d87b6172491d3dd81f1c35a7c61048f`
 
