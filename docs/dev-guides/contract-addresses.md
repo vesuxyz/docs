@@ -48,7 +48,6 @@ Below are the deployed contract addresses on Starknet Mainnet.
 - Alterscope Cornerstone: `1159811069645890520539813878756846008647087829665407214583864910459307655916`  
 - Alterscope wstETH: `2612229586214495842527551768232431476062656055007024497123940017576986139174`
 
-
 **Core Contracts v1 (legacy)**  
 - Singleton: `0x2545b2e5d519fc230e9cd781046d3a64e092114f07e44771e0d719d148725ef`  
 - Extension: `0x2334189e831d804d4a11d3f71d4a982ec82614ac12ed2e9ca2f8da4e6374fa`  
@@ -60,6 +59,7 @@ Below are the deployed contract addresses on Starknet Mainnet.
 - Liquidate: `0x06f77dd7b8a4e34ef712505735f7259fe900b1ed2e2b673cd380c57da3d27dd8`
 - Rebalance: `0x7967c37a99caa107eef98af43ae51c0624135557949c1214af3770aef651e12`     
 - Distributor: `0x0387f3eb1d98632fbe3440a9f1385aec9d87b6172491d3dd81f1c35a7c61048f`
+
 
 ## Sepolia
 Sepolia Frontend: https://testnet.vesu.xyz/

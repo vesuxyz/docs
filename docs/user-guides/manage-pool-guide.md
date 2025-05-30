@@ -1,7 +1,7 @@
 ---
 id: pool-management
 title: How to manage an existing pool
-sidebar_label: Mange Pool
+sidebar_label: Manage Pool
 sidebar_position: 13
 slug: /curators/manage-pool
 ---
