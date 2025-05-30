@@ -14,7 +14,7 @@ Below are the deployed contract addresses on Starknet Mainnet.
 
 **Core Contracts V2**  
 - Singleton: `0x000d8d6dfec4d33bfb6895de9f3852143a17c6f92fd2a21da3d6924d34870160`  
-- Extension PO: `0x4e06e04b8d624d039aa1c3ca8e0aa9e21dc1ccba1d88d0d650837159e0ee054`
+- Extension (Pragma Oracle): `0x4e06e04b8d624d039aa1c3ca8e0aa9e21dc1ccba1d88d0d650837159e0ee054`
 
 **Pragma Feeds**  
 - Oracle: `0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b`  
