@@ -53,7 +53,7 @@ Below are the deployed contract addresses on Starknet Mainnet.
 - Alterscope Cornerstone: `1159811069645890520539813878756846008647087829665407214583864910459307655916`  
 - Alterscope wstETH: `2612229586214495842527551768232431476062656055007024497123940017576986139174`
 
-### Deprecated V1 contracts
+### Deprecated V1
 
 **Core Contracts v1 (legacy)** 
 - Singleton: `0x2545b2e5d519fc230e9cd781046d3a64e092114f07e44771e0d719d148725ef`  
