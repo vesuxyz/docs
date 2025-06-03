@@ -1,12 +1,12 @@
 ---
-title: Vesu STRK-CarmineDAORunes Risk Report
-sidebar_label: vSTRK-CarmineDAORunes
-sidebar_position: 3
-slug: /curators/risk-reports/TBD/strk
+title: Vesu ETH-CarmineDAORunes Risk Report
+sidebar_label: vETH-CarmineDAORunes
+sidebar_position: 2
+slug: /curators/risk-reports/782143811495370029786561603242592541243660864649184692340475351040560976323/eth
 ---
 
-export const pool_Id = 'TBD'
-export const asset = '0x04718f5a0Fc34cC1AF16A1cdee98fFB20C31f5cD61D6Ab07201858f4287c938D'
+export const pool_Id = '782143811495370029786561603242592541243660864649184692340475351040560976323'
+export const asset = '0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7'
 export const rating = 'medium'
 export const pool_risk = 'low'
 export const asset_risk = 'low'
@@ -17,7 +17,7 @@ export const collateral_risk = 'medium'
 
 ## Summary
 
-The *Vesu STRK CarmineDAO Runes* market represents `STRK` deposits in Carmine DAO's *CarmineDAO Runes* pool.
+The *Vesu ETH CarmineDAO Runes* market represents `ETH` deposits in Carmine DAO's *CarmineDAO Runes* pool.
 
 The pool enables various Starknet assets to be borrowed and used as collateral.
 
@@ -27,8 +27,8 @@ The market's overall risk rating is 🟩 Low.
 
 *Datapoints*
 
-- [CoinGecko](https://www.coingecko.com/en/coins/starknet)
-- [Voyager](https://voyager.online/contract/0x04718f5a0Fc34cC1AF16A1cdee98fFB20C31f5cD61D6Ab07201858f4287c938D)
+- [CoinGecko](https://www.coingecko.com/en/coins/ethereum)
+- [Voyager](https://voyager.online/contract/0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7)
 
 
 ## Pool Risk
@@ -63,17 +63,17 @@ This report does not assess the risks associated with bridging assets to Starkne
 Make sure you understand the risks involved with bridging assets to Starknet before continuing.
 :::
 
-StarkGate STRK reflects Ethereum mainnet STRK that is bridged to Starknet using the StarkGate bridge. 
+StarkGate ETH reflects Ethereum mainnet ETH that is bridged to Starknet using the StarkGate bridge. 
 StarkGate is Starknet's canonical bridge and is developed and maintained by StarkWare, the creator of Starknet.
 The bridge is operational since early 2022 and has facilitated over [1.9M bridge transactions](https://dune.com/sapiens/starknet-insighttokenomics-and-bridge-stats) or over USD 1.7bn in value bridged.
 
 **Smart contract risk**
 
-StarkGate STRK uses OpenZeppelin's [standard ERC20](https://github.com/OpenZeppelin/cairo-contracts) token implementation.
+StarkGate ETH uses OpenZeppelin's [standard ERC20](https://github.com/OpenZeppelin/cairo-contracts) token implementation.
 It has been audited by Nethermind and both [source code](https://github.com/starknet-io/starkgate-contracts) and [audit report](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf) are publicly available.
 
 :::warning
-The StarkGate STRK contract is not verified on block explorers.
+The StarkGate ETH contract is not verified on block explorers.
 :::
 
 **Counterparty risk**
@@ -86,7 +86,7 @@ N/A
 
 **Datapoints**
 
-- [Token Contract](https://voyager.online/contract/0x04718f5a0Fc34cC1AF16A1cdee98fFB20C31f5cD61D6Ab07201858f4287c938D)
+- [Token Contract](https://voyager.online/contract/0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7)
 - [Mainnet Escrow Contract](https://etherscan.io/address/0xae0Ee0A63A2cE6BaeEFFE56e7714FB4EFE48D419)
 - [StarkGate GitHub](https://github.com/starknet-io/starkgate-contracts)
 - [StarkGate Audit](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf)
@@ -101,7 +101,7 @@ The proposed rating is:
 
 ## Oracle Risk
 
-The pool uses Pragma's `STRK/USD` price feed.
+The pool uses Pragma's `ETH/USD` price feed.
 The Pragma oracle is a native Starknet oracle system that secures over USD 200m across all major projects on Starknet.
 It is fully decentralized in that it does not rely on off-chain infrastructure. Instead, data providers directly push prices on-chain and aggregation is done by the data consumer directly.
 
@@ -136,7 +136,7 @@ The proposed rating is:
 
 ## Market Risk
 
-`STRK` deposits can be borrowed with all pool assets as collateral.
+`ETH` deposits can be borrowed with all pool assets as collateral.
 
 The pool enforces *debt caps* and *liquidation discounts* reflecting the on-chain liquidity available for liquidations.
 
@@ -158,7 +158,7 @@ The proposed rating is:
 
 ## Collateral Risk
 
-The pool enables borrowing of `STRK` with any of the pool's assets as collateral. Collateral *rehypothecation* is not enabled in the pool. 
+The pool enables borrowing of `ETH` with any of the pool's assets as collateral. Collateral *rehypothecation* is not enabled in the pool. 
 
 The proposed rating is:
 
