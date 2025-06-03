@@ -117,13 +117,14 @@ The oracle price is computed as the Median over the most recent data points avai
 
 **Oracle fail-safes**
 
-No autonomous oracle fail-safes and fallbacks are configured. CarmineDAO monitors and pauses pools manually in case of an emergency.
+Autonomous oracle fail-safe and fallback was configured with a 0.2hours timeout, 2 data sources required, recovery and subscription periods being set to 1 month and "Pool pause loan-to-value" set as 100%. CarmineDAO monitors and can pause pools manually in case of an emergency.
 
 **Datapoints**
 
 - [Pragma Oracle Contract](https://voyager.online/contract/0x02a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b)
 - [Pragma Documentation](https://docs.pragma.build/Resources/Cairo%201/data-feeds/consuming-data)
 - [Pragma Pair IDs](https://docs.pragma.build/Resources/Cairo%201/data-feeds/supported-assets)
+- [Pragma Providers for BTC](https://www.pragma.build/asset/BTC-USD?network=mainnet)
 - [Source Code](https://github.com/Astraly-Labs/pragma-oracle)
 - [Audit Report](https://github.com/astraly-labs/pragma-oracle/tree/main/audits)
 
@@ -158,7 +159,7 @@ The proposed rating is:
 
 ## Collateral Risk
 
-The pool enables borrowing of `WBTC` with any of the pool's assets as collateral. Collateral *rehypothecation* is not enabled in the pool. 
+The pool enables borrowing of `WBTC` with any of the pool's assets as collateral. Collateral *rehypothecation* is enabled in the pool. 
 
 The proposed rating is:
 
