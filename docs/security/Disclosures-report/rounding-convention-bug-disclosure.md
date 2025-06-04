@@ -52,7 +52,7 @@ This report outlines the discovery, reporting, and resolution of a critical vuln
 | May 23, 2025 at 2:44 pm | ChainSecurity engaged for technical assessment and assistance with remediation plan. |
 | May 24, 2025 at EOD | Remediation plan developed and reviewed in collaboration with ChainSecurity. |
 | May 27, 2025 at EOD | Fix and Vesu migration contracts and script implemented and tested. Lending pool curators notified. |
-| May 28, 2025 at 1:00 pm | Migration initiated in collaboration with ChainSecurity and lending pool curators. |
+| May 28, 2025 at 1:00 pm | Migration initiated in collaboration with ChainSecurity, Argent and the lending pool curators. |
 | May 28, 2025 at 10:30 pm | Migration of Vesu contracts, lending pools, backend and frontend completed and verified. |
 | May 28, 2025 at 10:40 pm | Public disclosure and announcement of migration on Vesu blog and X. |
 
