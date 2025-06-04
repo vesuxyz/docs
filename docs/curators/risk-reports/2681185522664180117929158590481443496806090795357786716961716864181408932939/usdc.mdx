@@ -1,0 +1,166 @@
+---
+title: Vesu USD Coin CarmineDAO Runes Risk Report
+sidebar_label: vUSDC-CarmineDAORunes
+sidebar_position: 4
+slug: /curators/risk-reports/2681185522664180117929158590481443496806090795357786716961716864181408932939/usdc
+---
+
+export const pool_Id = '2681185522664180117929158590481443496806090795357786716961716864181408932939'
+export const asset = '0x5a47802b56bc4c7c50c19d30fac85d8d3c96badf89e4bd12abae66f1f9dab37'
+export const rating = 'medium'
+export const pool_risk = 'low'
+export const asset_risk = 'low'
+export const oracle_risk = 'low'
+export const market_risk = 'low'
+export const collateral_risk = 'medium'
+
+
+## Summary
+
+The *Vesu USD Coin CarmineDAO Runes* market represents `USDC` deposits in Carmine DAO's *CarmineDAO Runes* pool.
+
+The pool enables various Starknet assets to be borrowed and used as collateral.
+
+It uses Vesu's official factory extension with Pragma price feeds.
+
+The market's overall risk rating is 🟩 Medium.
+
+*Datapoints*
+
+- [CoinGecko](https://www.coingecko.com/en/coins/usdc)
+- [Voyager](https://voyager.online/contract/0x5a47802b56bc4c7c50c19d30fac85d8d3c96badf89e4bd12abae66f1f9dab37)
+
+
+## Pool Risk
+
+The *CarmineDAO Runes* pool is curated by CarmineDAO, a DAO focused on providing tools to monitor and manage risks in DeFi. DAO whose members work and worked on projects like DeRisk.
+
+The pool uses Vesu's audited factory extension which leverages a robust Pragma feed and Vesu's public liquidation model.
+
+CarmineDAO has the permission to pause the pool in an emergency situation and update various parameters including debt caps and liquidation loan-to-value ratios. 
+
+Given CarmineDAO's and its members expertise in assessing, monitoring and managing DeFi risks including managing and monitoring liquidity in the market and a multisig owning the pool permissions, the pool risk is deemed low.
+
+*Datapoints*
+
+- [CarmineDAO's discord](https://discord.com/invite/uRs7j8w3bX)
+- [DeRisk](https://www.carmine.finance/derisk)
+- [Extension Docs](https://docs.vesu.xyz/)
+- [Audit Reports](https://github.com/vesuxyz/security)
+- [Source Code](https://github.com/vesuxyz/vesu-v1/blob/main/src/extension/default_extension_po.cairo)
+
+**Rating**
+
+The proposed rating is:
+
+- 🟩 Low
+
+
+## Asset Risk
+
+:::warning
+This report does not assess the risks associated with bridging assets to Starknet using StarkGate.
+Make sure you understand the risks involved with bridging assets to Starknet before continuing.
+:::
+
+StarkGate USDC reflects Ethereum mainnet USDC that is bridged to Starknet using the StarkGate bridge. 
+StarkGate is Starknet's canonical bridge and is developed and maintained by StarkWare, the creator of Starknet.
+The bridge is operational since early 2022 and has facilitated over [1.9M bridge transactions](https://dune.com/sapiens/starknet-insighttokenomics-and-bridge-stats) or over USD 1.7bn in value bridged.
+
+**Smart contract risk**
+
+StarkGate USDC uses OpenZeppelin's [standard ERC20](https://github.com/OpenZeppelin/cairo-contracts) token implementation.
+It has been audited by Nethermind and both [source code](https://github.com/starknet-io/starkgate-contracts) and [audit report](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf) are publicly available.
+
+:::warning
+The StarkGate USDC contract is not verified on block explorers.
+:::
+
+**Counterparty risk**
+
+N/A
+
+**Depeg risk**
+
+N/A
+
+**Datapoints**
+
+- [Token Contract](https://voyager.online/contract/0x5a47802b56bc4c7c50c19d30fac85d8d3c96badf89e4bd12abae66f1f9dab37)
+- [Mainnet Escrow Contract](https://etherscan.io/address/0xae0Ee0A63A2cE6BaeEFFE56e7714FB4EFE48D419)
+- [StarkGate GitHub](https://github.com/starknet-io/starkgate-contracts)
+- [StarkGate Audit](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0064-DRAFT_STARKGATE.pdf)
+- [StarkGate Stats](https://dune.com/sapiens/starknet-insighttokenomics-and-bridge-stats)
+
+**Rating**
+
+The proposed rating is:
+
+- 🟩 Low
+
+
+## Oracle Risk
+
+The pool uses Pragma's `USDC/USD` price feed.
+The Pragma oracle is a native Starknet oracle system that secures over USD 200m across all major projects on Starknet.
+It is fully decentralized in that it does not rely on off-chain infrastructure. Instead, data providers directly push prices on-chain and aggregation is done by the data consumer directly.
+
+**Smart contract risk**
+
+Find an overview of the Pragma smart contract system [here](https://github.com/Astraly-Labs/pragma-oracle?tab=readme-ov-file#overview).
+
+The Pragma smart contracts have been audited by Nethermind and both the [source code](https://github.com/Astraly-Labs/pragma-oracle) and [audit report](https://github.com/astraly-labs/pragma-oracle/tree/main/audits) are publicly available.
+
+**Price composition & source diversity**
+
+The oracle price is computed as the Median over the most recent data points available for the various Pragma providers.
+
+**Oracle fail-safes**
+
+Autonomous oracle fail-safe and fallback was configured with a 0.2hours timeout, 2 data sources required, recovery and subscription periods being set to 1 month and "Pool pause loan-to-value" set as 100%. CarmineDAO monitors and can pause pools manually in case of an emergency.
+
+**Datapoints**
+
+- [Pragma Oracle Contract](https://voyager.online/contract/0x02a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b)
+- [Pragma Documentation](https://docs.pragma.build/Resources/Cairo%201/data-feeds/consuming-data)
+- [Pragma Pair IDs](https://docs.pragma.build/Resources/Cairo%201/data-feeds/supported-assets)
+- [Pragma Providers for USDC](https://www.pragma.build/asset/USDC-USD?network=mainnet)
+- [Source Code](https://github.com/Astraly-Labs/pragma-oracle)
+- [Audit Report](https://github.com/astraly-labs/pragma-oracle/tree/main/audits)
+
+**Rating**
+
+The proposed rating is:
+
+- 🟩 Low
+
+
+## Market Risk
+
+`USDC` deposits can be borrowed with all pool assets as collateral.
+
+The pool enforces *debt caps* and *liquidation discounts* reflecting the on-chain liquidity available for liquidations.
+
+Liquidations, as per the used official factory extension (see Section *Pool Risk*), are public and prioritize rapid liquidations.
+
+The resulting market risk is computed using the [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/1zU9IRKCX8xicSNd4UV78hMEw_rf-ZtGL/edit?usp=sharing&ouid=108086377410680948516&rtpof=true&sd=true).
+
+**Datapoints**
+
+- [Liquidation Documentation](https://docs.vesu.xyz)
+- [Standard Market Risk Model](https://docs.google.com/spreadsheets/d/1zU9IRKCX8xicSNd4UV78hMEw_rf-ZtGL/edit?usp=sharing&ouid=108086377410680948516&rtpof=true&sd=true)
+
+**Rating**
+
+The proposed rating is:
+
+- 🟩 Low
+
+
+## Collateral Risk
+
+The pool enables borrowing of `USDC` with any of the pool's assets as collateral. Collateral *rehypothecation* is enabled in the pool. 
+
+The proposed rating is:
+
+- 🟨 Medium
