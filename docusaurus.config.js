@@ -39,7 +39,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/hero-background.jpg",
+      image: "img/vesu.png",
       navbar: {
         style: "dark",
         title: null,
@@ -72,6 +72,19 @@ const config = {
             position: "right",
           },
         ],
+      },
+      metadata: [
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:image', content: 'https://vesu.xyz/img/vesu.png' },
+        { property: 'og:image', content: 'https://vesu.xyz/img/vesu.png' },
+        { property: 'og:url', content: 'https://vesu.xyz/' },
+        { property: 'og:locale', content: 'en' },
+      ],
+      algolia: {
+        appId: 'QOJ022CPNR',
+        apiKey: 'b78f49d4fb0efced365db547e004d85e',
+        indexName: 'vesu',
+        searchPagePath: 'search',
       },
       footer: {
         style: "dark",
