@@ -73,19 +73,6 @@ const config = {
           },
         ],
       },
-      metadata: [
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:image', content: 'https://vesu.xyz/img/vesu.png' },
-        { property: 'og:image', content: 'https://vesu.xyz/img/vesu.png' },
-        { property: 'og:url', content: 'https://vesu.xyz/' },
-        { property: 'og:locale', content: 'en' },
-      ],
-      algolia: {
-        appId: 'QOJ022CPNR',
-        apiKey: 'b78f49d4fb0efced365db547e004d85e',
-        indexName: 'vesu',
-        searchPagePath: 'search',
-      },
       footer: {
         style: "dark",
         links: [
