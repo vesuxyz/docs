@@ -1,5 +1,5 @@
 ---
-slug: 2025-06-12-earn-with-STRK
+slug: 2025-06-13-earn-with-STRK
 title: Unlocking STRK
 authors: [marc]
 tags: [Unlocking Vesu]
@@ -33,6 +33,7 @@ You earn lending yield and DeFi Spring rewards.
 You want to earn more while staying relatively low risk.
 
 Stake STRK via [Endur](https://endur.fi) to mint xSTRK, then supply it to Vesu.
+If you want to deposit into the Re7 xSTRK pool you can also use the shortcut via [Stake & Earn](https://vesu.xyz/stake-and-earn).
 
 **What you earn:**
 - Lending yield  
@@ -45,6 +46,10 @@ Stake STRK via [Endur](https://endur.fi) to mint xSTRK, then supply it to Vesu.
 |--------------|--------|------------------------------------------|
 | Re7 xSTRK     | 11.6%  | biggest xSTRK pool, STRK available to borrow     |
 | Re7 rUSDC     | 11.6%  | use xSTRK as collateral to borrow rUSDC    |
+
+:::tip 
+With **[Stake & Earn](https://vesu.xyz/stake-and-earn)**, you can deposit STRK and supply xSTRK to the Re7 pool in one smooth transaction.
+:::
 
 **Risk:** Additional risks from liquid staking provider (Endur).
 
