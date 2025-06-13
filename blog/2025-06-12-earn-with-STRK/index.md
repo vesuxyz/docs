@@ -2,7 +2,7 @@
 slug: 2025-06-12-earn-with-STRK
 title: Unlocking STRK
 authors: [marc]
-tags: [U]
+tags: [Unlocking Vesu]
 ---
 
 ![Earn with STRK](STRK-unlocking-vesu.png)
@@ -21,8 +21,8 @@ You earn lending yield and DeFi Spring rewards.
 
 | **Pool**     | **APY** | **Notes**                               |
 |--------------|--------|------------------------------------------|
-| Genesis      | 4.66%  | most liquid pool on Vesu, best to borrow other assets     |
-| Re7 xSTRK    | 8.43%  | high borrowing demand from Multiply |
+| Genesis      | 4.5%  | most liquid pool on Vesu, best to borrow other assets     |
+| Re7 xSTRK    | 8.4%  | high borrowing demand from Multiply |
 
 **Risk:** Like any DeFi lending platform, there are risks around smart contracts, oracles, and pool settings. Vesu reduces these with full audits and curators that are known teams in the Starknet ecosystem.
 
@@ -55,15 +55,19 @@ Stake STRK via [Endur](https://endur.fi) to mint xSTRK, then supply it to Vesu.
 You want to increase exposure and farm harder.
 
 It works like this: Supply xSTRK as collateral → borrow STRK → convert to xSTRK → repeat.  
-But don't worry, Vesu's [Multiply](https://vesu.xyz/multiply) feature does all of this for you in one click.
+But don't worry, Vesu's [Multiply](https://vesu.xyz/multiply) feature does all of this for you in one click. Learn how it works in our [Docs](https://docs.vesu.xyz/user-guides/multiply-basics).
+
+![Multiply xSTRK](xstrk-multiply.png)
 
 | **Pool**     | **Notes**                                                  |
 |--------------|------------------------------------------------------------|
 | Re7 xSTRK    | Uses the same oracle for STRK and xSTRK. Strong correlation, but not risk-free |
 
 **What you earn:**
-- Everything from Level 2, scaled up  
-- Higher yield from increased position size
+- Boosted staking yield
+- Boosted Endur Points
+- Boosted DeFi Spring rewards
+- Higher organic yield from increased position size
 
 **Risk:** If xSTRK depegs from STRK, you can be liquidated. Oracle settings reduces this risk, but it’s not zero.
 
@@ -77,6 +81,6 @@ But don't worry, Vesu's [Multiply](https://vesu.xyz/multiply) feature does all o
 | 3         | xSTRK (Multiply)     | All of Level 2, multiplied with STRK             | Liquidation, xSTRK depeg          | Re7 xSTRK              |
 
 
-Which strategy fits your style?
+**Which level fits your style?**
 We’re always curious how people are using Vesu. Drop feedback or questions in [Discord](https://discord.gg/g9ahVeyp). Or tell us what you’d like to see next in Unlocking Vesu.
 
