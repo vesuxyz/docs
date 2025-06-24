@@ -1,6 +1,6 @@
 ---
-slug: 2025-06-04-re7-tbtc-pool
-title: Re7 tBTC Pool is live
+slug: 2025-06-25-re7-tbtc-pool
+title: Re7 tBTC Pool live
 authors: [marc]
 tags: [Announcement]
 ---
@@ -21,7 +21,7 @@ BTCfi is kicking off on Starknet. More assets and rewards coming soon.
 **Collateral:** tBTC  
 **Borrow:** USDC
 
-This pool makes it simple. Deposit BTC to earn, or borrow extra liquidity against it. No LP tokens to manage, no need to give up control.
+This pool makes it simple. Deposit tBTC to earn, or borrow extra liquidity against it. No LP tokens to manage, no need to give up control.
 
 The pool is isolated and designed for long-term stability. Additional assets can be added by the curator in the future to the pool. 
 
@@ -36,7 +36,7 @@ You can use tBTC in the new Vesu pool via:
 
 ## Explore the Pool
 
-The RE7 tBTC pool is live. You can:
+The RE7 tBTC pool is ready. You can now:
 
 - [Supply tBTC to earn](https://vesu.xyz/lend)
 - [Borrow USDC against your tBTC](https://vesu.xyz/borrow)
