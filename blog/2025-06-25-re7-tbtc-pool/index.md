@@ -1,19 +1,19 @@
 ---
 slug: 2025-06-25-re7-tbtc-pool
-title: Re7 tBTC Pool live
+title: Re7 tBTC Pool Launch 
 authors: [marc]
 tags: [Announcement]
 ---
 
-![New Re7 tBTC Pool is live](re7-tbtc.png)
+![New Re7 tBTC Pool is live](re7-tbtc-pool.png)
 
-Re7 Labs just launched the first tBTC lending pool on Starknet.
+**Re7 Labs just launched the first tBTC lending pool on Starknet.**
 
-tBTC is issued by Threshold Network and is one of the most proven trust-minimized Bitcoin assets. It’s backed 1:1 by native BTC and secured by a decentralized network of signers. No centralized custody. No wrapped-token shortcuts.
+tBTC, issued by Threshold Network, is one of the most proven trust-minimized Bitcoin assets. It’s backed 1:1 by native BTC and secured by a decentralized network of signers. No centralized custody. No wrapped-token shortcuts.
 
-Now is the time to use BTC, not just hold it. Starknet makes it easy: fast transactions, ultra-low fees, and a smooth UX with multicalls and account abstraction.
+Now’s the time to start using your BTC, not just holding it. Starknet makes it easy with fast transactions, ultra-low fees, and top-tier UX through multicalls and account abstraction.
 
-BTCfi is kicking off on Starknet. More assets and rewards coming soon.
+BTCfi is just getting started. More assets and rewards coming soon.
 
 
 ## RE7 tBTC Pool
