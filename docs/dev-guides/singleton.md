@@ -243,7 +243,7 @@ fn check_collateralization_unsafe(
 
 ### check_collateralization
 
-Wrapper around check_collateralization() that prevents reentrancy
+Wrapper around check_collateralization_unsafe() that prevents reentrancy
 
 Check source code on [Github](https://github.com/vesuxyz/vesu-v1/blob/main/src/singleton.cairo#L816)
 
