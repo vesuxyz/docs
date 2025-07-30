@@ -56,7 +56,7 @@ Learn more about Multiply in our [Docs](https://docs.vesu.xyz/user-guides/multip
 
 ## Make your ETH work
 
-**Three levels, one goal: earn more ETH**
+**Three levels, one goal: earn more ETH** 
 Whether you’re lending, borrowing, or multiplying, Vesu's got you.
 Explore the strategies, choose what fits, and grow your stack.
 
