@@ -11,7 +11,7 @@ tags: [Announcement]
 
 tBTC, issued by Threshold Network, is one of the most proven trust-minimized Bitcoin assets. It’s backed 1:1 by native BTC and secured by a decentralized network of signers. No centralized custody. No wrapped-token shortcuts.
 
-Now’s the time to start using your BTC, not just holding it. Starknet makes it easy with fast transactions, ultra-low fees, and top-tier UX through multicalls and account abstraction.
+Now’s the time to start using your BTC, not just holding it. Starknet makes it easy with fast transactions, ultra-low fees, and top-tier UX thanks to multicalls and account abstraction.
 
 BTCfi is just getting started. More assets and rewards coming soon.
 
@@ -19,7 +19,7 @@ BTCfi is just getting started. More assets and rewards coming soon.
 ## RE7 tBTC Pool
 
 **Collateral:** tBTC  
-**Borrow:** USDC
+**Borrow:** USDC, wBTC, ETH
 
 This pool makes it simple. Deposit tBTC to earn, or borrow extra liquidity against it. No LP tokens to manage, no need to give up control.
 
@@ -36,10 +36,10 @@ You can use tBTC in the new Vesu pool via:
 
 ## Explore the Pool
 
-The RE7 tBTC pool is ready. You can now:
+The RE7 tBTC pool is ready. Start now
 
 - [Supply tBTC to earn](https://vesu.xyz/lend)
 - [Borrow USDC against your tBTC](https://vesu.xyz/borrow)
 
-All pool parameters are available on the [Pools page](https://vesu.xyz/pools).  
+All pool parameters are available on the [Pools Page](https://vesu.xyz/pools).  
 Questions? Join us on [Discord](https://discord.gg/4mXeXeZu).
