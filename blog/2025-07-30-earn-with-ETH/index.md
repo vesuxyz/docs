@@ -7,9 +7,11 @@ tags: [Unlocking Vesu]
 
 ![Earn with ETH](earn-with-ETH.png)
 
-ETH has been running for 10 years and it’s not slowing down.
-Are you really making the most of it?
-This post shows you three levels to put your ETH to work on Starknet.
+Ethereum launched exactly 10 years ago today.
+A full decade later, it’s securing billions and just keeps running with zero downtime :tada:
+
+TradFi is catching up, but DeFi is still where ETH shines.
+Here are 3 simple ways to make your ETH work.
 
 Let’s start with the basics.
 
@@ -34,16 +36,16 @@ You can then deposit those stables into another Vesu pool to earn some extra yie
 ![Earn with your USDC](usdc-yield.png)
 
 Right now, you earn around 4% on your ETH, and 5–6% on the borrowed USDC.
-Your ETH stays in the pool earning, while the borrowed stables generate yield on top.
+Your ETH keeps earning, while the borrowed stables generate yield on top.
 
 **Risk:** Same as Level 1, plus exposure to ETH price drops.
 If ETH falls too much, your position can be liquidated. Start with low borrow amounts and monitor your loan-to-value ratio.
 
 ## Level 3: Multiply it
 **More exposure, more yield**  
-
 Multiply lets you increase your exposure to Ethereum.
 You supply wstETH, borrow ETH, and use it to buy more wstETH. All in one transaction.
+
 ![Multiply your wstETH](multiply-wstETH.png)
 
 Current examples show around 10% APY with a 3x multiplier. You can pick your own level, but higher yield comes with more risk.
@@ -54,9 +56,8 @@ Learn more about Multiply in our [Docs](https://docs.vesu.xyz/user-guides/multip
 
 ## Make your ETH work
 
-Three levels, one goal: **more ETH**
-
-Whether you’re lending, borrowing, or multiplying, Vesu got you covered.
+**Three levels, one goal: earn more ETH**
+Whether you’re lending, borrowing, or multiplying, Vesu's got you.
 Explore the strategies, choose what fits, and grow your stack.
 
 Got questions or feedback? Come hang in [Discord](https://discord.gg/g9ahVeyp).
