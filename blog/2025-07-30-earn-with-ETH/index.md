@@ -9,12 +9,12 @@ tags: [Unlocking Vesu]
 
 ETH has been running for 10 years and it’s not slowing down.
 Are you really making the most of it?
-This post breaks down three ways to put your ETH to work on Starknet.
+This post shows you three levels to put your ETH to work on Starknet.
 
-We break it down into three levels. Let’s start with the basics.
+Let’s start with the basics.
 
 ## Level 1: Simple lending
-**Basic yield, zero stress**
+**Basic yield, zero stress**  
 If you want passive yield with minimal setup: supply ETH or wstETH to a Vesu pool.
 
 You earn lending yield and DeFi Spring rewards. wstETH also earns staking rewards on top.
@@ -24,7 +24,7 @@ Current rates are around 4%, and go higher when markets heat up.
 **Risk:** Like all lending platforms, there are smart contract, oracle, and pool config risks. Vesu reduces these with [audits](https://docs.vesu.xyz/security/security-basics) and known curators.
 
 ## Level 2: Lending & Borrowing
-**Double the yield**
+**Double the yield** 
 Deposit ETH or wstETH, then borrow stablecoins like USDC or USDT.
 
 ![Borrow USDC with your ETH collateral](borrow-usdc.png)
@@ -41,7 +41,7 @@ Your ETH stays in the pool earning, while the borrowed stables generate yield on
 If ETH falls too much, your position can be liquidated. Start with low borrow amounts and monitor your loan-to-value ratio.
 
 ## Level 3: Multiply it
-**More exposure, more yield**
+**More exposure, more yield**  
 Multiply lets you increase your exposure to Ethereum.
 You supply wstETH, borrow ETH, and use it to buy more wstETH — all in one transaction.
 ![Multiply your wstETH](multiply-wstETH.png)
