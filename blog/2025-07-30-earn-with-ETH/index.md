@@ -8,7 +8,7 @@ tags: [Unlocking Vesu]
 ![Earn with ETH](earn-with-ETH.png)
 
 Ethereum launched exactly 10 years ago today.
-A full decade later, it’s securing billions and just keeps running with zero downtime :tada:
+A full decade later, it’s securing billions and just keeps running with zero downtime.
 
 TradFi is catching up, but DeFi is still where ETH shines.
 Here are 3 simple ways to make your ETH work.
