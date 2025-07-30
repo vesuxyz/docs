@@ -5,7 +5,7 @@ authors: [marc]
 tags: [Unlocking Vesu]
 ---
 
-![Earn with ETH](re7-tbtc-pool.png)
+![Earn with ETH](earn-with-ETH.png)
 
 ETH has been running for 10 years and it’s not slowing down.
 Are you really making the most of it?
