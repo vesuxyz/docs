@@ -1,5 +1,5 @@
 ---
-slug: 2025-07-30-earn-with-ETH
+slug: 2025-07-31-earn-with-ETH
 title: Unlocking ETH
 authors: [marc]
 tags: [Unlocking Vesu]
@@ -7,12 +7,12 @@ tags: [Unlocking Vesu]
 
 ![Earn with ETH](earn-with-ETH.png)
 
-Ethereum launched exactly 10 years ago today.
-A full decade later, it’s securing billions and just keeps running with zero downtime.
+Ethereum just turned 10.
+A full decade of innovation, billions secured, and zero downtime.
 
-TradFi is catching up, but DeFi is still where ETH shines.
-Here are 3 simple ways to make your ETH work.
+If you believe in ETH for the long run, ask yourself: Is your ETH working for you?
 
+This post breaks down 3 simple ways to earn more ETH. Not by flipping tokens, but with real yield.
 Let’s start with the basics.
 
 ## Level 1: Simple lending
@@ -56,7 +56,7 @@ Learn more about Multiply in our [Docs](https://docs.vesu.xyz/user-guides/multip
 
 ## Make your ETH work
 
-**Three levels, one goal: earn more ETH** 
+**Three levels, one goal: earn more ETH**  
 Whether you’re lending, borrowing, or multiplying, Vesu's got you.
 Explore the strategies, choose what fits, and grow your stack.
 
