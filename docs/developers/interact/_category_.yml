@@ -1,4 +1,4 @@
-position: 4
+position: 3
 label: Interact with Vesu
 collapsible: true # make the category collapsible
 collapsed: true # keep the category collapsed by default

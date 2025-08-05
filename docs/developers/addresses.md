@@ -2,7 +2,7 @@
 id: addresses
 title: Contract Addresses
 sidebar_label: Contract Addresses
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 A list of Vesu contracts and their addresses can be found on github:

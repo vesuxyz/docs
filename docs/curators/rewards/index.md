@@ -1,4 +1,4 @@
 
-# Distribute rewards on Vesu pools
+# Getting started with reward programs
 
 todo

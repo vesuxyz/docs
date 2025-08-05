@@ -1,8 +1,8 @@
 ---
-id: manage-pool
-title: How to manage an existing pool
-sidebar_label: Manage Pool
-sidebar_position: 2
+id: claim-fees
+title: How to claim fees as a pool curator
+sidebar_label: Claim Fees
+sidebar_position: 3
 ---
 
 If you are the Curator of a Vesu pool, that is not immutable, you can update the configuration e.g. of interest rate parameters as market conditions change.
