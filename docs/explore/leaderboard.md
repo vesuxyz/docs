@@ -2,8 +2,7 @@
 id: leaderboard
 title: The Vesu Leaderboard
 sidebar_label: Leaderboard
-sidebar_position: 5
-slug: /explore/leaderboard
+sidebar_position: 9
 ---
 
 The [Vesu Leaderboard](https://vesu.xyz/leaderboard) tracks the USD-value of the total interest earned across all Vesu markets for users.

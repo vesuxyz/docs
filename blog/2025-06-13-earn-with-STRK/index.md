@@ -60,7 +60,7 @@ With **[Stake & Earn](https://vesu.xyz/stake-and-earn)**, you can deposit STRK a
 You want to increase exposure and farm harder.
 
 It works like this: Supply xSTRK as collateral → borrow STRK → convert to xSTRK → repeat.  
-But don't worry, Vesu's [Multiply](https://vesu.xyz/multiply) feature does all of this for you in one click. Learn how it works in our [Docs](https://docs.vesu.xyz/user-guides/multiply-basics).
+But don't worry, Vesu's [Multiply](https://vesu.xyz/multiply) feature does all of this for you in one click. Learn how it works in our [Docs](https://docs.vesu.xyz/users/multiply-basics).
 
 ![Multiply xSTRK](xstrk-multiply.png)
 

@@ -2,8 +2,7 @@
 id: defi-spring
 title: Learn all about DeFi Spring
 sidebar_label: DeFi Spring
-sidebar_position: 6
-slug: /explore/defi-spring
+sidebar_position: 8
 ---
 
 Starknet's DeFi Spring program started in [February 2024](https://www.starknet.io/blog/starknet-foundation-introduces-the-start-of-defi-spring) with the goal of bootstrapping a strong and healthy DeFi ecosystem on Starknet. Initially a budget of 40M STRK tokens was allocated to the program with a timeline until October 2024.
@@ -51,5 +50,5 @@ As per February 6th 2025, the following markets on Vesu are eligible for DeFi Sp
 The Starknet Foundation distributes STRK grants every week to the participating protocols. You are able to claim your earned share of this allocation, once distributed by the Starknet Foundation, through a permissionless contract on Starknet.
 
 :::tip
-Learn more about how to claim your allocations in the [Claim STRK Guide](../user-guides/claim-strk-guide.md).
+Learn more about how to claim your allocations in the [Claim STRK Guide](../users/claim-rewards.md).
 :::

@@ -13,8 +13,7 @@ function Hero() {
             <div className="row">
               <div className="col col--8">
                 <h1 className="hero-title">
-                  The Vesu
-                  <br /> Documentation
+                  Vesu Documentation
                 </h1>
 
                 <h2 className="hero-subtitle">
@@ -38,12 +37,12 @@ function Hero() {
                     Read more <SvgArrowRight color="#8A95FF" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/explore/vesu-basics')} className="link">
+                <a href={useBaseUrl('/explore')} className="link">
                   Read more
                 </a>
               </div>
 
-              <div className="box box-user-guides">
+              <div className="box box-users">
                 <div className="text">
                   <h3 className="title">User Guides</h3>
                   <p className="description">
@@ -53,12 +52,28 @@ function Hero() {
                     Read more <SvgArrowRight color="#8A95FF" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/user-guides/connect')} className="link">
+                <a href={useBaseUrl('/users')} className="link">
                   Read more
                 </a>
               </div>
 
-              <div className="box box-dev-guides">
+              <div className="box box-risk">
+                <div className="text">
+                  <h3 className="title">Curator Guides</h3>
+                  <p className="description">
+                    Start curating Pools and Vaults
+                  </p>
+                  <span className="more">
+                    Read more
+                    <SvgArrowRight color="#8A95FF" />
+                  </span>
+                </div>
+                <a href={useBaseUrl('/curators')} className="link">
+                  Read more
+                </a>
+              </div>
+
+              <div className="box box-developers">
                 <div className="text">
                   <h3 className="title">Developer Guides</h3>
                   <p className="description">
@@ -69,26 +84,11 @@ function Hero() {
                     <SvgArrowRight color="#8A95FF" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/dev-guides/architecture')} className="link">
+                <a href={useBaseUrl('/developers')} className="link">
                   Read more
                 </a>
               </div>
 
-              <div className="box box-risk">
-                <div className="text">
-                  <h3 className="title">Pool Curators</h3>
-                  <p className="description">
-                    Start curating lending pools on Vesu
-                  </p>
-                  <span className="more">
-                    Read more
-                    <SvgArrowRight color="#8A95FF" />
-                  </span>
-                </div>
-                <a href={useBaseUrl('/curators/onboarding')} className="link">
-                  Read more
-                </a>
-              </div>
             </div>
           </div>
         </div>

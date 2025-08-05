@@ -1,4 +1,4 @@
-position: 2
+position: 1
 label: Explore Vesu
 collapsible: true # make the category collapsible
 collapsed: false # keep the category open by default

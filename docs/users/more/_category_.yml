@@ -1,10 +1,10 @@
-position: 5
-label: Security
+position: 10
+label: More
 collapsible: true # make the category collapsible
 collapsed: true # keep the category open by default
 className: red
 #link:
 #  type: generated-index
-#  title: Create Markets
+#  title: User Guides
 customProps:
-  description: Vesu's Security information center
+  description: More User guides and resources

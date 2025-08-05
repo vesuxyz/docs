@@ -1,5 +1,5 @@
-position: 5
-label: Security
+position: 1
+label: Pool Curators
 collapsible: true # make the category collapsible
 collapsed: true # keep the category open by default
 className: red
@@ -7,4 +7,4 @@ className: red
 #  type: generated-index
 #  title: Create Markets
 customProps:
-  description: Vesu's Security information center
+  description: Information and materials for Vesu Pool curators
