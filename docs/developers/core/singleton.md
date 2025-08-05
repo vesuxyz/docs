@@ -2,7 +2,7 @@
 id: singleton
 title: Singleton contract
 sidebar_label: Singleton
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 This page gives an overview over the storage and the functions of the Singleton contract.
