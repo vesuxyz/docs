@@ -2,7 +2,7 @@
 id: disclosures
 title: Disclosures
 sidebar_label: Disclosures
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 List of reported vulnerabilities:
