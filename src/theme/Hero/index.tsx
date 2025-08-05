@@ -44,7 +44,7 @@ function Hero() {
 
               <div className="box box-users">
                 <div className="text">
-                  <h3 className="title">User Guides</h3>
+                  <h3 className="title">User Guide</h3>
                   <p className="description">
                     Start using Vesu as a lender, borrower or liquidator
                   </p>
@@ -59,7 +59,7 @@ function Hero() {
 
               <div className="box box-risk">
                 <div className="text">
-                  <h3 className="title">Curator Guides</h3>
+                  <h3 className="title">Curator Guide</h3>
                   <p className="description">
                     Start curating Pools and Vaults
                   </p>
@@ -75,7 +75,7 @@ function Hero() {
 
               <div className="box box-developers">
                 <div className="text">
-                  <h3 className="title">Developer Guides</h3>
+                  <h3 className="title">Developer Guide</h3>
                   <p className="description">
                     Build your own lending hooks and pools
                   </p>

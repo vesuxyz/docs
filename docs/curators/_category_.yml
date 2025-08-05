@@ -1,5 +1,5 @@
 position: 3
-label: Curators
+label: Curator Guide
 collapsible: true # make the category collapsible
 collapsed: true # keep the category open by default
 className: red

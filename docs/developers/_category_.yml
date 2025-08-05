@@ -1,5 +1,5 @@
 position: 4
-label: Developers
+label: Developer Guide
 collapsible: true # make the category collapsible
 collapsed: true # keep the category open by default
 className: red
