@@ -55,7 +55,7 @@ const config = {
             position: "right",
           },
           {
-            to: "/explore/basics",
+            to: "/explore",
             activeBasePath: "docs",
             label: "Read Docs",
             position: "right",
