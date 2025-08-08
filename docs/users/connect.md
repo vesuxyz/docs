@@ -1,5 +1,5 @@
 ---
-id: start
+id: connect
 title: New to Starknet? Start Here
 sidebar_label: New to Starknet?
 sidebar_position: 1
