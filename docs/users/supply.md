@@ -10,7 +10,7 @@ This guide shows how to supply assets to a market on Vesu and start earning yiel
 
 ### 1. Choose where to earn yield
 Open [vesu.xyz/earn](https://vesu.xyz/earn) to view all available markets.  
-! [Earn page](images/earn_list.png)
+! [Earn page]
 
 ### 2. Pick a market
 Browse the list and select the asset you want to supply.  
@@ -23,14 +23,14 @@ On the market page, you can check:
 - Security and oracles: Audits, bug bounty, monitoring, and price feeds  
 
 This information can help you find the right market that matches your yield and risk preferences.  
-! [Select market](images/select_market.png)
+! [Select market]
 
 ### 3. Enter your amount
 Type the amount you want to supply. The panel will show your estimated monthly yield and yearly return.  
-! [Enter amount](images/enter_amount.png)
+! [Enter amount]
 
 ### 4. Start earning
 Click Start earning and approve the transaction in your wallet.  
-! [Start earning](images/start_earning.png)
+! [Start earning]
 
 Once confirmed, your position appears in your positions overview and will start generating yield.
