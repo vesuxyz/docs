@@ -1,36 +1,36 @@
 ---
 id: supply
-title: How to earn by supplying assets to a market
+title: How to Earn on Vesu
 sidebar_label: Supply
 sidebar_position: 2
 ---
 
-Vesu is a decentralized, permision-less protocol that enables the supplying and borrowing of different crypto assets from liquidity pools with unmatched efficiency, scalability and security.
 
-In this simple user guide, we'll take a look at how you can go about supplying assets to markets on Vesu.
+This guide shows how to supply assets to a market on Vesu and start earning yield.
 
-Make sure you are connected to the app before you proceed. See how [here](./connect.md).
+### 1. Choose where to earn yield
+Open [vesu.xyz/earn](https://vesu.xyz/earn) to view all available markets.  
+! [Earn page](images/earn_list.png)
 
-1. Head over to [Vesu](https://vesu.com) and select "I want to Earn"
+### 2. Pick a market
+Browse the list and select the asset you want to supply.  
+On Vesu, available assets include ETH, wBTC, USDC, USDT, wstETH, STRK and others depending on each pool.
 
-![Earn yield](images/supply_1.png)
+On the market page, you can check:  
+- APR: Current supply rate
+- Collateral exposure: Assets your deposit can be borrowed against and their debt caps
+- Interest rate curve: How rates change with utilization  
+- Security and oracles: Audits, bug bounty, monitoring, and price feeds  
 
-2. Choose or select the asset you want to supply and earn yield on. We support a long list of assets, which as at the time of writing, includes ETH, WBTC, USDT, USDC, STETH and STRK.
+This information can help you find the right market that matches your yield and risk preferences.  
+! [Select market](images/select_market.png)
 
-![Select asset](images/supply_2.png)
+### 3. Enter your amount
+Type the amount you want to supply. The panel will show your estimated monthly yield and yearly return.  
+! [Enter amount](images/enter_amount.png)
 
-3. Insert the amount of the selected asset, you'd like to supply.
+### 4. Start earning
+Click Start earning and approve the transaction in your wallet.  
+! [Start earning](images/start_earning.png)
 
-![Insert amount](images/supply_3.png)
-
-4. In the next page, you can view the annual profitability of your position. click on "Full review" to find out more details such as the supply APY, the pool you'll be supplying to, the monthly yield, etc.
-
-![Review details](images/supply_4.png)
-
-5. You could either choose to modify your position or else, click on "Start earning".
-
-![Start earning](images/supply_5.png)
-
-6. Finally confirm the transaction from your wallet provider, to create your position.
-
-![Confirm transaction](images/supply_6.png)
+Once confirmed, your position appears in your positions overview and will start generating yield.
