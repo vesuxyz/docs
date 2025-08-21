@@ -21,7 +21,7 @@ Some exchanges like Binance also support direct withdrawals to Starknet.
 
 ### Connect your wallet
 
-1. Click on the "Connect" button on the top right hand corner. 
+1. Click on the **Connect** button on the top right hand corner. 
 
 img
 
