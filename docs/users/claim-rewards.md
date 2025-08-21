@@ -7,7 +7,10 @@ sidebar_position: 8
 
 In this guide you'll be taught how to claim STRK tokens earned from the DeFi Spring rewards.
 
-Make sure you are connected to the app before you proceed. See how [here](./connect.md).
+**ADD BTCfi rewards, extra STRK campaign??**
+
+
+
 
 ### Claim STRK rewards
 
@@ -19,6 +22,6 @@ To claim your STRK rewards:
 
 2. Just above your position(s), you can see a dedicated DeFi Spring section. _Earned this week_ represents the STRKs you've accrued in the current round. _Available to claim_ is the total amount you can claim right now.
 
-![Defi Spring](images/defispring.png)
+![Defi Spring]
 
 3. Click on the _Claim_ button to receive the STRK tokens.

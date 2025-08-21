@@ -1,0 +1,9 @@
+{
+    "pasteImage.basePath": "${currentFileDir}/images",
+    "pasteImage.defaultName": "${currentFileNameWithoutExt}",
+    "pasteImage.insertPattern": "![${imageFileName}](images/${imageFileName})",
+    "pasteImage.namePrefix": "",
+    "pasteImage.path": "${currentFileDir}/images",
+    "pasteImage.nameSuffix": "",
+    "pasteImage.showFilePathConfirmInputBox": true
+}

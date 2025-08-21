@@ -1,5 +1,5 @@
 ---
-id: connect
+id: start
 title: New to Starknet? Start Here
 sidebar_label: New to Starknet?
 sidebar_position: 1
@@ -23,12 +23,12 @@ Some exchanges like Binance also support direct withdrawals to Starknet.
 
 1. Click on the "Connect" button on the top right hand corner. 
 
-![Vesu](images/connect_wallet1.png)
+img
 
 2. Choose one of the available options to connect. 
 
-![Vesu](images/connect_wallet2.png)
+img
 
 3. Once you see your address on the top right hand corner, you are connected.
 
-![Vesu](images/connect_wallet3.png)
+img

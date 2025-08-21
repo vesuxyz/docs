@@ -1,44 +1,39 @@
 ---
 id: borrow
-title: How to borrow assets on a market
+title: How to Borrow
 sidebar_label: Borrow
-sidebar_position: 4
+sidebar_position: 3
 ---
 
-Just like every lending protocol, Vesu enables users, to borrow from existing markets.
+This guide walks you through opening and closing an Borrow position.
 
-In this guide, we will take a look at how you can go about borrowing assets from Vesu markets.
+## Opening a Position
+Borrow assets on Vesu by using a collateral.
 
-Make sure you are connected to the app before you proceed. See how [here](./connect.md).
+1. Open [vesu.xyz/borrow](https://vesu.xyz/borrow) to see available markets. Use the filters to select your collateral and borrow asset. You can also filter by curator, pool, or show only tokens in your wallet.  
+Click on the market you want to borrow from or learn more about.
 
-1. Head over to [Vesu](https://vesu.com) and select "I want to Borrow".
+![borrow-1.png](images/borrow-1.png)
 
-![Vesu](images/borrow_1.png)
+2. Check the details for the borrowing pair. Each page shows:  
+   - **Supply APR & Borrow APY**: current supply and borrow rate
+   - **Liquidity**: available liquiditiy to borrow
+   - **Security and Oracles**: audits, bug bounty, monitoring, and price feeds  
+   - **Liquidation**: max LTV before liquidation, liquidation bonus, and type (e.g., full liquidation)
+   - **Collateral exposure**: assets your deposit can be borrowed against and their debt caps  
+   - **Interest rate curve**: how rates change with utilization  
+   - **Addresses**: contracts for pool, extension & asset
 
-2. Select the asset you are looking to borrow. At the time of this writing we support different assets which includes ETH, WBTC, USDT, USDC, STETH and STRK.
+3. Enter the amounts for your collateral and borrow.
+   Review the expected yield, costs, and liquidation price. Choose a loan-to-value you’re comfortable with.
 
-![Select asset](images/borrow_2.png)
+4. Click **Borrow** and confirm in your wallet.
 
-3. Insert the amount of the selected asset, you'll like to borrow.
+Once confirmed, your position appears in your overview with the borrowed amount and collateral balance.
 
-![Insert amount](images/borrow_3.png)
+## Closing a Position
+To close a borrow position, you first need to have the borrowed asset in your wallet to repay the debt.
 
-4. Select an asset you own and you'll like to borrow against.
-
-![Select asset](images/borrow_4.png)
-
-5. Insert a specific amount of the asset you're willing to borrow against. Ensure it's above the minimum (calculated based on how much you intend to borrow).
-
-![Insert amount](images/borrow_5.png)
-
-6. In the next page, you can see the annual cost of opening the position. Click on "Full review" to see details such as your Borrow APR, monthly cost, loan-to-value etc.
-
-![Insert amount](images/borrow_6.png)
-
-7. You could either choose to modify your position or else, click on "Borrow".
-
-![Review](images/borrow_7.png)
-
-8. Confirm your transaction using your wallet provider, to create your position.
-
-![Borrow](images/borrow_8.png)
+1. Go to your positions overview and select the one you want to close.  
+2. Click **Close** and confirm in your wallet to repay your debt.  
+3. Once confirmed, your collateral is released back to your wallet.

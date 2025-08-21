@@ -8,8 +8,8 @@ Vesu is a permissionless lending platform built for DeFi users and developers.
 Learn more about:
 – Connecting your wallet
 – Deposits & withdrawals
-– Borrowing
-– Multiply positon
+– Borrowing against a collateral
+– Using Multiply
 – Managing risk & rewards
 
 For direct access to the app, visit [vesu.xyz](https://vesu.xyz/).
