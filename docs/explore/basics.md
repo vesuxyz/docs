@@ -1,10 +1,13 @@
 ---
 id: glossary
-title: Collection of important terms and concepts
+title: Glossary
 sidebar_label: Glossary
 sidebar_position: 1
 ---
 
+A collection of important terms and concepts
+
+## General
 
 ### Asset
 
@@ -42,7 +45,7 @@ The USD price of the *Collateral Asset* as reported by the *Pool*’s oracle pri
 
 The USD price of the *Loan Asset* as reported by the *Pool*’s oracle price feed.
 
-# Interest Rates
+## Interest Rates
 
 ### Interest Rate Curve
 
@@ -143,7 +146,7 @@ The *Rate Accumulator* always starts with a value of 1.0 for a newly initiated *
 
 `rate_accumulator = last_rate_accumulator * (1 + interest_rate(current_utilization)) ** (current_timestamp - last_updated)`
 
-# Pools & Markets
+## Pools & Markets
 
 ### Total Nominal Debt
 
@@ -221,7 +224,7 @@ The current simple interest rate, that is the interest rate without per-second c
 
 `lending_apr = utilization * borrow_apr`
 
-# Positions
+## Positions
 
 ### Position Nominal Debt
 
@@ -275,7 +278,7 @@ The remaining debt a Position allows to borrow, given the *Position*’s current
 
 `position_debt_capacity = (max_ltv * position_collateral * collateral_asset_price / loan_asset_price) - position_debt`
 
-# Multiply
+## Multiply
 
 ### Multiply Position
 
