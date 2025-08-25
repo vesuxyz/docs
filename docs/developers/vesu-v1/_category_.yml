@@ -1,5 +1,5 @@
-position: 2
-label: Periphery
+position: 6
+label: Vesu-V1
 collapsible: true # make the category collapsible
 collapsed: true # keep the category open by default
 className: red
@@ -7,4 +7,4 @@ className: red
 #  type: generated-index
 #  title: Create Markets
 customProps:
-  description: Vesu periphery contracts 
+  description: Vesu-V1 protocol documentation 

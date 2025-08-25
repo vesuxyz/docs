@@ -5,15 +5,14 @@ sidebar_label: Getting Started
 sidebar_position: 1
 ---
 
-
 ### Repositories
 
-- Core: https://github.com/vesuxyz/vesu-v1
+- Core: https://github.com/vesuxyz/vesu-v2
 - Periphery: https://github.com/vesuxyz/vesu-periphery
 
 ### Support
 
-Find us on Discord
+Find us on [Discord](https://discord.gg/G9Gxgujj8T)
 
 ### Requirements
 

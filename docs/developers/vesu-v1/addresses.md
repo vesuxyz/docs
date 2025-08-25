@@ -1,17 +1,17 @@
 ---
 id: addresses
-title: Contract Addresses
-sidebar_label: Contract Addresses
+title: V1 Contract Addresses
+sidebar_label: V1 Contract Addresses
 sidebar_position: 5
 ---
 
-A list of Vesu contracts and their addresses can be found on github:
+A list of the Vesu-V1 contracts and their addresses can be found here below:
 
 ## Mainnet
 
 Below are the deployed contract addresses on Starknet Mainnet.
 
-**Core Contracts V2**  
+**Core Contracts V1**  
 - Singleton: `0x000d8d6dfec4d33bfb6895de9f3852143a17c6f92fd2a21da3d6924d34870160`  
 - Extension (Pragma Oracle): `0x4e06e04b8d624d039aa1c3ca8e0aa9e21dc1ccba1d88d0d650837159e0ee054`
 
@@ -56,7 +56,7 @@ Below are the deployed contract addresses on Starknet Mainnet.
 - CarmineDAO Runes: `2681185522664180117929158590481443496806090795357786716961716864181408932939`
 
 
-### Deprecated V1
+### Deprecated V1 (pre-migration)
 
 **Core Contracts v1 (legacy)** 
 - Singleton: `0x2545b2e5d519fc230e9cd781046d3a64e092114f07e44771e0d719d148725ef`  
