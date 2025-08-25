@@ -84,8 +84,8 @@ const config = {
                 to: "/explore/glossary",
               },
               {
-                label: "DeFi Spring",
-                to: "/explore/defi-spring",
+                label: "STRK Rewards",
+                to: "/explore/rewards",
               },
               {
                 label: "Whitepaper",

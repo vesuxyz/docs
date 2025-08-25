@@ -55,6 +55,6 @@ As per February 6th 2025, the following markets on Vesu are eligible for DeFi Sp
 The Starknet Foundation distributes STRK grants every week to the participating protocols. You are able to claim your earned share of this allocation, once distributed by the Starknet Foundation, through a permissionless contract on Starknet.
 
 :::tip
-Learn more about how to claim your allocations in this [guide](../user-guides/rewards.md).
+Learn more about how to claim your allocations in this [guide](../users/claim-rewards.md).
 :::
 

@@ -10,7 +10,7 @@ This guide walks you through opening and closing an Borrow position.
 ## Opening a Position
 Borrow assets on Vesu by using a collateral.
 
-1. Open [vesu.xyz/borrow](https://vesu.xyz/borrow) to    see available markets. 
+**1. Open [vesu.xyz/borrow](https://vesu.xyz/borrow) to see available markets.**
    Use the filters to select your collateral and borrow asset. You can also filter by curator, pool, or show only tokens in your wallet.  
    Click on the market you want to borrow from or learn more about.
 
