@@ -69,3 +69,7 @@ All amounts have to follow the `Amount` type as explained [here](/docs/developer
 The `value` field determines whether your transaction is going to supply or withdraw assets from the specific pool:
 - `value > 0`: supply assets
 - `value < 0`: withdraw assets
+
+:::info
+Note that if `user` is not the sender of the transaction, `user` first has to delegate his position to the sender through `modify_delegation`.
+:::

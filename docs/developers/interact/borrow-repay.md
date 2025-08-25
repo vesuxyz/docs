@@ -13,7 +13,7 @@ To borrow assets, use the `manage_position` function of the respective `Pool` co
 
 - `collateral_asset`: The address of the asset that is to be supplied as collateral
 - `debt_asset`: The address of the asset that is to be borrowed
-- `user`: The address of the position owner
+- `user`: The address of the position owner (not necessarily the transaction sender)
 - `collateral`: The amount that should be supplied as collateral encoded as a positive integer
 - `debt`: The amount that should be borrowed encoded as a positive integer
 
@@ -31,13 +31,17 @@ ModifyPositionParams(
 )
 ```
 
+:::info
+Note that if `user` is not the sender of the transaction, `user` first has to delegate his position to the sender through `modify_delegation`.
+:::
+
 ## Repay assets
 
 To repay debt of an existing position, follow the exact same approach as explained in the "Borrow assets" section but specify only a non-zero amount in the `debt` field:
 
 - `collateral_asset`: The address of the collateral asset of the position
 - `debt_asset`: The address of the debt asset of the position
-- `user`: The address of the position owner
+- `user`: The address of the position owner (not necessarily the transaction sender)
 - `collateral`: A zero amount
 - `debt`: The amount that should be repaid encoded as a negative integer
 

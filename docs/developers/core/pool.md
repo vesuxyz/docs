@@ -5,7 +5,7 @@ sidebar_label: Pool
 sidebar_position: 2
 ---
 
-The `Pool` contract implements the state and logic of a single pool instance. User's deposits and debt in a pool are managed in this specific `Pool` instance. It allows users to retrieve and manage their positions and curators to change the pool configuration and claim fees.
+The `Pool` contract implements the state and logic of a single pool instance. Users' deposits and debt in a pool are managed in this specific `Pool` instance. It allows users to retrieve and manage their positions and curators to change the pool configuration and claim fees.
 
 On this page, we discuss the `Pool`'s main storage variables and external functions.
 
@@ -60,8 +60,18 @@ pub enum AmountDenomination {
     Native,
     Assets,
 }
+```
 
-The `Amount` is then defined as the `AmountDenomination` and the actual value. Thereby, the `value` is a signed integer and can express both an amount to deposit or withdraw:
+The `Amount` is then defined as the `AmountDenomination` and the actual value. 
+
+```
+pub struct Amount {
+    pub denomination: AmountDenomination,
+    pub value: i257,
+}
+```
+
+Thereby, the `value` is a signed integer and can express both an amount to deposit or withdraw:
 
 - Collateral asset
     - if `value >0`: deposit assets
@@ -70,20 +80,9 @@ The `Amount` is then defined as the `AmountDenomination` and the actual value. T
     - if `value >0`: borrow assets
     - if `value <0`: repay assets
 
-pub struct Amount {
-    pub denomination: AmountDenomination,
-    pub value: i257,
-}
-```
-
 ### ModifyPositionParams
 
 The `ModifyPositionParams` struct is used to express the changes a user wants to make to a position in a specific `Pool`. It includes the position's `collateral_asset` and `debt_asset`, the `user` who should own the position, and the `collateral` and `debt` amounts, expressed in `Amount` types, with which the position should be modified.
-
-Note that if `user` is not the sender of the transaction, `user` first has to delegate his position to the sender through `modify_delegation`.
-
-This struct allows to express all sorts of position modifications including deposit, withdrawal, borrow, repay and is used for all position interactions with the `modify_position` function.
-
 
 ```
 pub struct ModifyPositionParams {
@@ -95,11 +94,13 @@ pub struct ModifyPositionParams {
 }
 ```
 
+The `ModifyPositionParams` allows to express all sorts of position modifications including deposit, withdrawal, borrow, repay and is used for all position interactions with the `modify_position` function. Read more on this in the _Interact with Vesu_ [section](/docs/developers/interact/borrow-repay.md).
+
 ### LiquidatePositionParams
 
 The `LiquidatePositionParams` struct is used to execute liquidations of insolvent position through the `liquidate_position` function.
 
-The liquidator defiens which position to liquidate with the respective `collateral_asset`, `debt_asset` and `user` fields. He indicates the amount of debt, in `Assets` denomination, he wishes to repay with the `debt_to_repay` field and defines the minimal amount of collateral, in `Assets` denomination, he wants to receive in exchange with the `min_collateral_to_receive`.
+The liquidator defines which position to liquidate with the respective `collateral_asset`, `debt_asset` and `user` fields. He indicates the amount of debt, in `Assets` denomination, he wishes to repay with the `debt_to_repay` field and defines the minimal amount of collateral, in `Assets` denomination, he wants to receive in exchange with the `min_collateral_to_receive`.
 
 ```
 pub struct LiquidatePositionParams {
@@ -190,6 +191,10 @@ fn position(
 /// * `response` - see UpdatePositionResponse
 fn modify_position(ref self: ContractState, params: ModifyPositionParams) -> UpdatePositionResponse
 ```
+
+:::info
+Note that the `ModifyPositionParams` allows to express all sorts of position modifications including deposit, withdrawal, borrow, repay and is used for all position interactions with the `modify_position` function. Read more on this in the _Interact with Vesu_ [section](/docs/developers/interact/borrow-repay.md).
+:::
 
 ## Liquidator functions
 
