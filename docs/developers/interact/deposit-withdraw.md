@@ -64,7 +64,7 @@ Alternatively, if you do not want to use the vToken's `deposit` and `withdraw` f
 - collateral: The amount that you want to deposit or withdraw
 - debt: An `Amount` reflecting 0
 
-All amounts have to follow the `Amount` type as explained [here](/docs/developers/core/pool#amount--amountdenomination). 
+All amounts have to follow the `Amount` type as explained [here](/docs/developers/core/pool.md). 
 
 The `value` field determines whether your transaction is going to supply or withdraw assets from the specific pool:
 - `value > 0`: supply assets

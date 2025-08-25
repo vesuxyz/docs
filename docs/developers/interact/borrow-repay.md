@@ -17,7 +17,7 @@ To borrow assets, use the `manage_position` function of the respective `Pool` co
 - `collateral`: The amount that should be supplied as collateral encoded as a positive integer
 - `debt`: The amount that should be borrowed encoded as a positive integer
 
-The amounts have to follow the `Amount` type as explained [here](/docs/developers/core/pool#amount--amountdenomination). To supply collateral and borrow assets, you will have to specify both the `collateral` and `debt` amount's `value` fields as positive numbers. 
+The amounts have to follow the `Amount` type as explained [here](/docs/developers/core/pool.md). To supply collateral and borrow assets, you will have to specify both the `collateral` and `debt` amount's `value` fields as positive numbers. 
 
 As an example, the data for a user with account address 0x1 to supply 1000 STRK as collateral and borrow 100 USDC will look like this:
 
