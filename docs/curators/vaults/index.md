@@ -5,14 +5,13 @@ Vesu Vaults empower curators to set up and manage yield strategies on top of Ves
 
 ## Getting started
 
-We recommend every new curator to first read the basics of Vesu Vaults [here](/curators/vaults/basics) and the Vault listing process [here](/curators/vaults/list-vault). If you have questions around curating Vaults, get in touch with our Support [here](https://discord.com/invite/G9Gxgujj8T).
+We recommend every new curator to first read the basics of Vesu Vaults [here](/curators/vaults/basics). If you have questions around curating Vaults, get in touch with our Support [here](https://discord.com/invite/G9Gxgujj8T).
 
 If you are ready to launch your first Vault, proceed with the following steps:
 
 1. Set up accounts for the Vault Owner and Manager roles.
 2. Create your Vault as explained [here](/curators/vaults/create-vault).
-3. List your Vault as explained [here](/curators/vaults/list-vault).
-4. Optionally, you can also launch your own reward program as explained [here](/curators/rewards).
+3. Get in touch with the Vesu team in order to have your Vault listed on the Vesu website.
 
 ## Vault listing
 
