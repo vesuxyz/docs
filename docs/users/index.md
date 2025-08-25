@@ -1,15 +1,14 @@
 
-# User Guide
+# User Guides
 
-Learn how to use the Vesu protocol on Starknet. This guide explains how to connect your wallet, supply assets, borrow against collateral, and use Multiply to increase exposure. 
+Learn how to use the Vesu protocol on Starknet.
 
-Vesu is a permissionless lending platform built for DeFi users and developers.
+The sections includes guides about the following actions:
+- Connecting your wallet
+- Deposits & withdrawals
+- Borrowing against a collateral
+- Using Multiply
+- Managing risk & rewards
+- Claim rewards
 
-Learn more about:
-– Connecting your wallet
-– Deposits & withdrawals
-– Borrowing against a collateral
-– Using Multiply
-– Managing risk & rewards
-
-For direct access to the app, visit [vesu.xyz](https://vesu.xyz/).
+Visit [vesu.xyz](https://vesu.xyz/) for direct access to the app.

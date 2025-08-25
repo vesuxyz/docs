@@ -5,4 +5,4 @@ sidebar_label: Governance
 sidebar_position: 7
 ---
 
-Vesu Vaults are blabla
+Governance?

@@ -5,23 +5,19 @@ sidebar_label: Claim Rewards
 sidebar_position: 8
 ---
 
-In this guide you'll be taught how to claim STRK tokens earned from the DeFi Spring rewards.
+As a Vesu user, you may qualify for STRK rewards distributed by the Starknet Foundation. These rewards support active on-chain participation through programs like DeFi Spring and BTCfi Season. 
 
-**ADD BTCfi rewards, extra STRK campaign??**
-
-
+Learn more about how rewards work and which markets are eligible in the [Rewards overview.](../explore/rewards.md) for more information. 
 
 
-### Claim STRK rewards
+## Claim STRK rewards
 
-To get started, ensure you already have an open position on Vesu, as that is what qualifies you for STRK rewards. Please go through the [DeFi Spring section](../explore/defi-spring.md) for more information.
-
-To claim your STRK rewards:
+To claim your rewards:
 
 1. Head over to the [positions dashboard](https://vesu.xyz/positions).
 
-2. Just above your position(s), you can see a dedicated DeFi Spring section. _Earned this week_ represents the STRKs you've accrued in the current round. _Available to claim_ is the total amount you can claim right now.
+2. Just above your position(s), you can see a dedicated rewards section.
 
 ![Defi Spring]
 
-3. Click on the _Claim_ button to receive the STRK tokens.
+3. Click on the **Claim** button to receive the STRK tokens.

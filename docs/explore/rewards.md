@@ -1,22 +1,27 @@
 ---
-id: defi-spring
-title: Learn all about DeFi Spring
-sidebar_label: DeFi Spring
-sidebar_position: 8
+id: rewards
+title: Rewards on Vesu
+sidebar_label: Rewards
+sidebar_position: 7
 ---
 
-Starknet's DeFi Spring program started in [February 2024](https://www.starknet.io/blog/starknet-foundation-introduces-the-start-of-defi-spring) with the goal of bootstrapping a strong and healthy DeFi ecosystem on Starknet. Initially a budget of 40M STRK tokens was allocated to the program with a timeline until October 2024.
+Vesu users can earn additional rewards through ecosystem programs on Starknet.
 
-Recently, the program was expanded to **a total of 90M STRK tokens, with the aim of continuing until all rewards are distributed, which is expected to extend into Q2 2025**.
+## BTCfi Season
+A new era of Bitcoin liquidity is coming to Starknet.  
 
-Vesu users are eligible for STRK rewards. This means that you can earn STRK tokens for supplying liquidity on certain Vesu markets.
+The Starknet Foundation’s **BTCfi Season** will launch soon, designed to:  
+- Bring Bitcoin liquidity to Starknet  
+- Create efficient markets for BTC assets  
+- Open new opportunities for Bitcoin users  
 
-### What are DeFi Spring rewards?
+Vesu will be part of the program, details **TBA**.  
 
+
+## DeFi Spring
 The Starknet Foundation allocates STRK rewards to participating protocols, such as Vesu, based on a set of activity metrics. These metrics determine the weekly distribution of STRK tokens to each protocol. For more information, visit the official [DeFi Spring](https://defispring.starknet.io/about) page.
 
 ### How can I earn STRK on Vesu?
-
 Simply supply assets to any of the [eligible markets](#which-markets-are-eligible).
 
 :::note
@@ -50,5 +55,6 @@ As per February 6th 2025, the following markets on Vesu are eligible for DeFi Sp
 The Starknet Foundation distributes STRK grants every week to the participating protocols. You are able to claim your earned share of this allocation, once distributed by the Starknet Foundation, through a permissionless contract on Starknet.
 
 :::tip
-Learn more about how to claim your allocations in the [Claim STRK Guide](../users/claim-rewards.md).
+Learn more about how to claim your allocations in this [guide](../user-guides/rewards.md).
 :::
+
