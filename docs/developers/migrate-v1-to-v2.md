@@ -11,9 +11,11 @@ Migration of positions from the Vesu V1 version is not mandatory. Vesu V1 pools 
 
 ## Migration steps
 
-To migrate a position from Vesu V1 to V2, users have to close their current position and reopen it in one of the V2 pools. This can be easily done on the Vesu fronted. 
+Since the migration of Vesu V1 positions is not required, we don't automate that for users and also don't offer a simplified UI for it. That means, to migrate a position from Vesu V1 to V2, users have to close their V1 position and reopen it in one of the V2 pools. On the Vesu V2 frontend, V1 and V2 pools will be clearly labeled.
 
-Alternatively, a migration contract can be implemented that facilitates migrations with the use of _flash loans_. If you are interested in building such a contract, please reach out on our [Discord](https://discord.gg/G9Gxgujj8T) for more support.
+## Vesu V2-beta addresses
+
+We have deployed a version of the Vesu V2 protocol on Starknet mainnet for testing and integration purposes. Find the contract addresses [here](/docs/developers/addresses.md).
 
 ## Breaking changes
 
