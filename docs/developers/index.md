@@ -1,7 +1,12 @@
 
 # Welcome to the Vesu V2 Developer Documentation
 
-The Vesu V2 lending protocol is the next iteration of the Vesu lending protocol, Starknet's most trusted lending market. The Vesu V2 protocol builds on the same concepts than the V1 protocol but makes a number of different design decisions in order to maximize simplicity and security. 
+The Vesu V2 lending protocol is the next iteration of the Vesu lending protocol, Starknet's most trusted lending market. The Vesu V2 protocol builds on the same concepts than the V1 protocol but makes a number of different design decisions in order to maximize simplicity and security. The main features of Vesu V2 are:
+
+- Isolation of pools (and respective funds) into separate `Pool` instances
+- Removal of hooks and extensions, simplification of pool state and logic into a single `Pool` contract
+- Externalizing `VToken` into stand-alone ERC-4626 vaults
+- Simplification of various components and features 
 
 If you are a developer building on Vesu, a technical expert doing due dilligence or an interested user, your journey to master the Vesu codebase starts here!
 
