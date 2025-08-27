@@ -56,14 +56,17 @@ fn asset_for_v_token(self: @ContractState, pool: ContractAddress, v_token: Contr
 
 ### Create Pool
 
+:::info
+Note that the `PoolFactory` always assignes the `owner` role of a pool, that is the role with permission to upgrade the `Pool` contract, to the Vesu Security Council.
+:::
+
 Use this function to create a new Vesu pool. The `create_pool` function will deploy a new `Pool` contract, instantiate it with the provided pool parameters, deploy a new `VToken` for each of the pool assets, and return the address of the new pool (aka the `pool_id`).
 
 ```
 /// Creates a new pool
 /// # Arguments
-/// * `name` - name of the pool
-/// * `owner` - owner of the pool
-/// * `curator` - curator of the pool
+/// * `name` - name of the pool (cannot be changed after pool creation)
+/// * `curator` - curator of the pool (can manage pool configuration, but not upgrade)
 /// * `oracle` - oracle of the pool
 /// * `fee_recipient` - fee recipient of the pool
 /// * `shutdown_params` - shutdown parameters
@@ -74,7 +77,7 @@ Use this function to create a new Vesu pool. The `create_pool` function will dep
 /// * `liquidation_params` - liquidation parameters
 /// * `debt_cap_params` - debt cap parameters
 /// # Returns
-/// * `pool_id` - id of the pool
+/// * `pool_id` - address, aka id, of the new pool
 fn create_pool(
     ref self: ContractState,
     name: felt252,
