@@ -73,6 +73,26 @@ const config = {
           },
         ],
       },
+        metadata: [
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:image', content: 'https://vesu.xyz/img/vesu.png' },
+        { name: 'twitter:title', content: 'Vesu Knowledge Hub' },
+        { name: 'twitter:description', content: 'Guides and documentation for Vesu – the permissionless lending protocol on Starknet.' },
+
+        { property: 'og:image', content: 'https://vesu.xyz/img/vesu.png' },
+        { property: 'og:url', content: 'https://vesu.xyz/' },
+        { property: 'og:locale', content: 'en' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:title', content: 'Vesu Knowledge Hub' },
+        { property: 'og:description', content: 'Learn how to use and build on Vesu. Supply, borrow, and multiply crypto assets on Starknet.' },
+      ]
+      algolia: {
+        appId: 'QOJ022CPNR',
+        apiKey: '50ffc927a41a2d11f4e6b83c3eba7110',
+        indexName: 'vesu',
+        searchPagePath: 'search',
+      },
+
       footer: {
         style: "dark",
         links: [
@@ -110,7 +130,7 @@ const config = {
               },
               {
                 label: "Telegram",
-                href: "https://telegram.me/vesuxyz",
+                href: "https://telegram.me/VesuChat",
               },
             ],
           },

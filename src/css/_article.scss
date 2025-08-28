@@ -430,11 +430,16 @@ main:not(.home-main) {
 }
 
 code {
-  border-radius: 4px;
+  font-size: 0.9em;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  vertical-align: baseline;
   background-color: $purple-light;
+  color: $black;
 
   @include dark {
-    background-color: #3e44ac;
+    background-color: #2C41F6;
+    color: #fff;
   }
 }
 
