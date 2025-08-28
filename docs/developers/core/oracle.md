@@ -38,6 +38,10 @@ pub struct OracleConfig {
 
 ### AssetPrice
 
+:::info
+Note that the `AssetPrice` is always returned in 18-decimals precision irrespective of the decimals used for the feed by the oracle provider.
+:::
+
 The `AssetPrice` type expresses a specific asset price, as returned by the respective oracle provider, and its validity flag, which is derived by the `Oracle` itself based on the price's metadata.
 
 ```
@@ -69,6 +73,10 @@ struct Storage {
 ```
 
 ## Price Function
+
+:::warning
+Make sure that all configured price feeds return an `AssetPrice` that is denominated in the same base asset, e.g. USD, or you risk inconsistent valuation of Vesu positions and unintended liquidations or bad debt as a result.   
+:::
 
 The `price` function is called by the `Pool` contract upon every user interaction with a pool to compute the value of a position's collateral and debt.
 
