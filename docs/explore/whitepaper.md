@@ -1,9 +1,8 @@
 ---
-id: explore-whitepaper
+id: whitepaper
 title: The Vesu Whitepaper
 sidebar_label: Whitepaper
-sidebar_position: 3
-slug: /explore/whitepaper
+sidebar_position: 10
 ---
 
 ## Summary

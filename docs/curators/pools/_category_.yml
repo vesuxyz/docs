@@ -1,0 +1,10 @@
+position: 1
+label: Pool Curators
+collapsible: true # make the category collapsible
+collapsed: true # keep the category open by default
+className: red
+#link:
+#  type: generated-index
+#  title: Create Markets
+customProps:
+  description: Information and materials for Vesu Pool curators
