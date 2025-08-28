@@ -85,7 +85,7 @@ const config = {
         { property: 'og:type', content: 'website' },
         { property: 'og:title', content: 'Vesu Knowledge Hub' },
         { property: 'og:description', content: 'Learn how to use and build on Vesu. Supply, borrow, and multiply crypto assets on Starknet.' },
-      ]
+      ],
       algolia: {
         appId: 'QOJ022CPNR',
         apiKey: '50ffc927a41a2d11f4e6b83c3eba7110',
