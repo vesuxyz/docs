@@ -5,78 +5,46 @@ sidebar_label: Manage Risks
 sidebar_position: 9
 ---
 
-This guide offers insights into different approaches, helping you choose what aligns with your goals and risk tolerance. 
+Using Vesu comes with opportunities and risks.  
+This page gives an overview of the most important risk factors when earning, borrowing, or multiplying.
 
 :::info
-This guide is for informational purposes only and contains no financial advice. Assess your comfort level with risk and ensure you are prepared for potential market fluctuations.
+This guide is for informational purposes only and does not contain financial advice. Always assess your own risk tolerance and be prepared for market volatility.
 :::
 
+## General Risks
 
-## General 
+These risks exist on every decentralized lending platform, and Vesu is no exception.  
 
-Before exploring specific strategies, here are general factors that affect the risk of your Multiply position. These apply to all strategies and should be monitored regularly. 
-
-- Ensure that the **Borrow APR** is lower than the **Supply APY** to maintain profitability. If borrowing costs rise above your supply returns, your position can quickly become unprofitable.
-- Stay aware of how **market utilization** impacts both **borrow** and **supply rates**. In highly utilized pools, borrowing costs can rise quickly, reducing profitability, while supply returns can improve with higher demand.
-- Regularly monitor your **Loan-to-Value (LTV)** and liquidation prices, especially when borrowing volatile assets like **ETH** or **wBTC**. Keep an eye on the value of both the borrowed asset and the collateral.
-
-## Multiply
-With the Multiply feature, you can increase your exposure to a single asset. Understanding the risks of the possible strategies is essential to make informed decisions. 
+- **Smart contract risk**: Bugs or vulnerabilities could be exploited. Mitigated through multiple audits, a bug bounty, and on-chain monitoring, but never fully eliminated.  
+- **Oracle risk**: Oracles might fail, be stale, or manipulated. Pools on Vesu use Pragma price feeds, which have been reliable since Starknet’s launch.  
+- **Collateral risk**: Your deposit may be borrowed against assets that depeg, fail, or are exploited. Always check which collateral a pool allows.  
+- **Curator risk**: Pool curators can adjust parameters. On Vesu, all curators are screened experts and well-known teams (e.g. Vesu, Re7 Labs, Alterscope, Braavos). The risk is limited but still exists.  
+- **Accessibility risk**: If the Vesu frontend is unavailable, funds remain safe. For these cases, a minimal fallback frontend is also available: [lite.vesu.xyz](https://lite.vesu.xyz).  
 
 
-Now, let’s explore the risks of possible strategies available through Multiply. 
+## Borrow & Multiply Risks
 
-### Stable Collateral, Volatile Debt
+Borrowing on Vesu, or using Multiply (which automates borrowing and swapping back into your collateral), comes with the same core risks. The main things to keep in mind are:
 
-**Example**: Deposit **USDC**, borrow **ETH**
+- **Market utilization** affects rates. High utilization can push borrow costs up, while supply returns improve.  
+- **Loan-to-Value (LTV) and liquidation price** must be monitored closely, especially with volatile assets like ETH or wBTC.  
 
-**Risk**: With this strategy, you are effectively short on the borrowed asset (e.g., ETH). You expect the value of the collateral to stay the same or go down over time. If the price of ETH rises, you will need to repay more USDC to cover the ETH debt. This increases your L**oan-to-Value (LTV)** ratio and can result in losses and even **liquidation**.
+When you borrow (or use Multiply), your risk depends on the mix of collateral and debt.  
+Here are the main strategies, what they mean, and the risks that go with them:
 
-[USDC as collateral, ETH as debt]
+**Stable collateral, volatile debt**  
+Example: deposit USDC, borrow ETH.  
+Effectively short ETH. If ETH rises, repaying becomes more expensive, your LTV increases, and liquidation risk grows.  
 
-### Volatile Collateral, Stable Debt
+**Volatile collateral, stable debt**  
+Example: deposit ETH, borrow USDC.  
+Effectively long ETH. If ETH falls, collateral value drops, LTV rises, and liquidation risk increases.  
 
-**Example**: Deposit **ETH**, borrow **USDC**
+**Volatile collateral and volatile debt**  
+Example: deposit ETH, borrow wBTC.  
+Exposed to two moving assets. If they diverge in price, debt may outpace collateral, raising liquidation risk.  
 
-**Risk**: You are effectively long on the deposited asset (e.g., ETH).  If the price of **ETH** drops, the value of your collateral decreases, raising your **LTV** ratio and increasing the risk of liquidation.
-
-[ETH as collateral, USDC as debt]
-
-### Volatile Collateral and Debt
-
-**Example: Deposit ETH, borrow wBTC**
-
-**Risk**: This strategy exposes you to the price movements of two volatile assets. The unpredictability of how the two assets move in relation to each other makes this approach high risk.
-
-If the assets are not strongly correlated, meaning for example **wBTC** appreciates faster than **ETH,** your debt becomes more expensive relative to your collateral, increasing the risk of liquidation. 
-
-[ETH as collateral, wBTC as debt]
-
-### Correlated Collateral/Debt Pairs
-The idea behind this strategy is that the prices of the two assets are stable relative to each other, meaning there is no profit or loss from price movement, leading to low liquidation risk. The risk comes when the correlation breaks, leading to potential losses and liquidation.
-
-**Example: Deposit USDC, borrow USDT**
-:::info
-Recursive borrowing of stablecoins is **excluded from the DeFi Spring rewards** by the Starknet Foundation. As a result, this strategy offers no additional STRK rewards.
-:::
-
-**Risk**: The main factor to consider is if the **Borrow APR** exceeds the **Supply APY**, which can make the position unprofitable. Additionally, there is a risk of de-pegging if **USDC** or **USDT** diverge from their peg, affecting the stability of the position.
-
-[USDC as collateral, USDT as debt]
-
-**Example: Deposit ETH, borrow wstETH**
-
-**Risk**: There is a risk of **price divergence** or **de-pegging** between **ETH** and **wstETH**. This can happen due to factors like liquidity issues, technical problems with staking protocols, or external events in stressed market conditions that cause the assets to lose their correlation, increasing the risk of liquidation and unexpected losses.
-
-[ETH as collateral, wstETH as debt]
-
-### Conclusion
-
-:::note summary
-- **Stable Collateral, Volatile Debt**: You are effectively short on the borrowed asset (debt). Risk of losses, and potentially liquidation if the borrowed asset appreciates.
-- **Volatile Collateral, Stable Debt**: You are effectively long on the deposited asset (collateral). Risk of losses, and potentially liquidation, if the collateral value drops significantly.
-- **Volatile Collateral, Volatile Debt**: High risk due to exposure to fluctuations in both assets, requiring careful monitoring of their relative performance.
-- **Correlated Collateral/Debt Pairs:** The assets should have very limited price movement between them, keeping liquidation risk lower compared to other strategies. Risk of unprofitability/liquidation arises if Borrow APR exceeds Supply APY or the correlation breaks.
-:::
-
-Multiply positions offer a powerful way to increase your exposure, but require **continuous monitoring of market conditions, interest rates, and price movements to manage risk and stay profitable**. Adjust your strategy to current market dynamics to avoid liquidation and ensure profitable positions.
+**Correlated collateral and debt**  
+Examples: ETH/wstETH.  
+Safer if correlation holds, but risk appears if the peg breaks or if borrow APR rises above supply APY.  
