@@ -5,7 +5,7 @@ sidebar_label: Default Extension
 sidebar_position: 3
 ---
 
-As already discussed in the [whitepaper](/explore/whitepaper#6-factory-extension) Vesu comes with a already implemented extension which we call the factory extension or default extension.
+Vesu comes with a already implemented extension which we call the factory extension or default extension.
 
 In this article we explore this contract into more detail, to learn how to write our own extension contract and get some inspiration.
 

@@ -107,10 +107,6 @@ const config = {
                 label: "STRK Rewards",
                 to: "/explore/rewards",
               },
-              {
-                label: "Whitepaper",
-                to: "/explore/whitepaper",
-              },
             ],
           },
           {

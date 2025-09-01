@@ -34,10 +34,6 @@ Choose if _Pool emergency_ should be activated. If activated, specify:
 - Subscription period: Defines the timeframe within which borrowers have to repay their outstanding debt in order to be able to withdraw their collateral for a pool in shutdown mode. This is directly tied to the emergency pause mode and can only be deactivated if the _Recovery Period_ parameter is also deactivated.
 - Pool pause loan-to-value: When the total LTV for a lending pair reaches this threshold, borrowing and withdrawals are paused to protect users and ensure stability.
 
-:::note
-Learn more about the shutdown mode in our [whitepaper](/explore/whitepaper#65-pool-emergency-shutdown).
-:::
-
 ![Define Extension](../images/ps2_updated.png)
 
 **3. Choose the assets for your pool and define the parameter for each token.**
