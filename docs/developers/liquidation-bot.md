@@ -16,4 +16,8 @@ _Source: Publication in Pragma's blog [here](https://blog.pragma.build/announcin
 
 The liquidation bot indexes and monitors Vesu positions continuously to identify insolvent positions. Such positions are then immediately executed in a fully capital-neutral manner using our `Liquidate` periphery contract and _flash loans_. 
 
-You can read more on the liquidation bot in Pragma's blog post [here](https://blog.pragma.build/announcing-the-open-source-liquidation-bot-for-vesu/).
+You can find more information on the liquidation bot under the following links:
+
+- Liquidate contract source code on Vesu's [GitHub](https://github.com/vesuxyz/vesu-periphery/blob/main/src/liquidate.cairo)
+- Liquidation bot source code on Pragma's [GitHub](https://github.com/astraly-labs/vesu-liquidator)
+- Pragma explainer blog post [here](https://blog.pragma.build/announcing-the-open-source-liquidation-bot-for-vesu/)

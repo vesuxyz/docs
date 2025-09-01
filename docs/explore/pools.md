@@ -47,7 +47,7 @@ The reason for tracking positions per lending pair is to enable more granular ri
 
 The diagram shows a User, Owner: 0x5trK, that owns three positions split across different lending pairs in Pool C, WETH → USDC, WBTC → USDC, STRK → USDC, and with an overall nominal debt outstanding of 3.5M USDC. Note that the positions in fact track _Supply Shares_ and _Nominal Debt_ which are explained in more detail in the following sections.
 
-## Liquidity & risk
+## Liquidity & risk
 
 :::info
 In Vesu V2, pools and user funds are separated into individual pool instances thus isolating risks by design.
@@ -79,4 +79,4 @@ Vesu _vTokens_ offer a conveninent way for lenders to supply and withdraw assets
 
 ![Vesu vTokens](./images/vToken.png)
 
-For each asset and pool a corresponding vToken exists. Lenders simply supply assets in the Vesu pool by using the vToken's `deposit` function which mints a corresponding vault share token instead. As interest accumulates in the Vesu pool, the vault share token exchange rate increases allowing the lender to withdraw an increasing amount of underlying assets over time.
+For each asset and pool a corresponding vToken exists. Lenders simply supply assets in the Vesu pool by using the vToken's `deposit` function which mints a corresponding vault share token instead. As interest accumulates in the Vesu pool, the vault share token exchange rate increases allowing the lender to withdraw an increasing amount of underlying assets over time using the vToken's `withdraw` function.
