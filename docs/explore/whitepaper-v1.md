@@ -1,9 +1,13 @@
 ---
-id: whitepaper
-title: The Vesu Whitepaper
-sidebar_label: Whitepaper
-sidebar_position: 10
+id: whitepaper-v1
+title: The Vesu V1 Whitepaper
+sidebar_label: Vesu V1
+sidebar_position: 8
 ---
+
+:::warning
+The Vesu V1 lending protocol has evolved into the version 2 (V2). This next iteration is built on the same lending pool principles but optimized towards simplicity and security. Hence, many of the concepts presented in the initial Vesu V1 whitepaper are outdated.
+:::
 
 ## Summary
 
@@ -31,7 +35,6 @@ Further in contrast to Aave, Vesu supports multiple lending pool configurations 
 
 Lastly, while liquidity is pooled in isolated lending pools, aggregate protocol liquidity across all pools is shared and accessible for Flashloaners at zero fees.
 
-![Vesu Liquidity Pools](./images/liquidity-pooling.png)
 
 ## 3. Design Principles
 

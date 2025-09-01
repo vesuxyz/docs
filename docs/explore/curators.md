@@ -2,7 +2,7 @@
 id: curators
 title: Explore Curators
 sidebar_label: Curators
-sidebar_position: 6
+sidebar_position: 4
 ---
 
 Vesu curators are blabla

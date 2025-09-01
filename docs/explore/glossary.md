@@ -2,7 +2,7 @@
 id: glossary
 title: Glossary
 sidebar_label: Glossary
-sidebar_position: 1
+sidebar_position: 6
 ---
 
 A collection of important terms and concepts

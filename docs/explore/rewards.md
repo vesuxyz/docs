@@ -2,7 +2,7 @@
 id: rewards
 title: Rewards on Vesu
 sidebar_label: Rewards
-sidebar_position: 7
+sidebar_position: 5
 ---
 
 Vesu users can earn additional rewards through ecosystem programs on Starknet.
