@@ -11,7 +11,7 @@ We here present the unique concepts behind Vesu lending pools.
 
 ## Lending market structure
 
-TODO: Overview of vesu lending market and actors
+Based on its modular architecture, the Vesu lending protocol enables Curators, read more on this in the _Curators_ [section](/docs/explore/curators.md), to create fully isolated lending pools. Each pool can be configured in various ways to offer a specific lending arrangement. As a result, Vesu allows for new lending markets to be created as market demand arises and optimized for specific use cases.
 
 ![Vesu vTokens](./images/markets.png)
 
