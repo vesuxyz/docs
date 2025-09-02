@@ -1,9 +1,8 @@
 ---
-id: security-disclosures
+id: disclosures
 title: Disclosures
 sidebar_label: Disclosures
-sidebar_position: 4
-slug: /security/security-disclosures
+sidebar_position: 5
 ---
 
 List of reported vulnerabilities:

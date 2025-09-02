@@ -67,7 +67,7 @@
     color: $grey !important;
     font-weight: 600;
     @include dark {
-      color: $grey !important;
+      color: $white !important;
       &:hover {
         color: $white !important;
       }
@@ -98,6 +98,17 @@
       width: 32px;
     }
 
+    @include dark {
+      background-color: $secondary-black;
+      &:hover {
+          background-color: $purple;
+        }
+    }
+
+    &:hover {
+      background-color: $purple;
+    }
+
     .DocSearch-Search-Icon {
       width: 16px;
       height: 16px;
@@ -110,6 +121,10 @@
       font-family: $nunito;
       font-size: 14px;
       color: $primary-blue;
+
+      @include dark {
+        color: $white;
+      }
     }
 
     .DocSearch-Button-Key {

@@ -1,0 +1,10 @@
+position: 3
+label: Interact with Vesu
+collapsible: true # make the category collapsible
+collapsed: true # keep the category collapsed by default
+className: red
+#link:
+#  type: generated-index
+#  title: Create Markets
+customProps:
+  description: How to interact with Vesu

@@ -42,4 +42,4 @@ This is intended behavior, no fix needed.
 
 ### Links
 
-Find more info in the [docs](/explore/vesu-basics) and [audit reports](/security/security-audit)
+Find more info in the [docs](/explore) and [audit reports](/security/audits)

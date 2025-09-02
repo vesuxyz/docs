@@ -1,0 +1,10 @@
+position: 4
+label: Developer Guide
+collapsible: true # make the category collapsible
+collapsed: true # keep the category collapsed by default
+className: red
+#link:
+#  type: generated-index
+#  title: Create Markets
+customProps:
+  description: Learn all about the Vesu protocol and how to build with us
