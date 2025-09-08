@@ -19,7 +19,7 @@ You’ll see current rates, available liquidity, audit coverage, oracle settings
 
 3. Enter the amounts for your collateral and borrow. 
 Review the expected yield, costs, and liquidation price. Choose a loan-to-value you’re comfortable with. 
-See the [Glossary](../glossary#positions) for definitions and formulas.
+See the [Glossary](../explore/glossary.md#positions) for definitions and formulas.
 
 4. Click **Borrow** and confirm in your wallet. 
 Once confirmed, your position appears in your overview with the borrowed amount and collateral balance.
