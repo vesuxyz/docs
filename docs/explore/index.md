@@ -12,4 +12,4 @@ Vesu V2 builds on the same battle-tested concepts than the initial version of th
 - Isolating pools (and respective funds) into separate `Pool` instances
 - Removing hooks and extensions
 - Simplifying pool state and logic into a single `Pool` contract
-- Externalizing `VToken` into stand-alone ERC-4626 vaults
+- Externalizing `vToken` into stand-alone ERC-4626 vaults

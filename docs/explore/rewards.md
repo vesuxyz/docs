@@ -47,6 +47,7 @@ As per February 6th 2025, the following markets on Vesu are eligible for DeFi Sp
 - xSTRK
 - wstETH
 - ETH
+- wBTC
 - USDC
 - USDT
 
