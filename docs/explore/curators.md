@@ -2,12 +2,12 @@
 id: curators
 title: Explore Curators
 sidebar_label: Curators
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 The Vesu lending protocol does not rely on centralized governance but on an open lending pool curation model. Professional, third-party _Curators_ create and manage lending pools as market demand arises. This model removes barriers and creates a market around what is traditionally occupied by an inefficient onchain governance process.
 
-![Vesu Curators](./images/markets.png)
+![Vesu Curators](./images/vesu-curators.png)
 
 The diagram above shows a hypothetical market structure with three Vesu lending pools governed by three curators. It is important to understand that curators are third parties and have full control over and take full responsibility of the initial set up and continuous management of Vesu lending pools. In general, curators are thus professional entities with long experience and a strong track record in assuming this role across various lending protocols and ecosystems.
 
