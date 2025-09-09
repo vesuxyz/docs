@@ -10,7 +10,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "Vesu Knowledge Hub",
   tagline:
-    "Learn all about Vesu Markets and the Vesu Risk Framework. Find lend, borrow & liquidate manuals and documentation to build your own lending experience on top of Vesu.",
+    "Learn how to use and build on Vesu. Supply, borrow, and multiply crypto assets on Starknet",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -40,6 +40,25 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/vesu.png",
+      metadata: [
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:image', content: 'https://vesu.xyz/img/vesu.png' },
+      { name: 'twitter:title', content: 'Vesu Knowledge Hub' },
+      { name: 'twitter:description', content: 'Learn how to use and build on Vesu. Supply, borrow, and multiply crypto assets on Starknet.' },
+      { property: 'og:image', content: 'https://vesu.xyz/img/vesu.png' },
+      { property: 'og:url', content: 'https://docs.vesu.xyz/' },
+      { property: 'og:locale', content: 'en' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:title', content: 'Vesu Knowledge Hub' },
+      { property: 'og:description', content: 'Learn how to use and build on Vesu. Supply, borrow, and multiply crypto assets on Starknet.' }
+      ],
+      algolia: {
+        appId: 'QOJ022CPNR',
+        apiKey: 'bdc1c4e96d4e886d1b993bd5aa909c54',
+        indexName: 'vesu',
+        searchPagePath: 'search',
+      },
+
       navbar: {
         style: "dark",
         title: null,
@@ -72,24 +91,6 @@ const config = {
             position: "right",
           },
         ],
-      },
-        metadata: [
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:image', content: 'https://vesu.xyz/img/vesu.png' },
-        { name: 'twitter:title', content: 'Vesu Knowledge Hub' },
-        { name: 'twitter:description', content: 'Learn how to use and build on Vesu. Supply, borrow, and multiply crypto assets on Starknet.' }
-        { property: 'og:image', content: 'https://vesu.xyz/img/vesu.png' },
-        { property: 'og:url', content: 'https://docs.vesu.xyz/' },
-        { property: 'og:locale', content: 'en' },
-        { property: 'og:type', content: 'website' },
-        { property: 'og:title', content: 'Vesu Knowledge Hub' },
-        { property: 'og:description', content: 'Learn how to use and build on Vesu. Supply, borrow, and multiply crypto assets on Starknet.' }
-      ],
-      algolia: {
-        appId: 'QOJ022CPNR',
-        apiKey: 'bdc1c4e96d4e886d1b993bd5aa909c54',
-        indexName: 'vesu',
-        searchPagePath: 'search',
       },
       footer: {
         style: "dark",
