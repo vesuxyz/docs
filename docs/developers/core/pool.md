@@ -120,42 +120,33 @@ We here show the full storage of the `Pool` contract with inline docs.
 struct Storage {
     // tracks the name
     pool_name: felt252,
-    // The owner of the pool
-    curator: ContractAddress,
-    // The pending curator
-    pending_curator: ContractAddress,
-    // Indicates whether the contract is paused
-    paused: bool,
-    // tracks the configuration / state of each asset
-    // asset -> asset configuration
-    asset_configs: Map<ContractAddress, AssetConfig>,
-    // tracks the max. allowed loan-to-value ratio for each asset pairing
-    // (collateral_asset, debt_asset) -> ltv configuration
-    ltv_configs: Map<(ContractAddress, ContractAddress), LTVConfig>,
     // tracks the state of each position
     // (collateral_asset, debt_asset, user) -> position
     positions: Map<(ContractAddress, ContractAddress, ContractAddress), Position>,
     // tracks the delegation status for each delegator to a delegatee
     // (delegator, delegatee) -> delegation
     delegations: Map<(ContractAddress, ContractAddress), bool>,
+    // tracks the configuration / state of each asset
+    // asset -> asset configuration
+    asset_configs: Map<ContractAddress, AssetConfig>,
+    // Oracle contract address
+    oracle: ContractAddress,
     // fee recipient
     fee_recipient: ContractAddress,
-    // tracks the address that can transition the shutdown mode
-    shutdown_mode_agent: ContractAddress,
-    // contains the shutdown configuration
-    shutdown_config: ShutdownConfig,
-    // contains the current shutdown mode
-    fixed_shutdown_mode: ShutdownState,
-    // contains the liquidation configuration for each pair
-    // (collateral_asset, debt_asset) -> liquidation configuration
-    liquidation_configs: Map<(ContractAddress, ContractAddress), LiquidationConfig>,
+    // tracks the configuration / state of each pair
+    // (collateral_asset, debt_asset) -> pair configuration
+    pair_configs: Map<(ContractAddress, ContractAddress), PairConfig>,
     // tracks the total collateral shares and the total nominal debt for each pair
     // (collateral asset, debt asset) -> pair configuration
     pairs: Map<(ContractAddress, ContractAddress), Pair>,
-    // tracks the debt caps for each asset
-    debt_caps: Map<(ContractAddress, ContractAddress), u256>,
-    // Oracle contract address
-    oracle: ContractAddress,
+    // tracks the address that can pause the contract
+    pausing_agent: ContractAddress,
+    // The owner of the pool
+    curator: ContractAddress,
+    // The pending curator
+    pending_curator: ContractAddress,
+    // Indicates whether the contract is paused
+    paused: bool,
     #[substorage(v0)]
     ownable: OwnableComponent::Storage,
     // storage for the interest rate model component
@@ -167,6 +158,27 @@ struct Storage {
 ## User functions
 
 Users interact with a Vesu pool primarily through the function `position`, to retrieve a position, and `modify_position`, to create or update an existing position.
+
+### Modify a position
+
+:::info
+Learn more on how to use this function [here](/docs/developers/interact/borrow-repay.md).
+:::
+
+Use this function to create, modify and close positions. See section _Modify Position Params_ above to learn more about the different configurations of the function arguments to achieve the different position updates.
+
+```
+/// Adjusts a positions collateral and debt balances
+/// # Arguments
+/// * `params` - see ModifyPositionParams
+/// # Returns
+/// * `response` - see UpdatePositionResponse
+fn modify_position(ref self: ContractState, params: ModifyPositionParams) -> UpdatePositionResponse
+```
+
+### Retrieve a position
+
+Use this function to retrieve the current state of a user position including its collateral shares (`Native` denomination), nominal debt (`Native` denomination), collateral assets (`Asset` denomination) and debt assets (`Asset` denomination).
 
 ```
 /// Returns the current state of a position
@@ -183,22 +195,9 @@ fn position(
 ) -> (Position, u256, u256)
 ```
 
-```
-/// Adjusts a positions collateral and debt balances
-/// # Arguments
-/// * `params` - see ModifyPositionParams
-/// # Returns
-/// * `response` - see UpdatePositionResponse
-fn modify_position(ref self: ContractState, params: ModifyPositionParams) -> UpdatePositionResponse
-```
-
-:::info
-Note that the `ModifyPositionParams` allows to express all sorts of position modifications including deposit, withdrawal, borrow, repay and is used for all position interactions with the `modify_position` function. Read more on this in the _Interact with Vesu_ [section](/docs/developers/interact/borrow-repay.md).
-:::
-
 ## Liquidator functions
 
-To liquidate an insolvent position, a liquidator uses the `liquidate_position` function.
+Use this function to liquidate an insolvent position.
 
 ```
 /// Liquidates a position
@@ -212,24 +211,12 @@ fn liquidate_position(ref self: ContractState, params: LiquidatePositionParams) 
 ## Curator functions
 
 :::warning
-To create a new pool, curators should always use the `create_pool` function on the `PoolFactory` contract.
+To create a new pool and add a new asset to an existing pool, curators should always use the `create_pool` and `add_asset` functions on the `PoolFactory` contract.
 :::
 
 :::info
 Note that only the `curator` role of the `Pool` contract has permission to use the below functions.
 :::
-
-### Add Asset
-
-To add a new asset to the pool, use the `add_asset` function:
-
-```
-/// Adds a new asset to the pool
-/// This function assumes that the oracle config was already set up for the asset.
-/// # Arguments
-/// * `params` - see AssetParams
-fn add_asset(ref self: ContractState, params: AssetParams, interest_rate_config: InterestRateConfig)
-```
 
 ### Change Asset Parameter
 
@@ -265,6 +252,32 @@ fn set_interest_rate_parameter(
 )
 ```
 
+### Change Pair Parameter
+
+To change a specific parameter for a lending pair, use the `set_pair_parameter` function:
+
+```
+/// Sets a parameter for a given pair configuration
+/// # Arguments
+/// * `collateral_asset` - address of the collateral asset
+/// * `debt_asset` - address of the debt asset
+/// * `parameter` - parameter name
+/// * `value` - value of the parameter
+fn set_pair_parameter(
+    ref self: ContractState,
+    collateral_asset: ContractAddress,
+    debt_asset: ContractAddress,
+    parameter: felt252,
+    value: u128,
+)
+```
+
+Note, the following parameters can be changed:
+
+- `max_ltv`
+- `liquidation_factor`
+- `debt_cap`
+
 ### Change Fee Recipient
 
 To change the `fee_recipient` for a pool, use the `set_fee_recipient_parameter` function:
@@ -276,7 +289,7 @@ To change the `fee_recipient` for a pool, use the `set_fee_recipient_parameter` 
 fn set_fee_recipient(ref self: ContractState, fee_recipient: ContractAddress)
 ```
 
-### Change the Curator
+### Nominate new Curator
 
 To initiate the transfer of the curator role of a pool, use the `nominate_curator` function. Note, transferring the curator role is a 2-step process and requires the new curator to accept the transfer.
 
@@ -287,4 +300,59 @@ To initiate the transfer of the curator role of a pool, use the `nominate_curato
 /// # Arguments
 /// * `curator` - address of the new curator
 fn nominate_curator(ref self: ContractState, pending_curator: ContractAddress)
+```
+
+### Accept Curator Role
+
+:::info
+Note that without accepting a curator nomintation, you will not be able to use the curator permissions in a pool.
+:::
+
+Use this function to accept the nomination of the curator role.
+
+```
+/// Accept the curator address.
+/// At this point, the original curator will be removed and replaced with the nominated curator.
+fn accept_curator_ownership(ref self: ContractState)
+```
+
+### Change the Pauser Agent
+
+:::warning
+The _Pauser Agent_ role has the permission to pause deposits and withdrawals on a pool. Make sure you assign this role only to a trusted agent.
+:::
+
+Use this function to assign the _Pauser Agent_ role to a new account.
+
+```
+/// Sets the pausing agent
+/// # Arguments
+/// * `pausing_agent` - address of the pausing agent
+fn set_pausing_agent(ref self: ContractState, pausing_agent: ContractAddress)
+```
+
+### Pause pool
+
+:::warning
+Pausing a pool should only be used in an emergency as it pauses all deposits and withdrawals in a pool. Pools can be paused by the _Pauser Agent_, _Curator_ and _Owner_ but only be unpaused by the curator or owner. 
+:::
+
+Use this function to pause deposits and withdrawals (including liquidations) in a pool.
+
+```
+/// Pauses the contract
+/// Requirements: The contract is not paused
+/// Emits a `Paused` event
+fn pause(ref self: ContractState)
+```
+
+### Unpause pool
+
+Use this function to unpause a paused pool.
+
+```
+/// Lifts the pause on the contract
+/// Requirements: The contract is paused
+/// Emits an `Unpaused` event
+fn unpause(ref self: ContractState)
 ```

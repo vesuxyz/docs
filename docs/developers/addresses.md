@@ -15,4 +15,4 @@ For testing and integration purposes, we have deployed an initial version of the
 |--------------|---------|
 | PoolFactory  | 0x2dff3242260757c5ed959f386cdc11c7957cd670a8132eccb7e68a58b29422b |
 | Oracle       | 0x7b5c9ecc890ffea0480041294477bfedae509e54152b8984191e27b5b587223 |
-| Prime-pool | 0x2f8dd91900ac049a8a00bb91413f1e6745f08794c50158dd0cc6b9fc97f9f15 |
+| genesis-pool | 0x2f8dd91900ac049a8a00bb91413f1e6745f08794c50158dd0cc6b9fc97f9f15 |
