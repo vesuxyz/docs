@@ -41,7 +41,7 @@ You can track your total interest earnings (across all markets) on the [Vesu Lea
 
 ### Which markets are eligible?
 
-As per February 6th 2025, the following markets on Vesu are eligible for DeFi Spring rewards:
+The following markets are eligible for DeFi Spring rewards:
 
 - STRK
 - xSTRK

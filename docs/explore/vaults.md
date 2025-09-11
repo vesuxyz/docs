@@ -5,19 +5,18 @@ sidebar_label: Vaults
 sidebar_position: 4
 ---
 
-Vaults on Vesu offer a new way to __earn yield on any asset__. These are automated, trust-minimized DeFi strategies built on top of Vesu lending markets and other Starknet platforms. Vault curators are able to launch flexible vault strategies, bringing new opportunities to earn on Starknet.
+Vaults on Vesu are programmable yield strategies: automated, trust-minimized, and open to anyone. Curators can design and launch custom vaults that interact with Vesu lending markets and other DeFi protocols on Starknet.
 
-## What to know
+## Core features
 
-Here’s what makes Vesu Vaults special:
+Vesu Vaults are designed to be secure, flexible, and composable. Each vault follows a clearly defined structure:
 
-- Vaults are launched and managed by professional third-party curators
+- Launched and managed by professional third-party curators
 - Deposits are instant and non-custodial
 - Withdrawals follow a strategy-specific delay, allowing the vault to optimize capital efficiency while maintaining a liquidity buffer
-- Each vault follows a **strategy mandate** that ensures funds are only used as defined by the strategy, enforced onchain
-- A vault's **Assets under Management (AuM)**, and vault share price, is informed by a trustless onchain **AuM Oracle**
-- Vaults can include fees for: management, performance, or redemption
-
+- Enforced onchain **strategy mandate** ensures funds are only used as defined  
+- A vault’s **Assets under Management (AuM)** and share price are calculated by a trustless onchain **NAV Oracle**  
+- Optional fee configurations: management, performance, or redemption
 
 ## Use cases
 
