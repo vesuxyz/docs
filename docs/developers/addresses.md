@@ -13,6 +13,6 @@ For testing and integration purposes, we have deployed an initial version of the
 
 | Contract     | Address |
 |--------------|---------|
-| PoolFactory  | 0x050512c1e8d542564dd028c8aa7fd3e277b32384d2c6a33686403c8972394f75 |
-| Oracle       | 0x02a4ab6ee85f0363ed885b16048b8dc0a8a2667ec3ba782bf718f36135cba395 |
-| genesis-pool | 0x0317a1e25d86bbbddc4e182fc94304115cfeac8c53e35566d105364e61fca145 |
+| PoolFactory  | 0x2dff3242260757c5ed959f386cdc11c7957cd670a8132eccb7e68a58b29422b |
+| Oracle       | 0x7b5c9ecc890ffea0480041294477bfedae509e54152b8984191e27b5b587223 |
+| Prime-pool | 0x2f8dd91900ac049a8a00bb91413f1e6745f08794c50158dd0cc6b9fc97f9f15 |
