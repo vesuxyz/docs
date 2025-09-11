@@ -15,7 +15,7 @@ Vesu Vaults is a modular vault infrastructure allowing third-party curators to l
 
 ### Vault
 
-The _Vault_ allows users the deposit and withdraw funds to/from a Vesu Vault. It follows the ERC-4626 standard with an asynchronous redemption process. It mints an ERC-20 compatible token representing vault shares and tracking user deposits. The assets-to-shares conversion rate is maintained in the Vault through an external _NAV Oracle_. The Vault further handles the asynchronous redemptions and fees.
+The _Vault_ allows users the deposit and withdraw funds to/from a Vesu Vault. It follows the ERC-4626 standard with an asynchronous redemption process. It mints an ERC-20 compatible token representing vault shares and tracking user deposits. The _Assets under Management_ and vault share price is informed by a trustless _AuM Oracle_. The Vault further handles the asynchronous redemptions and fees.
 
 ### Vault Allocator
 
@@ -27,7 +27,7 @@ The _Manager_ allows the strategy manager to allocate the vault's funds within i
 
 ### NAV Oracle
 
-The _NAV Oracle_ is responsible for computing the _Vault_'s Net Asset Value (NAV) across all positions in external DeFi protocols and idle asset balances. It is therefore configured with the _Vault_'s strategy mandate and in particular the list of DeFi protocols the strategy has pre-approved to maintain positions in.
+The _AuM Oracle_ is responsible for computing the vault's _Assets under Management_ across all positions in external DeFi protocols and idle asset balances. It is therefore configured with the vault's strategy mandate and in particular the list of DeFi protocols the strategy has pre-approved to maintain positions in.
 
 ### Governor
 
@@ -43,7 +43,7 @@ The following steps outline a common sequence of interactions with Vesu Vaults a
 
 1. User deposits funds in the _Vault_ and receives ERC-4626 vault shares in return, with the share conversion rate being reported through the onchain _NAV Oracle_.
 2. Funds sit in the vault contract until allocated by the strategy manager. Allocations are only possible within the vault's strategy mandate which is enforced through an onchain _Merkle tree verification_ step.
-3. The onchain _NAV Oracle_ continuously reports the vault's NAV in a fully trustless manner.
+3. The onchain _AuM Oracle_ continuously reports the vault's _Assets under Management_ in a fully trustless manner.
 4. In order to withdraw funds, users _request redemptions_ by sending the desired vault shares to the vault. Redemptions are batched in epochs with a certain delay (e.g. 1 day).
 5. The manager observes redemption requests and ensures sufficient liquidity is in the vault to honor all redemptions.
 6. After the redemption delay has passed, users claim their funds from the vault.
@@ -87,7 +87,7 @@ Note that multiple fees can be specified at the same time, thus applying in para
 
 ## Protocol fee
 
-The development, maintenance and operation of the Vesu Vaults infrastructure comes at a cost for Vesu. In order to cover this cost, Vesu Vaults are equipped with a _Fee Sharing_ mechanism that directs 20% of the curator's total fee revenue to Vesu. Note that curators still have full control over the fees applicable in a certain Vesu Vault and the fee sharing is limited to whatever fee configuration is made in a vault.
+The development, maintenance and operation of the Vesu Vaults infrastructure comes at a cost for Vesu. In order to cover this cost, Vesu Vaults are equipped with a _Fee Sharing_ mechanism that directs 10% of the curator's total fee revenue to Vesu. Note that curators still have full control over the fees applicable in a certain Vesu Vault and the fee sharing is limited to whatever fee configuration is made in a vault.
 
 ## Security
 

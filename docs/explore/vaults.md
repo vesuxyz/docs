@@ -17,7 +17,7 @@ The following key characteristics summarize the main aspects to know about Vesu 
 - User deposits into a vault are instant
 - User withdrawals follow a strategy-specific delay, enabling the strategy to maintain a minimal liquidity buffer
 - Configuration of vaults include a specific _strategy mandate_ that is verifiable and enforced onchain
-- A vault's net asset value (NAV), and vault share price, is informed by a trustless onchain _Vesu NAV Oracle_
+- A vault's _Assets under Management_ (AuM), and vault share price, is informed by a trustless onchain _AuM Oracle_
 - Vaults may implement different fees: management fee, performance fee, redemption fee
 
 ## Use cases
@@ -28,7 +28,7 @@ Vesu Vaults is a flexible vault strategy infrastructure capable of serving a var
 - _WBTC_ yield by borrowing _USDC_ with _WBTC_ collateral to generate yield on the borrowed _USDC_
 - Automated looping of _ETH_ staking yield
 - Basis trade strategy
-- and many more ...
+- and much more ...
 
 ## How it works
 
@@ -36,7 +36,7 @@ The Vesu Vaults infrastructure is built in a modular way allowing curators to de
 
 - Vaults are built on top of the [_starknet-vault-kit_](https://github.com/ForgeYields/starknet_vault_kit), an extension to the proven ERC-4626 standard comparable to an _asynchrounous redemption ERC-7540 vault_.
 - Onchain enforced _strategy mandate_, that is the funds deposited in a strategy can only be used according to the vault's stated strategy.
-- Onchain _Vault NAV Oracle_ that trustlessly computes and reports the vault's NAV.
+- Onchain _AuM Oracle_ that trustlessly computes and reports the vault's _Assets under Management_.
 - Supports yield strategies integrating with Vesu for lending and borrowing, Avnu for swapping, and arbitrary third-party ERC-4626 vaults.
 
 ## Curator model

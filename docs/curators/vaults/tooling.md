@@ -13,9 +13,9 @@ Launching and managing yield strategies can come with significant overhead in te
 
 This is a smart contract that simplifies the creation of a new vault and increases security for curators and users by: bundling the deployment of all Vault components, configuring roles and oracles, emitting the respective onchain events for vault tracking.
 
-## NAV Oracle
+## AuM Oracle
 
-This is a smart contract that computes and reports the vault's NAV onchain, reducing the dependence on offchain infrastructure and increasing the operational security.
+This is a smart contract that computes and reports the vault's _Assets under Management_ (AuM) onchain, reducing the dependence on offchain infrastructure and increasing the operational security.
 
 ## Vault indexing & backend
 
@@ -31,7 +31,11 @@ Vesu Vaults are embedded in Vesu's main UI, allowing vault curators to launch ne
 
 ## Automations
 
-Certain operational processes of Vesu Vaults can be automated to reduce the overhead both for vault curators and managers. By default, the Vesu Vaults backend automates the periodic reporting of a vault's NAV through the _NAV Oracle_. Other processes that can be automated include:
+Certain operational processes of Vesu Vaults can be automated to reduce the overhead both for vault curators and managers. All Vesu Vaults, and curators, have access to the following default automations:
+- _Assets under Management_ reporting through the _AuM Oracle_
+- Redemption claims on behalf of users
+
+Other processes that can be automated include:
 
 - Claiming of user redemptions
 - Rebalancing of a strategy

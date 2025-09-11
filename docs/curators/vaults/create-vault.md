@@ -5,4 +5,6 @@ sidebar_label: Create Vault
 sidebar_position: 3
 ---
 
-todo
+:::info
+This guide will be added shortly.
+:::
