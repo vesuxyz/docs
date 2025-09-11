@@ -5,4 +5,6 @@ sidebar_label: Register Hypernative
 sidebar_position: 4
 ---
 
-todo
+:::info
+This guide will be added shortly.
+:::
