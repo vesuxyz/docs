@@ -87,7 +87,7 @@ Note that multiple fees can be specified at the same time, thus applying in para
 
 ## Protocol fee
 
-The development, maintenance and operation of the Vesu Vaults infrastructure comes at a cost for Vesu. In order to cover this cost, Vesu Vaults are equipped with a _Fee Sharing_ mechanism that directs 10% of the curator's total fee revenue to Vesu. Note that curators still have full control over the fees applicable in a certain Vesu Vault and the fee sharing is limited to whatever fee configuration is made in a vault.
+The development, maintenance and operation of the Vesu Vaults infrastructure comes at a cost for Vesu. In order to cover this cost, Vesu Vaults are equipped with a _Fee Sharing_ mechanism that directs a fixed percentage of the curator's total fee revenue to Vesu. Note that curators still have full control over the fees applicable in a certain Vesu Vault and the fee sharing is limited to whatever fee configuration is made in a vault.
 
 ## Security
 
