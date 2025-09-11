@@ -5,7 +5,7 @@ sidebar_label: Migrate V1 to V2
 sidebar_position: 5
 ---
 
-:::warning
+:::info
 Migration of positions from the Vesu V1 version is not mandatory. Vesu V1 pools will continue to be supported and there is no risk of maintaining positions in the V1 version. However, liquidity will naturally migrate to the Vesu V2 pools as these will be more deeply integrated in the Starknet ecosystem going forward. Users, and in particular borrowers, are thus advised to monitor V1 pools and migrate their positions as the borrow conditions indicate decreasing liquidity.
 :::
 
