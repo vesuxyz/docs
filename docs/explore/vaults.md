@@ -5,22 +5,20 @@ sidebar_label: Vaults
 sidebar_position: 4
 ---
 
-Vaults on Vesu are programmable yield strategies: automated, trust-minimized, and open to anyone. Curators can design and launch custom vaults that interact with Vesu lending markets and other DeFi protocols on Starknet.
+Vesu Vaults are programmable yield strategies built on Starknet, designed to make onchain yield more accessible and efficient. They abstract away the complexity of managing positions, optimizing yield, or handling redemptions. Everything runs on audited smart contracts, managed by independent curators.
 
 ## Core features
 
-Vesu Vaults are designed to be secure, flexible, and composable. Each vault follows a clearly defined structure:
+Vesu Vaults remove the usual friction in yield farming by providing a set of simple, powerful guarantees:
 
-- Launched and managed by professional third-party curators
-- Deposits are instant and non-custodial
-- Withdrawals follow a strategy-specific delay, allowing the vault to optimize capital efficiency while maintaining a liquidity buffer
-- Enforced onchain **strategy mandate** ensures funds are only used as defined  
-- A vault’s **Assets under Management (AuM)** and share price are calculated by a trustless onchain **NAV Oracle**  
-- Optional fee configurations: management, performance, or redemption
+- Non-custodial deposits, processed instantly  
+- Withdrawals follow a strategy-specific delay to optimize capital efficiency  
+- Funds can only be used according to an onchain **strategy mandate**  
+- Supports optional fees: management, performance, redemption
 
 ## Use cases
 
-The Vaults are designed to support a wide range of strategies. This can for example include:
+The Vaults are designed to support a wide range of strategies. These can include strategies like:
 
 - Diversified `USDC` yield by lending across multiple Vesu pools
 - Boosted `wBTC` yield via borrowing `USDC` against `wBTC` collateral, to generate yield on the borrowed `USDC`
@@ -43,7 +41,7 @@ _Vaults allocate liquidity across DeFi protocols, follow onchain strategy mandat
 
 ## Curator model
 
-In the spirit of Vesu's open and permissionless market model, Vesu Vaults adopts the same open curator model. Vault strategies can be launched by anyone using Vesu's flexible and secure vault infrastructure. Vault curators are professional third-parties and their responsibilities includes, but are not limited to, the following:
+In the spirit of Vesu's open and permissionless market model, Vesu Vaults adopts the same open curator model. Vault strategies can be launched by anyone using Vesu's flexible and secure vault infrastructure. Vault curators are professional third-parties responsible for tasks such as:
 
 - Careful design and backtesting of yield strategies
 - Creation and initial setup of new yield strategies

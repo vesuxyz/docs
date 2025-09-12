@@ -1,11 +1,13 @@
 
 # Getting started as a vault curator
 
-Vesu Vaults empower curators to set up and manage yield strategies on top of Vesu lending pools and other DeFi protocols. Vesu Vaults follow a modular architecture allowing for a wide range of yield strategies with minimal trust assumptions towards the curator and strategy manager. This enables curators to design strategies for different use cases from "simple" basis trades to BTCfi and levered yield farming.
+Vesu Vaults let anyone launch and manage automated yield strategies on Starknet. As a curator, you define how the vault works, what assets it uses, where the capital goes, and how it earns yield. This enables strategies for different use cases from "simple" basis trades to BTCfi and levered yield farming.
+
+Vaults run on audited smart contracts, with trust-minimized controls and onchain enforcement. You focus on designing the strategy, the infra handles the rest.
 
 ## Getting started
 
-We recommend curators to first read the basics of Vesu Vaults [here](/curators/vaults/basics). If you have questions around curating Vaults, get in touch with our Support [here](https://discord.com/invite/G9Gxgujj8T).
+We recommend curators to first read the basics of Vesu Vaults [here](/curators/vaults/basics). If you have questions around curating Vaults, get in touch with our support [in Discord](https://discord.com/invite/G9Gxgujj8T).
 
 If you are ready to launch your first Vesu Vault, proceed with the following guides:
 
@@ -14,7 +16,7 @@ If you are ready to launch your first Vesu Vault, proceed with the following gui
 
 ## Vault listing
 
-Vesu Vaults is a permissionless protocol and allows anyone to set up and curate yield strategies. However, for quality and security reasons, Vesu Vaults need to go through a listing process in order to be included on the Vesu website. This process is currently manual and involves the following steps:
+Vesu Vaults are permissionless, anyone can deploy a strategy. But to get your vault featured on the main app (and gain visibility), it needs to go through a short review process. Here’s how listing currently works:
 
 1. Collect and review curator information
 2. Collect and review strategy information
@@ -22,6 +24,6 @@ Vesu Vaults is a permissionless protocol and allows anyone to set up and curate 
 
 ## Further information
 
-- Support [link](https://discord.com/invite/G9Gxgujj8T)
-- Curator App [link](https://vaults.vesu.xyz)
-- Source Code [link](https://github.com/vesuxyz/vesu-periphery/blob/main/src/managed_vault.cairo)
+- Support [on Discord](https://discord.com/invite/G9Gxgujj8T)
+- Curator App [on Vesu.xyz](https://vaults.vesu.xyz)
+- Source Code [on Github](https://github.com/vesuxyz/vesu-periphery/blob/main/src/managed_vault.cairo)
