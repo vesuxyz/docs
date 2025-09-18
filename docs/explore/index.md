@@ -1,7 +1,6 @@
-
 # Welcome to Vesu
 
-Vesu V2 is a fully open and permissionless lending protocol built on [Starknet](https://starknet.io).
+Vesu V2 is a fully open and permissionless lending protocol built on Starknet.
 
 Anyone can supply assets to earn yield, borrow against collateral, or create new lending markets.
 

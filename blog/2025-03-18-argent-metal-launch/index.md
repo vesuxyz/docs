@@ -7,6 +7,10 @@ tags: [Announcement]
 
 ![Welcome Argent Metal](Argent_card_v2.png)
 
+:::info Update June 24, 2025
+Argent has rebranded to **Ready**, with a renewed mission to bring crypto to the mainstream. Read more in their [announcement](https://www.ready.co/blog/argent-is-now-ready).
+:::
+
 Argent has just launched **Argent Metal**, a self-custodial crypto card that makes spending USDC effortless anywhere Mastercard is accepted. Unlike other crypto cards that require preloading or custodial accounts, Argent Metal lets users **spend directly from their wallet** while maintaining full ownership of their assets.
 
 ### Why Argent Metal?

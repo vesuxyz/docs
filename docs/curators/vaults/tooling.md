@@ -15,7 +15,7 @@ This is a smart contract that simplifies the creation of a new vault and increas
 
 ## AuM Oracle
 
-This is a smart contract that computes and reports the vault's _Assets under Management_ (AuM) onchain, reducing the dependence on offchain infrastructure and increasing the operational security.
+This is a smart contract that computes and reports the vault's __Assets under Management__ (AuM) onchain, reducing the dependence on offchain infrastructure and increasing the operational security.
 
 ## Vault indexing & backend
 
@@ -32,7 +32,7 @@ Vesu Vaults are embedded in Vesu's main UI, allowing vault curators to launch ne
 ## Automations
 
 Certain operational processes of Vesu Vaults can be automated to reduce the overhead both for vault curators and managers. All Vesu Vaults, and curators, have access to the following default automations:
-- _Assets under Management_ reporting through the _AuM Oracle_
+- __Assets under Management__ reporting through the __AuM Oracle__
 - Redemption claims on behalf of users
 
 Other processes that can be automated include:

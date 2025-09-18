@@ -9,8 +9,8 @@ Borrow one token using another as collateral. Here’s how to open and close a b
 
 ## Opening a Position
 
-1. Open [vesu.xyz/borrow](https://vesu.xyz/borrow) to see available markets.
-Select your collateral and borrow asset. You can also filter by curator, pool, or show only tokens in your wallet. Click on a market to view details or start borrowing.
+1. Open [vesu.xyz/borrow](https://vesu.xyz/borrow) to see available markets. Select your collateral and borrow asset. 
+You can also filter by curator, pool, or show only tokens in your wallet. Click on a market to view details or start borrowing.
 
 ![borrow-1.png](images/borrow-1.png)
 

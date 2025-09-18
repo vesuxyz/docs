@@ -12,7 +12,7 @@ sidebar_position: 1
 
 ### Support
 
-Find us on [Discord](https://discord.gg/G9Gxgujj8T)
+Find us on [Discord](https://discord.gg/G9Gxgujj8T).
 
 ### Requirements
 

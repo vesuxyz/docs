@@ -16,25 +16,22 @@ Vesu's permissionless nature enables everyone to create new lending pools callin
 
 ## Step-by-step Guide
 
-Click the blue _Create Pool_ button on the Pools [page](http://vesu.xyz/pools).
+Click the blue __Create Pool__ button on the Pools [page](http://vesu.xyz/pools).
 
 **1. First set the following parameters:**
 - Name of your pool.
 - Set a Starknet account as owner or choose Immutable. If Immutable is selected no changes are possible after the creation of the new pool.
 - Choose the extension contract with lending hook implementations to use for the pool. For the launch there is just one extension from Pragma available. 
 
-![Create Pool](../images/ps1.png)
+(update image)
 
 **2. Define the Extension**
 - Fee recipient: Set a Starknet account as recipient for fees, or check the Box for “No fees”
 
-Choose if _Pool emergency_ should be activated. If activated, specify:
-- Number of sources: Set the number of data providers required for the oracle.
-- Recovery period: The time during which a pool in emergency pause mode can attempt to recover. If you do not wish to enable an emergency pause mode, select "Deactivate". However, it is strongly recommended to keep this feature active for immutable pools to ensure an orderly shutdown mechanism. This helps limit losses and prevents potential bank runs.
-- Subscription period: Defines the timeframe within which borrowers have to repay their outstanding debt in order to be able to withdraw their collateral for a pool in shutdown mode. This is directly tied to the emergency pause mode and can only be deactivated if the _Recovery Period_ parameter is also deactivated.
-- Pool pause loan-to-value: When the total LTV for a lending pair reaches this threshold, borrowing and withdrawals are paused to protect users and ensure stability.
+Choose if __Emergency pause agent__ should be activated. If activated, specify:
+If enabled, this Hypernative agent will pause the pool in case of an emergency to protect users. As the pool curator, you will be able to unpause the pool again at any time.
 
-![Define Extension](../images/ps2_updated.png)
+(update image)
 
 **3. Choose the assets for your pool and define the parameter for each token.**
 
@@ -48,7 +45,7 @@ For each asset, configure the following parameters:
 - vToken Name
 - Interest Rate Model Specifications
 
-![Choose Assets](../images/ps3.png)
+(update image)
 
 **4. Define Lending Pairs**
 
@@ -62,8 +59,15 @@ Check all settings and verify that everything is correct. Especially if it is an
 
 ![Overview before Creation](../images/ps4.2.png)
 
-When everything is correct, click _Create Pool_ and confirm the transaction in your wallet.
+When everything is correct, click __Create Pool__ and confirm the transaction in your wallet.
 
 :::info
 Reminder: A small amount of the token is required to seed the pool (at least 1,000 units in the smallest denomination, such as 0.001 USDC for a USDC pool). This amount is burned to prevent share inflation attacks and ensure pool integrity.
 :::
+
+**6. Accept curator ownership**
+After creation of the pool, the ownership must be claimed via a blockexplorer like [Voyager](https://voyager.online/). Open the address of your pool, click on **Write Contract** and connect your wallet.
+![create-pool-ownership.png](images/create-pool-ownership.png)
+
+Sroll down to `15. accept_curator_ownership`, click on **Transact** and confirm the transaction in your wallet.
+![create-pool-ownership2.png](images/create-pool-ownership2.png)
