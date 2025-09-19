@@ -18,14 +18,14 @@ Vesu's permissionless nature enables everyone to create new lending pools callin
 
 Click the blue __Create Pool__ button on the Pools [page](http://vesu.xyz/pools).
 
-**1. First set the following parameters:**
+**1. Define Pool**
 - Name of your pool.
 - Set a Starknet account as owner or choose Immutable. If Immutable is selected no changes are possible after the creation of the new pool.
 - Choose the extension contract with lending hook implementations to use for the pool. For the launch there is just one extension from Pragma available. 
 
 (update image)
 
-**2. Define the Extension**
+**2. General Settings**
 - Fee recipient: Set a Starknet account as recipient for fees, or check the Box for “No fees”
 
 Choose if __Emergency pause agent__ should be activated. If activated, specify:
@@ -39,13 +39,14 @@ Add all the assets and their configuration that should be enabled as market or c
 
 For each asset, configure the following parameters:
 
-- Debt Floor
+- Liquidation loan-to-value & Liquidation discount
+- Debt cap
 - Max Utilization
 - Oracle Method
 - vToken Name
 - Interest Rate Model Specifications
 
-(update image)
+(update image, check setting Lending pairs above and update)
 
 **4. Define Lending Pairs**
 
