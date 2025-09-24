@@ -66,9 +66,12 @@ When everything is correct, click __Create Pool__ and confirm the transaction in
 Reminder: A small amount of the token is required to seed the pool (at least 1,000 units in the smallest denomination, such as 0.001 USDC for a USDC pool). This amount is burned to prevent share inflation attacks and ensure pool integrity.
 :::
 
-**6. Accept curator ownership**
+**6. Accept curator ownership** 
+
 After creation of the pool, the ownership must be claimed via a blockexplorer like [Voyager](https://voyager.online/). Open the address of your pool, click on **Write Contract** and connect your wallet.
 ![create-pool-ownership.png](images/create-pool-ownership.png)
 
 Sroll down to `15. accept_curator_ownership`, click on **Transact** and confirm the transaction in your wallet.
 ![create-pool-ownership2.png](images/create-pool-ownership2.png)
+
+Ownership of a pool can be transferred to another account. As an added security layer, the new owner must manually accept ownership via the contract.
