@@ -19,7 +19,7 @@ The oracle then returns the raw price with a price validity flag (true, false) t
 
 ## Data Types
 
-Vesu V2 defines a number of data types, or `struct`s, that are reused across the different components. We here discuss the main types related to the `Pool` contract.
+Vesu V2 defines a number of data types, called `struct` in Cairo, that are reused across the different components. We here discuss the main types related to the `Pool` contract.
 
 ### OracleConfig
 
