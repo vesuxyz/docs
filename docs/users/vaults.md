@@ -37,7 +37,6 @@ The panel shows your expected monthly yield and your current PnL if you already 
 Once confirmed, your position appears in the vault’s activity view and starts generating yield.  
 
 
-
 ## Managing Your Vault Position
 
 After depositing, you can:
@@ -46,7 +45,6 @@ After depositing, you can:
 - Start a redemption process (if applicable)  
 
 -img
-
 
 
 ## Withdrawing from a Vault
