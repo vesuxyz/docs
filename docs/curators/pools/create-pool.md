@@ -5,9 +5,9 @@ sidebar_label: Create Pool
 sidebar_position: 1
 ---
 
-In this section, we'll learn how to create new Vesu markets.
+In this section, we'll learn how to create new Vesu pools.
 
-Vesu's permissionless nature enables everyone to create new lending pools calling the respective protocol function directly (e.g. through a block explorer). An easier way to do it is with the Pools page.
+Vesu's permissionless nature enables everyone to create new lending pools calling the respective protocol function directly (e.g. through a block explorer). An easier way to do it is with the Curator Dashboard.
 
 ## Requirements
 
@@ -16,7 +16,7 @@ Vesu's permissionless nature enables everyone to create new lending pools callin
 
 ## Step-by-step Guide
 
-Click the blue __Create Pool__ button on the Pools [page](http://vesu.xyz/pools).
+Click the blue __Create Pool__ button on the [Curator Dashboard](http://curator.vesu.xyz).
 
 **1. Define Pool**
 - Name of your pool.
