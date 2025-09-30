@@ -12,12 +12,12 @@ Read more about how the rewards work and which markets are eligible [here](../ex
 
 ## Claim STRK rewards
 
-To claim your rewards:
+	
+1.	Click the button showing your connected wallet in the top-right corner.
+This opens the side navigation with your open positions. Select the position you want to view.
 
-1. Head over to the [positions dashboard](https://vesu.xyz/positions).
+2.	Check the **Rewards** section to see if you’ve earned any.
+STRK rewards are distributed weekly and become claimable every Friday (or anytime after).
 
-2. Just above your position(s), you can see a dedicated rewards section.
+3.	Click **Claim** to receive your STRK tokens.
 
-![Defi Spring]
-
-3. Click on the **Claim** button to receive the STRK tokens.

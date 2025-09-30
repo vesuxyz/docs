@@ -9,6 +9,6 @@ The sections includes guides about the following actions:
 - Borrowing against a collateral
 - Using Multiply
 - Managing risk & rewards
-- Claim rewards
+- Claiming rewards
 
 Visit [vesu.xyz](https://vesu.xyz/) for direct access to the app.

@@ -60,4 +60,4 @@ As with all of the Vesu infrastructure we put a strong focus on the security of 
 - $100k [bug bounty program](https://immunefi.com/bounty/vesu/)
 - Strategy mandates and NAV oracles minimize trust assumptions
 
-Read more about audits, security partners, and our full process in the [Security docs](/docs/security/index.md).
+Read more about audits, security partners, and our full process [here](/docs/security/index.md).
