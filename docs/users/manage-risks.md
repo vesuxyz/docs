@@ -27,10 +27,10 @@ These risks exist on every decentralized lending platform, and Vesu is no except
 
 Borrowing on Vesu, or using Multiply (which automates borrowing and swapping back into your collateral), comes with the same core risks. The main things to keep in mind are:
 
-- **Market utilization** affects rates. High utilization can push borrow costs up, while supply returns improve.  
-- **Loan-to-Value (LTV) and liquidation price** must be monitored closely, especially with volatile assets like ETH or wBTC.  
+- Market utilization affects rates. High utilization can push borrow costs up, while supply returns improve.  
+- Loan-to-Value (LTV) and liquidation price must be monitored closely, especially with volatile assets like ETH or wBTC.  
 
-When you borrow (or use Multiply), your risk depends on the mix of collateral and debt.  
+When you borrow or multiply, your risk depends on the mix of collateral and debt.  
 Here are the main strategies, what they mean, and the risks that go with them:
 
 **Stable collateral, volatile debt**  
