@@ -17,8 +17,8 @@ For testing and integration purposes, we have deployed an initial version of the
 | Oracle       | 0xfe4bfb1b353ba51eb34dff963017f94af5a5cf8bdf3dfc191c504657f3c05 |
 | Multiply     | 0x7964760e90baa28841ec94714151e03fbc13321797e68a874e88f27c9d58513 |
 | Liquidate    | 0x6b895ba904fb8f02ed0d74e343161de48e611e9e771be4cc2c997501dbfb418 |
-| DeFi Spring Distributor    | 0x0387f3eb1d98632fbe3440a9f1385aec9d87b6172491d3dd81f1c35a7c61048f |
-
+| DeFi Spring Distributor    | 0x387f3eb1d98632fbe3440a9f1385aec9d87b6172491d3dd81f1c35a7c61048f |
+| BTCFi Distributor    | 0x47ba31cdfc2db9bd20ab8a5b2788f877964482a8548a6e366ce56228ea22fa8 |
 
 
 ## V2 Pools
