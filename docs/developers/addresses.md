@@ -5,9 +5,6 @@ sidebar_label: Contract Addresses
 sidebar_position: 6
 ---
 
-:::danger
-The Vesu V2 protocol is currently in closed beta testing. The contract addresses below have not been audited or thorougly tested. We strongly advise you to only supply insignificant amounts of assets into these contracts.
-:::
 
 For testing and integration purposes, we have deployed an initial version of the Vesu V2 protocol on Starknet mainnet. You can find the contract addresses in the table below.
 

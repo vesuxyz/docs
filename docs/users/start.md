@@ -27,4 +27,4 @@ Some exchanges like Binance also support direct withdrawals to Starknet.
 
 3. Once you see your address on the top right hand corner, you are connected.
 
-Click on the button that now shows your wallet address to access your positions, rewards and history.
+Click on the button that now shows your wallet address to access your positions, rewards and history. 

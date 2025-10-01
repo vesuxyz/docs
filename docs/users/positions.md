@@ -12,6 +12,5 @@ This opens the side navigation with your open positions.
 
 ![positions-1.png](images/positions-1.png)
 
-
 When you click on the position the market page opens, showing you all relevant informations. From here you can deposit more, withdraw partly or close your position.
 ![positions-2.png](images/positions-2.png)

@@ -71,7 +71,7 @@ This gives Vesu stable and predictable behavior for both lenders and borrowers.
 
 ## Liquidations
 
-All positions must stay overcollateralized—collateral value must always exceed debt. If a position exceeds the liquidation loan-to-value set by its pair, it becomes eligible for liquidation.
+All positions must stay overcollateralized. Collateral value must always exceed debt. If a position exceeds the liquidation loan-to-value set by its pair, it becomes eligible for liquidation.
 
 Anyone can repay the debt and receive the collateral at a discount. Vesu uses a full liquidation model: liquidators repay all debt in exchange for discounted collateral.
 
@@ -81,7 +81,7 @@ The example shows a liquidator repaying the full debt and receiving the max elig
 
 ## vTokens
 
-___vTokens___ are ERC-4626 compatible vault tokens that represent your share in a Vesu pool. They simplify supply and withdrawal.
+__vTokens__ are ERC-4626 compatible vault tokens that represent your share in a Vesu pool. They simplify supply and withdrawal.
 
 ![Vesu vTokens](./images/vToken.png)
 
