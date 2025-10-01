@@ -1,7 +1,7 @@
-position: 6
+position: 5
 label: Security
 collapsible: true # make the category collapsible
-collapsed: true # keep the category open by default
+collapsed: true # keep the category collapsed by default
 className: red
 #link:
 #  type: generated-index

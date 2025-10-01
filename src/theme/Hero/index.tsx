@@ -13,8 +13,7 @@ function Hero() {
             <div className="row">
               <div className="col col--8">
                 <h1 className="hero-title">
-                  The Vesu
-                  <br /> Documentation
+                  Vesu Documentation
                 </h1>
 
                 <h2 className="hero-subtitle">
@@ -38,14 +37,14 @@ function Hero() {
                     Read more <SvgArrowRight color="#8A95FF" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/explore/vesu-basics')} className="link">
+                <a href={useBaseUrl('/explore')} className="link">
                   Read more
                 </a>
               </div>
 
-              <div className="box box-user-guides">
+              <div className="box box-users">
                 <div className="text">
-                  <h3 className="title">User Guides</h3>
+                  <h3 className="title">User Guide</h3>
                   <p className="description">
                     Start using Vesu as a lender, borrower or liquidator
                   </p>
@@ -53,14 +52,30 @@ function Hero() {
                     Read more <SvgArrowRight color="#8A95FF" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/user-guides/connect')} className="link">
+                <a href={useBaseUrl('/users')} className="link">
                   Read more
                 </a>
               </div>
 
-              <div className="box box-dev-guides">
+              <div className="box box-risk">
                 <div className="text">
-                  <h3 className="title">Developer Guides</h3>
+                  <h3 className="title">Curator Guide</h3>
+                  <p className="description">
+                    Start curating Pools and Vaults
+                  </p>
+                  <span className="more">
+                    Read more
+                    <SvgArrowRight color="#8A95FF" />
+                  </span>
+                </div>
+                <a href={useBaseUrl('/curators')} className="link">
+                  Read more
+                </a>
+              </div>
+
+              <div className="box box-developers">
+                <div className="text">
+                  <h3 className="title">Developer Guide</h3>
                   <p className="description">
                     Build your own lending hooks and pools
                   </p>
@@ -69,26 +84,11 @@ function Hero() {
                     <SvgArrowRight color="#8A95FF" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/dev-guides/architecture')} className="link">
+                <a href={useBaseUrl('/developers')} className="link">
                   Read more
                 </a>
               </div>
 
-              <div className="box box-risk">
-                <div className="text">
-                  <h3 className="title">Pool Curators</h3>
-                  <p className="description">
-                    Start curating lending pools on Vesu
-                  </p>
-                  <span className="more">
-                    Read more
-                    <SvgArrowRight color="#8A95FF" />
-                  </span>
-                </div>
-                <a href={useBaseUrl('/curators/onboarding')} className="link">
-                  Read more
-                </a>
-              </div>
             </div>
           </div>
         </div>

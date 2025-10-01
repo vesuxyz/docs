@@ -1,3 +1,4 @@
+// Theme variables
 :root {
   --ifm-menu-link-padding-vertical: 5px;
   --ifm-menu-link-padding-horizontal: 15px;
@@ -33,7 +34,7 @@ html[data-theme="dark"] {
   --ifm-menu-color-active: $purple;
   --ifm-menu-color-background-active: #181d27;
   --ifm-menu-color-background-hover: #181d27;
-  --ifm-toc-border-color: #676768;
+  --ifm-toc-border-color: #4b7de2;
   --ifm-toc-link-color: var(--white);
   --ifm-tabs-color: var(--white);
   --ifm-code-color: var(--white);
@@ -62,10 +63,8 @@ hr {
   &__button {
     background-color: $purple !important;
 
-    svg {
-      path {
-        stroke: $white !important;
-      }
+    svg path {
+      stroke: $white !important;
     }
 
     span {
@@ -158,6 +157,7 @@ main:not(.home-main) {
   @include dark {
     background-color: var(--grey-bg-dark);
   }
+
   a {
     text-decoration: none;
     transition: all 0.2s ease-in-out;
@@ -166,7 +166,7 @@ main:not(.home-main) {
       color: $purple-hover;
 
       @include dark {
-        color: #6167b0;
+        color: #2f5fc2;
       }
     }
   }
@@ -176,10 +176,10 @@ main:not(.home-main) {
       h1 {
         line-height: 1.2;
         font-family: $nunito;
-        font-size: 49px;
+        font-size: 36px;
 
         @include mobile {
-          font-size: 39px;
+          font-size: 30px;
         }
 
         @include dark {
@@ -209,28 +209,28 @@ main:not(.home-main) {
 
   h1 {
     line-height: 1.2;
-    font-size: 49px;
+    font-size: 36px;
 
     @include mobile {
-      font-size: 39px;
+      font-size: 30px;
     }
   }
 
   h2 {
     line-height: 1.2;
-    font-size: 38px;
+    font-size: 28px;
 
     @include mobile {
-      font-size: 28px;
+      font-size: 24px;
     }
   }
 
   h3 {
     line-height: 1.2;
-    font-size: 32px;
+    font-size: 22px;
 
     @include mobile {
-      font-size: 22px;
+      font-size: 18px;
     }
   }
 
@@ -303,10 +303,7 @@ main:not(.home-main) {
     }
   }
 
-  &__sublabel {
-    color: $white;
-  }
-
+  &__sublabel,
   &__label {
     color: $white;
   }
@@ -433,11 +430,16 @@ main:not(.home-main) {
 }
 
 code {
-  border-radius: 4px;
+  font-size: 0.9em;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  vertical-align: baseline;
   background-color: $purple-light;
+  color: $black;
 
   @include dark {
-    background-color: #3e44ac;
+    background-color: #2C41F6;
+    color: #fff;
   }
 }
 
@@ -457,6 +459,7 @@ iframe {
 .clean-btn {
   background-color: --grey-bg-light;
   color: black;
+
   @include dark {
     background-color: --grey-bg-dark;
     color: white;
@@ -466,6 +469,7 @@ iframe {
 .thin-scrollbar {
   border-right: 1px solid var(--grey-light);
   background-color: var(--grey-bg-light);
+
   @include dark {
     background-color: var(--grey-bg-dark);
   }
@@ -473,6 +477,7 @@ iframe {
 
 .main-wrapper {
   background-color: var(--grey-bg-light);
+
   @include dark {
     background-color: var(--grey-bg-dark);
   }

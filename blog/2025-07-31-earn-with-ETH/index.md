@@ -52,7 +52,7 @@ Current examples show around 10% APY with a 3x multiplier. You can pick your own
 
 **Risk:** ETH and wstETH prices are correlated, but extreme market stress can break that link.
 If prices decouple too much, your position could be at risk of liquidation.
-Learn more about Multiply in our [Docs](https://docs.vesu.xyz/user-guides/multiply-risks) and choose a multiplier that fits your risk tolerance.
+Learn more about Multiply in our [Docs](https://docs.vesu.xyz/users/multiply-risks) and choose a multiplier that fits your risk tolerance.
 
 ## Make your ETH work
 
@@ -61,6 +61,6 @@ Whether you’re lending, borrowing, or multiplying, Vesu's got you.
 Explore the strategies, choose what fits, and grow your stack.
 
 Got questions or feedback? Come hang in [Discord](https://discord.gg/g9ahVeyp).
-Check out the [Docs](https://docs.vesu.xyz/user-guides) if you want to dig deeper.
+Check out the [Docs](https://docs.vesu.xyz/users) if you want to dig deeper.
 
 Ethereum isn’t slowing down. Neither should your yield.

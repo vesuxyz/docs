@@ -10,7 +10,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "Vesu Knowledge Hub",
   tagline:
-    "Learn all about Vesu Markets and the Vesu Risk Framework. Find lend, borrow & liquidate manuals and documentation to build your own lending experience on top of Vesu.",
+    "Learn how to use and build on Vesu. Supply, borrow, and multiply crypto assets on Starknet",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -40,6 +40,25 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/vesu.png",
+      metadata: [
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:image', content: 'https://vesu.xyz/img/vesu.png' },
+      { name: 'twitter:title', content: 'Vesu Knowledge Hub' },
+      { name: 'twitter:description', content: 'Learn how to use and build on Vesu. Supply, borrow, and multiply crypto assets on Starknet.' },
+      { property: 'og:image', content: 'https://vesu.xyz/img/vesu.png' },
+      { property: 'og:url', content: 'https://docs.vesu.xyz/' },
+      { property: 'og:locale', content: 'en' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:title', content: 'Vesu Knowledge Hub' },
+      { property: 'og:description', content: 'Learn how to use and build on Vesu. Supply, borrow, and multiply crypto assets on Starknet.' }
+      ],
+      algolia: {
+        appId: 'QOJ022CPNR',
+        apiKey: 'bdc1c4e96d4e886d1b993bd5aa909c54',
+        indexName: 'vesu',
+        searchPagePath: 'search',
+      },
+
       navbar: {
         style: "dark",
         title: null,
@@ -50,12 +69,12 @@ const config = {
         },
         hideOnScroll: true,
         items: [
-          {
+          { // Uses the algolia search plugin (see config below)
             type: "search",
             position: "right",
           },
           {
-            to: "/intro",
+            to: "/explore",
             activeBasePath: "docs",
             label: "Read Docs",
             position: "right",
@@ -80,67 +99,12 @@ const config = {
             title: "Explore",
             items: [
               {
-                label: "Whitepaper",
-                to: "/explore/whitepaper",
+                label: "Glossary",
+                to: "/explore/glossary",
               },
               {
-                label: "Architecture",
-                to: "/dev-guides/architecture",
-              },
-              {
-                label: "DeFi Spring",
-                to: "/explore/defi-spring",
-              },
-            ],
-          },
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "User Guides",
-                to: "/user-guides/connect",
-              },
-              {
-                label: "Developer Guides",
-                to: "/dev-guides/architecture",
-              },
-              {
-                label: "Risk Framework",
-                to: "/explore/risk-framework",
-              },
-            ],
-          },
-          {
-            title: "Curators",
-            items: [
-              {
-                label: "Onboarding",
-                to: "/curators/onboarding",
-              },
-              {
-                label: "Listing",
-                to: "/curators/listing",
-              },
-              {
-                label: "Risk Reports",
-                to: "/curators/risk-reports",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "Security",
-                to: "/security/security-basics",
-              },
-              {
-                label: "Contracts",
-                to: "/dev-guides/contract-addresses",
+                label: "STRK Rewards",
+                to: "/explore/rewards",
               },
             ],
           },
@@ -159,6 +123,61 @@ const config = {
                 label: "Discord",
                 href: "https://discord.gg/G9Gxgujj8T",
               },
+              {
+                label: "Telegram",
+                href: "https://telegram.me/VesuChat",
+              },
+            ],
+          },
+          {
+            title: "Security",
+            items: [
+              {
+                label: "Audits",
+                to: "/security/audits",
+              },
+              {
+                label: "Bug Bounty",
+                href: "https://immunefi.com/bounty/vesu",
+              },
+              {
+                label: "Monitoring",
+                to: "/security/monitoring",
+              },
+              {
+                label: "Contact",
+                to: "/security",
+              },
+            ],
+          },
+        {
+            title: "Legal",
+            items: [
+              {
+                label: "Terms of Service",
+                href: "https://vesu.xyz/terms-of-services",
+              },
+              {
+                label: "Privacy Policy",
+                href: "https://vesu.xyz/privacy",
+              },
+            ],
+          },
+          {
+            title: "More",
+            items: [
+              {
+                label: "GitHub",
+                href: "https://github.com/vesuxyz",
+              },
+              {
+                label: "Dune",
+                href: "https://dune.com/vesu",
+              },
+              {
+                label: "Defillama",
+                href: "https://defillama.com/protocol/vesu",
+              },
             ],
           },
         ],
@@ -174,6 +193,36 @@ const config = {
         // Hides the switch in the navbar
         // Useful if you want to support a single color mode
         disableSwitch: false,
+      },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'QOJ022CPNR',
+
+        // Public API key: it is safe to commit it
+        apiKey: '50ffc927a41a2d11f4e6b83c3eba7110',
+
+        indexName: 'vesu',
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: 'external\\.com|domain\\.com',
+
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        replaceSearchResultPathname: {
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/',
+        },
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: false,
+
+        // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+        insights: false,
       },
       // announcementBar: {
       //   id: "vesu-1-0-release", // Any value that will identify this message.
@@ -194,7 +243,7 @@ const config = {
           routeBasePath: "/",
           path: "docs",
           sidebarPath: require.resolve("./sidebars.js"),
-          showLastUpdateTime: true,
+          showLastUpdateTime: false,
           editUrl: "https://github.com/vesuxyz/docs/main/",
         },
         blog: {

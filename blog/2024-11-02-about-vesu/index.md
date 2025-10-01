@@ -42,7 +42,7 @@ Here’s what makes Vesu different and how we aim to improve DeFi:
 - **Better Risk Control**: All lending pools have separate risks that don’t affect other pools. Within a pool, depositors share risk only with others in the same pool. Each lending pair within a pool has a specific maximal loan-to-value (LTV) ratio, set by the pool creator, which is critical for enabling both capital efficiency and liquidation safety.
 - **Innovation**: By creating a flexible and open infrastructure we enable continuous development and innovation, allowing both our team and external developers to build on top of Vesu’s platform. Examples of this include features like Multiply and the upcoming Automations.
 - **Create New Market**: Anyone can create new markets tailored to their preferences, including custom settings like loan-to-value (LTV) ratios, interest rate models, or oracle choices, among others.
-- **Security**: Keeping user funds safe is the highest priority. We have [multiple audits](https://docs.vesu.xyz/security/security-audit) and a [$100,000 Immunefi bug bounty](https://immunefi.com/bug-bounty/vesu/information/). The Vesu team is publicly known, with strong security practices. We take these and many more steps to keep Vesu safe and secure.
+- **Security**: Keeping user funds safe is the highest priority. We have [multiple audits](https://docs.vesu.xyz/security/audits) and a [$100,000 Immunefi bug bounty](https://immunefi.com/bug-bounty/vesu/information/). The Vesu team is publicly known, with strong security practices. We take these and many more steps to keep Vesu safe and secure.
 
 ## Next Steps
 

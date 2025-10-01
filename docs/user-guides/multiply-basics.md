@@ -1,68 +1,38 @@
 ---
 id: multiply-basics
-title: Multiply Basics
-sidebar_label: Multiply Basics
-sidebar_position: 6
-slug: /user-guides/multiply-basics
+title: How to Multiply
+sidebar_label: Multiply
+sidebar_position: 4
 ---
 
-The **Multiply** feature helps users increase their exposure to an asset (e.g. ETH) and its yield with a single transaction. It’s fast and efficient, designed for users who want to boost their position without going through multiple manual steps.
+This guide walks you through opening and closing a Multiply position.
 
-## Difference Between Borrowing and Multiply
-Let’s first explore how Borrowing and Multiply work, and what sets them apart.
+## Opening a Position
+Use Multiply to increase your exposure and yield for a specific asset.
 
-### **Borrowing**
-When you deposit a token as collateral, you can borrow another token, like USDC, which you can use however you like. Whether that’s holding it in your wallet, using it in other DeFi products, or deposit again to Vesu.
+1. Go to [vesu.xyz/multiply](https://vesu.xyz/multiply) and pick a market. 
+Use the filters to choose your collateral/borrow pair. You can also show only tokens in your wallet, or filter by curator and pool.  
 
-**Closing the Position:** When you close, you’ll need to repay the borrowed, and once the debt is repaid, your collateral will be returned to your wallet.
+![multiply-1.png](images/multiply-1.png)
 
-![Borrowing Position](images/borrowing-basics.png)
+2. On the market page, check the key info for that pair: Net APR, max multiplier, liquidity, liquidation price, and loan-to-value.  
 
-### **Multiply**
-This feature helps you increase exposure to the token you deposit. It’s similar to manual looping, but automated.
-Here’s how it works with an example using ETH and USDC:
+![multiply-2.png](images/multiply-2.png)
 
-1. You deposit ETH into Vesu.
-2. Vesu borrows USDC and swaps it for more ETH, giving you increased exposure to ETH and ETH yield.
+3. Enter the amount you want to **deposit** and choose your **Loan to value**. 
+The borrow amount is calculated automatically. Make sure you’re comfortable with the shown monthly yield/cost, liquidation price, and multiplier.  
 
-There’s no need to repeat any steps. The whole process happens automatically in a single action.
 
-**Closing the Position:** When you close, Vesu will use some of your ETH to repay the USDC debt, and any remaining ETH will be returned to your wallet.
+4. Click **Start multiplying** and confirm in your wallet.  
+Once confirmed, your position appears in your overview and starts accruing according to the displayed net APR.
 
-![Multiply Position](images/multiply-basics.png)
 
-## Understanding the User Interface (UI)
-Let’s explore the UI with an example to understand how Multiply works and what you need to keep in mind.
+## Closing a Position
+To close a Multiply position:
 
-![Multiply UI](images/multiply-ui.png)
+1. Click the button showing your connected wallet in the top-right corner.
+This opens the side navigation with your open positions. Select the position you want to close. 
 
-In this example, you're increasing your exposure to ETH by borrowing USDC. This doubles your exposure (2x) to ETH and increases your position's APY from 8% to 15.59%, reflecting the higher potential returns but also the increased risk. Your loan-to-value (LTV) rises to 50%, and the liquidation price is set at $1,716.66, meaning that if ETH's price falls to this level, your position gets liquidated. 
+2. Click **Close** and approve the transaction in your wallet.
 
-If you click on "More details" you'll see a breakdown of your Multiply position. 
-
-![Multiply UI - More details](images/multiply-ui-more-details.png)
-
-Here you can see all key parameters that influence your Multiply position. In addition to these parameters, you can also:
-
-- Adjust slippage to set the maximal difference between the expected price of a trade and the price at which the trade is executed.
-- Refresh the quote to make sure the information you’re seeing is up to date, reflecting the latest market prices.
-
-## Important Factors for Multiply Positions
-When using the Multiply feature, here are some key factors to consider:
-
-**Borrow APR vs. Supply APY**
-- **Supply APY** is what you earn on assets you supply.
-- **Borrow APR** is the interest you pay on borrowed assets.
-
-The Supply APY should be higher than the Borrow APR to ensure that the yield from the supplied asset offsets the interest on borrowed funds.
-
-**Loan-to-Value (LTV) & Liquidation Risk**
-- A higher LTV increases the chance of liquidation. Keep an eye on the liquidation price, especially when borrowing volatile assets.
-
-**Position & Market Monitoring**
-Monitor both the price of the borrowed asset and the collateral. 
-- Volatile assets like ETH, STRK, or wBTC can rise or fall quickly, potentially triggering liquidation.
-- Stablecoins (USDC, USDC) as collateral are less risky because they hold their value.
-
-## Conclusion
-The Multiply feature offers a simple and efficient way to increase your exposure and boost potential returns with just one transaction. By understanding the key parameters and using the available information, you can optimize your strategy and manage your position effectively.
+3. Once confirmed, the position unwinds and your collateral returns to your wallet.  
