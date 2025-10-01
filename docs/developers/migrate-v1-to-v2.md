@@ -6,7 +6,7 @@ sidebar_position: 5
 ---
 
 :::warning
-Migration of positions from the Vesu V1 version is not mandatory. Vesu V1 pools will continue to be supported and there is no risk of maintaining positions in the V1 version. However, liquidity will naturally migrate to the Vesu V2 pools as these will be more deeply integrated in the Starknet ecosystem going forward. **Users, and in particular borrowers, are thus advised to monitor V1 pools and migrate their positions as the borrow conditions indicate decreasing liquidity.**
+Migration of positions from the Vesu V1 version is not mandatory. Vesu V1 pools will continue to be supported and there is no risk of maintaining positions in the V1 version. However, liquidity will naturally migrate to the Vesu V2 pools as these will be more deeply integrated in the Starknet ecosystem going forward. **Users, and in particular borrowers, are advised to monitor V1 pools and migrate their positions as the borrow conditions indicate decreasing liquidity.**
 :::
 
 ## Migration steps
@@ -15,11 +15,7 @@ Since the migration of Vesu V1 positions is not required, we don't automate that
 
 ## Vesu V2 addresses
 
-:::danger
-The Vesu V2 protocol is currently in closed beta testing. The contract addresses below have not been audited or thorougly tested. We strongly advise you to only supply insignificant amounts of assets into these contracts.
-:::
-
-We have deployed a version of the Vesu V2 protocol on Starknet mainnet for testing and integration purposes. Find the contract addresses [here](/docs/developers/addresses.md).
+Find the contract addresses [here](/docs/developers/addresses.md).
 
 ## Breaking changes
 

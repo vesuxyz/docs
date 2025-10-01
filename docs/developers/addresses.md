@@ -5,8 +5,7 @@ sidebar_label: Contract Addresses
 sidebar_position: 6
 ---
 
-
-For testing and integration purposes, we have deployed an initial version of the Vesu V2 protocol on Starknet mainnet. You can find the contract addresses in the table below.
+Below are the deployed contract addresses for Vesu V2 on Starknet Mainnet.
 
 | Contract     | Address |
 |--------------|---------|
