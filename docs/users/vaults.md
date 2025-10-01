@@ -47,7 +47,6 @@ After depositing, you can:
 
 1. Click the button showing your connected wallet in the top-right corner.
 This opens the side navigation with your open positions. Select the position you want to close. 
-
 2. Enter the amount and hit **Redeem**.
 2. If the vault has a redemption delay, your funds will be claimable after the delay period ends.  
 3. Once ready, click **Claim** to receive the assets back in your wallet.  
