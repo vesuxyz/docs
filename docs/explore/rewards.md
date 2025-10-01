@@ -15,7 +15,10 @@ The Starknet Foundation’s **BTCfi Season** will launch soon, designed to:
 - Create efficient markets for BTC assets  
 - Open new opportunities for Bitcoin users  
 
-Vesu will be part of the program, details **TBA**.  
+Vesu is part of the program, details **TBA**.  
+
+For more information, visit the official [BTCFi Season](https://btcfiseason.starknet.org/) website.
+
 
 
 ## DeFi Spring
@@ -56,6 +59,6 @@ The following markets are eligible for DeFi Spring rewards:
 The Starknet Foundation distributes STRK grants every week to the participating protocols. You are able to claim your earned share of this allocation, once distributed by the Starknet Foundation, through a permissionless contract on Starknet.
 
 :::tip
-Learn more about how to claim your allocations in this [guide](../users/claim-rewards.md).
+Learn more about how to claim your allocations in this [guide](../user-guides/claim-rewards.md).
 :::
 
