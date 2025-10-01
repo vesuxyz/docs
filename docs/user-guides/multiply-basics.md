@@ -1,5 +1,5 @@
 ---
-id: multiply
+id: multiply-basics
 title: How to Multiply
 sidebar_label: Multiply
 sidebar_position: 4
