@@ -57,7 +57,7 @@ Vesu V2 takes everything learned from V1 and builds an even stronger foundation 
 - **Vaults:** simply deposit to the vault to enjoy complex yield strategies on autopilot, enforced fully on-chain
 - **Security first:** Multiple audits; $100K Immunefi bug bounty and new features like onchain monitoring by Hypernative.
 
-![multiply.png](images/multiply.png)
+![Position and market view](images/wBTCUSDC.png)
 
 Vesu V2 strengthens UX and security while unlocking support for new assets and strategies. It is the liquidity hub for BTCFi on Starknet.
 
