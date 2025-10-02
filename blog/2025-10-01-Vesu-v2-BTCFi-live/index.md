@@ -21,6 +21,8 @@ Bitcoin is great, but using it has been tough. Until now, choices were limited: 
 
 For the first time, you can access cheap liquidity. Without selling or giving up self-custody.
 
+![borrow-usdc.png](images/borrow-usdc.png)
+
 **Example**: Deposit **LBTC** into the new **Re7 USDC Core** pool to borrow **USDC**. Your borrow costs get subsidized by STRK rewards.
 
 Use the extra liquidity as you like, deploy it into yield strategies, or spend with the Ready Card.
@@ -29,6 +31,8 @@ Use the extra liquidity as you like, deploy it into yield strategies, or spend w
 Supplying Bitcoin earns BTCFi rewards and interest from borrowers.
 
 The new **Re7 xBTC** pool pairs staked Bitcoin with their native assets and creates strong borrow demand as users boost exposure and yield with Vesu’s Multiply feature. This leads to a healthy organic yield on top.
+
+![earn.png](images/earn.png)
 
 **Looking for something even simpler?** Vesu V2 introduces Vaults. A new strategy layer that automates yield on autopilot. At launch, we’re kicking things off with Bitcoin Vaults curated by 0D. Deposit BTC once. It gets supplied into Vesu, borrows stablecoins, and allocates them into 0D institutional-grade yield strategies. No micromanaging, no more chasing APRs.
 
@@ -53,7 +57,7 @@ Vesu V2 takes everything learned from V1 and builds an even stronger foundation 
 - **Vaults:** simply deposit to the vault to enjoy complex yield strategies on autopilot, enforced fully on-chain
 - **Security first:** Multiple audits; $100K Immunefi bug bounty and new features like onchain monitoring by Hypernative.
 
-![New frontend.png](images/index.png)
+![multiply.png](images/multiply.png)
 
 Vesu V2 strengthens UX and security while unlocking support for new assets and strategies. It is the liquidity hub for BTCFi on Starknet.
 
