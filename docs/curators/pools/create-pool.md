@@ -20,7 +20,7 @@ Click the blue __Create Pool__ button on the [Curator Dashboard](http://curator.
 
 **1. Define Pool**
 - Name of your pool.
-- Set a Starknet account as owner.
+- Enter the Starknet wallet address that will be the curator (pool owner).
 
 ![create-pool-1.png](images/create-pool-1.png)
 
