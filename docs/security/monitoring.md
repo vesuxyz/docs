@@ -5,4 +5,6 @@ sidebar_label: Monitoring
 sidebar_position: 3
 ---
 
-Explain hypernative setup
+:::info
+Info about the Hypernative onchain monitoring will be added shortly.
+:::

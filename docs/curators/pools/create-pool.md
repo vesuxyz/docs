@@ -20,15 +20,14 @@ Click the blue __Create Pool__ button on the [Curator Dashboard](http://curator.
 
 **1. Define Pool**
 - Name of your pool.
-- Set a Starknet account as owner or choose Immutable. If Immutable is selected no changes are possible after the creation of the new pool.
-- Choose the extension contract with lending hook implementations to use for the pool. For the launch there is just one extension from Pragma available. 
+- Set a Starknet account as owner.
 
-(update image)
+![create-pool-1.png](images/create-pool-1.png)
 
 **2. General Settings**
 - Fee recipient: Set a Starknet account as recipient for fees, or check the Box for “No fees”
 
-Choose if __Emergency pause agent__ should be activated. If enabled, this Hypernative agent will pause the pool in case of an emergency to protect users. As the pool curator, you will be able to unpause the pool again at any time.
+The __Emergency pause agent__ can be activated after the creation of the pool. The Hypernative agent will pause the pool in case of an emergency to protect users. As the pool curator, you will be able to unpause the pool again at any time. Please contact the Vesu team if you want to activate this feature.
 
 ![create-pool-2.png](images/create-pool-2.png)
 
