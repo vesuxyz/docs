@@ -5,8 +5,7 @@ sidebar_label: Rewards
 sidebar_position: 5
 ---
 
-Vesu users can currently earn STRK rewards through **two active ecosystem programs** by the Starknet Foundation: **BTCFi Season** & **DeFi Spring**.  
-Each program has its own goals, focus assets, and reward structure.
+Vesu users can currently earn STRK rewards through two active ecosystem programs by the Starknet Foundation: [BTCFi Season](#btcfi-season) and [DeFi Spring](#defi-spring). Each program has its own goals, focus assets, and reward structure.
 
 
 ## BTCFi Season
@@ -14,11 +13,11 @@ Each program has its own goals, focus assets, and reward structure.
 The Starknet Foundation allocated 100 million STRK to bootstrap the BTCFi ecosystem.  
 Unlike past programs that focused on static TVL, BTCFi Season rewards **active BTC usage**, especially **borrowing stablecoins against BTC collateral**.
 
-Vesu plays a central role as one of the main money markets where users can supply BTC and borrow stablecoins directly on Starknet. By doing so, participants help unlock liquidity for the ecosystem while keeping full custody of their BTC.
+Vesu plays a central role as the main money market where users can supply Bitcoin and borrow stablecoins directly on Starknet. The goal is to bootstrap real BTC utility, allowing Bitcoin holders to use their assets productively while staying in full self-custody.
 
 ### Eligible Markets
 
-**BTC assets:**
+**BTC Collateral:**
 - WBTC  
 - LBTC  
 - SolvBTC  
@@ -26,19 +25,24 @@ Vesu plays a central role as one of the main money markets where users can suppl
 - uniBTC (soon)  
 - YBTC.B (soon)  
 
-**Stablecoins (borrowed against BTC assets):**
+**Borrowable Stablecoins:**
 - USDC  
 - USDT  
 - CASH  
 
-Rewards are distributed by the Starknet Foundation to participating protocols based on on-chain activity.  
+:::note
+To qualify for BTCFi rewards, stablecoins must be **borrowed against eligible BTC collateral**.
+:::
+
+
+Rewards are distributed by the Starknet Foundation to participating protocols based on activity.  
 Vesu does not manage or guarantee the distribution schedule or amounts.
 
 For more information, visit the official [BTCFi Season website](https://btcfiseason.starknet.org/).
 
 ## DeFi Spring
-The Starknet Foundation allocates STRK rewards to participating protocols, such as Vesu, based on a set of activity metrics. These metrics determine the weekly distribution of STRK tokens to each protocol. For more information, visit the official [DeFi Spring](https://defispring.starknet.io/about) page.
 
+The Starknet Foundation allocates STRK rewards to participating protocols, such as Vesu, based on a set of activity metrics. These metrics determine the weekly distribution of STRK tokens to each protocol. For more information, visit the official [DeFi Spring](https://defispring.starknet.io/about) page.
 
 ### How is my STRK allocation determined?
 
@@ -63,7 +67,7 @@ The following markets are eligible for DeFi Spring rewards:
 - USDT
 
 :::note
-According to the Starknet Foundation’s criteria, only non-recursive deposits of stablecoins (USDC/USDT) are eligible for STRK rewards. For example, if you deposit USDC and borrow USDT, you’ll still earn the organic Supply APY on your USDC, but you won’t receive any extra STRK rewards due to the USDT debt.
+According to the Starknet Foundation’s criteria, only non-recursive deposits of stablecoins (USDC/USDT) are eligible for DeFi Spring rewards. For example, if you deposit USDC and borrow USDT, you’ll still earn the organic Supply APY on your USDC, but you won’t receive any extra STRK rewards due to the USDT debt.
 :::
 
 ## Claiming Rewards
