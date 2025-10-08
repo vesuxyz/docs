@@ -31,14 +31,14 @@ Vesu plays a central role as the main money market where users can supply Bitcoi
 - CASH  
 
 :::note
-To qualify for BTCFi rewards, stablecoins must be **borrowed against eligible BTC collateral**.
+To qualify for BTCFi rewards, stablecoins must be borrowed against eligible BTC collateral.
 :::
-
 
 Rewards are distributed by the Starknet Foundation to participating protocols based on activity.  
 Vesu does not manage or guarantee the distribution schedule or amounts.
 
 For more information, visit the official [BTCFi Season website](https://btcfiseason.starknet.org/).
+
 
 ## DeFi Spring
 
