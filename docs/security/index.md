@@ -11,9 +11,9 @@ This is why we have partnered with leading DeFi security experts like
 
 You can find all audit reports and verification hashes in the [Audit Overview](./audits.md).
 
-Please submit any bug/vulnerability report through our [Bug Bounty Program](https://immunefi.com).
+Please submit any bug/vulnerability report through our [Bug Bounty Program](https://immunefi.com/bug-bounty/vesu/information/).
 For further inquiries please reach out to [security@vesu.xyz](mailto:security@vesu.xyz).
 
-If the [Vesu website](https://vesu.xyz) is ever unavailable, funds remain safe and accessible on Starknet.  
-You can also use the [Lite Frontend](https://lite.vesu.xyz) to view positions, withdraw or repay assets,  
-and access deprecated assets, i.e. sSTRK, not shown on the main site.
+If the Vesu website is ever unavailable, funds remain safe and accessible through the [Lite Frontend](https://lite.vesu.xyz), which allows viewing or closing positions and accessing deprecated assets like sSTRK.
+
+If the Vesu website is ever unavailable, funds remain safe and fully accessible through the [Lite Frontend](https://lite.vesu.xyz), which allows viewing or closing positions. It can also be used to access certain deprecated assets that are no longer displayed on the main frontend.
