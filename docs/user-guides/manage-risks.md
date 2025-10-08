@@ -35,17 +35,17 @@ When you borrow or multiply, your risk depends on the mix of collateral and debt
 Here are the main strategies, what they mean, and the risks that go with them:
 
 **Stable collateral, volatile debt**  
-Example: deposit USDC, borrow ETH.  
+Example: deposit USDC, borrow ETH  
 Effectively short ETH. If ETH rises, repaying becomes more expensive, your LTV increases, and liquidation risk grows.  
 
 **Volatile collateral, stable debt**  
-Example: deposit ETH, borrow USDC.  
+Example: deposit ETH, borrow USDC  
 Effectively long ETH. If ETH falls, collateral value drops, LTV rises, and liquidation risk increases.  
 
 **Volatile collateral and volatile debt**  
-Example: deposit ETH, borrow wBTC.  
+Example: deposit ETH, borrow wBTC  
 You’re exposed to both assets. If their prices move differently, your position can shift quickly, increasing or reducing risk depending on the direction. Close monitoring is required. 
 
 **Correlated collateral and debt**  
-Example: ETH/wstETH.  
+Example: ETH/wstETH 
 Typically more stable since both assets are expected move together. Risks appear if correlation weakens or if borrowing costs exceed the yield on your supplied asset.
