@@ -55,7 +55,7 @@ Your allocation of STRK tokens depends on two factors:
 You can track your total interest earnings (across all markets) on the [Vesu Leaderboard](./leaderboard.md).
 :::
 
-### Which markets are eligible?
+### Eligible Markets
 
 The following markets are eligible for DeFi Spring rewards:
 
