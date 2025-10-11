@@ -5,31 +5,44 @@ sidebar_label: Rewards
 sidebar_position: 5
 ---
 
-Vesu users can earn additional rewards through ecosystem programs on Starknet.
+Vesu users can currently earn STRK rewards through two active ecosystem programs by the Starknet Foundation: [BTCFi Season](#btcfi-season) and [DeFi Spring](#defi-spring). Each program has its own goals, focus assets, and reward structure.
 
-## BTCfi Season
-A new era of Bitcoin liquidity is coming to Starknet.  
 
-The Starknet Foundation’s **BTCfi Season** will launch soon, designed to:  
-- Bring Bitcoin liquidity to Starknet  
-- Create efficient markets for BTC assets  
-- Open new opportunities for Bitcoin users  
+## BTCFi Season
 
-Vesu is part of the program, details **TBA**.  
+The Starknet Foundation allocated 100 million STRK to bootstrap the BTCFi ecosystem.  
+Unlike past programs that focused on static TVL, BTCFi Season rewards **active BTC usage**, especially **borrowing stablecoins against BTC collateral**.
 
-For more information, visit the official [BTCFi Season](https://btcfiseason.starknet.org/) website.
+Vesu plays a central role as the main money market where users can supply Bitcoin and borrow stablecoins directly on Starknet. The goal is to bootstrap real BTC utility, allowing Bitcoin holders to use their assets productively while staying in full self-custody.
 
+### Eligible Markets
+
+**BTC Collateral:**
+- WBTC  
+- LBTC  
+- SolvBTC  
+- tBTC  
+- uniBTC (soon)  
+- YBTC.B (soon)  
+
+**Borrowable Stablecoins:**
+- USDC  
+- USDT  
+- CASH  
+
+:::note
+To qualify for BTCFi rewards, stablecoins must be borrowed against eligible BTC collateral.
+:::
+
+Rewards are distributed by the Starknet Foundation to participating protocols based on activity.  
+Vesu does not manage or guarantee the distribution schedule or amounts.
+
+For more information, visit the official [BTCFi Season website](https://btcfiseason.starknet.org/).
 
 
 ## DeFi Spring
+
 The Starknet Foundation allocates STRK rewards to participating protocols, such as Vesu, based on a set of activity metrics. These metrics determine the weekly distribution of STRK tokens to each protocol. For more information, visit the official [DeFi Spring](https://defispring.starknet.io/about) page.
-
-### How can I earn STRK on Vesu?
-Simply supply assets to any of the [eligible markets](#which-markets-are-eligible).
-
-:::note
-According to the Starknet Foundation’s criteria, only non-recursive deposits of stablecoins (USDC/USDT) are eligible for STRK rewards. For example, if you deposit USDC and borrow USDT, you’ll still earn the organic Supply APY on your USDC, but you won’t receive any extra STRK rewards due to the USDT debt.
-:::
 
 ### How is my STRK allocation determined?
 
@@ -42,7 +55,7 @@ Your allocation of STRK tokens depends on two factors:
 You can track your total interest earnings (across all markets) on the [Vesu Leaderboard](./leaderboard.md).
 :::
 
-### Which markets are eligible?
+### Eligible Markets
 
 The following markets are eligible for DeFi Spring rewards:
 
@@ -50,15 +63,18 @@ The following markets are eligible for DeFi Spring rewards:
 - xSTRK
 - wstETH
 - ETH
-- wBTC
 - USDC
 - USDT
 
-### How are STRK tokens distributed?
+:::note
+According to the Starknet Foundation’s criteria, only non-recursive deposits of stablecoins (USDC/USDT) are eligible for DeFi Spring rewards. For example, if you deposit USDC and borrow USDT, you’ll still earn the organic Supply APY on your USDC, but you won’t receive any extra STRK rewards due to the USDT debt.
+:::
 
-The Starknet Foundation distributes STRK grants every week to the participating protocols. You are able to claim your earned share of this allocation, once distributed by the Starknet Foundation, through a permissionless contract on Starknet.
+## Claiming Rewards
+The Starknet Foundation distributes STRK rewards weekly to participating protocols.  
+Once distributed, users can claim their earned share directly on Starknet via a permissionless contract.
 
 :::tip
-Learn more about how to claim your allocations in this [guide](../user-guides/claim-rewards.md).
+Learn more about claiming rewards in this [guide](../user-guides/claim-rewards.md).
 :::
 
