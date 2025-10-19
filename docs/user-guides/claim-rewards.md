@@ -14,7 +14,7 @@ Read more about how the rewards work and which markets are eligible [here](../ex
 
 	
 1.	Click the button showing your connected wallet in the top-right corner.
-This opens the side navigation with your open positions. Select the position you want to view.
+This opens the side navigation with your open positions.
 
 2.	Check the **Rewards** section to see if you’ve earned any.
 STRK rewards are distributed weekly and become claimable every Friday (or anytime after).
