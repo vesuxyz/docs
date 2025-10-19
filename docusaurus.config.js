@@ -42,10 +42,10 @@ const config = {
       image: "img/vesu.png",
       metadata: [
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:image', content: 'https://vesu.xyz/img/vesu.png' },
+      { name: 'twitter:image', content: 'https://docs.vesu.xyz/img/vesu.png' },
       { name: 'twitter:title', content: 'Vesu Knowledge Hub' },
       { name: 'twitter:description', content: 'Learn how to use and build on Vesu. Supply, borrow, and multiply crypto assets on Starknet.' },
-      { property: 'og:image', content: 'https://vesu.xyz/img/vesu.png' },
+      { property: 'og:image', content: 'https://docs.vesu.xyz/img/vesu.png' },
       { property: 'og:url', content: 'https://docs.vesu.xyz/' },
       { property: 'og:locale', content: 'en' },
       { property: 'og:type', content: 'website' },

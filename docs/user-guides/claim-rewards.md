@@ -18,6 +18,6 @@ This opens the side navigation with your open positions. Select the position you
 
 2.	Check the **Rewards** section to see if you’ve earned any.
 STRK rewards are distributed weekly and become claimable every Friday (or anytime after).
+![Claim Rewards](images/claim-rewards.png)
 
 3.	Click **Claim** to receive your STRK tokens.
-
