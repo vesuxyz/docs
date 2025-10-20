@@ -18,6 +18,15 @@ The liquidation bot indexes and monitors Vesu positions continuously to identify
 
 You can find more information on the liquidation bot under the following links:
 
+V1
 - Liquidate contract source code on Vesu's [GitHub](https://github.com/vesuxyz/vesu-periphery/blob/main/src/liquidate.cairo)
 - Liquidation bot source code on Pragma's [GitHub](https://github.com/astraly-labs/vesu-liquidator)
 - Pragma explainer blog post [here](https://blog.pragma.build/announcing-the-open-source-liquidation-bot-for-vesu/)
+
+V2
+- Liquidate contract source code on Vesu's [GitHub](https://github.com/vesuxyz/vesu-v2-periphery/blob/main/src/liquidate.cairo )
+- Liquidation bot source code on Pragma's [GitHub](https://github.com/astraly-labs/vesu-v2-liquidator)
+
+
+
+
