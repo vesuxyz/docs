@@ -20,4 +20,4 @@ The wstETH contract has been updated by the Starknet Foundation due to the need 
 2. Migrate your wstETH via the official [wstETH Migration Hub](https://wstethmigration.starknet.io/)
 3. Reopen your position on [vesu.xyz](https://vesu.xyz/) using the new wstETH.
 
-If anything is unclear, [open a ticket on Discord](https://discord.gg/EnGxxWSZ) and we’ll help.
+If anything is unclear, [open a ticket on Discord](https://discord.com/invite/G9Gxgujj8T) and we’ll help.
