@@ -52,7 +52,7 @@ function Hero() {
                     Read more <SvgArrowRight color="#8A95FF" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/users')} className="link">
+                <a href={useBaseUrl('/user-guides')} className="link">
                   Read more
                 </a>
               </div>
