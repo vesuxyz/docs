@@ -14,10 +14,20 @@ The following diagram outlines the bot's architecture and main components:
 ![Vesu Liquidation Bot](./images/vesu-liquidation-bot.png)
 _Source: Publication in Pragma's blog [here](https://blog.pragma.build/announcing-the-open-source-liquidation-bot-for-vesu/)._
 
-The liquidation bot indexes and monitors Vesu positions continuously to identify insolvent positions. Such positions are then immediately executed in a fully capital-neutral manner using our `Liquidate` periphery contract and _flash loans_. 
+The liquidation bot indexes and monitors Vesu positions continuously to identify insolvent positions. Such positions are then immediately executed in a fully capital-neutral manner using our `Liquidate` periphery contract and flash loans. 
 
-You can find more information on the liquidation bot under the following links:
+With Vesu V2, a new liquidation bot was introduced to match the updated contract architecture.  
+There are now two bots, one for V1 pools and one for V2 pools, each optimized for their respective deployment.
 
+**Vesu V1**
 - Liquidate contract source code on Vesu's [GitHub](https://github.com/vesuxyz/vesu-periphery/blob/main/src/liquidate.cairo)
 - Liquidation bot source code on Pragma's [GitHub](https://github.com/astraly-labs/vesu-liquidator)
 - Pragma explainer blog post [here](https://blog.pragma.build/announcing-the-open-source-liquidation-bot-for-vesu/)
+
+**Vesu V2**
+- Liquidate contract source code on Vesu's [GitHub](https://github.com/vesuxyz/vesu-v2-periphery/blob/main/src/liquidate.cairo )
+- Liquidation bot source code on Pragma's [GitHub](https://github.com/astraly-labs/vesu-v2-liquidator)
+
+
+
+
