@@ -65,4 +65,4 @@ Vesu is built for those who want their Bitcoin to do more: to stay self-custodia
 
 Security is non-negotiable when it comes to Bitcoin. Vesu’s smart contracts have been [audited by multiple independent firms](https://docs.vesu.xyz/security/audits), and there is a [$100K Immunefi bug bounty](https://docs.vesu.xyz/security/bounties). Additionally, if the main interface is ever unavailable, users can still access their positions through Vesu’s [lite frontend](https://lite.vesu.xyz/).  
 
-It’s time to put your LBTC to work.
+It’s time to put your LBTC to work with Vesu.
