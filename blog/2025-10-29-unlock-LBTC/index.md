@@ -61,8 +61,8 @@ The Re7 xBTC pool is designed to multiply staked Bitcoin. Users can supply xLBTC
 
 Vesu turns LBTC into productive collateral. Earn consistent yield, access stable liquidity at top rates, or multiply your exposure.  
 
-The hardest asset deserves the highest security. Every line of Vesu’s smart contracts has been [audited by multiple independent firms](https://docs.vesu.xyz/security/audits). The protocol also runs a [$100K Immunefi bug bounty](https://docs.vesu.xyz/security/bounties). If the main interface is ever unavailable, users can still manage their positions through Vesu's [lite frontend](https://lite.vesu.xyz/), ensuring full access to funds at all times.  
-
 Vesu is built for those who want their Bitcoin to do more: to stay self-custodial, secure, and earning while remaining entirely onchain.  
+
+Security is non-negotiable when it comes to Bitcoin. Vesu’s smart contracts have been [audited by multiple independent firms](https://docs.vesu.xyz/security/audits), and there is a [$100K Immunefi bug bounty](https://docs.vesu.xyz/security/bounties). Additionally, if the main interface is ever unavailable, users can still access their positions through Vesu’s [lite frontend](https://lite.vesu.xyz/).  
 
 It’s time to put your LBTC to work.
