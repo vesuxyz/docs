@@ -7,12 +7,11 @@ Vaults run on audited smart contracts, with trust-minimized controls and onchain
 
 ## Getting started
 
-We recommend curators to first read the basics of Vesu Vaults [here](/curators/vaults/basics). If you have questions around curating Vaults, get in touch with our support [in Discord](https://discord.com/invite/G9Gxgujj8T).
+- Read the basics of Vesu Vaults [here](/curators/vaults/basics). 
+- Learn how to manage Vesu Vaults with the Vault Curator SDK [here](/curators/vaults/curator-sdk). 
 
-If you are ready to launch your first Vesu Vault, proceed with the following guides:
 
-1. Create your first Vesu Vault as explained [here](/curators/vaults/create-vault).
-2. Manage liquidity and allocations of your Vesu Vault as explained [here](/curators/vaults/manage-vault).
+If you have questions around curating Vaults, get in touch with our support [in Discord](https://discord.com/invite/G9Gxgujj8T).
 
 ## Vault listing
 

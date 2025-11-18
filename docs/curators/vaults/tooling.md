@@ -19,11 +19,11 @@ This is a smart contract that computes and reports the vault's __Assets under Ma
 
 ## Vault indexing & backend
 
-Vesu Vaults, including all curator, manager and user actions, are indexed directly in the Vesu backend and information available through our API.
+Vesu Vaults, including all curator, strategist and user actions, are indexed directly in the Vesu backend and information available through our API.
 
 ## Curator UI
 
-A dedicated UI for vault curators and managers offers a simplified UX to launch and manage vault strategies.
+Currently we do not offer a Curator UI. Instead, curators and strategists can use the Vault Curator SDK which is documented [here](/curators/vaults/curator-sdk).
 
 ## User UI
 
@@ -33,11 +33,6 @@ Vesu Vaults are embedded in Vesu's main UI, allowing vault curators to launch ne
 
 Certain operational processes of Vesu Vaults can be automated to reduce the overhead both for vault curators and managers. All Vesu Vaults, and curators, have access to the following default automations:
 - __Assets under Management__ reporting through the __AuM Oracle__
-- Redemption claims on behalf of users
-
-Other processes that can be automated include:
-
 - Claiming of user redemptions
-- Rebalancing of a strategy
 
 Please reach out to us, if you want to explore automating more processes for your vault strategy.

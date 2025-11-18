@@ -23,7 +23,7 @@ The __Vault Allocator__ executes strategy actions initiated and verified by the 
 
 ### Manager & Merkle tree verification
 
-The __Manager__ allows the strategy manager to allocate the vault's funds within its strategy mandate. This strategy mandate is defined by the curator in form of a _Merkle tree_ whose leafs consist of approved onchain actions (such as __deposit__ in a Vesu lending pool or _swap asset A for asset B_ on Avnu). To allocate vault funds, the manager thus provides a __Merkle proof__ that a certain action is in fact a valid leaf in the __Merkle tree__ and thus permitted by the strategy mandate.
+The __Manager__ allows the __Strategist__ role to allocate the vault's funds within its strategy mandate. This strategy mandate is defined by the __Curator__ role in form of a _Merkle tree_ whose leafs consist of approved onchain actions (such as __deposit__ in a Vesu lending pool or _swap asset A for asset B_ on Avnu). To allocate vault funds, the manager thus provides a __Merkle proof__ that a certain action is in fact a valid leaf in the __Merkle tree__ and thus permitted by the strategy mandate.
 
 ### NAV Oracle
 
@@ -31,7 +31,7 @@ The __AuM Oracle__ is responsible for computing the vault's __Assets under Manag
 
 ### Governor
 
-The __Governor__ is the owner of all the components of a Vesu Vault. It delegates curator permissions, including changing the strategy mandate or fee configurations, to the vault curator and upgrade permissions to the __Vesu Security Council__.
+The __Governor__ is the owner of all the components of a Vesu Vault. It delegates curator permissions, including changing the strategy mandate or fee configurations, to the __Curator__ role and upgrade permissions to the __Vesu Security Council__.
 
 ### Vault Factory
 
@@ -42,26 +42,26 @@ The __Vault Factory__ (not included in the diagram above) offers curators a simp
 The following steps outline a common sequence of interactions with Vesu Vaults and the corresponding flow of funds:
 
 1. User deposits funds in the _Vault_ and receives ERC-4626 vault shares in return, with the share conversion rate being reported through the onchain __NAV Oracle__.
-2. Funds sit in the vault contract until allocated by the strategy manager. Allocations are only possible within the vault's strategy mandate which is enforced through an onchain __Merkle tree verification__ step.
+2. Funds sit in the vault contract until allocated by the __Strategist__. Allocations are only possible within the vault's strategy mandate which is enforced through an onchain __Merkle tree verification__ step.
 3. The onchain __AuM Oracle__ continuously reports the vault's _Assets under Management_ in a fully trustless manner.
 4. In order to withdraw funds, users __request redemptions__ by sending the desired vault shares to the vault. Redemptions are batched in epochs with a certain delay (e.g. 1 day).
-5. The manager observes redemption requests and ensures sufficient liquidity is in the vault to honor all redemptions.
+5. The __Strategist__ observes redemption requests and ensures sufficient liquidity is in the vault to honor all redemptions.
 6. After the redemption delay has passed, users claim their funds from the vault.
 
 ## Secure strategy mandates
 
-Based on the built-in __Merkle tree verification__ system, Vesu Vaults ensure that yield strategies are "enshrined" and always enforced by the vault. This reduces both the trust assumptions in the strategy manager and operational security. Specifically, Vesu Vaults offer the following guarantees:
+Based on the built-in __Merkle tree verification__ system, Vesu Vaults ensure that yield strategies are enshrined and always enforced by the vault. This reduces both the trust assumptions in the __Strategist__ and operational security. Specifically, Vesu Vaults offer the following guarantees:
 
-- Vault curators are able to express a strategy mandate by encoding every action a manager can perform as a leaf in a merkle tree and to embedd this tree in the vault itself.
-- Vault managers are able to execute any action that is pre-approved in its embedded merkle tree by submitting a corresponding merkle proof.
-- The vault enforces all manager actions to be pre-approved by the curator by verifying the submitted action and merkle proof.
-- The vault thus makes it impossible for the manager to execute arbitrary, non pre-approved, actions and thus minimizes trust assumptions.
+- __Curators__ are able to express a strategy mandate by encoding every action a __Strategist__ can perform as a leaf in a merkle tree and to embedd this tree in the vault itself.
+- __Strategists__ are able to execute any action that is pre-approved in its embedded merkle tree by submitting a corresponding merkle proof.
+- The vault enforces all __Strategist__ actions to be pre-approved by the curator by verifying the submitted action and merkle proof.
+- The vault thus makes it impossible for the __Strategist__ to execute arbitrary, non pre-approved, actions and thus minimizes trust assumptions.
 
 ## Protocol integrations
 
 Vesu Vaults currently integrates with the following DeFi protocols on Starknet:
 
-- Vesu lending pools
+- Vesu V2 lending pools
 - Avnu DEX aggregator for asset swaps
 - Third-party ERC-4626 vaults
 
@@ -71,9 +71,9 @@ More integrations, such as LPing on the Ekubo DEX, are planned to be added over 
 
 Vesu Vaults can be configured with a set of roles and permissions: 
 
-- Curator: Governs over the vault and strategy including the strategy mandate, fees and roles.
-- Manager: Is able to execute the strategy within the enabled mandate.
-- Pauser: Has the permission to pause a vault and strategy in case of an emergency.
+- __Curator__: Governs over the vault and strategy including the strategy mandate, fees and roles.
+- __Strategist__: Is able to execute the strategy within the enabled mandate.
+- __Rewards Caller__: Claims rewards from external distribution contracts and sends these to the __Vault Allocator__ over time.
 
 ## Fees
 
