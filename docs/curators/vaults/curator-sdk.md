@@ -1,7 +1,7 @@
 ---
 id: curator-sdk
-title: How to manage an existing Vault
-sidebar_label: Manage Vault
+title: Manage Vaults with the Curator SDK
+sidebar_label: Curator SDK
 sidebar_position: 3
 ---
 
