@@ -17,6 +17,8 @@ Starknet is introducing native USDC, the official version issued by Circle. This
 
 Native USDC becomes the stablecoin standard on Starknet, so Vesu is upgrading all USDC markets in V2. Any positions using USDC.e and any remaining V1 pools (including Genesis) will need to move into their native USDC and V2 equivalents.
 
+The current bridged version will be renamed from USDC to USDC.e across Starknet apps, explorers and bridges. Native USDC will take over the USDC ticker and become the new standard moving forward.
+
 Rewards for USDC.e will stop once the migration starts and all new liquidity and incentives will run on V2 markets. Migrating early keeps your positions active and aligned with the updated pools.
 
 A guided migration tool goes live on December 3. You migrate your own positions, but the flow is simple. Affected positions will be clearly marked in the app and you can click through the steps to complete the move in a few moments. 
@@ -27,16 +29,15 @@ Until now, all USDC on Starknet has been bridged through StarkGate, creating the
 
 - One unified, canonical USDC  
 - Lower risk and fewer trust assumptions  
-- Fully reserved and redeemable 1:1  
-- Faster, cleaner cross-chain transfers through CCTP  
-- Institutional on/off-ramps via Circle Mint  
+- Fully reserved and redeemable 1:1
+- Faster cross-chain transfers through CCTP
+- Opens the door for institutional players on Starknet
 
-It is the version exchanges, custodians and market makers prefer.  
-For Starknet and for Vesu, this means cleaner liquidity and a more reliable setup for earning with USDC and borrowing it against Bitcoin, Ethereum and other assets.
+It is the version exchanges, custodians and market makers prefer. For Starknet and for Vesu, this means cleaner liquidity and a more reliable setup for earning with USDC and borrowing it against Bitcoin, Ethereum and other assets.
 
 ## Next steps
 There’s nothing you need to do right now. Just check back on Wednesday when the migration starts on vesu.xyz. 
 
-We’ll post the exact go-live announcement on X and Discord once everything is ready.
+We’ll post the exact go-live announcement on [X](https://x.com/vesuxyz) and [Discord](https://discord.gg/G9Gxgujj8T) once everything is ready.
 
 If you have any questions, now or during the migration, feel free to open a ticket in our [Discord](https://discord.gg/G9Gxgujj8T). We’re here to help.
