@@ -11,13 +11,13 @@ Starknet is introducing native USDC, the official version issued by Circle. This
 
 :::info TL;DR
 - All USDC.e and V1 positions will need to migrate to native USDC and V2 pools.
-- Rewards on USDC.e stop once migration begins.
-- The migration tool goes live on December 3.
+- Rewards on USDC.e stop once migration begins on December 3.
+- A simple 1-click migration flow will be available directly in the Vesu UI.
 :::
 
-Native USDC becomes the stablecoin standard on Starknet, so Vesu is upgrading all USDC markets in V2. Any positions using USDC.e and any remaining V1 pools (including Genesis) will need to move into their native USDC and V2 equivalents.
-
 The current bridged version will be renamed from USDC to USDC.e across Starknet apps, explorers and bridges. Native USDC will take over the USDC ticker and become the new standard moving forward.
+
+Native USDC becomes the stablecoin standard on Starknet, so Vesu is upgrading all USDC markets in V2. Any positions using USDC.e and any remaining V1 pools (including Genesis) will need to move into their native USDC and V2 equivalents.
 
 Rewards for USDC.e will stop once the migration starts and all new liquidity and incentives will run on V2 markets. Migrating early keeps your positions active and aligned with the updated pools.
 
