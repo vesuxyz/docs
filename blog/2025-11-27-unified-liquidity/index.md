@@ -1,6 +1,6 @@
 ---
 slug: 2025-11-27-unified-liquidity
-title: USDC and Pool Unification
+title: Preparing for Unified Liquidity
 authors: [marc]
 tags: [Announcement]
 ---
@@ -11,7 +11,7 @@ In December, liquidity on Vesu will be unified. Native USDC is coming to Starkne
 
 This moment is also used to unify liquidity on Vesu more broadly. Over time, Vesu grew to 18 different pools across V1 and V2, which made it harder to find the right market and spread liquidity across many smaller pools. Consolidating positions in V2 reduces this fragmentation and brings liquidity together in one place.
 
-To make the transition easy, a migration tool will be available for a simple tansition.
+To make the upgrade easy, a migration tool will be available for a simple move.
 
 ## What you need to know
 
