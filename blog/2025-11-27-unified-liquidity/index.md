@@ -7,7 +7,7 @@ tags: [Announcement]
 
 ![Unified Liquidity](unified-liquidity.png)
 
-In December, liquidity on Vesu will be unified. With native USDC arriving on Starknet, users will migrate their USDC positions into the new V2 pools. This is the next step in the shift from V1 to V2, and a simple migration tool will handle the move for you.
+In December, liquidity on Vesu will be unified. With native USDC arriving on Starknet, users will migrate their USDC positions into the improved V2 pools. This is the next step in the shift from V1 to V2, and a simple migration tool will handle the move for you.
 
 ## What you need to know
 
@@ -15,7 +15,7 @@ In December, liquidity on Vesu will be unified. With native USDC arriving on Sta
 - All USDC.e and V1 positions will move to native USDC and V2 pools
 - Rewards on USDC.e stop once migration begins
 - V1 pools will stay active but in a limited mode
-- A simple 1-click migration will be available
+- A 1-click migration will be available in the Vesu UI
 :::
 
 The current bridged USDC will be renamed USDC.e and native USDC will take over the USDC ticker across Starknet apps and explorers.
@@ -26,7 +26,7 @@ The migration tool will support both steps: moving from USDC.e to native USDC an
 
 ## V2 as the New Standard
 
-Vesu currently has 18 pools across V1 and V2, which makes it harder to find the right market and spread liquidity across many smaller pools. Consolidating liquidity in the newer V2 pools reduces this fragmentation and creates a simpler setup.
+Vesu currently has 18 pools across V1 and V2, which makes it harder to find the right market and spread liquidity across many smaller pools. Consolidating liquidity in the V2 pools reduces this fragmentation and creates a simpler setup.
 
 V2 pools run on improved smart contract audited by Zenith, ChainSecurity and OpenZeppelin. Their full reports are available in the [docs](https://docs.vesu.xyz/security/audits). Each pool uses its own isolated contract, with less complexity and better gas efficiency.
 
