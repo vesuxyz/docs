@@ -24,15 +24,9 @@ Once the migration begins, V1 pools will enter a limited mode. Opening new debt 
 
 The migration tool will support both steps: moving from USDC.e to native USDC and shifting V1 positions into the newer V2 pools. Affected positions will be clearly marked in the app and can be moved easily.
 
-## Benefits of Vesu V2
-
-V2 pools have been live for over two months and run on improved smart contracts that have been [fully audited by Zenith, ChainSecurity and OpenZeppelin](https://docs.vesu.xyz/security/audits).
-
-The updated architecture gives each pool its own contract, reducing complexity, improving gas efficiency and providing stronger risk isolation. With liquidity concentrated in these pools, the overall user experience becomes simpler, and all future improvements will build on this version.
-
 ## V2 as the New Standard
 
-Vesu currently has 18 pools across V1 and V2, which made it harder to find the right market and spread liquidity across many smaller pools. Consolidating liquidity in the newer V2 pools reduces this fragmentation and creates a simpler setup.
+Vesu currently has 18 pools across V1 and V2, which makes it harder to find the right market and spread liquidity across many smaller pools. Consolidating liquidity in the newer V2 pools reduces this fragmentation and creates a simpler setup.
 
 V2 pools run on improved smart contract audited by Zenith, ChainSecurity and OpenZeppelin. Their full reports are available in the [docs](https://docs.vesu.xyz/security/audits). Each pool uses its own isolated contract, with less complexity and better gas efficiency.
 
