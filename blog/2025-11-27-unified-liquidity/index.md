@@ -7,7 +7,7 @@ tags: [Announcement]
 
 ![Unified Liquidity](unified-liquidity.png)
 
-In December, liquidity on Vesu will be unified. With native USDC arriving on Starknet, users will need to migrate their USDC positions into the newer V2 pools. This also marks the next step in the transition from V1 to V2. A migration tool will make the move simple.
+In December, liquidity on Vesu will be unified. With native USDC arriving on Starknet, users will migrate their USDC positions into the new V2 pools. This is the next step in the shift from V1 to V2, and a simple migration tool will handle the move for you.
 
 ## What you need to know
 
@@ -15,7 +15,7 @@ In December, liquidity on Vesu will be unified. With native USDC arriving on Sta
 - All USDC.e and V1 positions will move to native USDC and V2 pools
 - Rewards on USDC.e stop once migration begins
 - V1 pools will stay active but in a limited mode
-- A simple 1-click migration flow will be available on the Vesu UI
+- A simple 1-click migration will be available
 :::
 
 The current bridged USDC will be renamed USDC.e and native USDC will take over the USDC ticker across Starknet apps and explorers.
@@ -34,14 +34,14 @@ The updated architecture gives each pool its own contract, reducing complexity, 
 
 Vesu currently has 18 pools across V1 and V2, which made it harder to find the right market and spread liquidity across many smaller pools. Consolidating liquidity in the newer V2 pools reduces this fragmentation and creates a simpler setup.
 
-V2 pools run on improved smart contracts [audited by Zenith, ChainSecurity and OpenZeppelin](https://docs.vesu.xyz/security/audits). Each pool uses its own isolated contract, with less complexity and better gas efficiency.
+V2 pools run on improved smart contract audited by Zenith, ChainSecurity and OpenZeppelin. Their full reports are available in the [docs](https://docs.vesu.xyz/security/audits). Each pool uses its own isolated contract, with less complexity and better gas efficiency.
 
 **Benefits for users:**
 - Less fragmentation: liquidity concentrated in stronger pools
 - Better UX: simpler to find the right markets
 - Future-proof: all new features and improvements will focus on V2
 
-## Benefits of native USDC
+## Strengths of native USDC
 
 Native USDC is issued directly by Circle and comes with clear benefits:
 
