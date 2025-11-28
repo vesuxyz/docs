@@ -1,5 +1,5 @@
 ---
-slug: 2025-11-27-unified-liquidity
+slug: 2025-11-28-unified-liquidity
 title: Unified Liquidity Incoming
 authors: [marc]
 tags: [Announcement]
@@ -13,7 +13,7 @@ In December, liquidity on Vesu will be unified. With native USDC arriving on Sta
 
 :::info TL;DR
 - All USDC.e and V1 positions will move to native USDC and V2 pools
-- Rewards on USDC.e stop once migration begins
+- STRK Rewards continue for native USDC 
 - V1 pools will stay active but in a limited mode
 - A 1-click migration will be available in the Vesu UI
 :::
@@ -22,13 +22,15 @@ The current bridged USDC will be renamed USDC.e and native USDC will take over t
 
 Once the migration begins, V1 pools will enter a limited mode. Opening new debt or increasing Multiply positions will no longer be possible. 
 
-The migration tool will support both steps: moving from USDC.e to native USDC and shifting V1 positions into the newer V2 pools. Affected positions will be clearly marked in the app and can be moved easily.
+The migration tool will support both steps: moving from USDC.e to native USDC and shifting V1 positions into the newer V2 pools. Open positions and affected markets will show a Migrate button in the UI, as in the preview below.
+
+![Migrate Button](migration-button.png)
 
 ## V2 as the New Standard
 
 Vesu currently has 18 pools across V1 and V2, which makes it harder to find the right market and spread liquidity across many smaller pools. Consolidating liquidity in the V2 pools reduces this fragmentation and creates a simpler setup.
 
-V2 pools run on improved smart contract audited by Zenith, ChainSecurity and OpenZeppelin. Their full reports are available in the [docs](https://docs.vesu.xyz/security/audits). Each pool uses its own isolated contract, with less complexity and better gas efficiency.
+V2 pools run on improved smart contracts audited by Zenith, ChainSecurity and OpenZeppelin. Their full reports are available in the [docs](https://docs.vesu.xyz/security/audits). Each pool uses its own isolated contract, with less complexity and better gas efficiency.
 
 **Benefits for users:**
 - Less fragmentation: liquidity concentrated in stronger pools
