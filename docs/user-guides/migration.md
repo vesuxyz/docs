@@ -24,26 +24,26 @@ Affected positions will automatically display a **Migrate** button.
 You will see a **Migrate** button if:
 
 - Your position uses `USDC.e`  
-- Your position is in a V1 market (e.g. Genesis, Re7 `xSTRK`)  
+- Your position is in a V1 market (e.g. Genesis, Re7 xSTRK)  
 
 The button appears in two places:
 
-- In the **Markets** list next to all affected markets  
-- In the **Positions** overview in the sidebar, next to each affected position  
+- In the markets overview next to all affected markets  
+- In the positions overview in the sidebar, next to each affected position  
 
 ![Migrate Button](./images/migration-button.png)
 
 ## How migration works
 
-The migration tool makes the process straightforward:
+The migration tool makes the process simple:
 
-1. Click the wallet button in the top right corner to open the sidebar  
-2. Select the position showing a **Migrate** button  
+1. Click the wallet button in the top-right corner to open the sidebar.  
+2. Select the position showing a **Migrate** button.  
 3. Click **Migrate** to open the migration dialog.  
    ![Migration Dialog](./images/migration-dialog.png)
-   The dialog shows your current position and the new V2 version side by side.  
+   The dialog shows your current and new position side-by-side.  
    Review the values, and if everything is OK, click **Confirm and migrate position**.
-4. Approve the transaction in your wallet
+4. Approve the transaction in your wallet.
 
 Your position is recreated in the new market “as is,” using the same amounts and configuration where applicable.
 
@@ -54,10 +54,7 @@ If the migration cannot complete due to low USDC liquidity, the interface displa
 
 ![Not enough liquidity](./images/not-enough-liquidity.png)
 
-In this case:
-- The confirmation button remains disabled  
-- You can try again later when liquidity becomes available  
-- If the issue persists, feel free to contact us on [Discord](https://discord.com/invite/G9Gxgujj8T)
+In this case, the confirmation button remains disabled. Liquidity should return quickly, so you can try again shortly. If it seems stuck or you want to check in, feel free to ping the team on [Discord](https://discord.com/invite/G9Gxgujj8T).
 
 
 ## After migration
