@@ -11,7 +11,7 @@ Affected positions will automatically display a **Migrate** button.
 
 ## Summary
 
-- `USDC.e` (legacy `USDC`) is being replaced by native `USDC`  
+- `USDC.e` (legacy USDC) is being replaced by native `USDC`  
 - V1 markets will enter limited mode  
   - No new borrowing  
   - No increase for Multiply positions  
