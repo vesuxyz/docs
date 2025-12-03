@@ -24,14 +24,9 @@ Affected positions will automatically display a **Migrate** button.
 You will see a **Migrate** button if:
 
 - Your position uses `USDC.e`  
-- Your position is in a V1 market (e.g. Genesis, Re7 xSTRK)  
+- Your position is in a V1 market (e.g. Genesis, Braavos Vault)  
 
-The button appears in two places:
-
-- In the markets overview next to all affected markets  
-- In the positions overview in the sidebar, next to each affected position  
-
-![Migrate Button](./images/migration-button.png)
+![Migrate Button](/blog/2025-11-28-unified-liquidity/migration.png)
 
 ## How migration works
 

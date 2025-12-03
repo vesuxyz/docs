@@ -9,6 +9,15 @@ tags: [Announcement]
 
 In December, liquidity on Vesu will be unified. With native USDC arriving on Starknet, users will migrate their USDC positions into the improved V2 pools. This is the next step in the shift from V1 to V2, and a simple migration tool will handle the move for you.
 
+## Update December 3
+
+Migration is now live on [vesu.xyz](https://vesu.xyz/).  
+Any position that can be upgraded will now show a Migrate button.
+For a step-by-step walkthrough, see the guide in the [docs](https://docs.vesu.xyz/user-guides/migration).
+
+![Migrate Button](migration.png)
+
+
 ## What you need to know
 
 :::info TL;DR
@@ -20,11 +29,9 @@ In December, liquidity on Vesu will be unified. With native USDC arriving on Sta
 
 The current bridged USDC will be renamed USDC.e and native USDC will take over the USDC ticker across Starknet apps and explorers.
 
-Once the migration begins, V1 pools will enter a limited mode. Opening new debt or increasing Multiply positions will no longer be possible. 
+Once migration begins, V1 pools will switch to limited mode. Existing positions can still be closed, but opening new positions or adding debt will no longer be possible. The pools will continue operating for now.
 
-The migration tool will support both steps: moving from USDC.e to native USDC and shifting V1 positions into the newer V2 pools. Open positions and affected markets will show a Migrate button in the UI, as in the preview below.
-
-![Migrate Button](migration-button.png)
+The migration tool will support both steps: moving from USDC.e to native USDC and shifting V1 positions into the newer V2 pools. Open positions and affected markets will show a Migrate button in the UI.
 
 ## V2 as the New Standard
 
