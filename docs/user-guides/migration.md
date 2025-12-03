@@ -13,7 +13,7 @@ Affected positions will automatically display a **Migrate** button.
 
 - `USDC.e` (legacy USDC) is being replaced by native `USDC`  
 - V1 markets will enter limited mode  
-  - No new borrowing  
+  - No new deposits & borrowing  
   - No increase for Multiply positions  
   - You can still **repay**, **withdraw**, and **close** positions  
 - All new liquidity and STRK rewards focus on native `USDC` and V2 markets  
@@ -24,7 +24,7 @@ Affected positions will automatically display a **Migrate** button.
 You will see a **Migrate** button if:
 
 - Your position uses `USDC.e`  
-- Your position is in a V1 market (e.g. Genesis, Braavos Vault)  
+- Your position is in a V1 pool (e.g. Genesis, Braavos Vault)  
 
 ![Migrate Button](/blog/2025-11-28-unified-liquidity/migration.png)
 
