@@ -26,7 +26,7 @@ You will see a **Migrate** button if:
 - Your position uses `USDC.e`  
 - Your position is in a V1 pool (e.g. Genesis, Braavos Vault)  
 
-![Migrate Button](/blog/2025-11-28-unified-liquidity/migration.png)
+![Migrate Button](./images/migration.png)
 
 ## How migration works
 
