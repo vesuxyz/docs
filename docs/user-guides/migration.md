@@ -35,7 +35,7 @@ The migration tool makes the process simple:
 1. Click the wallet button in the top-right corner to open the sidebar.  
 2. Select the position showing a **Migrate** button.  
 3. Click **Migrate** to open the migration dialog.  
-   ![Migration Dialog](./images/migration-dialog.png)
+   ![Migration Dialog](./images/migration-example.png)
    The dialog shows your current and new position side-by-side.  
    Review the values, and if everything is OK, click **Confirm and migrate position**.
 4. Approve the transaction in your wallet.
