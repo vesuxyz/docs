@@ -17,13 +17,12 @@ For a step-by-step walkthrough, see the guide in the [docs](/docs/user-guides/mi
 
 ![Migrate Button](migration.png)
 
-
 ## What you need to know
 
 :::info TL;DR
 - All USDC.e and V1 positions will move to native USDC and V2 pools
 - STRK rewards continue for native USDC 
-- V1 pools will stay active but in a limited mode
+- V1 pools will enter a limited mode
 - A 1-click migration will be available in the Vesu UI
 :::
 
