@@ -13,7 +13,7 @@ In December, liquidity on Vesu will be unified. With native USDC arriving on Sta
 
 Migration is now live on [vesu.xyz](https://vesu.xyz/).  
 Any position that can be upgraded will now show a Migrate button.
-For a step-by-step walkthrough, see the guide in the [docs](/docs/user-guides/migration.md).
+For a step-by-step walkthrough, see the guide in the [docs](https://docs.vesu.xyz/user-guides/migrate).
 
 ![Migrate Button](migration.png)
 
