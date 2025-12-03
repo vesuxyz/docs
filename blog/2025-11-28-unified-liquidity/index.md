@@ -35,7 +35,7 @@ The migration tool will support both steps: moving from USDC.e to native USDC an
 
 ## V2 as the New Standard
 
-Vesu currently has 18 pools across V1 and V2, which makes it harder to find the right market and spread liquidity across many smaller pools. Consolidating liquidity in the V2 pools reduces this fragmentation and creates a simpler setup.
+Vesu currently has 18 pools across V1 and V2, which makes it harder to find the right market and spreads liquidity across many smaller pools. Consolidating liquidity in the V2 pools reduces this fragmentation and creates a simpler setup.
 
 V2 pools run on improved smart contracts that have been audited by Zenith, ChainSecurity and OpenZeppelin. Their full reports are available in the [docs](https://docs.vesu.xyz/security/audits). Each pool uses its own isolated contract, with less complexity and better gas efficiency.
 
