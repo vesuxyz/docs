@@ -13,7 +13,7 @@ Below are the deployed contract addresses for Vesu V2 on Starknet Mainnet.
 | Oracle       | 0xfe4bfb1b353ba51eb34dff963017f94af5a5cf8bdf3dfc191c504657f3c05 |
 | Multiply     | 0x7964760e90baa28841ec94714151e03fbc13321797e68a874e88f27c9d58513 |
 | Liquidate    | 0x6b895ba904fb8f02ed0d74e343161de48e611e9e771be4cc2c997501dbfb418 |
-| Migrate    | 0x070af930A46D5006251a8932D9ddBf3fF5D7dC78fefa565Bcee95a3Caaf14119 |
+| Migrate    | 0x9a57da99134ae37f90fb3e289c50dfb1a2c04926b22ebf2d09b17424e99dba |
 | DeFi Spring Distributor    | 0x387f3eb1d98632fbe3440a9f1385aec9d87b6172491d3dd81f1c35a7c61048f |
 | BTCFi Distributor    | 0x47ba31cdfc2db9bd20ab8a5b2788f877964482a8548a6e366ce56228ea22fa8 |
 
