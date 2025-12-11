@@ -218,9 +218,15 @@ The current simple interest rate, that is the interest rate without per-second c
 
 `borrow_apr = (1 + interest_rate(current_utilization)) ** (360 * 86400) - 1`
 
+### Gross Lending APR
+
+The current simple interest rate, that is the interest rate without per-second compounding effect, that *Lenders* in a given *Market* earn without accounting for fees.
+
+`lending_apr = utilization * borrow_apr`
+
 ### Lending APR
 
-The current simple interest rate, that is the interest rate without per-second compounding effect, that *Lenders* in a given *Market* earn.
+The current simple interest rate after fees, that *Lenders* in a given *Market* earn.
 
 `lending_apr = utilization * borrow_apr`
 
