@@ -54,7 +54,7 @@ const config = {
       ],
       algolia: {
         appId: 'QOJ022CPNR',
-        apiKey: 'bdc1c4e96d4e886d1b993bd5aa909c54',
+        apiKey: '50ffc927a41a2d11f4e6b83c3eba7110',
         indexName: 'vesu',
         searchPagePath: 'search',
       },
