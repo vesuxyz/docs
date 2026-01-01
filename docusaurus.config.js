@@ -199,7 +199,7 @@ const config = {
         appId: 'QOJ022CPNR',
 
         // Public API key: it is safe to commit it
-        apiKey: '50ffc927a41a2d11f4e6b83c3eba7110',
+        apiKey: 'ef4f11f951edf8c9e9ef6eed221bb687',
 
         indexName: 'vesu',
 
