@@ -12,7 +12,7 @@ Re7 Labs, the main curator behind Vesu’s BTCFi pools, has upgraded their remai
 
 Affected positions are guided through a simple, one-click migration flow directly in the Vesu UI.
 
-<img of migration flow or how marked in position overview>
+*img of migration flow or how marked in position overview*
 
 ## TL;DR
 
@@ -37,7 +37,7 @@ With the migration to V2, the Re7 STRK pool now uses the xSTRK conversion rate p
 
 As part of the migration, xSTRK positions will reflect their full underlying value. In the migration flow, you will see a higher USD value for xSTRK compared to before (around +12% based on current rates).
 
-<img of xSTRK migration>
+*img of xSTRK migration*
 
 ## Re7 USDC pool deprecation
 
