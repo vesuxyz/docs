@@ -13,7 +13,7 @@ Re7 Labs, the main curator behind Vesu’s BTCFi pools, has moved their remainin
 
 Any position that can be upgraded will now show a Migrate button in the Vesu UI, guiding you through a simple, one-click migration flow.
 
-![Migrate Button](/blog/2025-11-28-unified-liquidity/migration.png)
+![Migrate Button](migration.png)
 
 ## TL;DR
 
@@ -21,6 +21,8 @@ Any position that can be upgraded will now show a Migrate button in the Vesu UI,
 - The Re7 USDC V1 pool is being deprecated
 - Migration is live and handled directly in the app  
 - Funds remain safe throughout  
+
+For a step-by-step walkthrough, see the guide in the [docs](https://docs.vesu.xyz/user-guides/migrate).
 
 ## New Re7 Pools
 
@@ -32,27 +34,19 @@ Any position that can be upgraded will now show a Migrate button in the Vesu UI,
 
 #### Note on Re7 STRK
 
-Previously, the Re7 xSTRK pool used the STRK price also for xSTRK, as this was the most reliable oracle available at the time of launch.
-
-With the migration to V2, the Re7 STRK pool now uses the xSTRK conversion rate price feed.
-
-As part of the migration, xSTRK positions will reflect their full underlying value in the new pool. In the migration flow, you will see a higher USD value for xSTRK compared to before (around +12% based on current rates).
-
-#### Note on Re7 STRK
-
 Previously, the Re7 xSTRK pool priced xSTRK using the STRK price, as this was the most reliable oracle available at the time of launch.
 
-The Re7 STRK pool now uses the xSTRK conversion rate price feed, so xSTRK positions reflect their full underlying value in the new pool.
+The Re7 STRK pool now uses the xSTRK conversion rate price feed, so xSTRK positions will reflect their full underlying value in the new pool.
 
 ## Re7 USDC pool deprecation
 
 The **Re7 USDC** pool is being deprecated.
 
 Markets from this pool are migrated as follows:
-- ETH and wstETH → **Re7 ETH**  
-- STRK → **Re7 STRK**  
-- USDC.e → **native USDC in Re7 USDC Core**  
-- WBTC → **Re7 USDC Core**
+- ETH and wstETH → Re7 ETH  
+- STRK → Re7 STRK  
+- USDC.e → native USDC in Re7 USDC Core  
+- WBTC → Re7 USDC Core
 
 BTCFi rewards for WBTC continue in the Re7 USDC Core pool.
 
