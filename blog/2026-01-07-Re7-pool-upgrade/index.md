@@ -7,12 +7,13 @@ tags: [Announcement]
 
 # Re7 Pool Upgrade
 
+![Re7 Pool Upgrade](Re7-pool-upgrade.png)
 
-Re7 Labs, the main curator behind Vesu’s BTCFi pools, has upgraded their remaining legacy pools to V2.
+Re7 Labs, the main curator behind Vesu’s BTCFi pools, has moved their remaining legacy pools to V2.
 
-Affected positions are guided through a simple, one-click migration flow directly in the Vesu UI.
+Any position that can be upgraded will now show a Migrate button in the Vesu UI, guiding you through a simple, one-click migration flow.
 
-*img of migration flow or how marked in position overview*
+![Migrate Button](/blog/2025-11-28-unified-liquidity/migration.png)
 
 ## TL;DR
 
@@ -31,13 +32,17 @@ Affected positions are guided through a simple, one-click migration flow directl
 
 #### Note on Re7 STRK
 
-Previously, the Re7 xSTRK pool used the STRK price directly, as this was the most reliable oracle available at the time of launch.
+Previously, the Re7 xSTRK pool used the STRK price also for xSTRK, as this was the most reliable oracle available at the time of launch.
 
 With the migration to V2, the Re7 STRK pool now uses the xSTRK conversion rate price feed.
 
-As part of the migration, xSTRK positions will reflect their full underlying value. In the migration flow, you will see a higher USD value for xSTRK compared to before (around +12% based on current rates).
+As part of the migration, xSTRK positions will reflect their full underlying value in the new pool. In the migration flow, you will see a higher USD value for xSTRK compared to before (around +12% based on current rates).
 
-*img of xSTRK migration*
+#### Note on Re7 STRK
+
+Previously, the Re7 xSTRK pool priced xSTRK using the STRK price, as this was the most reliable oracle available at the time of launch.
+
+The Re7 STRK pool now uses the xSTRK conversion rate price feed, so xSTRK positions reflect their full underlying value in the new pool.
 
 ## Re7 USDC pool deprecation
 
@@ -51,7 +56,7 @@ Markets from this pool are migrated as follows:
 
 BTCFi rewards for WBTC continue in the Re7 USDC Core pool.
 
-## V2 as the new standard
+## V2 going forward
 
 With this upgrade, all liquidity is coming fully to V2.
 
