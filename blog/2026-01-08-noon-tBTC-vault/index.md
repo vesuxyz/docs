@@ -5,7 +5,7 @@ authors: [marc]
 tags: [Announcement]
 ---
 
-![tBTC yield powerd by Noon Vaults](noon-vault.png)
+![tBTC yield powered by Noon Vaults](noon-vault.png)
 
 A new Bitcoin strategy is live on Vesu.
 
@@ -21,12 +21,11 @@ The setup combines BTC-backed borrowing with yield generated via sUSN, allowing 
 
 The curator targets **~10% yield**. All funds remain non-custodial and fully transparent onchain.
 
+## About Noon and sUSN
 
-## The first yield-bearing stablecoin on Vesu
+Noon issues USN, a USD-backed stablecoin designed with a focus on sustainable yield, safety, and long-term use. Its staked version, sUSN, accrues yield directly within the token over time.
 
-USN is Noon’s USD-backed stablecoin. Its staked version, **sUSN**, accrues yield directly within the token over time. sUSN holders currently earn **~10% APY**.
-
-sUSN can be used as collateral to borrow USDC. With Vesu’s Multiply, users can increase the yield on sUSN in a single action.
+With sUSN live on Vesu, users can use it as collateral, borrow against it, and combine it with Vesu’s vaults and Multiply to access more advanced onchain strategies.
 
 ## Vesu Vaults
 
