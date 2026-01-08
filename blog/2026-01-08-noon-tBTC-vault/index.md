@@ -38,8 +38,8 @@ The Vesu Vaults framework has undergone multiple independent audits. Full detail
 ## Get started
 
 You can now:
-- Deposit tBTC into the new Noon tBTC Vault  
-- Multiply sUSN to increase your yield  
-- Borrow USDC against sUSN  
+- Deposit tBTC into the new [Noon tBTC Vault](https://vesu.xyz/vaults/0x04424dec8280f518b35be33139f44ef9fa0855b117f16cda2a30f1b64c27864a)  
+- [Multiply sUSN](https://ntbtc.vesu.xyz/multiply/0x073702fce24aba36da1eac539bd4bae62d4d6a76747b7cdd3e016da754d7a135/0x02411565ef1a14decfbe83d2e987cced918cd752508a3d9c55deb67148d14d17/0x033068f6539f8e6e6b131e6b2b814e6c34a5224bc66947c47dab9dfee93b35fb) to increase your exposure & yield  
+- [Borrow USDC against sUSN](https://ntbtc.vesu.xyz/borrow/0x073702fce24aba36da1eac539bd4bae62d4d6a76747b7cdd3e016da754d7a135/0x02411565ef1a14decfbe83d2e987cced918cd752508a3d9c55deb67148d14d17/0x033068f6539f8e6e6b131e6b2b814e6c34a5224bc66947c47dab9dfee93b35fb)  
 
 Explore the new tBTC Vault and sUSN on Vesu and see what’s possible.
