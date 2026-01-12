@@ -14,7 +14,7 @@ All audit reports and verification hashes are available in the [Audit Overview](
 
 ## Bug Bounty
 
-Please submit any bug/vulnerability report through our [Bug Bounty Program](https://immunefi.com/bug-bounty/vesu/information/).  
+Please submit any bug or vulnerability report through our [Bug Bounty Program](https://immunefi.com/bug-bounty/vesu/information/).  
 For further inquiries please reach out to [security@vesu.xyz](mailto:security@vesu.xyz).
 
 ## Access & Custody
