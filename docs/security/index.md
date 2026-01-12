@@ -22,5 +22,5 @@ For further inquiries please reach out to [security@vesu.xyz](mailto:security@ve
 Vesu is a non-custodial lending protocol.  
 Funds are never held by Vesu and are accessible directly onchain.
 
-If the main Vesu website is unavailable, positions remain accessible through the  
-[Fallback UI](https://lite.vesu.xyz). It interacts directly with the smart contracts and allows viewing or closing positions without relying on external services.
+If the main Vesu website is unavailable, positions remain accessible through the [Fallback UI](https://lite.vesu.xyz). 
+It interacts directly with the smart contracts and allows viewing or closing positions without relying on external services.
