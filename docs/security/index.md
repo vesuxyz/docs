@@ -1,17 +1,26 @@
-
 # Security
 
-We take security of the Vesu lending protocol and liquidity supplied therein very seriously.
+Security is a core part of the Vesu lending protocol.
 
-This is why we have partnered with leading DeFi security experts like
+The protocol has been reviewed by leading DeFi security experts, including:
 
+- [Zenith Security](https://www.zenith.security/)
+- [Sherlock](https://sherlock.xyz/)
+- [OpenZeppelin](https://www.openzeppelin.com/security-audits)
 - [Chain Security](https://www.chainsecurity.com)
 - [Cairo Security Clan](https://cairosecurityclan.com)
-- [Immunefi](https://immunefi.com)
 
-You can find all audit reports and verification hashes in the [Audit Overview](./audits.md).
+All audit reports and verification hashes are available in the [Audit Overview](./audits.md).
 
-Please submit any bug/vulnerability report through our [Bug Bounty Program](https://immunefi.com/bug-bounty/vesu/information/).
+## Bug Bounty
+
+Please submit any bug or vulnerability report through our [Bug Bounty Program](https://immunefi.com/bug-bounty/vesu/information/).  
 For further inquiries please reach out to [security@vesu.xyz](mailto:security@vesu.xyz).
 
-If the Vesu website is ever unavailable, funds remain safe and accessible through the [Lite Frontend](https://lite.vesu.xyz), which allows viewing or closing positions. It can also be used to access deprecated assets that are no longer supported on the main frontend.
+## Access & Custody
+
+Vesu is a non-custodial lending protocol.  
+Funds are never held by Vesu and are accessible directly onchain.
+
+If the main Vesu website is unavailable, positions remain accessible through the [Fallback UI](https://lite.vesu.xyz).  
+This backup frontend interacts directly with the smart contracts and allows viewing or closing positions without relying on external services.
