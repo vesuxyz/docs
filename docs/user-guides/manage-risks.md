@@ -2,7 +2,7 @@
 id: manage-risks
 title: Understand and manage risks of Vesu 
 sidebar_label: Manage Risks
-sidebar_position: 9
+sidebar_position: 11
 ---
 
 Using Vesu comes with opportunities and risks. This page gives an overview of the most important risk factors when earning, borrowing, or multiplying.

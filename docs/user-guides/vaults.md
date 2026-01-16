@@ -2,7 +2,7 @@
 id: vaults
 title: Vesu Vaults
 sidebar_label: Vaults
-sidebar_position: 5
+sidebar_position: 9
 ---
 
 This guide walks you through using Vesu Vaults. From finding the right vault to depositing, tracking performance, and withdrawing your funds.  

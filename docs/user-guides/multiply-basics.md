@@ -2,7 +2,7 @@
 id: multiply-basics
 title: How to Multiply
 sidebar_label: Multiply
-sidebar_position: 4
+sidebar_position: 8
 ---
 
 This guide walks you through opening and closing a Multiply position.

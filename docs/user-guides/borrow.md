@@ -2,7 +2,7 @@
 id: borrow
 title: How to Borrow
 sidebar_label: Borrow
-sidebar_position: 3
+sidebar_position: 7
 ---
 
 Borrow one token using another as collateral. Here’s how to open and close a borrow position on Vesu.

@@ -2,7 +2,7 @@
 id: earn
 title: How to Earn
 sidebar_label: Earn
-sidebar_position: 2
+sidebar_position: 6
 ---
 
 This guide walks you through opening and closing an Earn position.

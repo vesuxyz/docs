@@ -2,7 +2,7 @@
 id: positions
 title: Managing your Positions
 sidebar_label: Manage Positions
-sidebar_position: 7
+sidebar_position: 9
 ---
 
 You can manage your positions anytime. Supply more, withdraw, borrow, or multiply.
