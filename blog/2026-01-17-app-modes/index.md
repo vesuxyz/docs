@@ -46,7 +46,7 @@ PRO is the full power Vesu interface. This is exactly what existing users alread
 - All markets with full detail
 - Multiply enabled  
 
-Designed for users who want full visibility and control.
+PRO is designed for users who want full visibility and control.
 
 ## Switching modes
 
