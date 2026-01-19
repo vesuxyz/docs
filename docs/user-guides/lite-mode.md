@@ -5,14 +5,13 @@ sidebar_label: LITE
 sidebar_position: 2
 ---
 
-Lite mode is a simplified interface for earning and borrowing on Vesu.
-It’s designed for users who want a straightforward flow without advanced configuration.
+Lite mode is a simplified interface for earning and borrowing on Vesu. It’s designed for users who want a straightforward flow without advanced configuration.
 
 ![Lite Mode](./images/lite-mode.png)
 
 ## How Lite mode works
 Lite mode shows a default market per asset. This market is selected to be a good fit for most users.  
-You can switch to other available markets using the pool selector.
+Use the pool selector dropdown on the right side of the page to switch pools and explore other markets.
 
 ![Select a pool](./images/lite-mode-pool-selector.png)
 
@@ -23,9 +22,9 @@ You can switch to other available markets using the pool selector.
 2. Set the amount and click **Start earning**
 3. Confirm in your wallet
 
-Your assets start earning immediately.
-
 ![Supply in Lite](./images/lite-mode-supply.png)
+
+Your deposit starts earning immediately.
 
 ## Borrow in Lite mode
 
