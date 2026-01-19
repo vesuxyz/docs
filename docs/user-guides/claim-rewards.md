@@ -2,7 +2,7 @@
 id: claim-rewards
 title: How to claim rewards
 sidebar_label: Claim Rewards
-sidebar_position: 8
+sidebar_position: 10
 ---
 
 As a Vesu user, you may qualify for STRK rewards distributed by the Starknet Foundation. These rewards support active on-chain participation through programs like DeFi Spring and BTCfi Season. 

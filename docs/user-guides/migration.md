@@ -2,7 +2,7 @@
 id: migrate
 title: Migrate your Position
 sidebar_label: USDC & V2 Migration
-sidebar_position: 9
+sidebar_position: 20
 ---
 
 This page explains how to migrate positions that use `USDC.e` or any V1 market on Vesu.  
