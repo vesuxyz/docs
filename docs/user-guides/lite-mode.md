@@ -5,76 +5,50 @@ sidebar_label: LITE
 sidebar_position: 2
 ---
 
-Lite mode is a simplified interface for **Earn** and **Borrow** on Vesu.
-
-It’s built for users who want clear defaults and fewer decisions.
-
-- Earn & Borrow
-- Vaults (same across all modes)
-- No Multiply
-
+Lite mode is a simplified interface for earning and borrowing on Vesu.
+It’s designed for users who want a straightforward flow without advanced configuration.
 
 ![Lite Mode](./images/lite-mode.png)
 
 ## How Lite mode works
+Lite mode shows a default market per asset. This market is selected to be a good fit for most users.  
+You can switch to other available markets using the pool selector.
 
-### One recommended market per asset
-For each asset (USDC, ETH, WBTC, etc.), Lite mode shows **one default market**.
-
-These are:
-- Pre-selected
-- Curated
-- Suitable for most users
-
-
-### Simplified market information
-Lite mode shows only essential data.
-
-**Shown**
-- Total supplied
-- Total borrowed
-- Supply APR
-- Borrow APR
-- Collateral assets
-
-**Hidden (by design)**
-- Utilization
-- Contract addresses
-- Advanced risk configuration
-- Detailed collateral routing
-
-For full control and visibility, switch to **Pro mode**.
+![Select a pool](./images/lite-mode-pool-selector.png)
 
 
 ## Earn in Lite mode
 
-1. Open **Explore markets**
-2. Select an asset
-3. Click **Supply**
-4. Confirm in your wallet
+1. Select an asset you want to deposit
+2. Set the amount and click **Start earning**
+3. Confirm in your wallet
 
-Your assets start earning immediately in the recommended market.
+Your assets start earning immediately.
 
+![Supply in Lite](./images/lite-mode-supply.png)
 
 ## Borrow in Lite mode
 
-1. Supply collateral
-2. Select the asset to borrow
-3. Enter amount
+1. Select an asset
+2. Switch to the **Borrow** tab on the market page
+3. Enter amounts
 4. Confirm in your wallet
 
 Borrowed assets are sent directly to your wallet.
 
 
 ## Vaults
+
 Vaults behave the same in all modes.
 
-→ See the **Vaults** user guide for details.
+See the [Vaults](./vaults.md) user guide for details.
 
 
 ## When to use Pro mode
+
 Switch to Pro if you want:
 - Multiple markets per asset
-- Advanced risk controls
 - Multiply
-- Full protocol details
+
+
+
