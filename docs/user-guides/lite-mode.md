@@ -25,7 +25,7 @@ You can switch to other available markets using the pool selector.
 
 Your assets start earning immediately.
 
-![Supply in Lite](./images/lite-mode-supply.png)
+![Supply in Lite](./images/lite-mode)
 
 ## Borrow in Lite mode
 

@@ -9,19 +9,16 @@ BTCFi mode is built around Bitcoin, letting you use your Bitcoin to earn and bor
 
 ![BTCFi Mode](./images/btcfi-mode.png)
 
-## How BTCFi mode works
+## How BTCFI mode works
 
-BTCFi mode shows markets centered around Bitcoin.
+BTCFI mode shows best-fitting markets for using your Bitcoin.
 
-Each asset is shown with a best-fitting market.  
-You can switch to other BTC pools using the pool selector.
-
-You can switch to other pools using the selector to explore other available markets.
+You can use the pool selector to explore other BTC pools and their available markets.
 
 ![Select a pool](./images/btcfi-mode-pool-selector.png)
 
 
-## Earn in BTCFi mode
+## Earn in BTCFI mode
 
 1. Select a market you want to deposit
 2. Set the amount and click **Start earning**
@@ -32,7 +29,7 @@ Your Bitcoin assets start earning immediately.
 ![Earn BTCFi](./images/btcfi-mode-earn.png)
 
 
-## Borrow in BTCFi mode
+## Borrow in BTCFI mode
 
 1. Select a market
 2. Switch to the **Borrow** tab on the market page
@@ -47,8 +44,8 @@ Vaults behave the same in all modes.
 See the [Vaults](./vaults.md) user guide for details.
 
 
-## When to use Pro mode
+## When to use PRO mode
 
-Switch to Pro if you want:
+Switch to PRO if you want:
 - Multiple markets per asset
 - Multiply strategies
