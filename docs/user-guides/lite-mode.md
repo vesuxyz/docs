@@ -25,7 +25,7 @@ You can switch to other available markets using the pool selector.
 
 Your assets start earning immediately.
 
-![Supply in Lite](./images/lite-mode)
+![Supply in Lite](./images/lite-mode-supply.png)
 
 ## Borrow in Lite mode
 
@@ -44,9 +44,9 @@ Vaults behave the same in all modes.
 See the [Vaults](./vaults.md) user guide for details.
 
 
-## When to use Pro mode
+## When to use PRO mode
 
-Switch to Pro if you want:
+Switch to PRO if you want:
 - Multiple markets per asset
 - Multiply
 
