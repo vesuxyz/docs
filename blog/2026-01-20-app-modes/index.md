@@ -29,13 +29,15 @@ It is designed to make the most common actions obvious and reduce unnecessary de
 - Focused on the most common actions  
 - Easier to scan and get started
 
-![Lite Mode](lite-mode.png)
+![LITE Mode](lite-mode.png)
 
 A simpler way to get started on Vesu.
 
 ## BTCFI
 
 BTCFI is a Bitcoin first experience.
+
+![BTCFI Mode](btcfi-mode.png)
 
 Designed for users who want to use Bitcoin onchain without selling.
 
