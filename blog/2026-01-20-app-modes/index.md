@@ -1,5 +1,5 @@
 ---
-slug: 2026-01-16-app-modes
+slug: 2026-01-20-app-modes
 title: One protocol, three modes
 authors: [marc]
 tags: [Announcement]
@@ -17,7 +17,7 @@ Now you choose how you use Vesu.
 
 Vesu now offers three app modes, each designed around a different user intent.
 
-All modes run on the same protocol, the same smart contracts, and the same risk model.  
+All modes run on the same smart contracts and the same risk model.  
 Only the interface changes.
 
 ## LITE
@@ -28,6 +28,8 @@ It is designed to make the most common actions obvious and reduce unnecessary de
 
 - Focused on the most common actions  
 - Easier to scan and get started
+
+![Lite Mode](lite-mode.png)
 
 A simpler way to get started on Vesu.
 
@@ -62,7 +64,7 @@ Same security. Same risk. Same contracts.
 
 This change is about focus, not limitation.
 
-Explore now:
+**Explore now:**
 - A smoother entry for new users → [LITE](https://vesu.xyz/lite)  
 - A clearer BTCFi path for Bitcoin holders → [BTCFI](https://vesu.xyz/btcfi)  
 - Full control for power users → [PRO](https://vesu.xyz/pro)  
