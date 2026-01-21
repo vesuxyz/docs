@@ -1,5 +1,5 @@
 ---
-slug: 2026-01-07-Re7-pool-upgrade
+slug: 2026-01-22-Re7-pool-upgrade
 title: Re7 Pool Upgrade
 authors: [marc]
 tags: [Announcement]
@@ -40,15 +40,9 @@ The Re7 STRK pool now uses the xSTRK conversion rate price feed, so xSTRK positi
 
 ## Re7 USDC pool deprecation
 
-The **Re7 USDC** pool is being deprecated.
+The Re7 USDC pool is being deprecated, with markets migrating to the relevant V2 pools.
 
-Markets from this pool are migrated as follows:
-- ETH and wstETH → Re7 ETH  
-- STRK → Re7 STRK  
-- USDC.e → native USDC in Re7 USDC Core  
-- WBTC → Re7 USDC Core
-
-BTCFi rewards for WBTC continue in the Re7 USDC Core pool.
+BTCFi rewards for WBTC and USDC continue in the Re7 USDC Core pool.
 
 ## V2 going forward
 
