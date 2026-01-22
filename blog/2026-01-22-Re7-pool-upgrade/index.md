@@ -15,10 +15,10 @@ Any position that can be upgraded will now show a Migrate button in the Vesu UI,
 
 ![Migrate Button](migration.png)
 
+
 ## TL;DR
 
 - Re7 Labs’ remaining V1 pools are migrating to V2   
-- The Re7 USDC V1 pool is being deprecated
 - Migration is live and handled directly in the app  
 - Funds remain safe throughout  
 
@@ -41,6 +41,8 @@ The Re7 STRK pool now uses the xSTRK conversion rate price feed, so xSTRK positi
 ## Re7 USDC pool deprecation
 
 The Re7 USDC pool is being deprecated, with markets migrating to the relevant V2 pools.
+
+![Re7 UDSC migration](Re7-USDC.png)
 
 BTCFi rewards for WBTC and USDC continue in the Re7 USDC Core pool.
 
