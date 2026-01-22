@@ -32,7 +32,7 @@ Once migration begins, V1 pools will switch to limited mode. Existing positions 
 
 The migration tool will support both steps: moving from USDC.e to native USDC and shifting V1 positions into the newer V2 pools. Open positions and affected markets will show a Migrate button in the UI.
 
-## V2 as the New Standard
+## V2 as the new standard
 
 Vesu currently has 18 pools across V1 and V2, which makes it harder to find the right market and spreads liquidity across many smaller pools. Consolidating liquidity in the V2 pools reduces this fragmentation and creates a simpler setup.
 
