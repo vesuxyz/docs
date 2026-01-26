@@ -5,6 +5,8 @@ authors: [marc]
 tags: [Announcement]
 ---
 
+![Welcome Clearstar](clearstar.png)
+
 We’re welcoming Clearstar Labs as a new pool curator on Vesu.
 
 Clearstar is launching their first pool on Vesu with sUSN and USDC, with plans to add more yield-bearing assets over time.
@@ -13,16 +15,25 @@ Clearstar is launching their first pool on Vesu with sUSN and USDC, with plans t
 
 Clearstar is an onchain risk curator active across major DeFi lending and vault platforms like Morpho and Euler. Their team combines TradFi and DeFi backgrounds, with a strong focus on risk, operations, and continuous monitoring.
 
-In short: they care about configs, edge cases, and what breaks in practice — not just headline numbers.
+They focus on careful asset review, setting appropriate risk parameters, and continuously monitoring the markets they curate.
 
-### Why this pool?
+### Clearstar USDC Reactor
 
-sUSN is already live on Vesu. This pool is about adding capacity and curator diversity, not replacing existing markets.
+The Clearstar USDC Reactor is built for yield-bearing collateral, starting with sUSN as the first supported asset.
 
-Clearstar’s broader goal is to bring more yield-bearing collateral to Vesu under a consistent risk framework — starting with a familiar asset and expanding from there.
+Configuration at launch:
+- Collateral: sUSN
+- Borrow: USDC
+- Debt cap: $5M
 
+More assets are planned to be added to the pool over time.
 
 **Get started**
 
-- Deposit **sUSN**
-- Borrow **USDC** against your sUSN
+You can now use the Clearstar pool to:
+
+- [Deposit USDC](https://vesu.xyz/lite/markets?poolId=0x01bc5de51365ed7fbb11ebc81cef9fd66b70050ec10fd898f0c4698765bf5803) to earn yield
+- [Borrow USDC](https://vesu.xyz/lite/markets/0x01bc5de51365ed7fbb11ebc81cef9fd66b70050ec10fd898f0c4698765bf5803/0x033068f6539f8e6e6b131e6b2b814e6c34a5224bc66947c47dab9dfee93b35fb/borrow?collateralAssetAddress=0x02411565ef1a14decfbe83d2e987cced918cd752508a3d9c55deb67148d14d17&debtAssetAddress=0x033068f6539f8e6e6b131e6b2b814e6c34a5224bc66947c47dab9dfee93b35fb) against your sUSN
+- [Multiply sUSN](https://vesu.xyz/pro/multiply/0x01bc5de51365ed7fbb11ebc81cef9fd66b70050ec10fd898f0c4698765bf5803/0x02411565ef1a14decfbe83d2e987cced918cd752508a3d9c55deb67148d14d17/0x033068f6539f8e6e6b131e6b2b814e6c34a5224bc66947c47dab9dfee93b35fb) with USDC
+
+Got feedback? Let us know on [X](https://x.com/vesuxyz) or [Discord](https://discord.com/invite/G9Gxgujj8T).
