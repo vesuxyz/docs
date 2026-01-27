@@ -30,9 +30,9 @@ They focus on careful asset review, setting appropriate risk parameters, and con
 
 ### About sUSN
 
-sUSN is the yield-bearing version of USN from Noon Capital. Yield accrues directly into the token over time, so balances grow without additional actions.
+sUSN is the yield-bearing version of USN from Noon Capital. Yield accrues directly to the token over time, increasing its value without any additional actions.
 
-It can be used as collateral to borrow USDC or used with Vesu’s Multiply feature to increase exposure to its built-in yield.
+It can be used as collateral to borrow USDC or with Vesu’s Multiply feature to increase exposure to its built-in yield.
 
 ### Get started
 
