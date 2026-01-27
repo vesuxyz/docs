@@ -11,7 +11,6 @@ Read more about how the rewards work and which markets are eligible [here](../ex
 
 
 ## Claim STRK rewards
-
 	
 1.	Click the button showing your connected wallet in the top-right corner.
 This opens the side navigation with your open positions.

@@ -5,12 +5,14 @@ sidebar_label: Earn
 sidebar_position: 6
 ---
 
-This guide walks you through opening and closing an Earn position.
+Supply assets to earn yield on Vesu. This guide explains how to open and close an Earn position using the PRO interface.
+
+Vesu also offers a [LITE](./lite-mode.md) and a [BTCFI](./btcfi-mode.md) mode, designed for users who want a more guided earning experience with curated default markets.
 
 ### Opening a Position
 Supply assets on Vesu to earn yield.
 
-1. Go to [vesu.xyz/earn](https://vesu.xyz/earn) to view all available markets.  Use the filters to narrow by type, pool, curator, or other options. Click on the market you want to supply into or learn more about.
+1. Go to [vesu.xyz/pro/earn](https://vesu.xyz/pro/earn) to view all available markets.  Use the filters to narrow by type, pool, curator, or other options. Click on the market you want to supply into or learn more about.
 
 ![earn-1.png](images/earn-1.png)
 

@@ -5,7 +5,7 @@ sidebar_label: Leaderboard
 sidebar_position: 7
 ---
 
-The [Vesu Leaderboard](https://vesu.xyz/leaderboard) tracks the USD-value of the total interest earned across all Vesu markets for users.
+The [Vesu Leaderboard](https://vesu.xyz/pro/leaderboard) tracks the USD-value of the total interest earned across all Vesu markets for users.
 
 :::tip
 You can easily find your rank on the leaderboard by connecting your wallet.

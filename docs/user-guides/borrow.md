@@ -5,11 +5,13 @@ sidebar_label: Borrow
 sidebar_position: 7
 ---
 
-Borrow one token using another as collateral. Here’s how to open and close a borrow position on Vesu.
+Borrow one token using another as collateral. This guide explains how to open and close a borrow position using the Pro interface on Vesu.
+
+Vesu also offers a [LITE](./lite-mode.md) and a [BTCFI](./btcfi-mode.md) mode, designed for users who want a more guided borrowing experience with curated default markets.
 
 ## Opening a Position
 
-1. Open [vesu.xyz/borrow](https://vesu.xyz/borrow) to see available markets. Select your collateral and borrow asset. 
+1. Open [vesu.xyz/pro/borrow](https://vesu.xyz/pro/borrow) to see available markets. Select your collateral and borrow asset. 
 You can also filter by curator, pool, or show only tokens in your wallet. Click on a market to view details or start borrowing.
 
 ![borrow-1.png](images/borrow-1.png)

@@ -5,13 +5,15 @@ sidebar_label: Multiply
 sidebar_position: 8
 ---
 
-This guide walks you through opening and closing a Multiply position.
+his guide explains how to open and close a Multiply position using the PRO interface on Vesu.
+
+Vesu also offers a [LITE](./lite-mode.md) and a [BTCFI](./btcfi-mode.md) mode, designed for users who want a more guided experience with curated default markets.
 
 ## Opening a Position
 Use Multiply to increase your exposure and yield for a specific asset.
 
-1. Go to [vesu.xyz/multiply](https://vesu.xyz/multiply) and pick a market. 
-Use the filters to choose your collateral/borrow pair. You can also show only tokens in your wallet, or filter by curator and pool.  
+1. Go to [vesu.xyz/pro/multiply](https://vesu.xyz/pro/multiply) and pick a market. 
+Use the filters to choose your collateral and borrow asset, or refine the list using the available filter options.  
 
 ![multiply-1.png](images/multiply-1.png)
 

@@ -5,8 +5,7 @@ sidebar_label: Rewards
 sidebar_position: 5
 ---
 
-Vesu users can currently earn STRK rewards through two active ecosystem programs by the Starknet Foundation: [BTCFi Season](#btcfi-season) and [DeFi Spring](#defi-spring). Each program has its own goals, focus assets, and reward structure.
-
+Vesu users have earned STRK rewards through Starknet Foundation ecosystem programs. The sections below describe these campaigns and their current status.
 
 ## BTCFi Season
 
@@ -39,25 +38,25 @@ Vesu does not manage or guarantee the distribution schedule or amounts.
 
 For more information, visit the official [BTCFi Season website](https://btcfiseason.starknet.org/).
 
+## DeFi Spring (Ended)
 
-## DeFi Spring
+DeFi Spring was a Starknet Foundation incentive program that distributed STRK rewards to participating DeFi protocols, including Vesu.
 
-The Starknet Foundation allocates STRK rewards to participating protocols, such as Vesu, based on a set of activity metrics. These metrics determine the weekly distribution of STRK tokens to each protocol. For more information, visit the official [DeFi Spring](https://defispring.starknet.io/about) page.
-
-### How is my STRK allocation determined?
-
-Your allocation of STRK tokens depends on two factors:
-
-1. The total amount of STRK distributed to Vesu is based on a set of metrics that are defined and monitored by the Starknet Foundation.
-2. Your share is determined by the value of your deposited assets relative to the total value locked (TVL) across all participants in eligible markets over a given period.
-
-:::tip
-You can track your total interest earnings (across all markets) on the [Vesu Leaderboard](./leaderboard.md).
+:::info Program ended
+DeFi Spring has ended. Users can still claim any unclaimed STRK rewards earned during the program **until January 31, 2026**. 
 :::
+
+### Rewards allocation
+
+During the program, the allocation of STRK rewards depended on two factors:
+
+1.	The amount of STRK allocated to Vesu is determined by activity metrics defined by the Starknet Foundation.
+2.	Your share depends on the value of your deposits relative to the total value locked (TVL) across all participants in eligible markets over the same period.
+
 
 ### Eligible Markets
 
-The following markets are eligible for DeFi Spring rewards:
+The following markets were eligible for DeFi Spring rewards:
 
 - STRK
 - xSTRK
@@ -67,7 +66,7 @@ The following markets are eligible for DeFi Spring rewards:
 - USDT
 
 :::note
-According to the Starknet Foundation’s criteria, only non-recursive deposits of stablecoins (USDC/USDT) are eligible for DeFi Spring rewards. For example, if you deposit USDC and borrow USDT, you’ll still earn the organic Supply APY on your USDC, but you won’t receive any extra STRK rewards due to the USDT debt.
+According to the Starknet Foundation’s criteria, only non-recursive deposits of stablecoins (USDC/USDT) were eligible for DeFi Spring rewards. 
 :::
 
 ## Claiming Rewards

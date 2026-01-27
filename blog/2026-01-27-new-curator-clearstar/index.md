@@ -1,5 +1,5 @@
 ---
-slug: 2026-01-26-new-curator-clearstar
+slug: 2026-01-27-new-curator-clearstar
 title: Welcome Clearstar
 authors: [marc]
 tags: [Announcement]
@@ -11,24 +11,30 @@ We’re welcoming Clearstar Labs as a new pool curator on Vesu.
 
 Clearstar is launching their first pool on Vesu with sUSN and USDC, with plans to add more yield-bearing assets over time.
 
+### Clearstar USDC Reactor
+
+The Clearstar USDC Reactor is built for yield-bearing collateral, starting with sUSN as the first supported asset.
+
+**Configuration at launch:**
+- Collateral: sUSN
+- Borrow: USDC
+- Debt cap: $5M
+
+More assets may be added to the pool over time.
+
 ### Who’s Clearstar?
 
 Clearstar is an onchain risk curator active across major DeFi lending and vault platforms like Morpho and Euler. Their team combines TradFi and DeFi backgrounds, with a strong focus on risk, operations, and continuous monitoring.
 
 They focus on careful asset review, setting appropriate risk parameters, and continuously monitoring the markets they curate.
 
-### Clearstar USDC Reactor
+### About sUSN
 
-The Clearstar USDC Reactor is built for yield-bearing collateral, starting with sUSN as the first supported asset.
+sUSN is the yield-bearing version of USN from Noon Capital. Yield accrues directly into the token over time, so balances grow without additional actions.
 
-Configuration at launch:
-- Collateral: sUSN
-- Borrow: USDC
-- Debt cap: $5M
+It can be used as collateral to borrow USDC or used with Vesu’s Multiply feature to increase exposure to its built-in yield.
 
-More assets are planned to be added to the pool over time.
-
-**Get started**
+### Get started
 
 You can now use the Clearstar pool to:
 
