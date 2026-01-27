@@ -12,7 +12,7 @@ Vaults let you supply assets into curated strategies, managed by curators, with 
 
 ## Opening a Vault Position
 
-1. Go to [vesu.xyz/vaults](https://vesu.xyz/vaults) to view all available vaults.  
+1. Go to [vesu.xyz/lite/vaults](https://vesu.xyz/lite/vaults) to view all available vaults.  
 Use the filters to narrow by asset, curator, or status. Select the vault you want to explore or deposit into.  
 
 ![vaults-1.png](images/vaults-1.png)
