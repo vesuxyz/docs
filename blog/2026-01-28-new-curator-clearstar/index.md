@@ -1,5 +1,5 @@
 ---
-slug: 2026-01-27-new-curator-clearstar
+slug: 2026-01-28-new-curator-clearstar
 title: Welcome Clearstar
 authors: [marc]
 tags: [Announcement]
@@ -18,7 +18,7 @@ The Clearstar USDC Reactor is built for yield-bearing collateral, starting with 
 **Configuration at launch:**
 - Collateral: sUSN
 - Borrow: USDC
-- Debt cap: $5M
+- Debt cap: $2.5M
 
 More assets may be added to the pool over time.
 
