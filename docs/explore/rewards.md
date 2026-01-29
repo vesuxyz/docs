@@ -43,7 +43,7 @@ For more information, visit the official [BTCFi Season website](https://btcfisea
 DeFi Spring was a Starknet Foundation incentive program that distributed STRK rewards to participating DeFi protocols, including Vesu.
 
 :::info Program ended
-DeFi Spring has ended. Users can still claim any unclaimed STRK rewards earned during the program **until January 31, 2026**. 
+DeFi Spring has ended. Users can still claim any unclaimed STRK rewards earned during the program **until March 31, 2026**. 
 :::
 
 ### Rewards allocation
