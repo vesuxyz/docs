@@ -17,7 +17,7 @@ If you use a Bitcoin wallet like Xverse, you already have access to the tools yo
 
 ## BTCFi on Starknet
 
-tarknet is becoming Bitcoin’s execution layer, a place where Bitcoin-backed assets can be used in fast, low-cost way. It’s built on leading zero-knowledge technology with a roadmap toward quantum-resistant cryptography.
+Starknet is becoming Bitcoin’s execution layer, a place where Bitcoin-backed assets can be used in fast, low-cost way. It’s built on leading zero-knowledge technology with a roadmap toward quantum-resistant cryptography.
 
 There’s real momentum behind BTCFi on Starknet. A 100M STRK incentive program is live, rewarding real usage and helping bootstrap liquidity.
 
