@@ -17,22 +17,22 @@ The new Noon WBTC Vault is live on Vesu, giving Bitcoin holders a simple way to 
 
 This vault gives access to a smart yield strategy through a simple deposit.
 
-Deposit WBTC. The strategy does the rest.
+Deposit WBTC. The strategy handles the rest.
 
-Under the hood, stablecoins are borrowed against the deposited Bitcoin, then deployed into sUSN, Noon’s yield-bearing stablecoin. Positions are managed automatically with conservative leverage and continuous rebalancing.
+Stablecoins are borrowed against the deposited Bitcoin and deployed into sUSN, Noon’s yield-bearing stablecoin. Positions are managed automatically using conservative leverage and continuous rebalancing.
 
-The curator targets around **10% APY** through this strategy.
+The curator targets around **10% APY**.
 
 All funds remain non-custodial and fully transparent onchain.
 
 
 ## About Noon and sUSN
 
-Noon builds stablecoin yield strategies designed around sustainability and risk management.
+Noon builds stablecoin yield strategies focused on sustainability and risk management.
 
-Their stablecoin USN is backed by diversified, institutional-grade deployments. Its staked version, sUSN, accrues yield directly in the token over time.
+USN is backed by diversified, institutional-grade deployments. Its staked version, sUSN, accrues yield directly in the token.
 
-Noon has been live for over a year with zero downtime and no security incidents, and has been audited by firms including Halborn, Hashlock, and Quantstamp.
+Noon has been live for over a year with zero downtime and no security incidents. The protocol has been audited by firms including Halborn, Hashlock, and Quantstamp.
 
 As with any asset or onchain strategy, make sure you understand the risks and do your own research.
 
