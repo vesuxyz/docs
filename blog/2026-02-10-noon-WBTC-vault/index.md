@@ -9,32 +9,29 @@ tags: [Announcement]
 
 Bitcoin yield on Starknet keeps growing.
 
-Following the success of the first Noon vault, the strategy now expands to WBTC.
+After the success of the first Noon vault, a new WBTC vault is now live.
 
-The new Noon WBTC Vault is live on Vesu, giving Bitcoin holders a simple way to earn yield without selling or actively managing their positions.  
+It brings an automated yield strategy to Bitcoin, without selling or manual position management.
 
 ## The Noon WBTC Vault
 
-This vault gives access to a smart yield strategy through a simple deposit.
+Deposit WBTC. The strategy takes it from there.
 
-Deposit WBTC. The strategy handles the rest.
+Stablecoins are borrowed against the deposited Bitcoin and deployed into **sUSN**, Noon’s yield-bearing stablecoin. The position is managed automatically using conservative leverage and rules-based adjustments.
 
-Stablecoins are borrowed against the deposited Bitcoin and deployed into sUSN, Noon’s yield-bearing stablecoin. Positions are managed automatically using conservative leverage and continuous rebalancing.
+All funds remain **non-custodial** and fully **transparent onchain**.
 
 The curator targets around **10% APY**.
 
-All funds remain non-custodial and fully transparent onchain.
-
-
-## About the Curator
+## About Noon and sUSN
 
 Noon builds stablecoin yield strategies focused on sustainability and risk management.
 
-UUSN is backed 1:1 by a mix of USDT, USDC, and short-term U.S. Treasury Bills. Its staked version, sUSN, accrues yield directly in the token.
+USN is backed 1:1 by a mix of USDT, USDC, and short-term U.S. Treasury Bills. Its staked version, sUSN, accrues yield natively in the token.
 
 Noon has been live for over a year with zero downtime and no security incidents. The protocol has been audited by firms including Halborn, Hashlock, and Quantstamp.
 
-As with any DeFi strategy, do your own research and make sure you understand the risks.
+As with any DeFi strategy, make sure you understand the risks and do your own research.
 
 ## Vesu Vaults
 
