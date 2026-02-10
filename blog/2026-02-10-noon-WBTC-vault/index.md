@@ -1,5 +1,5 @@
 ---
-slug: 2026-02-04-noon-WBTC-vault
+slug: 2026-02-10-noon-WBTC-vault
 title: WBTC Vault Live
 authors: [marc]
 tags: [Announcement]
@@ -26,15 +26,15 @@ The curator targets around **10% APY**.
 All funds remain non-custodial and fully transparent onchain.
 
 
-## About Noon and sUSN
+## About the Curator
 
 Noon builds stablecoin yield strategies focused on sustainability and risk management.
 
-USN is backed by diversified, institutional-grade deployments. Its staked version, sUSN, accrues yield directly in the token.
+UUSN is backed 1:1 by a mix of USDT, USDC, and short-term U.S. Treasury Bills. Its staked version, sUSN, accrues yield directly in the token.
 
 Noon has been live for over a year with zero downtime and no security incidents. The protocol has been audited by firms including Halborn, Hashlock, and Quantstamp.
 
-As with any asset or onchain strategy, make sure you understand the risks and do your own research.
+As with any DeFi strategy, do your own research and make sure you understand the risks.
 
 ## Vesu Vaults
 
@@ -51,6 +51,6 @@ You can now:
 - Deposit WBTC into the new [Noon WBTC Vault](https://vesu.xyz/btcfi/vaults/0x023ccbaf0f70e8dcb29520ab4ea12e2e916fb71204677321e91e525062279e35) 
 - Explore more ways to use Bitcoin in [Vesu's BTCFi Mode](https://vesu.xyz/btcfi/)  
 
-Let your Bitcoin do more than just sit.
+Let your capital do more than just sit.
 
 If you have any questions, feel free to reach out in Discord. We’re happy to help.
