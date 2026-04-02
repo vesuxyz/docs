@@ -10,7 +10,7 @@ This page explains how to migrate positions that use `USDC.e` or any V1 market o
 ## Summary
 
 - `USDC.e` (legacy USDC) is replaced by native `USDC`  
-- V1 markets will enter limited mode  
+- V1 markets are deprecated  
   - No new deposits & borrowing  
   - You can still **repay**, **withdraw**, and **close** positions  
 
