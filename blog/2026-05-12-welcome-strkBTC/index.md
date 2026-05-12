@@ -7,17 +7,13 @@ tags: [Announcement]
 
 ![strkBTC now live](strkBTC_web.png)
 
-A new kind of Bitcoin just landed on Starknet.
-
-strkBTC is now available on Vesu.
+A new kind of Bitcoin just landed on Starknet. strkBTC is now available on Vesu.
 
 Powered by the new STRK20 standard, strkBTC brings optional privacy to Bitcoin on Starknet.
 
 ## Re7 USDC Prime
 
-strkBTC is live in Re7 USDC Prime, curated by Re7 Labs.
-
-The pool keeps things simple with the following assets: 
+strkBTC is live in Re7 USDC Prime, curated by Re7 Labs. The pool keeps things simple with BTC collateral and native USDC: 
 
 **Collateral**
 - strkBTC
@@ -33,9 +29,7 @@ The pool is monitored onchain through Hypernative. If there is a bad oracle pric
 
 ## BTCFi rewards
 
-strkBTC deposits earn 2% APR in STRK rewards.
-
-USDC borrowing is also subsidized through the BTCFi program, bringing borrow rates down to around 2% APR.
+strkBTC deposits earn 2% APR in STRK rewards. USDC borrowing is also subsidized through the BTCFi program, bringing borrow rates down to around 2% APR.
 
 STRK rewards can be claimed every Friday, or any day after.
 
