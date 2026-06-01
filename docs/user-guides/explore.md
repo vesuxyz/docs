@@ -5,56 +5,57 @@ sidebar_label: Explore
 sidebar_position: 10
 ---
 
-The Explore section gives an overview of activity across Vesu.
+The Explore section gives an overview of activity across Vesu. It includes pages for browsing positions, exploring pools, and monitoring liquidations.
 
-It includes pages for browsing positions, analyzing pools, and monitoring liquidations across the protocol.
-
-Explore is currently available in Pro mode.
+Explore is available in PRO mode only.
 
 ## Positions
 
-The Positions page displays all active positions on Vesu in real time.
+View all active positions on Vesu in real time, with filters for:
 
-Users can filter positions by:
-
-- Pool
-- Asset
-- Wallet address
 - Position type
+- Pool
+- Wallet address
+- Assets
+- Health factor
 
-This makes it easy to explore protocol activity, monitor large positions, or analyze how assets are being used across different pools.
-
-[Screenshot coming soon]
+![Positions Overview](./images/explore-positions.png)
 
 ## Pools
 
-The Pools page provides the most detailed view into each pool on Vesu.
+The Pools page gives an overview of all pools on Vesu.
 
-Each pool page includes:
+Pools can be filtered by:
+
+- Curator
+- Markets (assets)
+
+This makes it easy to explore available markets and compare pools across Vesu.
+
+![Pools Overview](./images/explore-pools.png)
+
+Clicking on a pool opens its detailed view, including:
 
 - Pool parameters
 - Supported assets
 - Lending pairs
-- Activity and utilization data
-- Curator and fee configuration
+- Pool activity
 
-Pool curators can also manage and adjust their pools directly from this page.
+Assets and lending pairs can be expanded to view additional parameters and settings.
 
-Clicking on a pool opens its full configuration and activity view.
+Curators can manage their pools directly from this page, including updating parameters and claiming fees.
 
-[Screenshot coming soon]
+![Pool Details](./images/explore-pools-details.png)
+
 
 ## Liquidations
 
-The Liquidations page helps monitor positions at risk and recent liquidation activity across Vesu.
+This page can be used to track positions at risk and review past liquidation events.
 
-Users can filter by:
+Liquidations can be filtered by:
 
 - Pool
 - Wallet address
 - Asset
-- Health factor
 
-This page can be used to track market risk, monitor volatile positions, and review past liquidation events.
-
-[Screenshot coming soon]
+![Liquidations Overview](./images/explore-liquidations.png)
