@@ -1,7 +1,7 @@
 ---
 id: audits
-title: Audit
-sidebar_label: Audit
+title: Audits
+sidebar_label: Audits
 sidebar_position: 1
 ---
 
@@ -24,3 +24,5 @@ List of audits performed and audit reports:
 | 2025-10-01 | [Sherlock](https://sherlock.xyz/) | Vesu Vaults | [58b0d13](https://github.com/vesuxyz/vesu-vaults/commit/58b0d136e1ae94752d7282ebd251c81354c078ec) | [Link](https://github.com/sherlock-protocol/sherlock-reports/blob/main/audits/2025.10.31%20-%20Final%20-%20Vesu%20Vaults%20Collaborative%20Audit%20Report%201761914943.pdf) |
 | 2025-10-13 | [Zenith Security](https://www.zenith.security/) | Vesu V1.1 | [f108967](https://github.com/vesuxyz/vesu-v1.1/commit/f1089675d9ca0e205f3731965216a1529c59c0e4) | [Link](https://github.com/zenith-security/reports/blob/main/reports/Vesu%20V1%20-%20Zenith%20Audit%20Report.pdf) |
 | 2025-12-10 | [Sherlock](https://sherlock.xyz/) | Vesu V2 Periphery | [ccea4e3](https://github.com/vesuxyz/vesu-v2-periphery/commit/ccea4e3761da0bb35e701bfe65760e312178eeb6) | [Link](https://github.com/sherlock-protocol/sherlock-reports/blob/main/audits/2025.12.10%20-%20Final%20-%20Vesu%20Collaborative%20Audit%20Report%201765410223.pdf) |
+| 2026-02-21 | [Sherlock](https://sherlock.xyz/) | Starknet Vault Kit | [babfc20](https://github.com/ForgeYields/starknet_vault_kit/commit/babfc20931cb7ba16a86fae0157634026732dcb6) | [Link](https://github.com/sherlock-protocol/sherlock-reports/blob/main/audits/2026.03.18%20-%20Final%20-%20Vesu%20Collaborative%20Audit%20Report%201773874144.pdf) |
+| 2026-02-21 | [Sherlock](https://sherlock.xyz/) | Vesu Vaults | [879dcb2](https://github.com/vesuxyz/vesu-vaults/commit/879dcb283be7829da0b1f840f92ad1c4b8898118) | [Link](https://github.com/sherlock-protocol/sherlock-reports/blob/main/audits/2026.03.18%20-%20Final%20-%20Vesu%20Collaborative%20Audit%20Report%201773874144.pdf) |
