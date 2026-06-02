@@ -28,9 +28,9 @@ The Pools page gives an overview of all pools on Vesu.
 Pools can be filtered by:
 
 - Curator
-- Markets (assets)
+- Markets
 
-This makes it easy to explore available markets and compare pools across Vesu.
+This makes it easy to explore pool configurations, supported markets, and risk parameters.
 
 ![Pools Overview](./images/explore-pools.png)
 
@@ -42,8 +42,6 @@ Clicking on a pool opens its detailed view, including:
 - Pool activity
 
 Assets and lending pairs can be expanded to view additional parameters and settings.
-
-Curators can manage their pools directly from this page, including updating parameters and claiming fees.
 
 ![Pool Details](./images/explore-pools-details.png)
 
