@@ -24,7 +24,7 @@ Click the blue __Create new pool__ button on the [Pools Dashboard](https://vesu.
 - Enable or disable pool fees.
 - If fees are enabled, set the fee recipient and fee rate.
 
-
+![Create Pool](./images/create-pool-01.png)
 
 ### 2. Add and Configure Assets
 
@@ -36,6 +36,8 @@ For each asset, configure:
 - Interest rate model parameters
 - vToken name and symbol 
 
+![Add assets](./images/create-pool-02.png)
+
 ### 3. Configure Lending Pairs
 After adding the assets, configure the lending pairs by selecting a collateral asset and a debt asset.
 
@@ -46,6 +48,8 @@ For each lending pair, configure:
 - Debt cap
 
 Repeat this process for any additional lending pairs.
+
+![Configure lending pairs](./images/create-pool-03.png)
 
 ### 4. Review and Submit
 
