@@ -5,9 +5,9 @@ sidebar_label: Create Pool
 sidebar_position: 1
 ---
 
-In this section, we'll learn how to create new Vesu pools.
+This guide explains how to create new lending pools using the pool creation flow.
 
-Vesu's permissionless nature allows anyone to create new lending pools directly through the protocol contracts (e.g. via a block explorer).
+Pools can also be created directly through the protocol contracts (e.g. via a block explorer).
 
 ## Requirements
 
@@ -16,7 +16,7 @@ Vesu's permissionless nature allows anyone to create new lending pools directly 
 
 ## Step-by-step Guide
 
-Click the blue __Create new pool__ button on the [Pools Dashboard](https://vesu.xyz/pro/pools).
+Click the blue __Create new pool__ button on the top right of the [Pools page](https://vesu.xyz/pro/pools).
 
 ### 1. Set up Pool
 - Enter a name for the pool.
