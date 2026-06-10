@@ -5,9 +5,9 @@ sidebar_label: Create Pool
 sidebar_position: 1
 ---
 
-In this section, we'll learn how to create new Vesu pools.
+This guide explains how to create new lending pools using the pool creation flow.
 
-Vesu's permissionless nature enables everyone to create new lending pools calling the respective protocol function directly (e.g. through a block explorer). An easier way to do it is with the Curator Dashboard.
+Pools can also be created directly through the protocol contracts (e.g. via a block explorer).
 
 ## Requirements
 
@@ -16,48 +16,44 @@ Vesu's permissionless nature enables everyone to create new lending pools callin
 
 ## Step-by-step Guide
 
-Click the blue __Create Pool__ button on the [Curator Dashboard](http://curator.vesu.xyz).
+Click the blue __Create new pool__ button on the top right of the [Pools page](https://vesu.xyz/pro/pools).
 
-**1. Define Pool**
-- Name of your pool.
+### 1. Set up Pool
+- Enter a name for the pool.
 - Enter the Starknet wallet address that will be the curator (pool owner).
+- Enable or disable pool fees.
+- If fees are enabled, set the fee recipient and fee rate.
 
-![create-pool-1.png](images/create-pool-1.png)
+![Create Pool](./images/create-pool-01.png)
 
-**2. General Settings**
-- Fee recipient: Set a Starknet account as recipient for fees, or check the Box for “No fees”
+### 2. Add and Configure Assets
 
-The __Emergency pause agent__ can be activated after the creation of the pool. The Hypernative agent will pause the pool in case of an emergency to protect users. As the pool curator, you will be able to unpause the pool again at any time. Please contact the Vesu team if you want to activate this feature.
+Add the assets that should be available in the pool.
 
-![create-pool-2.png](images/create-pool-2.png)
-
-**3. Choose the assets for your pool and define the parameter for each token.**
-
-Add all the assets and their configuration that should be enabled as market or collateral (or both) in the pool.
-
-For each asset, configure the following parameters:
-
+For each asset, configure:
 - Debt floor
 - Max utilization
-- vToken name and symbol (optional)
-- Interest Rate Model parameters
+- Interest rate model parameters
+- vToken name and symbol 
 
-![create-pool-3.png](images/create-pool-3.png)
+![Add assets](./images/create-pool-02.png)
 
-**4. Define Lending Pairs**
+### 3. Configure Lending Pairs
+After adding the assets, configure the lending pairs by selecting a collateral asset and a debt asset.
 
-Set up lending pairs by selecting a collateral asset and a debt asset. Configure:
-- Liquidation loan-to-value (LTV): triggers liquidation once the LTV is reached
-- Liquidation discount: the reward for liquidators when repaying debt
-- Debt cap limits how much of the debt asset can be borrowed in this pair
+For each lending pair, configure:
 
-![create-pool-4.png](images/create-pool-4.png)
+- Liquidation loan-to-value (LTV)
+- Liquidation discount
+- Debt cap
 
-**5. Create pool**
+Repeat this process for any additional lending pairs.
 
-Check all settings and verify that everything is correct. Especially if it is an immutable pool, as then you can’t change any settings after the creation. If you click in one of the sections, you can go back to this step to make changes.
+![Configure lending pairs](./images/create-pool-03.png)
 
-![create-pool-5.png](images/create-pool-5.png)
+### 4. Review and Submit
+
+Check all settings and verify that everything is correct. 
 
 When everything is correct, click __Create Pool__ and confirm the transaction in your wallet. Once the pool is created, the curator must claim ownership via the contract (see next section).
 
@@ -70,7 +66,7 @@ Reminder: A small amount of the token is required to seed the pool (at least 1,0
 After creation of the pool, the ownership must be claimed via a blockexplorer like [Voyager](https://voyager.online/). Open the address of your pool, click on **Write Contract** and connect your wallet.
 ![create-pool-ownership.png](images/create-pool-ownership.png)
 
-Sroll down to `15. accept_curator_ownership`, click on **Transact** and confirm the transaction in your wallet.
+Scroll down to `15. accept_curator_ownership`, click on **Transact** and confirm the transaction in your wallet.
 ![create-pool-ownership2.png](images/create-pool-ownership2.png)
 
 Ownership of a pool can be transferred to another account. As an added security layer, the new owner must manually accept ownership via the contract.
