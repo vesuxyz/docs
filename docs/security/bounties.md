@@ -11,4 +11,5 @@ List of active and past bounty programs:
 
 | **Date** | **Platform**                     | **Amount** | **Program**                                   |
 | -------- | -------------------------------- | ---------- | --------------------------------------------- |
-| Active   | [Immunefi](https://immunefi.com) | USD 100k   | [Link](https://immunefi.com/bug-bounty/vesu/) |
+| Ended   | [Immunefi](https://immunefi.com) | USD 100k   | [Link](https://immunefi.com/bug-bounty/vesu/) |
+| Active   | [Sherlock](http://sherlock.xyz/) | USD 100k   | [Link](https://audits.sherlock.xyz/bug-bounties/354) |
