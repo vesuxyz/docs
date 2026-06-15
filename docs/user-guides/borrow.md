@@ -5,7 +5,7 @@ sidebar_label: Borrow
 sidebar_position: 7
 ---
 
-Borrow one token using another as collateral. This guide explains how to open and close a borrow position using the Pro interface on Vesu.
+Borrow one token using another as collateral. This guide explains how to open and close a borrow position using the PRO mode.
 
 Vesu also offers a [LITE](./lite-mode.md) and a [BTCFI](./btcfi-mode.md) mode, designed for users who want a more guided borrowing experience with curated default markets.
 

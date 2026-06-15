@@ -1,14 +1,12 @@
 # Welcome to Vesu
 
-Vesu V2 is a fully open and permissionless lending protocol built on Starknet.
+Vesu is the leading lending protocol on Starknet and a core part of the growing BTCFi ecosystem.
 
-Anyone can supply assets to earn yield, borrow against collateral, or create new lending markets.
+Users can earn yield, borrow against collateral, and put assets to work directly from self-custodied wallets.
 
-Vesu is designed as an open infrastructure: transparent, accessible, and free to use by anyone. 
+Built as open lending infrastructure for Starknet, Vesu is transparent, composable, and accessible to anyone.
 
-Vesu V2 builds on the same battle-tested concepts than the initial version of the Vesu lending protocol, that was launched in July 2024, but further optimizes for simplicity and security by:
+Unlike many lending protocols adapted from EVM designs, Vesu was built natively in Cairo to fully leverage Starknet’s architecture.
 
-- Isolating pools (and respective funds) into separate `Pool` instances
-- Removing hooks and extensions
-- Simplifying pool state and logic into a single `Pool` contract
-- Externalizing `vToken` into stand-alone ERC-4626 vaults
+## Vesu V2
+Vesu V2 builds on the original protocol launched in July 2024, with a stronger focus on simplicity, efficiency, and risk isolation.

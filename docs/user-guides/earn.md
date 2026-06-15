@@ -5,7 +5,7 @@ sidebar_label: Earn
 sidebar_position: 6
 ---
 
-Supply assets to earn yield on Vesu. This guide explains how to open and close an Earn position using the PRO interface.
+Supply assets to earn yield on Vesu. This guide explains how to open and close an Earn position using the PRO mode.
 
 Vesu also offers a [LITE](./lite-mode.md) and a [BTCFI](./btcfi-mode.md) mode, designed for users who want a more guided earning experience with curated default markets.
 

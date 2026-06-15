@@ -5,7 +5,7 @@ sidebar_label: Multiply
 sidebar_position: 8
 ---
 
-his guide explains how to open and close a Multiply position using the PRO interface on Vesu.
+This guide explains how to open and close a Multiply position using the PRO interface on Vesu.
 
 Vesu also offers a [LITE](./lite-mode.md) and a [BTCFI](./btcfi-mode.md) mode, designed for users who want a more guided experience with curated default markets.
 

@@ -6,20 +6,26 @@ sidebar_position: 3
 ---
 
 Management of the Vault strategy includes the following actions:
-- allocation of idle funds to the strategy
-- re-allocation of funds among the approved strategy positions
-- unwinding of positions to free liquidity to honor redemptions
+- Allocation of idle funds to the strategy
+- Re-allocation of funds among the approved strategy positions
+- Unwinding of positions to free liquidity to honor redemptions
 
-All these activities are performed by the vault's __Strategist__ role. We here outline how these activities can be executed using the Vault Curator SDK.
+All these activities are performed by the vault's __Strategist__ role. 
+
+This page explains how to perform these actions using the Vault Curator SDK.
 
 ## Why use this SDK
 
-It reads a vault's Merkle Tree configuration (`VaultConfigData`) and creates correctly-formatted `Call` objects (proofs, decoders, targets, selectors and calldata). The SDK does not send transactions — it returns `Call` objects you can execute with your account/provider.
+The SDK reads a vault's Merkle Tree configuration (`VaultConfigData`) and generates the required Starknet `Call` objects automatically.
+
+This includes Merkle proofs, selectors, targets, decoders and calldata formatting.
+
+The SDK does not send transactions itself, it only returns executable `Call` objects.
 
 ## Setup
-- **From file:** `const sdk = VaultCuratorSDK.fromFile('./path/to/vault-config.json');`
-- **From object:** `const sdk = new VaultCuratorSDK(configObject);`
-- **Execute calls:** Use your Starknet account/provider to send the returned `Call` or `Call[]` (for example `account.execute(calls)` from `starknet.js`).
+- From file: `const sdk = VaultCuratorSDK.fromFile('./path/to/vault-config.json');`
+- From object: `const sdk = new VaultCuratorSDK(configObject);`
+- Execute calls: Use your Starknet account/provider to send the returned `Call` or `Call[]` (for example `account.execute(calls)` from `starknet.js`).
 
 ## Call object format
 - `contractAddress`: `Manager` contract address (set by SDK)
@@ -30,7 +36,7 @@ It reads a vault's Merkle Tree configuration (`VaultConfigData`) and creates cor
 - The SDK expects `VaultConfigData` with `metadata`, `leafs` and `tree` (the strategy Merkle Tree). If an operation's leaf is missing the method throws.
 - Amounts are converted to Starknet `uint256` via `uint256.bnToUint256(...)`. Pass BigNumberish values.
 
-## General functions
+## General functions 
 
 **approve(approveParams: ApproveParams): Call**
 - Purpose: Build a `Call` that calls the manager's approved `approve(spender, amount)` operation enabling `spender` to spend the vault's funds.
@@ -57,7 +63,7 @@ const calls = sdk.bringLiquidityHelper(true, '1000000000000000000');
 await account.execute(calls); // approve + bringLiquidity
 ```
 
-## ERC4626 functions
+## ERC4626 functions 
 
 **deposit(params: DepositParams): Call**
 - Purpose: Build a deposit `Call` that instructs the manager to deposit `assets` into an enabled third-party ERC4626 vault (e.g. like Vesu vTokens).
@@ -83,7 +89,7 @@ const call = sdk.withdraw({ target: strategyAddress, assets: '1000', receiver: v
 await account.execute([call]);
 ```
 
-## Starknet-Vault-Kit functions
+## Starknet-Vault-Kit functions 
 
 **requestRedeem(params: RequestRedeemParams): Call**
 - Purpose: Build a request redeem `Call` to queue a redeem request for an enabled third-party SVK vault.
@@ -158,4 +164,6 @@ await account.execute([call]);
 
 ## Final notes
 
-We here only outlined a subset of the available features in the Starknet-Vault-Kit SDK. For the full documentation and more examples please refer to the SDK's GitHub repository [here](https://github.com/ForgeYields/starknet_vault_kit/tree/main/sdk).
+This page covers the most common Vault Curator SDK operations.
+
+For the complete API surface and additional examples, refer to the SDK repository [here](https://github.com/ForgeYields/starknet_vault_kit/tree/main/sdk).
