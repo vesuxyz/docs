@@ -5,6 +5,8 @@ authors: [marc]
 tags: [Announcement]
 ---
 
+![New: Explore](explore-vesu.png)
+
 Until now, much of what was happening onchain was only visible through block explorers or different tools.
 
 Explore brings everything into one place, with filters and a simple interface to better understand what is happening across Vesu.
