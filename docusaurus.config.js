@@ -138,7 +138,7 @@ const config = {
               },
               {
                 label: "Bug Bounty",
-                href: "https://immunefi.com/bounty/vesu",
+                href: "https://audits.sherlock.xyz/bug-bounties/384",
               },
               {
                 label: "Monitoring",
