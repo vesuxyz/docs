@@ -57,7 +57,6 @@ This open model creates a dynamic marketplace of competing vault strategies, dri
 As with all of the Vesu infrastructure we put a strong focus on the security of Vesu Vaults. 
 
 - Smart contracts are fully audited
-- $100k [bug bounty program](https://immunefi.com/bounty/vesu/)
 - Strategy mandates and NAV oracles minimize trust assumptions
 
 Read more about audits, security partners, and our full process [here](/docs/security/index.md).
