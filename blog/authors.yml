@@ -7,3 +7,8 @@ marc:
   name: Marc Wettenschwiler
   title: Content & Community
   url: https://twitter.com/0xCramJam
+security-council:
+  name: Security Council
+  title: Vesu Security Council
+  url: https://x.com/vesuxyz
+  image_url: /img/avatar-placeholder.svg
